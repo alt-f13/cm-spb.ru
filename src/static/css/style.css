@@ -1,0 +1,118 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #292F3C;
+}
+.footer .container {
+  color: #fff;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+    padding: 60px 15px 0;
+  }
+  .container .text-muted {
+    margin: 20px 0;
+  }
+
+  .footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  code {
+    font-size: 80%;
+  }
+
+  html {
+    height: 100%;
+    overflow: auto;
+  }
+  body {
+    height: auto;
+    min-height: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  a {
+    color: #445273;
+  }
+  a:hover {
+    color: #F9E353;
+    text-decoration: underline;
+  }
+  h6 {
+    text-decoration: none;
+  }
+  h6 a:hover {
+    text-decoration: none;
+  }
+  h5 {
+    text-decoration: none;
+    color: #777777;
+    text-transform: none;
+  }
+  h4 {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #777777;
+  }
+  h3 {
+    text-decoration: none;
+  }
+  h3 a:hover {
+    text-decoration: none;
+  }
+  h2 {
+    text-decoration: none;
+  }
+  h2 a:hover {
+    text-decoration: none;
+  }
+  h1 a:hover {
+    text-decoration: none;
+  }
+.address {
+  color: #FFF;
+  size: 6pt;
+}
+.address > h5 {
+  color: #F9E353;
+}
+
+
+
+.navbar {
+  background-color: #2F3950;
+}
+.navbar-collapse{
+  background-color: #445273;
+  text-align: center;
+}
+.active2 {
+    color: blue;
+    background-color: #4452;
+
+}
+.nav .open > a
+{
+    background:#759ad6;
+    //put styling
+}
+.f
