@@ -28,6 +28,10 @@
 		<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/icons/apple-touch-icon-72-precomposed.png">
 		<link rel="apple-touch-icon-precomposed" href="images/icons/apple-touch-icon-57-precomposed.png">
 
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
 	<!-- Shims: IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>
 		<script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -35,6 +39,8 @@
 
 	<!-- Styles -->
 	<%- @getBlock('styles').add(@site.styles).toHTML() %>
+	<link rel="stylesheet" href="css/kube.css">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 	<!-- Menu -->
@@ -63,6 +69,16 @@
 					<% end %>
 				</ul>
 			</div><!--/.navbar-collapse -->
+			<row centered>
+				<column cols="4"><h5 style="color: #fff; text-align: right;">САНКТ-ПЕТЕРБУРГСКОЕ ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ ПРОФЕССИОНАЛЬНОЕ ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ</h5></column>
+		    <column cols="1"><a href="/"><img src="images/logo.png" alt=""></a></column>
+				<column cols="2"><h3 style="color: #fff; text-align: center;">"КОЛЛЕДЖ МЕТРОПОЛИТЕНА"</h3></column>
+				<column cols="2"><address>
+<strong>771-59-09</strong><br>
+г. Санкт-Петербург<br>
+ул. <B>Купчинская, д. 28</b><address>
+</column>
+		</row>
 		</div>
 	</div>
 
