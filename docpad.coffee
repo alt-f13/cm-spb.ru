@@ -12,7 +12,7 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://website.com"
+			url: "http://cm-spb.ru"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
@@ -21,7 +21,7 @@ docpadConfig = {
 			]
 
 			# The default title of our website
-			title: "Your Website"
+			title: "Колледж Метрополитена"
 
 			# The website description (for SEO)
 			description: """
@@ -34,10 +34,10 @@ docpadConfig = {
 				"""
 
 			# The website author's name
-			author: "Your Name"
+			author: "Galyamin.d.d"
 
 			# The website author's email
-			email: "your@email.com"
+			email: "Galyamin.d.d@gmail.com"
 
 			# Styles
 			styles: [
@@ -90,6 +90,8 @@ docpadConfig = {
 
 		posts: (database) ->
 			database.findAllLive({tags:$has:'post'}, [date:-1])
+		documents: (database) ->
+			database.findAllLive({relativeOutDirPath: 'documents'})
 
 
 	# =================================
