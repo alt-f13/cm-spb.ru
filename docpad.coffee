@@ -12,7 +12,8 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://cm-spb.ru"
+			url: "http://alt-f13.github.io/cm-spb.ru"
+			outPath: '.'
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
@@ -98,6 +99,12 @@ docpadConfig = {
 	# Plugins
 
 	plugins:
+			#gp-pages
+	  ghpages:
+	      deployRemote: 'origin'
+	      deployBranch: 'master'
+
+
 		downloader:
 			downloads: [
 				{
@@ -107,6 +114,7 @@ docpadConfig = {
 					tarExtractClean: true
 				}
 			]
+
 
 
 	# =================================
