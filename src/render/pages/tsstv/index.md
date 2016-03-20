@@ -5,7 +5,6 @@ date: 2015-10-20 09:11:34+00:00
 layout: page
 slug: tsstv
 title: Центр содействия трудоустройству выпускников
-wordpress_id: 2214
 ---
 
 [Отчет о ЦСТВ](http://www.cm-spb.ru/cms/wp-content/uploads/2015/10/Отчет.pdf)
