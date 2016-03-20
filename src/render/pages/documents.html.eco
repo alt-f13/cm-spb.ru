@@ -6,7 +6,7 @@ pageOrder: 4
 
 <nav class="linklist">
 	<% for document in @getCollection('documents').toJSON(): %>
-		<li><i class="fa fa-pdf fa-2x"></i>
+		<li><i class="fa fa-file-pdf-o fa-2x"></i>
 		&raquo;
 		<a href="<%= document.url %>"><%= document.name %></a></li>
 	<% end %>
