@@ -122,7 +122,8 @@ a.block { display: block; }
   height: 180px;
   text-align: center;
 }
-.landing-page .section-features .card .icon i{
+.icon i{
+    font-size: 70px;
      color: #9a9a9a;
      text-align: center;
      margin: 0 auto;
