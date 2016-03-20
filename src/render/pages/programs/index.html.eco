@@ -1,0 +1,118 @@
+---
+title: Специальности
+layout: page
+pageOrder: 2
+---
+<div class="container-fluid">
+	<div>
+			<h5> <i class="fa fa-graduation-cap fa-3x"></i> Среднее профессиональное образование с присвоением квалификации техник</h5>
+	</div>
+	<div class="row">
+		<div class="col-md-4 grayblock2">
+			<a href="http://www.cm-spb.ru/cms/professii/avtomatika-i-telemehanika-na-transpo/">
+
+				<div class="card card-blue">
+					<div class="icon">
+						<i class="fa fa-subway fa-5x"></i>
+					</div>
+					<div class="text">
+						<h6>Автоматика и телемеханика</h6>
+						<p>на железнодорожном транспорте</p>
+					</div>
+				</div>
+			</a>
+			<p>
+				<a href="http://www.cm-spb.ru/cms/professii/avtomatika-i-telemehanika-na-transpo/"> </a>
+			</p>
+		</div>
+		<div class="col-md-4 grayblock2">
+			<a href="http://www.cm-spb.ru/cms/professii/elektrosnabzhenie-na-transporte/">
+				<div class="card card-blue">
+					<div class="icon">
+						<i class="fa  fa-bolt fa-5x"></i>
+					</div>
+					<h6>Электроснабжение</h6>
+<p>на транспорте</p>
+
+
+				</div>
+			</a>
+			<p>
+				<a href="http://www.cm-spb.ru/cms/professii/elektrosnabzhenie-na-transporte/"> </a>
+			</p>
+		</div>
+		<div class="col-md-4 grayblock2">
+			<a href="http://www.cm-spb.ru/cms/professii/informatsionnye-sistemy-na-transport/">
+				<div class="card card-blue">
+					<div class="icon">
+						<i class="fa fa-laptop fa-5x"></i>
+					</div>
+					<h6>Информационные системы</h6>
+					<p>на транспорте</p>
+				</div>
+			</a>
+		</div>
+
+	</div>
+	<div>
+		<h5> <i class="fa fa-university fa-3x"></i> Среднее профессиональное образование с присвоением рабочей квалификации</h5>
+	</div>
+	<div class="row">
+		<div class="col-md-3 grayblock2">
+			<a href="http://www.cm-spb.ru/cms/professii/slesar-elektrik-metropolitena/">
+
+				<div class="card card-blue">
+					<div class="icon">
+						<i class="fa fa-wrench fa-5x"></i>
+					</div>
+					<h6>					Слесарь-электрик										</h6>
+					<p>метрополитена
+					</p>
+
+				</div>
+			</a>
+
+		</div>
+		<div class="col-md-3 grayblock2">
+
+			<a href="http://www.cm-spb.ru/cms/professii/slesar-po-remontu-i-obsluzhivaniyu-pod/">
+				<div class="card card-blue">
+					<div class="icon">
+						<i class="fa fa-cogs fa-5x"></i>
+					</div>
+					<h6>Слесарь</h6>
+					<p>по обслуживанию и ремонту подвижного состава</p>
+				</div>
+			</a>
+
+		</div>
+		<div class="col-md-3 grayblock2">
+			<a href="http://www.cm-spb.ru/cms/professii/elektromonter-tyagovoj-podstantsii/">
+
+				<div class="card card-blue">
+					<div class="icon">
+						<i class="fa fa-bolt fa-5x"></i>
+					</div>
+					<h6>Электромонтер</h6>
+					<p>тяговой подстанции
+					</p>
+				</div>
+			</a>
+
+		</div>
+		<div class="col-md-3 grayblock2">
+			<a href="http://www.cm-spb.ru/cms/professii/stsb/">
+
+				<div class="card card-blue">
+					<div class="icon">
+						<i class="fa fa-chain-broken fa-5x"></i>
+					</div>
+					<h6>Электромонтер</h6>
+					<p>устройств сигнализации, централизации, блокировки(СЦБ)</p>
+
+				</div>
+			</a>
+
+		</div>
+	</div>
+</div>

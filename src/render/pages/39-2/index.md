@@ -1,12 +1,9 @@
 ---
-author: admin
-comments: false
-date: 2013-10-07 06:05:40+00:00
+title: Posts
 layout: page
-slug: 39-2
-title: ДОБРО ПОЖАЛОВАТЬ В КОЛЛЕДЖ МЕТРОПОЛИТЕНА!
-wordpress_id: 39
+pageOrder: 2
 ---
+
 
 # ![Апаницин](http://www.cm-spb.ru/cms/wp-content/uploads/2013/10/Копия-avg-1_25-06-14.jpg)
 
@@ -42,8 +39,8 @@ wordpress_id: 39
 
 <blockquote>
 
-> 
+>
 > [Материалы по профилактике экстремизма, терроризма и межнациональной розни](http://www.cm-spb.ru/cms/%d0%b4%d0%be%d0%ba%d1%83%d0%bc%d0%b5%d0%bd%d1%82%d1%8b/%d0%bc%d0%b0%d1%82%d0%b5%d1%80%d0%b8%d0%b0%d0%bb%d1%8b-%d0%bf%d0%be-%d0%bf%d1%80%d0%be%d1%84%d0%b8%d0%bb%d0%b0%d0%ba%d1%82%d0%b8%d0%ba%d0%b5-%d1%8d%d0%ba%d1%81%d1%82%d1%80%d0%b5%d0%bc%d0%b8%d0%b7/)
-> 
-> 
+>
+>
 </blockquote>
