@@ -13,7 +13,7 @@ docpadConfig = {
 		site:
 			# The production url of our website
 			url: "http://alt-f13.github.io/"
-			outPath: 'cm-spb.ru'
+			outPath: '.'
 
 
 			# Here are some old site urls that you would like to redirect from
@@ -102,6 +102,9 @@ docpadConfig = {
 
 	plugins:
 			#gp-pages
+  ghpages:
+    deployBranch: 'master'
+    deployRemote: 'pages'
 
 		downloader:
 			downloads: [
