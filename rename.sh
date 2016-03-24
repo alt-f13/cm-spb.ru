@@ -1,6 +1,6 @@
 #!/bin/bash
-find -L . -type f -name *.markdown -print0 | while IFS= read -r -d '' FNAME; do
-    echo mv -- "$FNAME" "${FNAME/markdown/md}"
+find -L . -type f -name *.md -print0 | while IFS= read -r -d '' FNAME; do
+    echo mv -- "$FNAME" "${FNAME/.md/.html.md}"
 done
 
 
