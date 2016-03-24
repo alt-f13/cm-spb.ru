@@ -15,6 +15,7 @@ docpadConfig = {
 			url: "http://alt-f13.github.io/"
 			outPath: 'cm-spb.ru'
 
+
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
 				'www.website.com',
@@ -92,8 +93,8 @@ docpadConfig = {
 
 		posts: (database) ->
 			database.findAllLive({tags:$has:'post'}, [date:-1])
-		documents: (database) ->
-			database.findAllLive({relativeOutDirPath: 'documents'})
+	#	documents: (database) ->
+	#		database.findAllLive({relativeOutDirPath: 'documents'})
 
 
 	# =================================
