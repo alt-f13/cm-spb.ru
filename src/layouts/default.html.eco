@@ -41,8 +41,11 @@
 	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 
 	<%- @getBlock('styles').add(@site.styles).toHTML() %>
+
 	<link rel="stylesheet" href="/css/kube.css">
 	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/tree.css">
+
 </head>
 <body>
 	<!-- Menu -->
