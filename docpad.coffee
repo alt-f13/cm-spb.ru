@@ -101,10 +101,9 @@ docpadConfig = {
 	# Plugins
 
 	plugins:
-			#gp-pages
-  ghpages:
-    deployBranch: 'master'
-    deployRemote: 'pages'
+  	ghpages:
+    	deployBranch: 'master'
+    	deployRemote: 'pages'
 
 		downloader:
 			downloads: [
