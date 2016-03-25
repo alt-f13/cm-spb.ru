@@ -122,12 +122,26 @@ a.block { display: block; }
   height: 180px;
   text-align: center;
 }
+.grayblock1 {
+  background-color: lightgrey;
+  height: 450px;
+}
+.grayblock1 h3{
+  text-align: center;
+
+}
+.grayblock1 div{
+  padding-left: 50px;
+}
+.icon {
+  text-align: center;
+
+}
 .icon i{
-    font-size: 70px;
+    font-size: 90px;
      color: #9a9a9a;
-     text-align: center;
      margin: 0 auto;
-     margin-top: 20px;
+     margin-top: 5px;
 }
 .row {
   height: 100px;
