@@ -1,8 +1,6 @@
 ```
-date: 2015-10-20 09:11:34+00:00
 layout: page
 title: Трудоустройство
-pageOrder: 8
 ```
 
 [Отчет о ЦСТВ](/documents/Отчет.pdf)
