@@ -42,7 +42,7 @@
     "docpad-plugin-related": "~2.2.2",
     "docpad-plugin-stylus": "~2.11.0",
     "docpad-plugin-text": "~2.3.3"
-    },
+  },
   "devDependencies": {
     "docpad-plugin-livereload": "~2.7.1"
   },
