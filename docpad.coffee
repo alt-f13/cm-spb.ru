@@ -12,8 +12,9 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://alt-f13.github.io/cm-spb.ru"
-			outPath: '.'
+			url: "http://alt-f13.github.io/"
+			outPath: 'cm-spb.ru'
+
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
@@ -43,7 +44,9 @@ docpadConfig = {
 			# Styles
 			styles: [
 				"/styles/twitter-bootstrap.css"
-				"/styles/style.css"
+				"/css/kube.css"
+				"/css/style.css"
+				"/css/tree.css"
 			]
 
 			# Scripts
@@ -51,7 +54,6 @@ docpadConfig = {
 				"//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"
 				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
 				"/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"
-				"/scripts/script.js"
 			]
 
 
@@ -91,8 +93,8 @@ docpadConfig = {
 
 		posts: (database) ->
 			database.findAllLive({tags:$has:'post'}, [date:-1])
-		documents: (database) ->
-			database.findAllLive({relativeOutDirPath: 'documents'})
+	#	documents: (database) ->
+	#		database.findAllLive({relativeOutDirPath: 'documents'})
 
 
 	# =================================

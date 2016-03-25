@@ -29,7 +29,6 @@
   },
   "dependencies": {
     "docpad": "~6.78.4",
-    "docpad-plugin-bowerrequirejs": "~2.1.2",
     "docpad-plugin-cleanurls": "~2.8.1",
     "docpad-plugin-coffeescript": "~2.5.0",
     "docpad-plugin-downloader": "~2.1.4",
@@ -42,9 +41,8 @@
     "docpad-plugin-partials": "~2.9.2",
     "docpad-plugin-related": "~2.2.2",
     "docpad-plugin-stylus": "~2.11.0",
-    "docpad-plugin-text": "~2.3.3",
-    "docpad-plugin-tree": "~2.1.2"
-  },
+    "docpad-plugin-text": "~2.3.3"
+    },
   "devDependencies": {
     "docpad-plugin-livereload": "~2.7.1"
   },
