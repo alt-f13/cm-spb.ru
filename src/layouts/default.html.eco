@@ -42,6 +42,12 @@
 
 	<%- @getBlock('styles').add(@site.styles).toHTML() %>
 
+	<link rel="stylesheet" href="/css/kube.css">
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/tree.css">
+	<link rel="stylesheet" href="/css/icons.css">
+
+
 </head>
 <body>
 	<!-- Menu -->
