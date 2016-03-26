@@ -1,40 +1,61 @@
 /* Sticky footer styles
 -------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
-}
-body {
-  /* Margin bottom by footer height */
-  margin-bottom: 30px;
-  margin-top: 100px;
-}
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 30px;
-  background-color: #292F3C;
-}
-.footer .container {
-  color: #fff;
-}
+
+      html,
+      body {
+        min-height: 100%;
+        position: relative;
+
+        /* The html and body elements cannot have any padding or margin. */
+      }
+
+      /* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+        padding-bottom: 60px;
+      }
+
+      /* Set the fixed height of the footer here */
+      #push,
+      #footer {
+        position: absolute;
+        bottom: 0;
+        height: 60px;
+      }
+      #footer {
+        background-color: #292F3C;
+        width: 100%;
+      }
+
+      /* Lastly, apply responsive CSS fixes as necessary */
+      @media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
 
 /* Custom page CSS
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
 
 body > .container {
-    padding: 60px 15px 0;
+    /*padding: 60px 15px 0;*/
   }
   .container .text-muted {
     margin: 20px 0;
   }
 
-  .footer > .container {
+  #footer > .container {
     padding-right: 15px;
     padding-left: 15px;
+    color: #fff;
   }
 
   code {
@@ -145,4 +166,8 @@ a.block { display: block; }
 }
 .row {
   height: 100px;
+}
+#page h1 {
+  font-size: 25px;
+  text-indent: 30px;
 }
