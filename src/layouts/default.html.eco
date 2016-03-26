@@ -50,8 +50,8 @@
 
 </head>
 <body>
-	<!-- Menu -->
-	<div class="navbar navbar-inverse navbar-fixed-top">
+<div id="wrap">
+	<div class="navbar navbar-inverse">
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -73,14 +73,14 @@
 		</div>
 		<div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
-				<% for document in @getCollection('pages').toJSON(): %>
+				<% for document in @getCollection('menu').toJSON(): %>
 					<li
 						typeof="sioc:Page"
 						about="<%= document.url %>"
 						class="<%= 'active'	if @document.url is document.url %>"
 					>
 						<a href="<%= document.url %>" property="dc:title">
-							<%= document.title %>
+							<%= document.menutitle %>
 						</a>
 					</li>
 				<% end %>
@@ -92,20 +92,33 @@
 	<div class="container">
 		<!-- Content -->
 		<section id="content" class="content">
+			<div class="jumbotron">
+
 			<%- @content %>
+		</div>
 		</section>
-
-		<!-- Footer -->
-
-	</div><!-- /container -->
-	<footer class="footer">
-		<div class="container"
-		<p class="pull-left">&copy; Company <%- (new Date()).getFullYear() %></p>
-		<p class="pull-right">
-			This website was last updated at <%= @site.date.toISOString() %>
-		</p>
 	</div>
-	</footer>
+		<!-- Footer -->
+ <div id="push"></div>
+	</div>
+	<div id="footer">
+		<div class="container">
+			<ul class="navbar-nav">
+				<% for document in @getCollection('menu2').toJSON(): %>
+					<li
+						typeof="sioc:Page"
+						about="<%= document.url %>"
+						class="<%= 'active'	if @document.url is document.url %>"
+					>
+						<a href="<%= document.url %>" property="dc:title">
+							<%= document.menu2title %>
+						</a>
+					</li>
+				<% end %>
+			</ul>
+
+	</div>
+</div>
 	<!-- Scripts -->
 	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
 </body>
