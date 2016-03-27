@@ -119,24 +119,6 @@ body > .container {
 }
 
 
-
-.navbar {
-  background-color: #2F3950;
-}
-.navbar-collapse{
-  background-color: #445273;
-  text-align: center;
-}
-.active2 {
-    color: blue;
-    background-color: #4452;
-
-}
-.nav .open > a
-{
-    background:#759ad6;
-    //put styling
-}
 a.block { display: block; }
 .grayblock2 {
   background-color: lightgrey;
@@ -170,4 +152,32 @@ a.block { display: block; }
 #page h1 {
   font-size: 25px;
   text-indent: 30px;
+}
+.jumbotron {
+  margin-bottom:  100px;
+}
+.navbar {
+  background-color: #2F3950;
+}
+.navbar-collapse{
+  background-color: #445273;
+  text-align: center;
+}
+.navbar #nav > .active > a {
+    background-color: #2F3950;
+}
+
+#navbar #nav{
+  width: 100%;
+  text-align: center;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
 }
