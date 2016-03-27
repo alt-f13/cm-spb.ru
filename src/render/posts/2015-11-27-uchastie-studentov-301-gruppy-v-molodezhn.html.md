@@ -1,7 +1,6 @@
 ```
-date: 2015-11-27 07:31:24+00:00
+date: 2015-11-27
 layout: post
-slug: uchastie-studentov-301-gruppy-v-molodezhn
 title: Участие студентов 301 группы в «Молодежном карьерном форуме 2015»
 tags: ['intro','post']
 ```

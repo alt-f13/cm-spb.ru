@@ -1,4 +1,5 @@
 ```
+date: 2015-10-20
 title: Анкетирование
 layout: post
 tags: ['intro','post']

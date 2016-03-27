@@ -1,4 +1,5 @@
 ```
+date: 2015-11-16
 title: 60 лет со дня пуска первого поезда
 layout: post
 tags: ['intro','post']

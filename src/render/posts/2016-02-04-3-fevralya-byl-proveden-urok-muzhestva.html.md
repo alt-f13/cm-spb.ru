@@ -1,5 +1,5 @@
 ```
-date: 2016-02-04 09:36:27+00:00
+date: 2016-02-04
 layout: post
 title: урок Мужества
 tags: [post']

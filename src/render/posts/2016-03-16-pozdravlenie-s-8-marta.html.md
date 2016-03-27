@@ -1,4 +1,5 @@
 ```
+date: 2016-03-08
 title: Поздравление с 8 марта
 layout: post
 img: /images/Bez-zagolovka-210x300.png
