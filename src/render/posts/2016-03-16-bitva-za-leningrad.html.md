@@ -1,10 +1,7 @@
 ```
-author: admin
-comments: false
-date: 2016-03-16 10:53:39+00:00
 layout: post
-slug: bitva-za-leningrad
 title: Битва за Ленинград
+description: 10 марта 2016 г. состоялась экскурсия по местам боевой славы «Битва за Ленинград».
 ```
 
 

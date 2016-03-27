@@ -1,7 +1,9 @@
 ```
-title: This is a Hello Blog Post
+title: Поздравление с 8 марта
 layout: post
-tags: ['intro','post']
+img: /images/Bez-zagolovka-210x300.png
+description: Этот прекрасный  праздник стал настоящим символом весны, когда оживает и расцветает природа, зарождаются новые планы, надежды, мечты.
+tags: ['post']
 ```
 
 [![Без заголовка](/images/Bez-zagolovka-210x300.png)](http://www.cm-spb.ru/cms/pozdravlenie-s-8-marta/bez-zagolovka/)
