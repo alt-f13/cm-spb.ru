@@ -181,3 +181,39 @@ a.block { display: block; }
 .navbar .navbar-collapse {
   text-align: center;
 }
+#mainTable td, #mainTable table {
+		background-color:lightgrey !important;
+    height: 35px;
+		padding: 0 0 0 0;
+		margin: 0 0 0 0;
+		border: 1px solid black;
+
+}
+#mainTable td div {
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    height: 100%;
+}
+#mainTable thead td, #mainTable th {
+	background-color: #fff;
+	border: 1px solid black;
+
+}
+
+#mainTable th, #mainTable td {
+	text-align: center;
+  /*width: 5%;*/
+}
+#mainTable td + td, #mainTable th + th {
+	text-align: center;
+}
+
+#mainTable div {
+	width:100%;
+	height: 100%;
+	background-color:#fff;
+}
+.head {
+	background-color:#fff;
+
+}
