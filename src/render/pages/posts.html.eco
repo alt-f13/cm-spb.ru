@@ -6,32 +6,29 @@ pageOrder: 6
 ---
 
 <div class="container">
-	<div class="row">
 
 
-	<% for document in @getCollection('posts').toJSON(): %>
+<% for document in @getCollection('posts').toJSON(): %>
 	<a href="<%= document.url %>">
-		<div class="col-md-12 blogShort">
-	                <h1>
-										<%= document.title %><br>
-										<small class="pull-right"><i class="fa fa-clock-o"></i> <%= @moment(document.date).lang("ru").format('DD MMMM YYYY') %></small>
-	                </h1>
-									<hr>
-
+		<div class="media">
 									<% if document.img: %>
-									<div class="thumbnail pull-left ">
-		                <img class="img-responsive" src="<%= document.img %>" alt="">
+									<div class="thumbnail pull-left">
+		                <img class="media-object" src="<%= document.img %>" alt="">
 									</div>
 									<% end %>
+  								<div class="col-md-8 pull-right">
 
+  								<h1>
+										<%= document.title %><br>
+										<small class="pull-right"><i class="fa fa-clock-o"></i> <%= @moment(document.date).lang("ru").format('DD MMMM YYYY') %></small>
+									</h1>
 									<% if document.description: %>
-									 		<article><p>
 	                		<%= document.description %>
-										  </p></article>
-									<% end %>
+								<% end %>
+										</div>
+
 		</div>
 </a>
 	<% end %>
-</div>
 
 </div>
