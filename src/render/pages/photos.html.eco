@@ -40,7 +40,7 @@ pageOrder: 6
 <div id="links">
 <% for file in @getDocument().getAssociatedFiles().toJSON(): %>
 	<a href="<%= file.url %>" title="<%= file.title or file.name %>" data-gallery>
-			<img src="<%= file.url %>" alt="<%= file.title or file.name %>">
+			<img src="<%= @getThumbnail(file.url, w: 100, h: 100) %>" alt="<%= file.title or file.name %>">
 	</a>
 	<% end %>
 </div>
