@@ -13,14 +13,12 @@ pageOrder: 6
 	<a href="<%= document.url %>">
 		<div class="col-md-12 blogShort">
 	                <h1>
-										<%= document.title %><br>
-										<small class="pull-right"><i class="fa fa-clock-o"></i> <%= @moment(document.date).lang("ru").format('DD MMMM YYYY') %></small>
+										<%= document.title %><small class="pull-right"><i class="fa fa-clock-o"></i> <%= @moment(document.date).lang("ru").format('DD MMMM YYYY') %></small>
 	                </h1>
-									<hr>
 
 									<% if document.img: %>
-									<div class="thumbnail pull-left ">
-		                <img class="img-responsive" src="<%= document.img %>" alt="">
+									<div class=" pull-left ">
+		                <img class="img-responsive" src="<%= @getThumbnail(document.img, "zoomcrop", { w: 100, h: 100 }) %>" alt="">
 									</div>
 									<% end %>
 
@@ -30,6 +28,8 @@ pageOrder: 6
 										  </p></article>
 									<% end %>
 		</div>
+		<hr>
+		<hr>
 </a>
 	<% end %>
 </div>
