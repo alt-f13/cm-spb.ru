@@ -61,7 +61,7 @@ docpadConfig = {
 				"//netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
 				"//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"
 				"/js/bootstrap-image-gallery.js"
-				#"/js/demo.js"
+				"/js/tree.js"
 				"/js/uhpv-full.min.js"
 			]
 
@@ -106,8 +106,10 @@ docpadConfig = {
 
 		posts: (database) ->
 			database.findAllLive({tags:$has:'post'}, [date:-1])
-		photos: (database) ->
-			database.findAllLive({relativeOutDirPath: 'photos'})
+	#	photos: (database) ->
+	#		database.findAllLive({relativeOutDirPath: 'photos'})
+		gallery: (database) ->
+			database.findAllLive({layout:$has:'gallery'})
 
 
 	# =================================
