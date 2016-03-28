@@ -43,7 +43,11 @@ docpadConfig = {
 
 			# Styles
 			styles: [
-				"/styles/twitter-bootstrap.css"
+				#"/styles/twitter-bootstrap.css"
+				"//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+				"//blueimp.github.io/Gallery/css/blueimp-gallery.min.css"
+				"/css/bootstrap-image-gallery.css"
+				"/css/demo.css"
 				"/css/kube.css"
 				"/css/style.css"
 				"/css/tree.css"
@@ -51,9 +55,13 @@ docpadConfig = {
 
 			# Scripts
 			scripts: [
-				"//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"
+				#"//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"
 				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
-				"/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"
+				#"/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"
+				"//netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+				"//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"
+				"/js/bootstrap-image-gallery.js"
+				"/js/demo.js"
 				"/js/uhpv-full.min.js"
 			]
 
@@ -98,8 +106,8 @@ docpadConfig = {
 
 		posts: (database) ->
 			database.findAllLive({tags:$has:'post'}, [date:-1])
-	#	documents: (database) ->
-	#		database.findAllLive({relativeOutDirPath: 'documents'})
+		photos: (database) ->
+			database.findAllLive({relativeOutDirPath: 'photos'})
 
 
 	# =================================
