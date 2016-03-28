@@ -4,27 +4,34 @@ menutitle: Новости
 layout: page
 pageOrder: 6
 ---
-<nav class="linklist">
+
+<div class="container">
+	<div class="row">
 
 
 	<% for document in @getCollection('posts').toJSON(): %>
 	<a href="<%= document.url %>">
-			<div class="block">
-	                <h2>
-										<%= document.title %>
-	                </h2>
-
-	                <p><small><i class="fa fa-clock-o"></i> опубликовано: <%= @moment(document.date).lang("ru").format('MMMM Do YYYY') %></small></p>
-									<% if document.img: %>
-	                <hr>
-	                <img class="img-responsive" src="<%= document.img %>" alt="">
-									<% end %>
-									<% if document.description: %>
-	                <hr>
-	                <p><%= document.description %></p>
-									<% end %>
+		<div class="col-md-12 blogShort">
+	                <h1>
+										<%= document.title %><br>
+										<small class="pull-right"><i class="fa fa-clock-o"></i> <%= @moment(document.date).lang("ru").format('DD MMMM YYYY') %></small>
+	                </h1>
 									<hr>
-		</div>
-	<% end %>
 
-</nav>
+									<% if document.img: %>
+									<div class="thumbnail pull-left ">
+		                <img class="img-responsive" src="<%= document.img %>" alt="">
+									</div>
+									<% end %>
+
+									<% if document.description: %>
+									 		<article><p>
+	                		<%= document.description %>
+										  </p></article>
+									<% end %>
+		</div>
+</a>
+	<% end %>
+</div>
+
+</div>
