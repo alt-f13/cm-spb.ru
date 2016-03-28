@@ -110,7 +110,7 @@ body > .container {
   h1 a:hover {
     text-decoration: none;
   }
-.address {
+.address > a{
   color: #FFF;
   size: 6pt;
 }
@@ -124,6 +124,7 @@ a.block { display: block; }
   background-color: lightgrey;
   height: 180px;
   text-align: center;
+  text-shadow: 1px;
 }
 .grayblock1 {
   background-color: lightgrey;
@@ -215,5 +216,63 @@ a.block { display: block; }
 }
 .head {
 	background-color:#fff;
-
 }
+.header, header > h1 {
+  color: #fff;
+}
+.address {
+  color: #fff;
+}
+
+h2{color:#2F3950;}
+ .margin10{margin-bottom:10px; margin-right:10px;}
+ .blogShort{ border-bottom:1px solid #ddd;}
+.add{background: #333; padding: 10%; height: 300px;}
+
+h1
+    {
+    font-size: 2.2em;
+}
+
+h2
+    {
+    font-size: 2.0em;
+}
+
+h3
+    {
+    font-size: 1.8em;
+}
+
+h4
+    {
+    font-size: 1.6em;
+}
+
+h5
+    {
+    font-size: 1.4em;
+}
+
+p
+    {
+    font-size: 1.2em;
+}
+.thumbnail {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+}
+.thumbnail img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  width: auto;
+  -webkit-transform: translate(-50%,-50%);
+      -ms-transform: translate(-50%,-50%);
+          transform: translate(-50%,-50%);
+}
+
+.center-block {float: none !important}

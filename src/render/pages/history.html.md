@@ -1,8 +1,7 @@
 ```
-date: 2013-10-07 06:04:53+00:00
 layout: page
 title: История создания и основные этапы пути
-menutitle: История
+menutitle: История 
 pageOrder: 3
 ```
 

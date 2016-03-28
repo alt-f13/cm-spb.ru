@@ -77,24 +77,26 @@ $(document).ready(function(){uhpv(has)});
 <body>
 <div id="wrap">
 	<div class="navbar navbar-inverse">
-		<div class="container">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
+		<div class="container-fluid">
 
-			</div>
-			<row centered>
-				<column cols="4"><h6 style="color: #fff; text-align: right;">САНКТ-ПЕТЕРБУРГСКОЕ ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ ПРОФЕССИОНАЛЬНОЕ ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ</h6></column>
-		    <column cols="1"><a href="/"><img src="/images/logo.png" alt=""></a></column>
-				<column cols="2"><div><h4 style="color: #fff; text-align: justify;">КОЛЛЕДЖ<Br>МЕТРОПОЛИТЕНА</h4></div></column>
-				<column cols="2"><div class="address">
-<h5>771-59-09</h5>
-<a href="#">ул. Купчинская, д. 28</a></div>
-</column>
-		</row>
+			<div class="row header">
+				<div class="col-md-3 col-md-offset-2"><h6 style="color: #fff; text-align: right;">САНКТ-ПЕТЕРБУРГСКОЕ ГОСУДАРСТВЕННОЕ БЮДЖЕТНОЕ ПРОФЕССИОНАЛЬНОЕ ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ</h6></div>
+		    <div class="col-md-1"><a href="/"><img src="/images/logo.png" style="width: 120px;" alt=""></a></div>
+				<div class="col-md-2"><h1 style="color: #fff; font-size: 1.6em; text-align: center;">КОЛЛЕДЖ<Br>МЕТРОПОЛИТЕНА</h1></div>
+				<div class="col-md-2"><div class="address">
+									<h5>771-59-09</h5>
+									<a href="/pages/contacts">ул. Купчинская, д. 28</a></div>
+									</div>
+				</div>
+		</div>
+
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+
 		</div>
 		<div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav" id="nav">
@@ -149,5 +151,15 @@ $(document).ready(function(){uhpv(has)});
 </div>
 	<!-- Scripts -->
 	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-75657947-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>
