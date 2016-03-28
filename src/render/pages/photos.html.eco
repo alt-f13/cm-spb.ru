@@ -15,7 +15,6 @@ pageOrder: 6
     <a class="close">×</a>
     <a class="play-pause"></a>
     <ol class="indicator"></ol>
-    <!-- The modal dialog, which will be used to wrap the lightbox content -->
     <div class="modal fade">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -39,23 +38,9 @@ pageOrder: 6
     </div>
 </div>
 <div id="links">
-	<% for document in @getCollection('photos').toJSON(): %>
-	<a href="<%= document.url %>" title="Apple" data-gallery>
-			<img src="/img/1598033087.png" alt="Apple">
+<% for file in @getDocument().getAssociatedFiles().toJSON(): %>
+	<a href="<%= file.url %>" title="<%= file.title or file.name %>" data-gallery>
+			<img src="<%= file.url %>" alt="<%= file.title or file.name %>">
 	</a>
 	<% end %>
-</div>
-
-</div>
-
-<div id="links">
-    <a href="/img/8march.png" title="Banana" data-gallery>
-        <img src="/img/8march.png" alt="Banana">
-    </a>
-    <a href="/img/1598033087.png" title="Apple" data-gallery>
-        <img src="/img/1598033087.png" alt="Apple">
-    </a>
-    <a href="/img/avg.jpg" title="Orange" data-gallery>
-        <img src="/img/avg.jpg" alt="Orange">
-    </a>
 </div>

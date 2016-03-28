@@ -47,8 +47,8 @@ docpadConfig = {
 				"//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
 				"//blueimp.github.io/Gallery/css/blueimp-gallery.min.css"
 				"/css/bootstrap-image-gallery.css"
-				"/css/demo.css"
-				"/css/kube.css"
+				#"/css/demo.css"
+				#"/css/kube.css"
 				"/css/style.css"
 				"/css/tree.css"
 			]
@@ -61,7 +61,7 @@ docpadConfig = {
 				"//netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
 				"//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"
 				"/js/bootstrap-image-gallery.js"
-				"/js/demo.js"
+				#"/js/demo.js"
 				"/js/uhpv-full.min.js"
 			]
 
