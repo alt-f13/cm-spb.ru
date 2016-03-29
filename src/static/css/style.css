@@ -276,3 +276,8 @@ p
 }
 
 .center-block {float: none !important}
+.posts_list, .posts_list:hover {
+  color: navy;
+  text-decoration: none;
+  font-size: 10pt;
+}

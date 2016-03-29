@@ -11,24 +11,31 @@ pageOrder: 6
 <% for document in @getCollection('posts').toJSON(): %>
 	<a href="<%= document.url %>">
 		<div class="media">
+		<div class="thumbnail pull-left">
 									<% if document.img: %>
-									<div class="thumbnail pull-left">
 		                <img class="media-object" src="<%= document.img %>" alt="">
-									</div>
+									<% else: %>
+										<img class="media-object" src="http://placehold.it/100x100" alt="">
 									<% end %>
-  								<div class="col-md-8 pull-right">
-
-  								<h1>
-										<%= document.title %><br>
-										<small class="pull-right"><i class="fa fa-clock-o"></i> <%= @moment(document.date).lang("ru").format('DD MMMM YYYY') %></small>
-									</h1>
-									<% if document.description: %>
-	                		<%= document.description %>
-								<% end %>
-										</div>
-
 		</div>
-</a>
+
+  								<div class="col-md-10 pull-right">
+
+  								<h4>
+										<%= document.title %>
+										<small class="pull-right"><i class="fa fa-clock-o"></i> <%= @moment(document.date).lang("ru").format('DD MMMM YYYY') %></small>
+									</h4>
+									<% if document.description: %>
+									<span class="posts_list">
+	                		<%= document.description %>
+											</span>
+									<% end %>
+										</div>
+			</div>
+
+	</a>
+	<hr>
+
 	<% end %>
 
 </div>
