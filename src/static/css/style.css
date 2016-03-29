@@ -128,11 +128,24 @@ a.block { display: block; }
 }
 .grayblock1 {
   background-color: lightgrey;
-  height: 450px;
+  border-radius: 2px 2px 2px;
+  height: 400px;
+  padding: 10px;
 }
-.grayblock1 h3{
+.grayblock11 {
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+  -moz-box-shadow: 0px 0px 1px #000000;
+  -webkit-box-shadow: 0px 0px 1px #000000;
+  box-shadow: 0px 0px 1px #000000;
+  /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
+  margin: 3px;
+}
+.grayblock1 h3, .grayblock11 h3{
   text-align: center;
-
+  color: #777777;
 }
 .grayblock1 div{
   padding-left: 50px;

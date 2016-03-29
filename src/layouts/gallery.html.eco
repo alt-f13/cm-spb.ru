@@ -36,7 +36,7 @@ layout: default
 </div>
 <div id="links">
 <% for file in @getDocument().getAssociatedFiles().toJSON(): %>
-	<a href="<%= file.url %>" title="<%= file.title or file.name %>" data-gallery>
+	<a href="<%= file.url %>" title="<%= file.title or file.name %>" data-gallery class="thumbnail">
 			<img src="<%= @getThumbnail(file.url, "zoomcrop", { w: 100, h: 100 }) %>" alt="<%= file.title or file.name %>">
 	</a>
 	<% end %>
