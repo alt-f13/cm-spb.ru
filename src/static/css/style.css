@@ -128,6 +128,9 @@ a.block { display: block; }
   text-align: center;
   text-shadow: 1px;
 }
+.grayblock2:hover .icon i{
+  color:red;
+}
 .grayblock1 {
   background-color: lightgrey;
   border-radius: 2px 2px 2px;
@@ -184,7 +187,9 @@ a.block { display: block; }
 #navbar #nav{
   width: 100%;
   text-align: center;
-  height: 20px;
+}
+#nav > li > a {
+  color: #fff;
 }
 
 .navbar .navbar-nav {
@@ -195,7 +200,6 @@ a.block { display: block; }
 
 .navbar .navbar-collapse {
   text-align: center;
-  height: 20px;
 }
 #mainTable td, #mainTable table {
 		background-color:lightgrey !important;
@@ -298,7 +302,7 @@ p
 }
 .glass {
   position: absolute;
-  top: 70px;
+  top: 50px;
   right: 50px;
 }
 .btn-circle {
