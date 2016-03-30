@@ -25,10 +25,12 @@
         position: absolute;
         bottom: 0;
         height: 60px;
+
       }
       #footer {
         background-color: #292F3C;
         width: 100%;
+        color: #fff;
       }
 
       /* Lastly, apply responsive CSS fixes as necessary */
@@ -293,4 +295,22 @@ p
   color: navy;
   text-decoration: none;
   font-size: 10pt;
+}
+.glass {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+.btn-circle {
+  height: 50px;
+  color: #000;
+  text-align: center;
+  border-radius: 7px;
+}
+.nav-bottom {
+  list-style-type: none;
+}
+.nav-bottom li a{
+  color: #fff;
+  font-weight: bold;
 }
