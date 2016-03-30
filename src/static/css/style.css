@@ -1,13 +1,13 @@
 /* Sticky footer styles
 -------------------------------------------------- */
 
-      html,
+      /*html,
       body {
         min-height: 100%;
         position: relative;
 
-        /* The html and body elements cannot have any padding or margin. */
       }
+      */
 
       /* Wrapper for page content to push down footer */
       #wrap {
@@ -186,6 +186,7 @@ a.block { display: block; }
 #navbar #nav{
   width: 100%;
   text-align: center;
+  height: 20px;
 }
 
 .navbar .navbar-nav {
@@ -196,6 +197,7 @@ a.block { display: block; }
 
 .navbar .navbar-collapse {
   text-align: center;
+  height: 20px;
 }
 #mainTable td, #mainTable table {
 		background-color:lightgrey !important;
@@ -313,4 +315,8 @@ p
 .nav-bottom li a{
   color: #fff;
   font-weight: bold;
+}
+img.no-resize {
+  min-height: 40px;
+  min-width: 50px;
 }

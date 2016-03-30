@@ -1,8 +1,6 @@
 ---
 title: Фотоальбомы
-menutitle: Фото
 layout: page
-#pageOrder: 8
 ---
 
 <div class="container">
