@@ -162,9 +162,7 @@ a.block { display: block; }
      margin: 0 auto;
      margin-top: 5px;
 }
-.row {
-  height: 100px;
-}
+
 #page h1 {
   font-size: 25px;
   text-indent: 30px;
@@ -295,12 +293,12 @@ p
 .center-block {float: none !important}
 .posts_list, .posts_list:hover {
   color: navy;
-  text-decoration: none;
+    text-decoration: none;
   font-size: 10pt;
 }
 .glass {
   position: absolute;
-  top: 50px;
+  top: 70px;
   right: 50px;
 }
 .btn-circle {
