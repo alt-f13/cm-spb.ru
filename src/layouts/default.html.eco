@@ -114,12 +114,10 @@ $(document).ready(function(){uhpv(has)});
 	<!-- Content -->
 	<div class="container">
 		<!-- Content -->
-		<section id="content" class="content">
 			<div class="jumbotron">
 
 			<%- @content %>
 		</div>
-		</section>
 	</div>
 		<!-- Footer -->
 	<div id="push"></div>
