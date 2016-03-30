@@ -78,7 +78,7 @@ $(document).ready(function(){uhpv(has)});
 				БЮДЖЕТНОЕ ПРОФЕССИОНАЛЬНОЕ<br>
 				ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ</h6></div>
 					<div class="col-xs-1 hidden-xs" style="width: 150px !important"><a href="/"><img src="/images/logo.png" alt=""></a></div>
-				<div class="col-xs-3"><h1 style="color: #fff; font-size: 1.6em; padding-left: -50px;">КОЛЛЕДЖ МЕТРОПОЛИТЕНА</h1></div>
+				<div class="col-xs-3"><h1 style="color: #fff;"><small>КОЛЛЕДЖ</small><br>МЕТРОПОЛИТЕНА</h1></div>
 				<div class="col-xs-2 hidden-sm hidden-xs"><div class="address">
 					<h5>771-59-09</h5>
 					<a href="/pages/contacts">ул. Купчинская, д. 28</a></div>
@@ -172,7 +172,7 @@ data-counter-background-alpha="1.0"
 data-following-enable="false"
 data-exclude-show-more="false"
 data-selection-enable="true"
-class="uptolike-buttons pull-right"></div>
+class="uptolike-buttons hidden-sm hidden-xs"></div>
 	</div>
 </div>
 <div class="glass hidden-xs hidden-sm">
