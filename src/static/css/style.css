@@ -317,7 +317,10 @@ p
 .nav-bottom li a{
   color: #fff;
   font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
 }
+
 img.no-resize {
   min-height: 40px;
   min-width: 50px;

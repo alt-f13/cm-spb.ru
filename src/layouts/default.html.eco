@@ -133,7 +133,9 @@ $(document).ready(function(){uhpv(has)});
 					</li>
 				<% end %>
 				<li>
-
+<div class="hidden-xs hidden-sm">
+		<span id="uhvb" style="display:none;"><a href="javascript://"  onclick="uvcl()">версия для слабовидящих</a></span>
+</div>
 			</li>
 
 	</ul>
@@ -172,12 +174,10 @@ data-counter-background-alpha="1.0"
 data-following-enable="false"
 data-exclude-show-more="false"
 data-selection-enable="true"
-class="uptolike-buttons hidden-sm hidden-xs"></div>
+class="uptolike-buttons pull-right hidden-sm hidden-xs"></div>
 	</div>
 </div>
-<div class="glass hidden-xs hidden-sm">
-		<span id="uhvb" style="display:none;"><a href="javascript://"  class="btn btn-default btn-circle" onclick="uvcl()"><i class="fa fa-eye fa-4x"></i></a></span>
-</div>
+
 	<!-- Scripts -->
 	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
 	<script>
