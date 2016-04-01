@@ -115,21 +115,21 @@ docpadConfig = {
 	# =================================
 	# Plugins
 
-	plugins:
+	#plugins:
 
-  	 ghpages:
-    	deployBranch: 'master'
-     	deployRemote: 'pages'
+		# ghpages:
+		# 	deployBranch: 'master'
+    #  	deployRemote: 'pages'
 
-		downloader:
-			downloads: [
-				{
-					name: 'Bootstrap'
-					path: 'src/files/vendor/twitter-bootstrap'
-					url: 'https://codeload.github.com/twbs/bootstrap/tar.gz/master'
-					tarExtractClean: true
-				}
-			]
+		# downloader:
+		# 	downloads: [
+		# 		{
+		# 			name: 'Bootstrap'
+		# 			path: 'src/files/vendor/twitter-bootstrap'
+		# 			url: 'https://codeload.github.com/twbs/bootstrap/tar.gz/master'
+		# 			tarExtractClean: true
+		# 		}
+		# 	]
 
 
 

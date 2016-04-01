@@ -325,3 +325,7 @@ img.no-resize {
   min-height: 40px;
   min-width: 50px;
 }
+
+.ymaps-2-1-34-map ymaps-2-1-34-i-ua_js_yes ymaps-2-1-34-map-ru {
+    -webkit-filter: grayscale(100%);
+}
