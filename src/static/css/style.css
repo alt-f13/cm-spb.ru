@@ -327,3 +327,44 @@ border-radius: 6px;
 .fa {
   vertical-align: middle;
 }
+
+.col-md-4 > .panel > .panel-heading {
+  text-align: center;
+  font-weight: bold;
+  color: #8a1314;
+  border-bottom: 1px solid #8a1314;
+  border-top: 1px solid #8a1314;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+.col-md-4 > .panel {
+  border-radius: 10px;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+.col-md-4 {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+/*.bluep {
+  background-color: #445273;
+  color: #fff;
+}
+.yellowp {
+  background-color: #777777;
+}
+.redp {
+  background-color: #8a1314;
+}*/
+
+
+/* #8a1314 */
+@media (min-width: 992px) {
+  .col-md-4 > .panel > .panel-body {
+    min-height: 250px;
+  }
+  .col-md-4 {
+    height: 100%;
+    vertical-align: middle;
+  }
+}
