@@ -40,6 +40,7 @@
 	<link rel="stylesheet" href="/css/style.css">
 	<link rel="stylesheet" href="/css/tree.css">
 	<link rel="stylesheet" href="/css/icons.css">
+	<link href="/css/landing-page.css" rel="stylesheet"/>
 <style>
 #hpvgd,.h-mdiv,.h-mdiv2,.h-ldiv,.h-rdiv {background:#EAEAEA; color:#6D6D6D;}
 	#hpvgd {width:100%; z-index:100; width:100%; border-bottom:2px solid rgb(230,230,230);}
@@ -68,7 +69,7 @@ $(document).ready(function(){uhpv(has)});
 </script>
 
 </head>
-<body>
+<body class="landing-page">
 <div>
 	<div class="navbar navbar-inverse">
 		<div class="container-fluid">
@@ -112,13 +113,10 @@ $(document).ready(function(){uhpv(has)});
 	</div>
 
 	<!-- Content -->
-	<div class="container-fluid">
-		<!-- Content -->
-			<div class="jumbotron">
+
 
 			<%- @content %>
-		</div>
-	</div>
+
 		<!-- Footer -->
 	<div id="push"></div>
 	</div>
