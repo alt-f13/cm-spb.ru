@@ -131,39 +131,17 @@ a.block { display: block; }
 .grayblock2:hover .icon i{
   color:red;
 }
-.grayblock1 {
-  background-color: lightgrey;
-  border-radius: 2px 2px 2px;
-  height: 400px;
-  padding: 10px;
-}
-.grayblock11 {
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-  border-radius: 4px;
-  /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
-  -moz-box-shadow: 0px 0px 1px #000000;
-  -webkit-box-shadow: 0px 0px 1px #000000;
-  box-shadow: 0px 0px 1px #000000;
-  /*IE 7 AND 8 DO NOT SUPPORT BLUR PROPERTY OF SHADOWS*/
-  margin: 3px;
-}
-.grayblock1 h3, .grayblock11 h3{
-  text-align: center;
-  color: #777777;
-}
-.grayblock1 div{
-  padding-left: 50px;
-}
-.icon {
-  text-align: center;
 
+.grayblock11 {
 }
+
+
+
 .icon i{
-    font-size: 90px;
-     color: #9a9a9a;
-     margin: 0 auto;
-     margin-top: 5px;
+    font-size: 140px;
+    font-size: 8vw;
+     /*color: #9a9a9a;*/
+
 }
 
 #page h1 {
@@ -324,4 +302,28 @@ p
 img.no-resize {
   min-height: 40px;
   min-width: 50px;
+}
+.card {
+  border-collapse: collapse;
+
+border-left: 1px solid #0c0c0c;
+border-right: 1px solid #0c0c0c;
+border-radius: 6px;
+
+  min-height: 280px;
+}
+.card ul {
+  padding-right: 10px;
+  list-style-type: none;
+}
+.card h3 {
+  color:rgb(133, 6, 1);
+  text-align: center;
+  border-bottom: 1px solid rgb(133, 6, 1);
+}
+.card .icon {
+  color: rgb(133, 6, 1);
+}
+.fa {
+  vertical-align: middle;
 }
