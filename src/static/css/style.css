@@ -323,7 +323,111 @@ figure{
     border-radius:50%;
     overflow:hidden;
 }
+.doc-list {
+  padding-left: 50px;
+}
 
+
+.landing-page .section-programs  img{
+ height: 460px;
+}
+
+.landing-page .section-programs {
+ margin: 100px 0 60px;
+
+}
+.programs-ico {
+  font-size: 50px;
+}
+.landing-page .parallax2 {
+  /*width: 100%;*/
+  height: 80vh;
+  overflow: hidden;
+  display: block;
+  background-size: 100%;
+}
+
+.landing-page .parallax2 .container{
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+.landing-page .parallax2 .bg2{
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+.landing-page .parallax2 .bg2 img{
+  height: 100%;
+  width: auto;
+  position: relative;
+}
+.landing-page .parallax2 .parallax-image{
+  width: 300px;
+  margin: 0 auto;
+  padding-top: 110px;
+}
+
+.landing-page .parallax2 .parallax-image img {
+  width: 100%;
+  height: auto;
+}
+
+.landing-page .parallax2 .parallax-image .screen {
+  position: absolute;
+  z-index: 3;
+}
+
+.landing-page .parallax2 .description{
+  padding-top: 130px;
+  color: white;
+  font-weight: 300;
+
+}
+
+.landing-page .parallax2 .description h5 {
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.landing-page .parallax2 .buttons{
+  width: 100%;
+  display: inline-block;
+  margin-top: 40px;
+  }
+
+  .landing-page .parallax2 .buttons .btn-simple{
+    font-size: 30px;
+  }
+  .landing-page .parallax2 {
+    height: 560px;
+    text-align: center;
+  }
+
+  .landing-page .parallax2 {
+    background: #000;
+  }
+
+  .landing-page .parallax2 .parallax-background2 img {
+    display: none;
+  }
+  .landing-page .parallax2 .description{
+    padding-top: 100px;
+  }
+  .landing-page .parallax2 .buttons{
+    margin: 20px 0;
+  }
+  .parallax2 .parallax-image  {
+    width: 100%;
+    position: relative;
+    height: 100%;
+
+  }
 /* #8a1314 */
 @media (min-width: 992px) {
   .col-md-4 > .panel > .panel-body {
