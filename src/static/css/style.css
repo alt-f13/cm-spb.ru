@@ -122,19 +122,10 @@ body > .container {
 
 
 a.block { display: block; }
-.grayblock2 {
-  background-color: lightgrey;
-  height: 180px;
-  text-align: center;
-  text-shadow: 1px;
-}
+
 .grayblock2:hover .icon i{
   color:red;
 }
-
-.grayblock11 {
-}
-
 
 
 .icon i{
@@ -303,49 +294,15 @@ img.no-resize {
   min-height: 40px;
   min-width: 50px;
 }
-.card {
-  border-collapse: collapse;
-
-border-left: 1px solid #0c0c0c;
-border-right: 1px solid #0c0c0c;
-border-radius: 6px;
-
-  min-height: 280px;
-}
 .card ul {
   padding-right: 10px;
   list-style-type: none;
-}
-.card h3 {
-  color:rgb(133, 6, 1);
-  text-align: center;
-  border-bottom: 1px solid rgb(133, 6, 1);
-}
-.card .icon {
-  color: rgb(133, 6, 1);
+  text-align: left;
 }
 .fa {
   vertical-align: middle;
 }
 
-.col-md-4 > .panel > .panel-heading {
-  text-align: center;
-  font-weight: bold;
-  color: #8a1314;
-  border-bottom: 1px solid #8a1314;
-  border-top: 1px solid #8a1314;
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
-}
-.col-md-4 > .panel {
-  border-radius: 10px;
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
-}
-.col-md-4 {
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
-}
 /*.bluep {
   background-color: #445273;
   color: #fff;
@@ -360,8 +317,11 @@ border-radius: 6px;
     width: 100%;
     height: 400px;
 }
-.text {
-  color: #fff;
+figure{
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    overflow:hidden;
 }
 
 /* #8a1314 */
