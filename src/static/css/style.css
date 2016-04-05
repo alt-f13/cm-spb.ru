@@ -341,10 +341,11 @@ figure{
 }
 .landing-page .parallax2 {
   /*width: 100%;*/
-  height: 80vh;
+  height: 800px;
   overflow: hidden;
   display: block;
   background-size: 100%;
+  text-align: center;
 }
 
 .landing-page .parallax2 .container{
@@ -363,9 +364,10 @@ figure{
   height: 100%;
 }
 .landing-page .parallax2 .bg2 img{
-  height: 100%;
-  width: auto;
+  height: auto;
+  width: 70%;
   position: relative;
+  top: -50px;
 }
 .landing-page .parallax2 .parallax-image{
   width: 300px;
@@ -383,10 +385,9 @@ figure{
   z-index: 3;
 }
 
-.landing-page .parallax2 .description{
-  padding-top: 130px;
+.landing-page .parallax2 h6,.landing-page .parallax2 h3,.landing-page .parallax2 h2, .landing-page .parallax2 h5{
   color: white;
-  font-weight: 300;
+  font-weight: bold;
 
 }
 
@@ -404,10 +405,7 @@ figure{
   .landing-page .parallax2 .buttons .btn-simple{
     font-size: 30px;
   }
-  .landing-page .parallax2 {
-    height: 560px;
-    text-align: center;
-  }
+
 
   .landing-page .parallax2 {
     background: #000;
