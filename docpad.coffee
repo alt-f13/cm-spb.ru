@@ -18,22 +18,23 @@ docpadConfig = {
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
-				'www.website.com',
-				'website.herokuapp.com'
+				'www.plm-spb.ru',
+				'plm-spb.ru',
+				'www.cm-spb.ru/cms/'
 			]
 
 			# The default title of our website
-			title: "Колледж Метрополитена"
+			title: "Колледж метрополитена"
 
 			# The website description (for SEO)
 			description: """
-				When your website appears in search results in say Google, the text here will be shown underneath your website's title.
+				Санкт-петербургское государственное бюджетное профессиональное образовательное учреждение колледж метрополитена
 				"""
 
 			# The website keywords (for SEO) separated by commas
 			keywords: """
-				place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website
-				"""
+					Санкт-петербург, колледж, обучение, образование, метро, метрополитен, спб, среднее, профессиональное, СПБ, техникум, 9 класс
+						"""
 
 			# The website author's name
 			author: "Galyamin.d.d"
@@ -115,22 +116,22 @@ docpadConfig = {
 	# =================================
 	# Plugins
 
-	plugins:
+#	plugins:
+		#
+  	# ghpages:
+    # 	deployBranch: 'master'
+    # 	deployRemote: 'pages'
 
-  	ghpages:
-    	deployBranch: 'master'
-    	deployRemote: 'pages'
-
-		downloader:
-			downloads: [
-				{
-					name: 'Bootstrap'
-					path: 'src/files/vendor/twitter-bootstrap'
-					url: 'https://codeload.github.com/twbs/bootstrap/tar.gz/master'
-					tarExtractClean: true
-				}
-			]
-
+		# downloader:
+		# 	downloads: [
+		# 		{
+		# 			name: 'Bootstrap'
+		# 			path: 'src/files/vendor/twitter-bootstrap'
+		# 			url: 'https://codeload.github.com/twbs/bootstrap/tar.gz/master'
+		# 			tarExtractClean: true
+		# 		}
+		# 	]
+		#
 
 
 	# =================================
