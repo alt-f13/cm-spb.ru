@@ -51,6 +51,7 @@ docpadConfig = {
 				#"/css/kube.css"
 				"/css/style.css"
 				"/css/tree.css"
+				"http://fonts.googleapis.com/css?family=Buenard:700"
 			]
 
 			# Scripts
@@ -63,9 +64,7 @@ docpadConfig = {
 				"/js/bootstrap-image-gallery.js"
 				"/js/tree.js"
 				"/js/uhpv-full.min.js"
-				"http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"
-				"/js/jquery.vide.min.js"
-
+				"http://pupunzi.com/mb.components/mb.YTPlayer/demo/inc/jquery.mb.YTPlayer.js"
 			]
 
 
