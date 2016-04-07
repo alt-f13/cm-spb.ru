@@ -63,6 +63,7 @@ docpadConfig = {
 				"/js/bootstrap-image-gallery.js"
 				"/js/tree.js"
 				"/js/uhpv-full.min.js"
+				"/js/jquery.vide.js"
 			]
 
 
