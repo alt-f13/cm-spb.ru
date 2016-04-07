@@ -5,14 +5,21 @@ description: Ежедневные изменения в расписании
 layout: page
 pageOrder: 8
 ---
-
+<div class="container">
 <table id="mainTable"  cellspacing="0" cellpadding="0" border="1" width="100%">
 
 
 
 </table>
+
+
+<div id="vk_like"></div>
+</div>
+
+
 <script>
 
    $("#mainTable").load("http://sh.2d-it.ru/latest.html")
+   VK.Widgets.Like("vk_like", {type: "button", height: 24});
 
 </script>
