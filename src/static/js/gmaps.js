@@ -37,7 +37,7 @@ function init() {
             "lightness": -4
         },
         {
-            "gamma": 0.72
+            "gamma": 0.4
         }
     ]
 },
@@ -172,10 +172,12 @@ function init() {
 
     // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
     var image = '/images/logo.png';
-    var myLatLng = new google.maps.LatLng(59.831163, 30.3940273);
+    var myLatLng = new google.maps.LatLng(59.831163, 30.3965818);
     var beachMarker = new google.maps.Marker({
         position: myLatLng,
         map: map,
-        icon: image
+        labelContent: '<i class="fa fa-send fa-3x" style="color:rgba(153,102,102,0.8);"></i>',
+        map_icon_label: '<strong>Колледж метрополитена</strong>',
+        icon: ''
     });
 }
