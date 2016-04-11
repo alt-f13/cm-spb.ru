@@ -70,6 +70,10 @@ $(document).ready(function(){uhpv(has)});
 
 </head>
 <body class="landing-page">
+	<div class="hidden-xs hidden-sm right-nav">
+			<button type="button" class="btn btn-simple" id="uhvb" onclick="uvcl()">
+			версия для слабовидящих</button>
+	</div>
 <div>
 	<div class="navbar navbar-inverse">
 		<div class="container-fluid">
@@ -130,11 +134,6 @@ $(document).ready(function(){uhpv(has)});
 						</a>
 					</li>
 				<% end %>
-				<li>
-<div class="hidden-xs hidden-sm">
-		<span id="uhvb" style="display:none;"><a href="javascript://"  onclick="uvcl()">версия для слабовидящих</a></span>
-</div>
-			</li>
 			<li>
 				<a href="http://k-obr.spb.ru/page/632">Профилактика негативных явлений среди несовершеннолетних</a>
 			</li>
@@ -177,6 +176,8 @@ data-exclude-show-more="false"
 data-selection-enable="true"
 class="uptolike-buttons pull-right hidden-sm hidden-xs"></div>
 	</div>
+
+
 </div>
 
 	<!-- Scripts -->
