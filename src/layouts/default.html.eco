@@ -70,10 +70,11 @@ $(document).ready(function(){uhpv(has)});
 
 </head>
 <body class="landing-page">
-	<div class="hidden-xs hidden-sm right-nav">
-			<button type="button" class="btn btn-simple" id="uhvb" onclick="uvcl()">
-			версия для слабовидящих</button>
+  <a href=#>
+	<div class="hidden-xs hidden-sm right-nav" id="uhvb" onclick="uvcl()">
+			версия для слабовидящих
 	</div>
+</div>
 <div>
 	<div class="navbar navbar-inverse">
 		<div class="container-fluid">

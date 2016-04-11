@@ -117,12 +117,12 @@ Cанкт-петербургское государственное бюджет
 	# =================================
 	# Plugins
 
-	 plugins:
-		 redirector:
-        redirects:
-            # source: destination
-            "cms/": "http://cm-spb.ru/"
-            #"project/info.html": "http://new-site.com/new-info-page"
+	#  plugins:
+	# 	 redirector:
+  #       redirects:
+  #           # source: destination
+  #           #"cms/": "http://cm-spb.ru/"
+  #           #"project/info.html": "http://new-site.com/new-info-page"
 
 	#
   # 	ghpages:

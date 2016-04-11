@@ -4,7 +4,10 @@ DIR="src/render/faces"
 IFS=";"
 while read a b c d e f g h i j
  do
-mkdir -p $DIR/$a
+   DDIR=$DIR/$a
+mkdir -p $DDIR
+img=$(ls $DDIR|grep jpg)
+echo $img
 echo -e "---\n\
 lastname:\t $a \n\
 firstname:\t $b\n\
@@ -15,7 +18,9 @@ class:\t $g\n\
 since:\t $i $h\n\
 layout:\t faces \n\
 appointment:\t $j\n\
+img:\t $img\n\
 ---\n\
-  " > $DIR/$a/index.html
+  " > $DDIR/index.html
+  img=""
  done < $1
  IFS=$OLDIFS
