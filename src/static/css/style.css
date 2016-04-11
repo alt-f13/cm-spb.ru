@@ -455,6 +455,22 @@ margin: 0px auto 15px;
 }
 .video-section .buttonBar{display:none;}
 .player {font-size: 1px;}
+
+.right-nav {
+  position: absolute;
+  right: -100px;
+  top: 50vh;
+  z-index: 20;
+  -ms-transform: rotate(-90deg); /* IE 9 */
+  -webkit-transform: rotate(-90deg); /* Safari */
+  transform: rotate(-90deg);
+  background-color: rgb(143, 3, 3);
+  border-radius: 4px;
+  height: 25px;
+  padding: 0;
+  margin: 0;
+
+}
 /* #8a1314 */
 @media (min-width: 992px) {
   .col-md-4 > .panel > .panel-body {

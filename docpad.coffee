@@ -57,7 +57,7 @@ Cанкт-петербургское государственное бюджет
 			# Scripts
 			scripts: [
 				#"//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"
-				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
+				#"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
 				#"/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"
 				"//netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
 				"//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"
