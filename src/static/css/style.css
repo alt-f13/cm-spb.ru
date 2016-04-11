@@ -465,3 +465,9 @@ margin: 0px auto 15px;
     vertical-align: middle;
   }
 }
+@media screen and (max-width: 640px) {
+	table {
+		overflow-x: auto;
+		display: block;
+	}
+}

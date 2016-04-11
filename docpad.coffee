@@ -12,27 +12,27 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://alt-f13.github.io/"
+			url: "http://cm-spb.ru"
 			outPath: '.'
 
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
-				'www.website.com',
-				'website.herokuapp.com'
+				'www.cm-spb.ru',
+				'www.plm-spb.ru'
 			]
 
 			# The default title of our website
-			title: "Колледж Метрополитена"
+			title: "Колледж метрополитена"
 
 			# The website description (for SEO)
 			description: """
-				When your website appears in search results in say Google, the text here will be shown underneath your website's title.
+Cанкт-петербургское государственное бюджетное профессиональное образовательное учреждение колледж метрополитена
 				"""
 
 			# The website keywords (for SEO) separated by commas
 			keywords: """
-				place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website
+				колледж, образование, санкт-петербург, спб, метрополитен, работа, обучение, профессия, будущее
 				"""
 
 			# The website author's name
@@ -108,8 +108,8 @@ docpadConfig = {
 
 		posts: (database) ->
 			database.findAllLive({tags:$has:'post'}, [date:-1])
-	#	photos: (database) ->
-	#		database.findAllLive({relativeOutDirPath: 'photos'})
+		faces: (database) ->
+			database.findAllLive({layout:$has:'faces'}, [order:1])
 		gallery: (database) ->
 			database.findAllLive({layout:$has:'gallery'})
 
@@ -117,22 +117,28 @@ docpadConfig = {
 	# =================================
 	# Plugins
 
-	plugins:
+	 plugins:
+		 redirector:
+        redirects:
+            # source: destination
+            "cms/": "http://cm-spb.ru/"
+            #"project/info.html": "http://new-site.com/new-info-page"
 
-  	ghpages:
-    	deployBranch: 'master'
-    	deployRemote: 'pages'
-
-		downloader:
-			downloads: [
-				{
-					name: 'Bootstrap'
-					path: 'src/files/vendor/twitter-bootstrap'
-					url: 'https://codeload.github.com/twbs/bootstrap/tar.gz/master'
-					tarExtractClean: true
-				}
-			]
-
+	#
+  # 	ghpages:
+  #   	deployBranch: 'master'
+  #   	deployRemote: 'pages'
+	#
+	# 	downloader:
+	# 		downloads: [
+	# 			{
+	# 				name: 'Bootstrap'
+	# 				path: 'src/files/vendor/twitter-bootstrap'
+	# 				url: 'https://codeload.github.com/twbs/bootstrap/tar.gz/master'
+	# 				tarExtractClean: true
+	# 			}
+	# 		]
+	#
 
 
 	# =================================
