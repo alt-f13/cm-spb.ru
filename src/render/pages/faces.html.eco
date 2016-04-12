@@ -43,7 +43,7 @@ pageOrder: 5
 <div id="links">
 	<% for face in @getCollection('faces').toJSON(): %>
 	<a href="<%= face.url %>" title="<%= face.lastname or face.name %>" data-gallery class="thumbnail">
-			<img src="<%= @getThumbnail(face.url, "zoomcrop", { w: 100, h: 100 }) %>" alt="<%= face.lastname or face.firstname %>">
+			<img src="<%= @getThumbnail(face.img, "zoomcrop", { w: 100, h: 100 }) %>" alt="<%= face.lastname or face.firstname %>">
 	</a>
 	<% end %>
 </div>
