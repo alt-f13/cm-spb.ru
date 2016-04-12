@@ -9,6 +9,8 @@ mkdir -p $DDIR
 img=$(ls $DDIR|grep jpg)
 echo $img
 echo -e "---\n\
+associatedFilesRelative:\t true\n\
+associatedFilesPath:\t './'\n\
 lastname:\t $a \n\
 firstname:\t $b\n\
 fathername:\t $c\n\
@@ -18,7 +20,7 @@ class:\t $g\n\
 since:\t $i $h\n\
 layout:\t faces \n\
 appointment:\t $j\n\
-img:\t $img\n\
+img:\t /faces/$a/$img \n\
 ---\n\
   " > $DDIR/index.html
   img=""
