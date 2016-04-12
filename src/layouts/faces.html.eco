@@ -1,12 +1,21 @@
 ---
-layout: default
+layout: page
 ---
 
-<div class="container">
+	<div class="page-header">
+		<h1><%= @document.firstname %> <%= @document.fathername %> <%= @document.lastname %></h1>
+	</div>
   <div class="row">
-    <div class="col-md-4"><%= @document.title %></div>
-    <div class="col-md-4"></div>
-    <div class="col-md-4"></div>
+    <div class="col-md-4">
+      <img src="<%= @getThumbnail(@document.img, { h: 800}) %>" alt="<%= @document.firstname %> <%= @document.fathername %> <%= @document.lastname %>">
+		</div>
+    <div class="col-md-6">
+			<ul>
+				<li>стаж <%= @document.since %></li>
+				<li>Должность <%= @document.appointment %></li>
+				<li>квалификация <%= @document.class %></li>
+			</ul>
+		</div>
   </div>
 </div>
 <%- @content %>
