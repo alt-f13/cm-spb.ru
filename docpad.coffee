@@ -52,6 +52,7 @@ Cанкт-петербургское государственное бюджет
 				"/css/style.css"
 				"/css/tree.css"
 				"http://fonts.googleapis.com/css?family=Buenard:700"
+        "/css/diamonds.css"
 			]
 
 			# Scripts
@@ -65,6 +66,7 @@ Cанкт-петербургское государственное бюджет
 				"/js/tree.js"
 				"/js/uhpv-full.min.js"
 				"http://pupunzi.com/mb.components/mb.YTPlayer/demo/inc/jquery.mb.YTPlayer.js"
+        "/js/jquery.diamonds.js"
 			]
 
 
@@ -109,7 +111,7 @@ Cанкт-петербургское государственное бюджет
 		posts: (database) ->
 			database.findAllLive({tags:$has:'post'}, [date:-1])
 		faces: (database) ->
-			database.findAllLive({layout:$has:'faces'}, [order:1])
+			database.findAllLive({layout:$has:'faces'}, [lastname:1])
 		gallery: (database) ->
 			database.findAllLive({layout:$has:'gallery'})
 
