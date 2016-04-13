@@ -3,26 +3,20 @@ layout: page
 ---
 
 	<div class="page-header">
-		<h1><%= @document.firstname %> <%= @document.fathername %> <%= @document.lastname %></h1>
+		<h4><%= @document.firstname %> <%= @document.fathername %> <%= @document.lastname %></h4>
 	</div>
   <div class="row">
     <div class="col-md-4">
-      <img src="<%= @getThumbnail(@document.img, { h: 800}) %>" alt="<%= @document.firstname %> <%= @document.fathername %> <%= @document.lastname %>">
+      <img height="500" src="<%= @getThumbnail(@document.img, { h: 800}) %>" alt="<%= @document.firstname %> <%= @document.fathername %> <%= @document.lastname %>">
 		</div>
     <div class="col-md-6">
 			<ul>
-				<li>стаж <%= @document.since %></li>
 				<li>Должность <%= @document.appointment %></li>
-				<li>квалификация <%= @document.class %></li>
+				<li>Общий стаж <%= @document.since %></li>
+				<li>Педагогический стаж <%= @document.edusince %></li>
+				<li>Квалификационная категория <%= @document.category %></li>
+				<li>Образование <%= @document.education %></li>
 			</ul>
 		</div>
   </div>
-</div>
 <%- @content %>
-
-<% for file in @getDocument().getAssociatedFiles().toJSON(): %>
-<p>
-    <h3><%= file.title or file.name %></h3>
-    <img src="<%= file.url %>" title="<%= file.title or file.name %>" />
-</p>
-<% end %>
