@@ -9,7 +9,8 @@ pageOrder: 5
 <div id="faces"  class="diamondswrap">
 	<% for face in @getCollection('faces').toJSON(): %>
   <% if face.img: %>
-	<a href="<%= face.url %>" class="item" style="background-image: url(<%= @getThumbnail(face.img, { w: 250, h:300 }) %>); background-position:top;">
+	<a href="<%= face.url %>" class="item" style="background-image: url(<%= @getThumbnail(face.img, { w: 250, h:300 }) %>); background-position:top;" alt="<%= @document.firstname %> <%= @document.fathername %> <%= @document.lastname %>">
+<%= @document.firstname %> <%= @document.fathername %> <%= @document.lastname %>
 	</a>
 	<% end %>
   <% end %>

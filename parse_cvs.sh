@@ -14,12 +14,12 @@ associatedFilesPath:\t './'\n\
 lastname:\t $a \n\
 firstname:\t $b\n\
 fathername:\t $c\n\
-birthday:\t $d\n\
-tags:\t ['$f']\n\
-class:\t $g\n\
-since:\t $i $h\n\
-layout:\t faces \n\
-appointment:\t $j" > $DDIR/index.html
+education:\t $d\n\
+category:\t $e\n\
+appointment:\t $f\n\
+since:\t $g\n\
+edusince:\t $i $h\n\
+layout:\t faces" > $DDIR/index.html
 img_f=$DDIR/$img
 if [ -f $img_f ];then
   echo -e "img:\t /faces/$a/$img" >> $DDIR/index.html;
