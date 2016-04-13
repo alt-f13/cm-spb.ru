@@ -5,8 +5,6 @@ layout: page
 pageOrder: 6
 ---
 
-<div class="container">
-
 
 <% for document in @getCollection('posts').toJSON(): %>
 	<a href="<%= document.url %>">
@@ -37,5 +35,3 @@ pageOrder: 6
 	<hr>
 
 	<% end %>
-
-</div>
