@@ -119,7 +119,9 @@ Cанкт-петербургское государственное бюджет
 	# =================================
 	# Plugins
 
-	#  plugins:
+	plugins:
+	    thumbnails:
+	        imageMagick: true
 	# 	 redirector:
   #       redirects:
   #           # source: destination
