@@ -84,7 +84,6 @@
 .diamond-box-inner a:hover {
     white-space: pre-line;
     background-color: rgba(136, 136, 136, 1)
-    opacity: 1;
     text-indent:0px;
     color: #000 !important;
     font-weight: 900;
