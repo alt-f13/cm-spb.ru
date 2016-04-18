@@ -488,7 +488,7 @@ margin: 0px auto 15px;
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
 }
-	.item:hover:after {
+.item:hover:after {
 		content: "";
 		display: block;
 		position: absolute;
@@ -496,8 +496,7 @@ margin: 0px auto 15px;
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background: rgba(255, 255, 255, 0.7);
-	}
+}
 .diamondswrap {
 	text-align: center;
 	padding: 50px 20px 100px 20px;
