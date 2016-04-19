@@ -64,7 +64,7 @@ var uhe = 2,
 	bg = 1,
 	hwidth = 0,
 	bgs = ['1','2'],
-	fonts = ['17','19','21'];
+	fonts = ['22','25','28'];
 $(document).ready(function(){uhpv(has)});
 </script>
 
@@ -102,6 +102,11 @@ $(document).ready(function(){uhpv(has)});
 		</div>
 		<div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav" id="nav">
+				<li typeof="sioc:Page" about="/#programs" class="">
+						<a href="/#programs" property="dc:title">
+							Специальности
+						</a>
+					</li>
 				<% for document in @getCollection('menu').toJSON(): %>
 					<li
 						typeof="sioc:Page"
@@ -126,7 +131,7 @@ $(document).ready(function(){uhpv(has)});
 	<div id="push"></div>
 	</div>
 	<div id="footer">
-		<div class="container">
+		<div class="container-fluid">
 			<ul class="navbar-nav nav-bottom">
 				<% for document in @getCollection('menu2').toJSON(): %>
 					<li>

@@ -75,7 +75,7 @@
     width: 141.421356237%; /* sqrt(2) */
     height: 141.421356237%;
     margin: -20.7106781185% 0 0 -20.7106781185%; /* (1 - sqrt(2)) / 2 */
-    /*color: #000 !important;*/
+    color: #000 !important;
 
 }
 .diamond-box-inner a{
