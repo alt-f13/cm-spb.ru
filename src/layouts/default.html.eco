@@ -87,7 +87,7 @@ $(document).ready(function(){uhpv(has)});
 				<div class="col-xs-3"><h1 style="color: #fff;"><small>КОЛЛЕДЖ</small><br>МЕТРОПОЛИТЕНА</h1></div>
 				<div class="col-xs-2 hidden-sm hidden-xs"><div class="address">
 					<h5>771-59-09</h5>
-					<a href="/pages/contacts">ул. Купчинская, д. 28</a></div>
+					<a href="/pages/contacts.html">ул. Купчинская, д. 28</a></div>
 					</div>
 				</div>
 		</div>
