@@ -36,11 +36,6 @@
 
 	<%- @getBlock('styles').add(@site.styles).toHTML() %>
 
-	<link rel="stylesheet" href="/css/kube.css">
-	<link rel="stylesheet" href="/css/style.css">
-	<link rel="stylesheet" href="/css/tree.css">
-	<link rel="stylesheet" href="/css/icons.css">
-	<link href="/css/landing-page.css" rel="stylesheet"/>
 <style>
 #hpvgd,.h-mdiv,.h-mdiv2,.h-ldiv,.h-rdiv {background:#EAEAEA; color:#6D6D6D;}
 	#hpvgd {width:100%; z-index:100; width:100%; border-bottom:2px solid rgb(230,230,230);}
@@ -67,6 +62,7 @@ var uhe = 2,
 	fonts = ['22','25','28'];
 $(document).ready(function(){uhpv(has)});
 </script>
+<script type="text/javascript" src="/js/date.js"></script>
 
 </head>
 <body class="landing-page">

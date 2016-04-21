@@ -13,7 +13,7 @@ docpadConfig = {
 		site:
 			# The production url of our website
 			url: "http://cm-spb.ru"
-			outPath: '.'
+			outPath: 'output'
 
 
 			# Here are some old site urls that you would like to redirect from
@@ -51,6 +51,8 @@ Cанкт-петербургское государственное бюджет
 				#"/css/kube.css"
 				"/css/style.css"
 				"/css/tree.css"
+        "/css/landing-page.css"
+        "/css/icons.css"
 				"http://fonts.googleapis.com/css?family=Buenard:700"
         "/css/diamonds.css"
 			]
@@ -67,6 +69,7 @@ Cанкт-петербургское государственное бюджет
 				"/js/uhpv-full.min.js"
 				"http://pupunzi.com/mb.components/mb.YTPlayer/demo/inc/jquery.mb.YTPlayer.js"
         "/js/jquery.diamonds.js"
+				"/js/date.js"
 			]
 
 
