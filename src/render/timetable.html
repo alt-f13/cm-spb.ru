@@ -12,16 +12,17 @@ pageOrder: 8
 
 </table>
 <script>
-		for (var i = 1; i < 10; i++) {
+    var i;
+		for (i = 1; i < 10; i++) {
 			console.log("http://sh.2d-it.ru/"+Date.today().add(i).days().toString('dd-MM-yyyy'));
-			if($("#mainTable").load("http://sh.2d-it.ru/"+Date.today().add(i).days()+".html", function( response, status, xhr ) {
+			var loaded=$("#mainTable").load("http://sh.2d-it.ru/"+Date.today().add(i).days().toString('dd-MM-yyyy')+".html", function( response, status, xhr ) {
         if ( status == "error" ) {
           return false;
         }else {
-
-          i=11;
+          return true;
         }
-    }));
+    });
+      if(loaded) break;
 		}
   //  $("#mainTable").load("http://sh.2d-it.ru/latest.html")
 
