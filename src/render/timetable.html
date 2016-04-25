@@ -17,7 +17,7 @@ pageOrder: 8
     var max=15;
     var status, loaded;
     function load_timetable() {
-      $("#mainTable").load("http://sh.2d-it.ru/"+Date.today().add(i).days().toString('dd-MM-yyyy')+".html", function( response, status, xhr,loaded ) {
+      $("#mainTable").load("http://sh.2d-it.ru/out/"+Date.today().add(i).days().toString('dd-MM-yyyy')+".html", function( response, status, xhr,loaded ) {
         i++;
 
         if ( status == "success" ) {
