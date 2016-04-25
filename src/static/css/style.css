@@ -217,8 +217,8 @@ h2{color:#2F3950;}
  .blogShort{ border-bottom:1px solid #ddd;}
 .add{background: #333; padding: 10%; height: 300px;}
 
-h1
-    {
+h1{
+    line-height: 0.8em;
     font-size: 2.2em;
 }
 
@@ -512,6 +512,10 @@ margin: 0px auto 15px;
 .controls {
 	background-color: #272822;
 	padding: 20px;
+}
+
+.jumbotron img {
+  width: 100%;
 }
 
 
