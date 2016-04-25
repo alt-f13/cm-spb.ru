@@ -28,6 +28,18 @@
     font-weight:700;
     position:relative
 }
+.tree li .fa{
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+  width: 20px;
+  text-align: right;
+  margin-right: 10px;
+}
 .tree ul li:before {
     content:"";
     display:block;
