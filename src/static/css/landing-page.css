@@ -1012,10 +1012,14 @@ vertical-align: middle;
    .grayblock {
      background:rgba(204, 204, 204, 0.5);
      padding:30px;
+     min-height: 240px !important;
+
    }
     .grayblock2 {
-      background:rgba(170, 170, 170, 0.3);
+      background:rgba(170, 170, 170, 0.7);
       padding:30px;
+      min-height: 240px !important;
+
 }
 
    .landing-page .section-features .card .icon i{
@@ -1028,7 +1032,7 @@ vertical-align: middle;
         border-radius: 50%;
         margin: 0 auto;
         margin-top: 20px;
-   }#E01724
+   }
    .landing-page .section-features .card .icon i:hover{
       color: red;
 }

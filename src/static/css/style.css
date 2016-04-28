@@ -195,8 +195,7 @@ a:hover .card .icon i{
 
 }
 #mainTable td::after{
-  padding-left: 10px;
-  padding-right: 10px;
+
   white-space: pre-line;
 
 }
@@ -537,6 +536,7 @@ margin: 0px auto 15px;
     height: 100%;
     vertical-align: middle;
   }
+
 }
 @media screen and (max-width: 640px) {
 	table {
