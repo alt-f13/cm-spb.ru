@@ -188,6 +188,7 @@ a:hover .card .icon i{
 }
 
 #mainTable th, #mainTable td {
+  vertical-align: middle;
 	text-align: center;
   min-width: 40px;
   white-space: pre-line;
@@ -201,6 +202,8 @@ a:hover .card .icon i{
 }
 
 #mainTable div {
+  vertical-align: middle;
+
   display:block;
 	min-width:100%;
 	min-height: 40px !important;
