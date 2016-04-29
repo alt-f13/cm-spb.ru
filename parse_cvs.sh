@@ -6,6 +6,8 @@ while read a b c d e f g h i j
  do
    DDIR=$DIR/$a
 mkdir -p $DDIR
+SINCE=$(node datejs.cmd.js $g)
+echo $SINCE
 img=$(ls $DDIR|grep jpg)
 echo $img|wc
 echo -e "---\n\
