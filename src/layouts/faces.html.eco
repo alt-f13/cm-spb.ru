@@ -11,23 +11,60 @@ layout: page
 
     </div>
     <div class="col-md-6">
-			<ul>
-				<li>Должность <%= @document.appointment %></li>
-				<li>Общий стаж <%= @document.since %></li>
-				<li>Педагогический стаж <%= @document.edusince %></li>
-				<li>Квалификационная категория <%= @document.category %></li>
-				<li>Образование <%= @document.education %></li>
-			</ul>
+		<table>
+			<tr>
+				<th>Должность</th>
+				<td><%= @document.appointment %></td>
+			</tr>
+			<tr>
+				<th>Образование</th>
+				<td><%= @document.education %></td>
+			</tr>
+			<tr>
+
+				<th>Общий стаж</th>
+				<td id="since"></td>
+			</tr>
+      <% if @document.edusince: %>
+			<tr>
+				<th>Педагогический стаж</th>
+				<td id="edusince"></td>
+			</tr>
+      <% end %>
+      <% if @document.category: %>
+			<tr>
+				<th>Квалификационная категория</th>
+				<td><%= @document.category %></td>
+			</tr>
+      <% end %>
+		</table>
 		</div>
 		<div class="clock" style="margin:2em;"></div>
 
 		<script type="text/javascript">
 			var clock;
+
 			function secondsToString(seconds)
 					{
+						var wyears,wdays;
 					var numyears = Math.floor(seconds / 31536000);
 					var numdays = Math.floor((seconds % 31536000) / 86400);
-					return numyears + " лет " +  numdays + " дней";
+					if (numyears.toString().substr(-1)<5 && numyears.toString().substr(-1)!=0 && numyears.toString().substr(-1)!=1 && !((numyears>11) && (numyears<15))) {
+						 wyears="года"
+					} else if (numyears.toString().substr(-1)==1 & numyears!=11) {
+							wyears="год"
+					}else{
+						wyears="лет"
+					}
+					console.log(numdays.toString().substr(-1));
+					if (numdays.toString().substr(-1)<5 && numdays.toString().substr(-1)!=0 && numdays.toString().substr(-1)!=1 && !((numdays>11) && (numdays<15))) {
+						 wdays="дня"
+					} else if (numdays.toString().substr(-1)==1 & numdays!=11) {
+							wdays="день"
+					}else{
+						wdays="дней"
+					}
+					return numyears +" "+ wyears + " " +  numdays + " " + wdays;
 
 					}
 
@@ -35,15 +72,17 @@ layout: page
 
 				// Grab the current date
 				var currentDate = Date.today();
-				console.log(currentDate.getFullYear());
 				// Set some date in the past. In this case, it's always been since Jan 1
-				var pastDate  = Date.parse("<%= @document.since %>");
-				console.log(pastDate.getFullYear());
-				console.log(currentDate.getMonth());
+				var since  = Date.parse("<%= @document.since %>");
+				var edusince  = Date.parse("<%= @document.edusince %>");
 
 				// Calculate the difference in seconds between the future and current date
-				var diff = currentDate.getTime() / 1000 - pastDate.getTime() / 1000;
+				var diff = currentDate.getTime() / 1000 - since.getTime() / 1000;
+				$('#since').html(secondsToString(diff));
+
+				var diff2 = currentDate.getTime() / 1000 - edusince.getTime() / 1000;
 				console.log(secondsToString(diff));
+				$('#edusince').html(secondsToString(diff2));
 				// Instantiate a coutdown FlipClock
 
 			});
