@@ -4,7 +4,7 @@ DIR="src/render/faces"
 IFS=";"
 while read a b c d e f g h i j
  do
-   DDIR=$DIR/$a
+   DDIR=$DIR/$a$b
 mkdir -p $DDIR
 echo ${g/./ }
 since=$(./datejs.cmd.js ${g/./ })
