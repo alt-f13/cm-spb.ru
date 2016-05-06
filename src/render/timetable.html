@@ -14,22 +14,24 @@ pageOrder: 8
 <script>
 (function () {
     var i=1;
+		var k=1;
     var max=15;
     var status, loaded;
     function load_timetable() {
       $("#mainTable").load("http://sh.2d-it.ru/out/"+Date.today().add(i).days().toString('dd-MM-yyyy')+".html", function( response, status, xhr,loaded ) {
-        i++;
-
+				i++;
         if ( status == "success" ) {
           console.log(status)
         }else{
-          if(i<max) {
+          if(i<max && k==1 ) {
             load_timetable();
-          }else {
+          }else if(k==1){
             i=0;
+						k=0;
             load_timetable();
           }
         };
+
     });
     }
     load_timetable();
