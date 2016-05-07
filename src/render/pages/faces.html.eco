@@ -13,7 +13,12 @@ pageOrder: 5
 	<li><a href="<%= face.url %>" class="item"  style="background-image: url(<%= @getThumbnail(face.img, { w: 250, h:300 }) %>); background-position:top;" alt="<%= face.firstname %> <%= face.fathername %> <%= face.lastname %>">
 		<%= face.firstname %>
     <%= face.fathername %>
-    <%= face.lastname %></a>
+    <%= face.lastname %>
+		<small style="text-intend: 999px;">
+			<%= face.appointment %>
+			<%= face.category %>
+		</small>
+	</a>
 </li>
 	<% end %>
   <% end %>
