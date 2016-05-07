@@ -5,25 +5,41 @@ menutitle: Коллектив
 pageOrder: 5
 ---
 
+<input id="search" name="search" placeholder="Start typing here" type="text" data-list=".faces"  data-nodata="No results found" autocomplete="off">
 
-<div id="faces"  class="diamondswrap">
+<ul id="faces" class="faces" style="display:none">
 	<% for face in @getCollection('faces').toJSON(): %>
   <% if face.img: %>
-	<a href="<%= face.url %>" class="item" style="background-image: url(<%= @getThumbnail(face.img, { w: 250, h:300 }) %>); background-position:top;" alt="<%= face.firstname %> <%= face.fathername %> <%= face.lastname %>">
+	<li><a href="<%= face.url %>" class="item"  style="background-image: url(<%= @getThumbnail(face.img, { w: 250, h:300 }) %>); background-position:top;" alt="<%= face.firstname %> <%= face.fathername %> <%= face.lastname %>">
 		<%= face.firstname %>
     <%= face.fathername %>
-    <%= face.lastname %>
-
-	</a>
+    <%= face.lastname %></a>
+</li>
 	<% end %>
   <% end %>
-</div>
+</ul>
+<ul id="diamondswrap" class="diamondswrap">
+</ul>
+
+<script type="text/javascript" src="/js/jquery.hideseek.min.js"></script>
 <script type="text/javascript" src="/js/jquery.diamonds.js"></script>
 
 <script>
+$("#diamondswrap").html($("#faces").html());
+
 $(".diamondswrap").diamonds({
     size: 250, // Size of the squares
     gap: 5, // Pixels between squares
 itemSelector : ".item"
+});
+$('#search').hideseek();
+$('#search').on("_after", function() {
+	$("#diamondswrap").html($("#faces").html());
+
+	$(".diamondswrap").diamonds({
+	    size: 250, // Size of the squares
+	    gap: 5, // Pixels between squares
+	itemSelector : ".item:visible"
+	});
 });
 </script>
