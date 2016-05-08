@@ -5,8 +5,9 @@ menutitle: Коллектив
 pageOrder: 5
 ---
 
-<input id="search" name="search" placeholder="Start typing here" type="text" data-list=".faces"  data-nodata="No results found" autocomplete="off">
-
+<div class="container">
+	<input id="search" style="width: 100%;" name="search" placeholder="Поиск..." type="text" data-list=".faces"  data-nodata="No results found" autocomplete="off">
+</div>
 <ul id="faces" class="faces" style="display:none">
 	<% for face in @getCollection('faces').toJSON(): %>
   <% if face.img: %>
