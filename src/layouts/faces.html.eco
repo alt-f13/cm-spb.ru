@@ -90,3 +90,12 @@ layout: page
 
   </div>
 <%- @content %>
+
+
+	<% image_exts = ['jpg', 'JPG', 'jpeg', 'JPEG', 'png', 'PNG'] %>
+	<% for file in @getDocument().getAssociatedFiles().findAll({extension: $in: image_exts}).toJSON(): %>
+	<p>
+	    <h3><%= file.title or file.name %></h3>
+	    <img src="<%= file.url %>" title="<%= file.title or file.name %>" />
+	</p>
+	<% end %>
