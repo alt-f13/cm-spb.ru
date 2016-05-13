@@ -9,7 +9,7 @@ pageOrder: 5
 <div id="faces"  class="diamondswrap">
 	<% for face in @getCollection('faces').toJSON(): %>
   <% if face.img: %>
-	<a href="<%= face.url %>" class="item" style="background-image: url(<%= @getThumbnail(face.img, { w: 250, h:300 }) %>); background-position:top;" alt="<%= face.firstname %> <%= face.fathername %> <%= face.lastname %>">
+	<a href="<%= face.url %>" class="item" style="background-image: url(<%= @getThumbnail(face.img, { w: 250, h:300 }) %>); background-position:top;"alt="<%= face.firstname %> <%= face.fathername %> <%= face.lastname %>" data-appointment="<%= face.appointment %>" data-category="<%= face.category %>">
 		<%= face.firstname %>
     <%= face.fathername %>
     <%= face.lastname %>
@@ -19,11 +19,17 @@ pageOrder: 5
   <% end %>
 </div>
 <script type="text/javascript" src="/js/jquery.diamonds.js"></script>
+<script type="text/javascript" src="https://npmcdn.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
 
 <script>
+
+
 $(".diamondswrap").diamonds({
     size: 250, // Size of the squares
     gap: 5, // Pixels between squares
 itemSelector : ".item"
 });
+
+
+
 </script>
