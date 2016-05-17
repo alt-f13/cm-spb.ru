@@ -5,7 +5,7 @@ IFS=";"
 while read a b c d e f g h i j
  do
    DDIR=$DIR/$a$b
-mkdir -p $DDIR
+mkdir -p $DDIR/files
 echo ${h/./ } ${i/./ }
 since=$(./datejs.cmd.js ${h/./ })
 edusince=$(./datejs.cmd.js ${i/./ })
@@ -15,7 +15,7 @@ img=$(ls $DDIR|grep jpg)
 echo $img|wc
 echo -e "---\n\
 associatedFilesRelative:\t true\n\
-associatedFilesPath:\t './'\n\
+associatedFilesPath:\t './files'\n\
 lastname:\t $a \n\
 firstname:\t $b\n\
 fathername:\t $c\n\
