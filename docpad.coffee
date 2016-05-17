@@ -13,7 +13,7 @@ docpadConfig = {
 		site:
 			# The production url of our website
 			url: "http://cm-spb.ru"
-			outPath: 'output'
+			outPath: './output'
 
 
 			# Here are some old site urls that you would like to redirect from
