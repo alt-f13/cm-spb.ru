@@ -23,7 +23,7 @@
 		<link rel="apple-touch-icon" href="/images/icons/apple-touch-icon-57x57.png">
 
 
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 
 
 	<!-- Shims: IE6-8 support of HTML5 elements -->
@@ -67,8 +67,8 @@ $(document).ready(function(){uhpv(has)});
 </head>
 <body class="landing-page">
   <a href=#>
-	<div class="hidden-xs hidden-sm right-nav" id="uhvb" onclick="uvcl()">
-			версия для слабовидящих
+	<div class="hidden-xs hidden-sm right-nav label label-primary" id="uhvb" onclick="uvcl()">
+		<i class="fa fa-low-vision fa-2x" ></i>версия для слабовидящих
 	</div>
 </div>
 <div>

@@ -7,10 +7,13 @@ pageOrder: 5
 
 <div class="container">
 	<input id="search" style="width: 100%;" name="search" placeholder="Поиск..." type="text" data-list=".faces"  data-nodata="No results found" autocomplete="off">
-	<span class="label label-default qsearch">Преподаватель</span>
+	<div class="pull-right">
+    <span class="label label-default qsearch">Преподаватель</span>
 	<span class="label label-primary qsearch">Мастер</span>
-	<span class="label label-success qsearch">Директор</span>
-
+  <span class="label label-success qsearch">Первая категория</span>
+  <span class="label label-danger qsearch">Высшая категория</span>
+  <span class="label label-pill qsearch">Директор</span>
+</div>
 </div>
 <ul id="faces" class="faces" style="display:none">
 	<% for face in @getCollection('faces').toJSON(): %>
