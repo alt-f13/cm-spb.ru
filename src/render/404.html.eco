@@ -1,7 +1,6 @@
 ---
 layout: 'default'
 title: '404 Not Found'
-dynamic: true
 permalink: /404.html
 ---
 
