@@ -28,6 +28,7 @@
     "npm": "1.2"
   },
   "dependencies": {
+    "datejs": "^1.0.0-rc3",
     "docpad": "~6.78.4",
     "docpad-plugin-associatedfiles": "~2.2.0",
     "docpad-plugin-coffeescript": "~2.5.0",
