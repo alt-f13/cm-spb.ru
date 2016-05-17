@@ -526,6 +526,10 @@ margin: 0px auto 15px;
   width: 100%;
 }
 
+.qsearch {
+  cursor: pointer;
+}
+
 
 /* #8a1314 */
 @media (min-width: 992px) {

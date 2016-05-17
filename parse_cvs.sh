@@ -21,7 +21,7 @@ firstname:\t $b\n\
 fathername:\t $c\n\
 education:\t $d\n\
 category:\t $e\n\
-appointment:\t $f\n\
+appointment:\t $g\n\
 since:\t $since\n\
 layout:\t faces" > $DDIR/index.html
 img_f=$DDIR/$img
