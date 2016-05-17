@@ -5,16 +5,17 @@ IFS=";"
 while read a b c d e f g h i j
  do
    DDIR=$DIR/$a$b
-mkdir -p $DDIR
-echo ${g/./ }
-since=$(./datejs.cmd.js ${g/./ })
-edusince=$(./datejs.cmd.js ${h/./ })
+mkdir -p $DDIR/files
+echo ${h/./ } ${i/./ }
+since=$(./datejs.cmd.js ${h/./ })
+edusince=$(./datejs.cmd.js ${i/./ })
+echo $a $b $c $d $e $f $g $h $since $edusince
 
 img=$(ls $DDIR|grep jpg)
 echo $img|wc
 echo -e "---\n\
 associatedFilesRelative:\t true\n\
-associatedFilesPath:\t './'\n\
+associatedFilesPath:\t './files'\n\
 lastname:\t $a \n\
 firstname:\t $b\n\
 fathername:\t $c\n\
@@ -27,9 +28,9 @@ img_f=$DDIR/$img
 echo $since
 
 if [ -f $img_f ];then
-  echo -e "img:\t /faces/$a/$img" >> $DDIR/index.html;
+  echo -e "img:\t /faces/$a$b/$img" >> $DDIR/index.html;
 fi
-if [ "$h" != " " ]; then
+if [ "$i" != " " ]; then
 echo -e "edusince:\t $edusince\n" >> $DDIR/index.html;
 echo $edusince
 fi
