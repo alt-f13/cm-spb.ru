@@ -465,18 +465,23 @@ margin: 0px auto 15px;
 .player {font-size: 1px;}
 
 .right-nav {
+  font-size: 14pt;
   position: absolute;
-  right: -80px;
+  right: 0px;
   top: 50vh;
   z-index: 20;
+  max-height: 45px;
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+  text-align: center;
+  transform-origin: bottom right;
   -ms-transform: rotate(-90deg); /* IE 9 */
   -webkit-transform: rotate(-90deg); /* Safari */
   transform: rotate(-90deg);
-  background-color: rgb(143, 3, 3);
+  /*background-color: rgb(143, 3, 3);
   border-radius: 4px;
-  height: 25px;
-  padding: 0;
-  margin: 0;
+*/
 
 }
 .item {
