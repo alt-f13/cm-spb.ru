@@ -123,8 +123,8 @@ Cанкт-петербургское государственное бюджет
 	# Plugins
 
 plugins:
-	    thumbnails:
-	        imageMagick: true
+	    #thumbnails:
+	        #imageMagick: true
 
 			sitemap:
 					cachetime: 600000
@@ -132,10 +132,10 @@ plugins:
 					priority: 0.5
 					filePath: 'sitemap.xml'
 
-	 	 redirector:
-         redirects:
+	 	 #redirector:
+         #redirects:
              # source: destination
-             "cms/": "http://cm-spb.ru/"
+             #"cms/": "http://cm-spb.ru/"
   #           #"project/info.html": "http://new-site.com/new-info-page"
 
 	#
