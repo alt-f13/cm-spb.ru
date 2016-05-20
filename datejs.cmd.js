@@ -21,4 +21,4 @@ count+=months*30;
 
 ///console.log(count);
 ///console.log(years+" "+months+" "+day);
-console.log(Date.today().add(-count).days().toString('dd/MM/yyyy')   );
+console.log(Date.today().add(-count).days().getTime());
