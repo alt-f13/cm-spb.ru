@@ -254,12 +254,22 @@ p
     {
     font-size: 1.2em;
 }
+.jumbotron {
+  overflow: hidden;
+}
+#links1 {
+  display: inline-flex;
+  
+}
 .thumbnail {
   position: relative;
   width: 100px;
   height: 100px;
   overflow: hidden;
+  float: left;
+  display: inline;
 }
+/*
 .thumbnail img {
   position: absolute;
   left: 50%;
@@ -269,7 +279,7 @@ p
   -webkit-transform: translate(-50%,-50%);
       -ms-transform: translate(-50%,-50%);
           transform: translate(-50%,-50%);
-}
+}*/
 
 .center-block {float: none !important}
 .posts_list, .posts_list:hover {

@@ -46,15 +46,19 @@ Cанкт-петербургское государственное бюджет
 				#"/styles/twitter-bootstrap.css"
 				"//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
 				"//blueimp.github.io/Gallery/css/blueimp-gallery.min.css"
-				"/css/bootstrap-image-gallery.css"
+				#"/css/bootstrap-image-gallery.css"
 				#"/css/demo.css"
 				#"/css/kube.css"
-				"/css/style.css"
 				"/css/tree.css"
         "/css/landing-page.css"
         "/css/icons.css"
 				"http://fonts.googleapis.com/css?family=Buenard:700"
         "/css/diamonds.css"
+        "/css/blueimp-gallery.css"
+        "/css/blueimp-gallery-indicator.css"
+        "/css/blueimp-gallery-video.css"
+				"/css/style.css"
+
 			]
 
 			# Scripts
@@ -64,12 +68,13 @@ Cанкт-петербургское государственное бюджет
 				#"/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"
 				"//netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
 				"//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"
-				"/js/bootstrap-image-gallery.js"
+				#"/js/bootstrap-image-gallery.js"
 				"/js/tree.js"
 				"/js/uhpv-full.min.js"
 				"http://pupunzi.com/mb.components/mb.YTPlayer/demo/inc/jquery.mb.YTPlayer.js"
         "/js/jquery.diamonds.js"
 				"/js/date.js"
+
 			]
 
 

@@ -21,8 +21,12 @@ pageOrder: 6
 
   								<h4>
 										<%= document.title %>
-										<small class="pull-right"><i class="fa fa-clock-o"></i> <%= @moment(document.date).lang("ru").format('DD MMMM YYYY') %></small>
 									</h4>
+
+										<span class="pull-right label label-default">
+											<i class="fa fa-clock-o"></i>
+											 <%= @moment(document.date).lang("ru").format('DD MMMM YYYY') %>
+										 </span>
 									<% if document.description: %>
 									<span class="posts_list">
 	                		<%= document.description %>
