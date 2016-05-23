@@ -16,9 +16,9 @@ if(arg[2]) {
 }
 //console.log(count);
 
-count+=months*30;
+count+=(months*30);
 //console.log(count);
 
 ///console.log(count);
-///console.log(years+" "+months+" "+day);
-console.log(Date.today().add(-count).days().getTime());
+//console.log(years+" "+months+" "+day);
+console.log(Date.today().add(-count).days().toShortDateString());

@@ -74,6 +74,7 @@ Cанкт-петербургское государственное бюджет
 				"http://pupunzi.com/mb.components/mb.YTPlayer/demo/inc/jquery.mb.YTPlayer.js"
         "/js/jquery.diamonds.js"
 				"/js/date.js"
+				"https://rawgit.com/kimmobrunfeldt/progressbar.js/1.0.0/dist/progressbar.js"
 
 			]
 
