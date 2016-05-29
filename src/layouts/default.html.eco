@@ -33,7 +33,8 @@
 
 	<!-- Styles -->
 	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-
+	<!--[if IE]><script type="text/javascript" src="/js/excanvas.js"></script><![endif]-->
+	<script src="/js/jquery.knob.min.js"></script>
 	<%- @getBlock('styles').add(@site.styles).toHTML() %>
 
 <style>
@@ -75,15 +76,29 @@ $(document).ready(function(){uhpv(has)});
 	<div class="navbar navbar-inverse">
 		<div class="container-fluid">
 
-			<div class="row header">
-				<div class="col-xs-5 hidden-xs"><h6 style="color: #fff; text-align: right;">САНКТ-ПЕТЕРБУРГСКОЕ ГОСУДАРСТВЕННОЕ<br>
-				БЮДЖЕТНОЕ ПРОФЕССИОНАЛЬНОЕ<br>
-				ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ</h6></div>
-					<div class="col-xs-1 hidden-xs" style="width: 150px !important"><a href="/"><img src="/images/logo.png" alt=""></a></div>
-				<div class="col-xs-3"><h1 style="color: #fff;"><small>КОЛЛЕДЖ</small><br>МЕТРОПОЛИТЕНА</h1></div>
-				<div class="col-xs-2 hidden-sm hidden-xs"><div class="address">
-					<h5>771-59-09</h5>
-					<a href="/pages/contacts.html">ул. Купчинская, д. 28</a></div>
+			<div class="row header hidden-xs">
+				<div class="col-xs-5 hidden-xs">
+					<h6 style="color: #fff; text-align: right;">
+						САНКТ-ПЕТЕРБУРГСКОЕ ГОСУДАРСТВЕННОЕ<br>
+						БЮДЖЕТНОЕ ПРОФЕССИОНАЛЬНОЕ<br>
+						ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ
+					</h6>
+					</div>
+					<div class="col-xs-1 hidden-xs" style="width: 150px !important">
+						<a href="/"><img src="/images/logo.png" alt=""></a>
+					</div>
+				<div class="col-xs-3">
+					<h1 style="color: #fff;">
+
+							<small>КОЛЛЕДЖ</small><br>
+						МЕТРОПОЛИТЕНА
+					</h1>
+				</div>
+				<div class="col-xs-2 hidden-sm hidden-xs">
+						<div class="address">
+							<h5>771-59-09</h5>
+							<a href="/pages/contacts.html">ул. Купчинская, д. 28</a>
+						</div>
 					</div>
 				</div>
 		</div>
@@ -94,7 +109,12 @@ $(document).ready(function(){uhpv(has)});
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-
+			<h5 style="color: #fff;" class=" hidden-md  hidden-lg hidden-sm ">
+			<a href="/">
+				<small>КОЛЛЕДЖ</small>
+				МЕТРОПОЛИТЕНА
+			</a>
+			</h5>
 		</div>
 		<div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav" id="nav">
