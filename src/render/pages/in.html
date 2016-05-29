@@ -90,6 +90,25 @@ pageOrder: 1
   </div>
 </div>
 
+<div class="row">
+
+			<h4>Количество поданных заявлений по специальностям</h4>
+
+		<table id="students" class="table table-bordered students">
+		</table>
+	</div>
+	<script type="text/javascript">
+		$("#students").load("http://sh.2d-it.ru/students/1.html", function(response) {
+			$('#students td').each(function(index, el) {
+					var val = $(this).html();
+					$(this).html('<input class="knob" data-fgColor="navy" data-thickness=".4" data-max="70" data-width="80%" readonly value="'+val+'">');
+			});
+			$('.knob').knob();
+		});
+	</script>
+
+</div>
+
 	<div class="row">
 		<div class="col-md-10">
 			<ul class="tree">
