@@ -2,3 +2,4 @@ node_modules/
 out/
 !.gitignore
 **/.DS_Store
+./output

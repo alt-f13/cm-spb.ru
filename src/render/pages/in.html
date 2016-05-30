@@ -4,6 +4,7 @@ menutitle: Поступление
 layout: page
 pageOrder: 1
 ---
+
 <div class="section section-features section-no-padding" >
 		<div class="container-fluid">
 				<div class="row">
@@ -149,6 +150,16 @@ pageOrder: 1
 	</li>
 			</ul>
 
+      <div class="row">
+
+        	<h4>Количество поданных заявлений по специальностям</h4>
+
+      	<table id="students" class="table table-bordered students">
+      	</table>
+      </div>
+      <script type="text/javascript">
+      	$("#students").load("http://sh.2d-it.ru/students/1.html");
+      </script>
 
 		</div>
 	</div>
