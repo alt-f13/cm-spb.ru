@@ -91,6 +91,32 @@ pageOrder: 1
   </div>
 </div>
 
+<div class="row">
+
+			<h4>Количество поданных заявлений по специальностям</h4>
+			<style>
+	    #students .col-xs-1 {
+	      min-height: 100px;
+	      min-width: 200px;
+	    }
+	    .knob::before {
+	      min-height: 100px;
+	    }
+			</style>
+		<div id="students">
+		</div>
+	</div>
+	<script type="text/javascript">
+		$("#students").load("http://sh.2d-it.ru/students/1.html", function(response) {
+			$('.knob').each(function(index, el) {
+					$(this).attr("readonly", true);
+			});
+			$('.knob').knob();
+		});
+	</script>
+
+</div>
+
 	<div class="row">
 		<div class="col-md-10">
 			<ul class="tree">
