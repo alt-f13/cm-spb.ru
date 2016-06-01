@@ -148,7 +148,7 @@ docpadConfig = {
 
 			# Implement the logic you want for authentication
 			auth: (login, password, callback) ->
-				if login is 'admin' and password is 'password'
+				if login is 'admin' and password is 'sdc888'
 					callback null, true
 				else
 					callback "Invalid login or password.", false
