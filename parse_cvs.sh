@@ -4,7 +4,13 @@ DIR="src/render/faces"
 IFS=";"
 while read a b c d e f g h i j
  do
-   DDIR=$DIR/$a$b
+	 trans=$(echo $a$b|./bin/translit.py)
+   oDIR=$DIR/$a$b
+	 DDIR=$DIR/$trans
+	 if [ -d "$oDIR"]; then
+		 mv $oDIR $DDIR
+	 fi
+
 mkdir -p $DDIR/files
 echo ${h/./ } ${i/./ }
 since=$(./datejs.cmd.js ${h/./ })
