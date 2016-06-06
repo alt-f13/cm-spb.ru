@@ -3,7 +3,9 @@ require('datejs');
 var args = process.argv.slice(2);
 //console.log(args);
 
-var arg = args[0].split(/ /);
+//var arg = args[0].split(/ /);
+var arg = args[0].split('.');
+
 //console.log(arg);
 years=arg[0].slice(0, -1);
 months=arg[1].slice(0, -1);
