@@ -47,7 +47,7 @@ layout: page
 			function secondsToString(seconds)
 					{
 						var wyears,wdays;
-					var numyears = Math.floor(seconds / 31536000000);
+					var numyears = Math.floor(seconds / 31536000);
 					var numdays = Math.floor((seconds % 31536000) / 86400);
           console.log(seconds+" "+ numyears+"  "+numdays);
 
@@ -69,24 +69,27 @@ layout: page
 
 					}
 
-			$(document).ready(function() {
+			function count_since() {
+        // Grab the current date
+    				var currentDate = Date.today();
+    				// Set some date in the past. In this case, it's always been since Jan 1
+    				var since  = Date.parse("<%= @document.since %>");
+    				var edusince  = Date.parse("<%= @document.edusince %>");
+            console.log(since+"  "+edusince);
+    				// Calculate the difference in seconds between the future and current date
+    				var diff = (currentDate.getTime() - since.getTime()) / 1000;
+    				$('#since').html(secondsToString(diff));
+            console.log("diff:"+diff);
 
-				// Grab the current date
-				var currentDate = new Date();
-				// Set some date in the past. In this case, it's always been since Jan 1
-				var since  = <%= @document.since %>;
-				var edusince  = "<%= @document.edusince %>";
+    				var diff2 = currentDate.getTime() / 1000 - edusince.getTime() / 1000;
+    				console.log(secondsToString(diff));
+    				$('#edusince').html(secondsToString(diff2));
+    				// Instantiate a coutdown FlipClock
 
-				// Calculate the difference in seconds between the future and current date
-				var diff = currentDate.getTime() - since;
-				$('#since').html(secondsToString(diff));
+			}
+      count_since();
+      console.log("count");
 
-				var diff2 = currentDate.getTime() - edusince;
-				console.log(secondsToString(diff));
-				$('#edusince').html(secondsToString(diff2));
-				// Instantiate a coutdown FlipClock
-
-			});
 		</script>
 
   </div>
