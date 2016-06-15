@@ -78,7 +78,7 @@ body > .container {
     color: #445273;
   }
   a:hover {
-    color: #F9E353;
+    /*color: #F9E353;*/
     text-decoration: underline;
   }
   h6 {
@@ -259,7 +259,7 @@ p
 }
 #links1 {
   display: inline-flex;
-  
+
 }
 .thumbnail {
   position: relative;
