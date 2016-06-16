@@ -13,8 +13,8 @@ while read a b c d e f g h i j
 
 mkdir -p $DDIR/files
 echo ${h/./ } ${i/./ }
-since=$(./datejs.cmd.js ${f})
-edusince=$(./datejs.cmd.js ${g})
+since=$(./datejs.cmd.js ${h})
+edusince=$(./datejs.cmd.js ${i})
 echo $a $b $c $d $e $f $g $since $edusince
 
 img=$(ls $DDIR|grep jpg)
@@ -27,7 +27,7 @@ firstname:\t $b\n\
 fathername:\t $c\n\
 education:\t $d\n\
 category:\t $e\n\
-appointment:\t $h\n\
+appointment:\t $g\n\
 since:\t $since\n\
 layout:\t faces" > $DDIR/index.html
 img_f=$DDIR/$img
