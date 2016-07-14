@@ -3,7 +3,7 @@
 <div class="col-xs-12">
 <% image_exts = ['jpg', 'JPG', 'jpeg', 'JPEG', 'png', 'PNG'] %>
 <% for file in @getDocument().getAssociatedFiles().findAll({extension: $in: image_exts}).toJSON(): %>
-	<a href="<%= file.url %>" title="<%= file.title or file.name %>" data-gallery class="thumbnail">
+	<a href="<%= @getThumbnail(file.url, "zoomcrop", { w: 1600, h: 1200 }) %>" title="<%= file.title or file.name %>" data-gallery class="thumbnail">
 			<img src="<%= @getThumbnail(file.url, "zoomcrop", { w: 100, h: 100 }) %>" alt="<%= file.title or file.name %>">
 	</a>
 	<% end %>
