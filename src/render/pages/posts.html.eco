@@ -5,37 +5,39 @@ layout: page
 pageOrder: 6
 ---
 
+<div class="list-group">
 
 <% for document in @getCollection('posts').toJSON(): %>
-	<a href="<%= document.url %>">
-		<div class="media">
-		<div class="thumbnail pull-left">
-									<% if document.img: %>
-		                <img class="media-object" src="<%= document.img %>" alt="">
-									<% else: %>
-										<img class="media-object" src="http://placehold.it/100x100" alt="">
-									<% end %>
-		</div>
+  <a href="<%= document.url %>" class="list-group-item ">
+    <h4 class="list-group-item-heading">
+			<%= document.title %>
+    </h4>
 
-  								<div class="col-md-10 pull-right">
+		  <small>
+        <span class="pull-right label label-primary">
+  				<i class="fa fa-clock-o fa-2x"></i>
+  				<%= @moment(document.date).lang("ru").format('DD MMMM YYYY') %>
+  			</span>
+      </small>
 
-  								<h4>
-										<%= document.title %>
-									</h4>
-
-										<span class="pull-right label label-default">
-											<i class="fa fa-clock-o"></i>
-											 <%= @moment(document.date).lang("ru").format('DD MMMM YYYY') %>
-										 </span>
-									<% if document.description: %>
-									<span class="posts_list">
-	                		<%= document.description %>
-											</span>
-									<% end %>
-										</div>
+    <p class="list-group-item-text">
+		<div class="row">
+			<% if document.img: %>
+			<div class="col-md-2">
+				<img class="thumbnail" src="<%= document.img %>" alt="">
 			</div>
 
-	</a>
-	<hr>
+			<% end %>
+
+			<div class="col-md-10">
+										<%= document.description %>
+
+			</div>
+		</div>
+
+
+		</p>
+  </a>
 
 	<% end %>
+</div>
