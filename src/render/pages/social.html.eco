@@ -4,9 +4,12 @@ layout: default
 menutitle: Коллектив
 pageOrder: 5
 ---
-
+<br>
+<br>
 <div class="container">
-	<input id="search" style="width: 100%;" name="search" placeholder="Поиск..." type="text" data-list=".faces"  data-nodata="No results found" autocomplete="off">
+	<div class="form-group">
+		<input id="search" class="form-control" style="width: 100%;" name="search" placeholder="Поиск..." type="text" data-list=".faces"  data-nodata="No results found" autocomplete="off">
+	</div>
 	<div class="pull-right">
     <span class="label label-default qsearch">Преподаватель</span>
 	<span class="label label-primary qsearch">Мастер</span>

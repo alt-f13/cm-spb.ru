@@ -4037,6 +4037,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/out\/images\/Artboard.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17191,
+		"inputAbbreviatedPath": "\/out\/images\/Artboard.png",
+		"outputAbbreviatedPath": "\/out\/images\/Artboard.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/out\/images\/aZ3aPsuNbWQ.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -5731,15 +5742,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/out\/pages\/info\/env.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/out\/pages\/info\/env.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/out\/pages\/info\/env\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -5810,15 +5812,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/out\/pages\/photos.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/out\/pages\/posts.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/out\/pages\/posts.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -5909,6 +5902,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/out\/pages\/work.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/out\/posts.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/out\/posts.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -6227,15 +6229,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
-		},
-	"\/out\/posts\/18.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/out\/posts\/18.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
 		},
 	"\/out\/posts\/19062016\/DSC03675.JPG": {
 		"fileType": 16384,
@@ -6638,15 +6631,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/out\/posts\/2016-05-31-samaya-krasivaya-strana.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/out\/posts\/2016-08-18-gorod-golosyet.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/out\/posts\/2016-08-18-gorod-golosyet.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -7247,17 +7231,6 @@
 		"initialSize": 210799,
 		"inputAbbreviatedPath": "\/out\/posts\/vipusk2016\/P1060540.thumb_zoomcrop_w1600h1200q85.JPG",
 		"outputAbbreviatedPath": "\/out\/posts\/vipusk2016\/P1060540.thumb_zoomcrop_w1600h1200q85.JPG",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/out\/prof-master-2016.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4.62284e+06,
-		"inputAbbreviatedPath": "\/out\/prof-master-2016.jpg",
-		"outputAbbreviatedPath": "\/out\/prof-master-2016.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -13447,6 +13420,17 @@
 		"initialSize": 89846,
 		"inputAbbreviatedPath": "\/src\/raw\/images\/9ZDyulMcNNo.jpg",
 		"outputAbbreviatedPath": "\/src\/raw\/images\/9ZDyulMcNNo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/src\/raw\/images\/Artboard.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17191,
+		"inputAbbreviatedPath": "\/src\/raw\/images\/Artboard.png",
+		"outputAbbreviatedPath": "\/src\/raw\/images\/Artboard.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
