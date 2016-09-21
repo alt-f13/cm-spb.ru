@@ -67,14 +67,13 @@ $(document).ready(function(){uhpv(has)});
 
 </head>
 <body class="landing-page">
-  <a href=#>
 	<div class="hidden-xs hidden-sm right-nav label label-primary" id="uhvb" onclick="uvcl()">
 		<i class="fa fa-low-vision fa-2x" ></i>версия для слабовидящих
 	</div>
 </div>
 <div>
 	<div class="navbar navbar-inverse">
-		<div class="container-fluid">
+		<div class="container-fluid hidden-xs">
 
 			<div class="row header hidden-xs">
 				<div class="col-xs-5 hidden-xs">

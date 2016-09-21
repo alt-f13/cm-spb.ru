@@ -20,8 +20,7 @@ pageOrder: 6
   			</span>
       </small>
 
-    <p class="list-group-item-text">
-		<div class="row">
+		<div class="row list-group-item-text">
 			<% if document.img: %>
 			<div class="col-md-2">
 				<img class="thumbnail" src="<%= document.img %>" alt="">
@@ -36,7 +35,6 @@ pageOrder: 6
 		</div>
 
 
-		</p>
   </a>
 
 	<% end %>
