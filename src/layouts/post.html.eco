@@ -13,15 +13,19 @@ layout: default
 	<% if @getRelatedDocuments() and @getRelatedDocuments().length: %>
 		<section id="related">
 			<h3>Новости:</h3>
-			<nav class="linklist">
-				<% for document in @getRelatedDocuments(): %>
-					<li><span><%= @moment(document.date).lang("ru").format('DD MMMM YYYY') %></span>
-					&raquo;
-					<a href="<%= document.url %>"><%= document.title %></a></li>
+			<div class="list-group">
+				<% for document in @getCollection('posts').toJSON(): %>
+					<a href="<%= document.url %>" class="list-group-item">
+						<%= @moment(document.date).lang("ru").format('DD MMMM YYYY') %>
+						&raquo;
+						<%= document.title %>
+					</a>
 				<% end %>
-			</nav>
+			</div>
 		</section>
 	<% end %>
 </footer>
+
+
 </div>
 </div>

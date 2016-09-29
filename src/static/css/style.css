@@ -558,6 +558,14 @@ margin: 0px auto 15px;
   margin-bottom: 0px;
 
 }
+.logo
+  {
+    width: 150px !important;
+    height: 105px;
+    overflow: visible;
+    z-index: 9999;
+}
+
 
 
 /* #8a1314 */
