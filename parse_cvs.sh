@@ -22,6 +22,7 @@ echo $img|wc
 echo -e "---\n\
 associatedFilesRelative:\t true\n\
 associatedFilesPath:\t './files'\n\
+title:\t $g $a $b $c \n\
 lastname:\t $a \n\
 firstname:\t $b\n\
 fathername:\t $c\n\

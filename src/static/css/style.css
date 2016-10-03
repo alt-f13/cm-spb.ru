@@ -481,7 +481,7 @@ margin: 0px auto 15px;
 .player {font-size: 1px;}
 
 .right-nav {
-  font-size: 14pt;
+  font-size: 10pt;
   position: absolute;
   right: 0px;
   top: 50vh;
@@ -546,10 +546,26 @@ margin: 0px auto 15px;
 .jumbotron img {
   width: 100%;
 }
+.jumbotron {
+  margin-top: 15px;
+}
 
 .qsearch {
   cursor: pointer;
 }
+
+.navbar {
+  margin-bottom: 0px;
+
+}
+.logo
+  {
+    width: 150px !important;
+    height: 105px;
+    overflow: visible;
+    z-index: 9999;
+}
+
 
 
 /* #8a1314 */
