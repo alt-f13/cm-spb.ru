@@ -1,0 +1,5 @@
+---
+layout: "post"
+title: "New Post"
+date: "2016-10-03 14:11"
+---
