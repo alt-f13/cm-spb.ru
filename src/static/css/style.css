@@ -565,7 +565,12 @@ margin: 0px auto 15px;
     overflow: visible;
     z-index: 9999;
 }
-
+.new {
+  background-color: rgba(1, 87, 124, 0.57) !important;
+}
+#mainTable td {
+  background-color: #fff ;
+}
 
 
 /* #8a1314 */
