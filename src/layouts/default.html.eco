@@ -175,6 +175,16 @@ $(document).ready(function(){uhpv(has)});
 
 </script>
 <script>
+function getDomain(url) {
+  return url.match(/:\/\/(.[^/]+)/)[1];
+}
+$(".list-group > a[href^='http']").each(function() {
+  $(this).css({
+    background: "url(http://www.google.com/s2/favicons?domain=" + getDomain(this.href) + ") left center no-repeat",
+    "padding-left": "20px"
+  });
+});
+
 $('a').each(function() {
    var a = new RegExp('/' + window.location.host + '/');
    if(!a.test(this.href)) {
