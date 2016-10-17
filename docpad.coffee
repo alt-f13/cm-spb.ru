@@ -18,8 +18,10 @@ docpadConfig = {
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
-				'www.cm-spb.ru',
+				'www.cm-spb.ru'
 				'www.plm-spb.ru'
+				'plm-spb.ru'
+				'www.plm-spb.ru/cms/'
 			]
 
 			# The default title of our website
@@ -43,15 +45,11 @@ docpadConfig = {
 
 			# Styles
 			styles: [
-				#"/styles/twitter-bootstrap.css"
 				"//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
 				"//blueimp.github.io/Gallery/css/blueimp-gallery.min.css"
-				#"/css/bootstrap-image-gallery.css"
-				#"/css/demo.css"
-				#"/css/kube.css"
 				"/css/tree.css"
-					"/css/landing-page.css"
-					"/css/icons.css"
+				"/css/landing-page.css"
+				"/css/icons.css"
 				"http://fonts.googleapis.com/css?family=Buenard:700"
 					"/css/diamonds.css"
 					"/css/blueimp-gallery.css"
@@ -63,20 +61,14 @@ docpadConfig = {
 
 			# Scripts
 			scripts: [
-				#"//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"
-				#"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
-				#"/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"
 				"//netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
 				"//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"
-				#"/js/bootstrap-image-gallery.js"
 				"/js/tree.js"
 				"/js/uhpv-full.min.js"
 				"http://pupunzi.com/mb.components/mb.YTPlayer/demo/inc/jquery.mb.YTPlayer.js"
 					"/js/jquery.diamonds.js"
 				"/js/date.js"
 				"https://rawgit.com/kimmobrunfeldt/progressbar.js/1.0.0/dist/progressbar.js"
-				#"/js/jquery.knob.min.js"
-
 			]
 
 
@@ -90,7 +82,7 @@ docpadConfig = {
 		getPreparedTitle: ->
 			# if we have a document title, then we should use that and suffix the site's title onto it
 			if @document.title
-				"#{@document.title} | #{@site.title}"
+				"#{@document.title} | #{@site.title} | #{@document.lastname} #{@document.firstname}"
 			# if our document does not have it's own title, then we should just use the site's title
 			else
 				@site.title
@@ -431,9 +423,8 @@ docpadConfig = {
 
 
 
-		#plugins:
-			#thumbnails:
-				#imageMagick: true
+	thumbnails:
+			imageMagick: true
 
 	sitemap:
 			cachetime: 600000
@@ -441,11 +432,11 @@ docpadConfig = {
 			priority: 0.5
 			filePath: 'sitemap.xml'
 
-				#redirector:
-					#redirects:
-						# source: destination
-						#"cms/": "http://cm-spb.ru/"
-			#           #"project/info.html": "http://new-site.com/new-info-page"
+	redirector:
+		redirects:
+			source: destination
+		    "cms/": "http://cm-spb.ru/"
+        #"project/info.html": "http://new-site.com/new-info-page"
 
 			#
 				# 	ghpages:

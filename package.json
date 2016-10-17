@@ -37,6 +37,7 @@
     "docpad-plugin-eco": "~2.1.0",
     "docpad-plugin-ghpages": "~2.4.4",
     "docpad-plugin-less": "~2.4.1",
+    "docpad-plugin-lunr": "~2.0.9",
     "docpad-plugin-marked": "~2.3.0",
     "docpad-plugin-menu": "~2.1.0",
     "docpad-plugin-minicms": "~2.2.1",
@@ -44,14 +45,13 @@
     "docpad-plugin-partials": "~2.9.2",
     "docpad-plugin-redirector": "~2.0.1",
     "docpad-plugin-related": "~2.2.2",
+    "docpad-plugin-sass": "~2.7.4",
     "docpad-plugin-sitemap": "~2.2.0",
-    "docpad-plugin-stylus": "~2.11.0",
     "docpad-plugin-text": "~2.3.3",
-    "docpad-plugin-thumbnails": "~2.1.2"
+    "docpad-plugin-thumbnails": "~2.1.2",
+    "docpad-plugin-tinylivereload": "~2.0.4"
   },
-  "devDependencies": {
-    "docpad-plugin-livereload": "~2.7.1"
-  },
+  "devDependencies": {},
   "main": "node_modules/docpad/bin/docpad-server",
   "scripts": {
     "start": "node_modules/docpad/bin/docpad-server"
