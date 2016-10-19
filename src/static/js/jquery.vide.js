@@ -1,3 +1,11 @@
+/*
+ *  Vide - v0.5.0
+ *  Easy as hell jQuery plugin for video backgrounds.
+ *  http://vodkabears.github.io/vide/
+ *
+ *  Made by Ilya Makarov
+ *  Under MIT License
+ */
 !(function(root, factory) {
   if (typeof define === 'function' && define.amd) {
     define(['jquery'], factory);

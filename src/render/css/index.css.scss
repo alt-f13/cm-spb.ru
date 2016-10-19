@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Bad+Script');
+
+@import "tree";
+@import "diamonds";
+@import "diamonds-contacts";
+@import "landing-page";
+@import "style";
+
+.handwright {
+  //font-family: 'Lobster', cursive;
+  //font-family: 'Bad Script', cursive;
+
+}
+.rounded {
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid #000;
+  padding: 10px 10px 10px 10px;
+  min-height: 290px;
+}

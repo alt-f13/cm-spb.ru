@@ -1011,14 +1011,14 @@ vertical-align: middle;
    }
    .grayblock {
      background:rgba(204, 204, 204, 0.5);
-     padding:30px;
-     min-height: 240px !important;
+    //  padding:30px;
+     min-height: 200px !important;
 
    }
     .grayblock2 {
       background:rgba(170, 170, 170, 0.7);
-      padding:30px;
-      min-height: 240px !important;
+    //  padding:30px;
+      min-height: 200px !important;
 
 }
 
@@ -1471,3 +1471,4 @@ ul.banner-social-buttons li {
     margin-bottom: 0;
 
   }
+}
