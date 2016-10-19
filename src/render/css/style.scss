@@ -571,9 +571,6 @@ margin: 0px auto 15px;
 #mainTable td {
   background-color: #fff ;
 }
-a[href^="http"]:before {
-  content: url(http://g.etfv.co/ + attr(href));
-}
 
 
 /* #8a1314 */

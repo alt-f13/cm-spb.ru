@@ -49,15 +49,15 @@ docpadConfig = {
 				#"/css/bootstrap-image-gallery.css"
 				#"/css/demo.css"
 				#"/css/kube.css"
-				"/css/tree.css"
-					"/css/landing-page.css"
-					"/css/icons.css"
+				#"/css/tree.css"
+				#	"/css/landing-page.css"
+				#	"/css/icons.css"
 				"http://fonts.googleapis.com/css?family=Buenard:700"
-					"/css/diamonds.css"
+					#"/css/diamonds.css"
 					"/css/blueimp-gallery.css"
 					"/css/blueimp-gallery-indicator.css"
 					"/css/blueimp-gallery-video.css"
-				"/css/style.css"
+				"/css/index.css"
 
 			]
 
@@ -111,8 +111,8 @@ docpadConfig = {
 	# These are special collections that our website makes available to us
 
 	collections:
-		# pages: (database) ->
-		# 	database.findAllLive({pageOrder: $exists: true}, [pageOrder:1,title:1])
+		pages: (database) ->
+			database.findAllLive()
 		menu: (database) ->
 			database.findAllLive({menutitle: $exists: true}, [pageOrder:1,menutitle:1])
 		menu2: (database) ->
@@ -122,6 +122,8 @@ docpadConfig = {
 			database.findAllLive({layout:$has:'post'}, [date:-1])
 		faces: (database) ->
 			database.findAllLive({layout:$has:'faces'}, [lastname:1])
+		contacts: (database) ->
+			database.findAllLive({layout:$has:'contacts'}, [order:1])
 		gallery: (database) ->
 			database.findAllLive({layout:$has:'gallery'})
 
@@ -137,6 +139,10 @@ docpadConfig = {
 			@getCollection('html').findAllLive(type: 'link',[name:1])
 
 	plugins:
+		lunr:
+	    indexes:
+	      myIndex:
+	        collection: 'posts'
 		minicms:
 
 			#prefix:

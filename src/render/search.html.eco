@@ -1,0 +1,7 @@
+---
+layout: 'default'
+title: '500 Internal Server Error'
+dynamic: true
+---
+
+<%- @getLunrSearchPage('myIndex') %>
