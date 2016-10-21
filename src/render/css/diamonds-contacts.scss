@@ -48,11 +48,42 @@
 
     position: relative;
     z-index: 1;
-
+ 
     width: 70.710678118%; /* x = sqrt(x^2 / 2) = 1 / sqrt(2) = 0.70710678118 */
     height: 70.710678118%;
     margin: 14.644660941%;
 
+    border: 1px solid transparent;
+}
+.contact-box-info {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+
+    overflow: hidden;
+
+    position: relative;
+    z-index: 1;
+
+    //width: 70.710678118%; /* x = sqrt(x^2 / 2) = 1 / sqrt(2) = 0.70710678118 */
+    //width: 300px;
+    height: 70.710678118%;
+    //margin: 14.644660941%;
+    //margin-left: 64.644660941%; /* 0.5 + 1 / sqrt(2) / 2 */
+    //margin-top: 64.644660941%;
+    //margin-top: -70px;
+    width: 300px;
+    //height: 141px;
+    //margin-left: 131px;/* 0.5 + 1 / sqrt(2) / 2 */
+    //margin-top: -35px;
+    margin-left: 64.644660941%; /* 0.5 + 1 / sqrt(2) / 2 */
+    margin-top: 25%;
     border: 1px solid transparent;
 }
 
