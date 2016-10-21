@@ -1,0 +1,25 @@
+#!/bin/bash
+# docker rm elasticsearch
+# docker run -d \
+# --restart=always \
+# --name elasticsearch \
+# -p 9200:9200 \
+# -p 9300:9300 \
+# elasticsearch
+
+cNAME=cmspb
+#docker build --no-cache=true -t $cNAME .
+docker build -t $cNAME .
+
+docker rm -f $cNAME
+PID=`docker run -d \
+--restart=always \
+  --name=$cNAME \
+  -p 4000:9778 \
+  -e VIRTUAL_HOST=dev.plm-spb.ru \
+  $cNAME`
+  open http://dev.plm-spb.ru
+
+docker logs -f $PID
+#-e LETSENCRYPT_HOST=2d-it.ru \
+#  -e LETSENCRYPT_EMAIL=galyamin@icloud.com \

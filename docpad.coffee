@@ -427,11 +427,11 @@ docpadConfig = {
 					]
 			]
     ,
-		# lunr:
-		# 	indexes:
-		# 		myIndex:
-    #       collection: 'posts'
-    # ,
+		lunr:
+			indexes:
+		 		myIndex:
+           collection: 'posts'
+    ,
     sitemap:
       cachetime: 600000
       changefreq: 'weekly'

@@ -1,50 +1,38 @@
 
-<div class="row">
+<div class="contact-row-upper">
 	<% for face in @getCollection('contacts').toJSON(): %>
   <% if face.img: %>
 
-	<div class="col-md-6 rounded">
-    <div class="row">
-      <div class="col-md-4">
-        <img src="<%= @getThumbnail(face.img, { w: 200, h:250 }) %>" alt="<%= face.firstname %> <%= face.fathername %> <%= face.lastname %>">
-      </div>
-      <div class="col-md-8">
-        <h5 class="header"><%= face.firstname %> <%= face.fathername %> <%= face.lastname %></h5>
-        <ul class="list-group">
-          <li class="list-group-item">
-            <%= face.appointment %>
-          </li>
-          <% if face.time: %>
-          <li class="list-group-item">
-            <%= face.time %>
+	<div class="contact-box-wrap">
+    <div class="contact-box">
+      <div class="contact-box-inner">
+        <!-- <img src="<%= @getThumbnail(face.img, { w: 200, h:250 }) %>" alt="<%= face.firstname %> <%= face.fathername %> <%= face.lastname %>"> -->
+				<a href="#" class="item" style="background-image: url(<%= @getThumbnail(face.img, { w: 200, h:250 }) %>); background-position:top;" alt="<%= face.firstname %> <%= face.fathername %> <%= face.lastname %>"></a>
+			</div>
+		</div>
+			<div class="contact-box-info">
+				<table>
+					<tr>
+						<td><%= face.firstname %> <%= face.fathername %> <%= face.lastname %></td>
+					</tr>
+					<tr>
+						<td><small><%= face.appointment %></small></td>
+					</tr>
+					<tr>
+						<td>
+						<% if face.time: %>
+							<%= face.time %>
+						<% end %>
+						<%= face.phone %>
+						<%= face.email %>
 
-          </li>
-          <% end %>
-          <li class="list-group-item">
-            <%= face.phone %>
-          </li>
-          <li class="list-group-item">
-            <%= face.email %>
-          </li>
-        </ul>
-        <p>
-    		</p>
-      </div>
-    </div>
+					</td>
+					</tr>
+				</table>
+
+			</div>
 
 	</div>
 	<% end %>
   <% end %>
 </div>
-
-<script type="text/javascript" src="/js/jquery.diamonds.js"></script>
-<script type="text/javascript" src="https://npmcdn.com/isotope-layout@3.0/dist/isotope.pkgd.min.js"></script>
-
-<script>
-
-$(".diamondswrap").diamonds({
-		size: 180, // Size of the squares
-		gap: 3, // Pixels between squares
-itemSelector : ".item:visible"
-});
-</script>
