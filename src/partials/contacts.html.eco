@@ -4,6 +4,7 @@
   <% if face.img: %>
 
 	<div class="contact-box-wrap">
+    <div class="contact-bg"></div>
     <div class="contact-box">
       <div class="contact-box-inner">
         <!-- <img src="<%= @getThumbnail(face.img, { w: 200, h:250 }) %>" alt="<%= face.firstname %> <%= face.fathername %> <%= face.lastname %>"> -->

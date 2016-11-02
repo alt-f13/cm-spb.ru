@@ -430,7 +430,7 @@ docpadConfig = {
 		lunr:
 			indexes:
 		 		myIndex:
-           collection: 'posts'
+           collection: ['menu, menu2']
     ,
     sitemap:
       cachetime: 600000

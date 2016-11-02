@@ -37,7 +37,7 @@
     "docpad-plugin-eco": "~2.1.0",
     "docpad-plugin-ghpages": "~2.4.4",
     "docpad-plugin-imagin": "^2.0.3",
-    "docpad-plugin-lunr": "git+https://github.com/brockfanning/docpad-plugin-lunr.git",
+    "docpad-plugin-lunr": "git+https://github.com/bakrkawkji-trustly/docpad-plugin-lunr.git",
     "docpad-plugin-marked": "~2.3.0",
     "docpad-plugin-menu": "~2.1.0",
     "docpad-plugin-minicms": "~2.2.1",
