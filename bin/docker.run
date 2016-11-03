@@ -7,6 +7,8 @@
 # -p 9300:9300 \
 # elasticsearch
 
+HOST="dev.plm-spb.ru,cm.2d-it.ru"
+
 cNAME=cmspb
 #docker build --no-cache=true -t $cNAME .
 docker build -t $cNAME .
@@ -16,9 +18,9 @@ PID=`docker run -d \
 --restart=always \
   --name=$cNAME \
   -p 4000:9778 \
-  -e VIRTUAL_HOST=dev.plm-spb.ru \
+  -e VIRTUAL_HOST=$HOST \
   $cNAME`
-  open http://dev.plm-spb.ru
+  open http://$HOST
 
 docker logs -f $PID
 #-e LETSENCRYPT_HOST=2d-it.ru \

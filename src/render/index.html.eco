@@ -222,7 +222,7 @@ layout: default
 								</div>
 						</div>
             <div class="row">
-              <%= @partial('contacts') %>
+              <!-- <%= @partial('contacts') %> -->
 
             </div>
 				</div>
