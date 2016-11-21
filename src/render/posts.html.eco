@@ -7,9 +7,7 @@ pageOrder: 6
 <div class="container">
 	<div class="row"></div>
 </div>
-<div class="list-group">
-<a href="https://hr.gov.spb.ru/kadrovaya-politika/konkurs-luchshie-kadrovye-tehnologii-sankt-peterburga/" class="list-group-item">
-<img src="/images/Artboard.png" alt="">
+
 </a>
 
 <% for document in @getCollection('posts').toJSON(): %>

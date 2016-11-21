@@ -94,7 +94,7 @@ layout: default
         </div>
         <section class="content-section section-features video-section" id="programs">
           <!-- <div class="pattern-overlay" data-vide-bg="/video/Metro_obshii.mp4" data-vide-options="loop: false, muted: false, position: 0% 0%"> -->
-          <a id="bgndVideo" class="player" data-property="{videoURL:'http://youtu.be/Xx9J2PsrWkk',containment:'.video-section', quality:'720p', autoPlay:true, mute:true, opacity:1}">bg</a>
+          <a id="bgndVideo" class="player" data-property="{videoURL:'https://youtu.be/t2my91byjR4',containment:'.video-section', quality:'720p', autoPlay:true, mute:true, opacity:1}">bg</a>
             <div class="container">
               <div class="row">
                 <div class="container">
@@ -221,7 +221,7 @@ layout: default
 
 								</div>
 						</div>
-a
+
 				</div>
 		</div>
 
