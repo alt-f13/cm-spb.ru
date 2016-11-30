@@ -1,39 +1,46 @@
-
-<div class="contact-row-upper">
+<div class="row">
 	<% for face in @getCollection('contacts').toJSON(): %>
-  <% if face.img: %>
+		<div class="col-md-4 col-xs-6">
+			<div class="panel panel-default contact">
+			  <div class="panel-heading">
+			    <h3 class="panel-title"><%= face.appointment %></h3>
+			  </div>
+			  <div class="panel-body">
+					<div class="row">
+						<div class="col-md-5">
+							<img src="<%= @getThumbnail(face.img, { w: 200, h:200 }) %>" alt="">
 
-	<div class="contact-box-wrap">
-    <div class="contact-bg"></div>
-    <div class="contact-box">
-      <div class="contact-box-inner">
-        <!-- <img src="<%= @getThumbnail(face.img, { w: 200, h:250 }) %>" alt="<%= face.firstname %> <%= face.fathername %> <%= face.lastname %>"> -->
-				<a href="#" class="item" style="background-image: url(<%= @getThumbnail(face.img, { w: 200, h:250 }) %>); background-position:top;" alt="<%= face.firstname %> <%= face.fathername %> <%= face.lastname %>"></a>
+						</div>
+						<div class="col-md-7">
+							<h6 class="contact_title">
+							<%= face.firstname %><br>
+							<%= face.fathername %><br>
+							<%= face.lastname %>
+						</h6>
+							<ul>
+								<% if face.time: %>
+								<li>
+									Время приема:<br>
+									<%= face.time %>
+								</li>
+								<% end %>
+								<li>
+									<a href="tel:<%= face.phone %>"><%= face.phone %></a>
+								</li>
+								<li>
+									<a href="mailto:<%= face.email %>"><%= face.email %></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+			  </div>
 			</div>
+
+
+
+
 		</div>
-			<div class="contact-box-info">
-				<table>
-					<tr>
-						<td><%= face.firstname %> <%= face.fathername %> <%= face.lastname %></td>
-					</tr>
-					<tr>
-						<td><small><%= face.appointment %></small></td>
-					</tr>
-					<tr>
-						<td>
-						<% if face.time: %>
-							<%= face.time %>
-						<% end %>
-						<%= face.phone %>
-						<%= face.email %>
 
-					</td>
-					</tr>
-				</table>
-
-			</div>
-
-	</div>
 	<% end %>
-  <% end %>
+
 </div>
