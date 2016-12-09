@@ -120,7 +120,7 @@ $.fn.randomize = function(selector){
 
 $("#faces").shuffle();
 $('#search').hideseek();
-$('ul').randomize();
+$('#faces').randomize();
 
 $('#search').on("_after", function() {
 	$("#diamondswrap").html($("#faces").html());
