@@ -6,11 +6,11 @@ var args = process.argv.slice(2);
 //var arg = args[0].split(/ /);
 //var arg = args[0].split('.');
 
-console.log(args);
+//console.log(args);
 years=args[0].match(/(\d?\d?)л./);
 months=args[0].match(/(\d?\d?)м./);
 count=years[1]*365;
-console.log(years[1],months[1]);
+//console.log(years[1],months[1]);
 
 //if(arg[2]) {
   day=args[0].match(/(\d?\d?)д./);
@@ -18,8 +18,8 @@ console.log(years[1],months[1]);
 
 //}
 //console.log(count);
+if(months) count+=(months[1]*30);
 
-count+=(months[1]*30);
 //console.log(count);
 
 ///console.log(count);
