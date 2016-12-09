@@ -7,7 +7,8 @@ var args = process.argv.slice(2);
 //var arg = args[0].split('.');
 
 //console.log(args);
-years=args[0].match(/(\d?\d?)л./);
+
+years=args[0].replace("г.", "л.").match(/(\d?\d?)л./);
 months=args[0].match(/(\d?\d?)м./);
 count=years[1]*365;
 //console.log(years[1],months[1]);
