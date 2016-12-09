@@ -24,7 +24,7 @@ pageOrder: 6
       </small>
 
 		<div class="row list-group-item-text">
-      <div class="col-md-2">
+      <div class="col-md-2 col-xs-4">
 			<% if document.img: %>
 				<img class="thumbnail" src="<%= document.img %>" alt="">
       <% else: %>
@@ -33,7 +33,7 @@ pageOrder: 6
 			<% end %>
     </div>
 
-			<div class="col-md-10">
+			<div class="col-md-10 col-xs-8">
 										<%= document.description %>
 
 			</div>
