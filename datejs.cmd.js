@@ -2,23 +2,24 @@
 require('datejs');
 var args = process.argv.slice(2);
 //console.log(args);
-
+//6л.  10м.  25д.
 //var arg = args[0].split(/ /);
-var arg = args[0].split('.');
+//var arg = args[0].split('.');
 
-//console.log(arg);
-years=arg[0].slice(0, -1);
-months=arg[1].slice(0, -1);
-count=years*365;
+console.log(args);
+years=args[0].match(/(\d?\d?)л./);
+months=args[0].match(/(\d?\d?)м./);
+count=years[1]*365;
+console.log(years[1],months[1]);
 
-if(arg[2]) {
-  day=arg[2].slice(0, -1);
-  count+=day*1;
+//if(arg[2]) {
+  day=args[0].match(/(\d?\d?)д./);
+  count+=day[1]*1;
 
-}
+//}
 //console.log(count);
 
-count+=(months*30);
+count+=(months[1]*30);
 //console.log(count);
 
 ///console.log(count);
