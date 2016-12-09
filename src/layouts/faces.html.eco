@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: default
 ---
-
+<div class="container">
+<div class="jumbotron">
 	<div class="page-header">
 		<h4><%= @document.firstname %> <%= @document.fathername %> <%= @document.lastname %></h4>
 	</div>
@@ -104,3 +105,5 @@ layout: page
 	    <img src="<%= file.url %>" title="<%= file.title or file.name %>" />
 	</p>
 	<% end %>
+</div>
+</div>
