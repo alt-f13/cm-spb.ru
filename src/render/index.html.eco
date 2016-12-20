@@ -15,7 +15,8 @@ layout: default
                     </div>
                 </div>
                 <div class="col-sm-8 col-xs-offset-1">
-									<div class="description handwright">
+									<div class="description">
+                    <i class="fa fa-quote-left fa-3x fa-pull-left fa-border" aria-hidden="true"></i>
 									<b>Санкт-Петербург</b> – крупнейший мегаполис мира и представить город без
 									<i>метрополитена</i> сегодня невозможно. <br>
 									Поэтому вопрос подготовки кадров для метрополитена очень актуален.

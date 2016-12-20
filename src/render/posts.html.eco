@@ -21,15 +21,15 @@ pageOrder: 6
       </small>
 
 		<div class="row list-group-item-text">
-      <div class="col-md-2 col-xs-6">
+      <div class="col-md-3 col-xs-4">
 				<% if document.img: %>
-					<img class="thumbnail" src="<%= @getThumbnail(document.img, { w: 150, h:150 }) %>" alt="<%= document.description %>">
+					<img class="thumbnail" src="<%= @getThumbnail(document.img, { w: 120 }) %>" alt="<%= document.description %>">
 	      <% else: %>
 	        <img class="thumbnail" src="/images/logo.png" alt="<%= document.description %>">
 				<% end %>
     	</div>
 
-			<div class="col-md-10 col-xs-6">
+			<div class="col-md-9 col-xs-8">
 				<%= document.description %>
 			</div>
 		</div>

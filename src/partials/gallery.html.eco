@@ -1,14 +1,28 @@
-
-<div class="row">
-<div class="col-xs-12">
 <% image_exts = ['jpg', 'JPG', 'jpeg', 'JPEG', 'png', 'PNG'] %>
-<% for file in @getDocument().getAssociatedFiles().findAll({extension: $in: image_exts}).toJSON(): %>
-	<a href="<%= @getThumbnail(file.url, "zoomcrop", { w: 1600, h: 1200 }) %>" title="<%= file.title or file.name %>" data-gallery class="thumbnail">
-			<img src="<%= @getThumbnail(file.url, "zoomcrop", { w: 100, h: 100 }) %>" alt="<%= file.title or file.name %>">
-	</a>
+
+<style>
+    .thumbnails_list li {
+        width: 100px;
+        min-height: 30px;
+        border: 1px solid #000;
+        display: -moz-inline-stack;
+        display: inline-block;
+        vertical-align: top;
+        margin: 5px;
+        zoom: 1;
+        *display: inline;
+        _height: 250px;
+    }
+</style>
+<ul class="thumbnails_list">
+	<% for file in @getDocument().getAssociatedFiles().findAll({extension: $in: image_exts}).toJSON(): %>
+		<li>
+			<a href="<%= @getThumbnail(file.url, "zoomcrop", { w: 1600, h: 1200 }) %>" title="<%= file.title or file.name %>" data-gallery class="thumbnail">
+					<img src="<%= @getThumbnail(file.url, "zoomcrop", { w: 100, h: 100 }) %>" alt="<%= file.title or file.name %>">
+			</a>
+		</li>
 	<% end %>
-</div>
-</div>
+</ul>
 <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
     <div class="slides"></div>
     <h3 class="title"></h3>

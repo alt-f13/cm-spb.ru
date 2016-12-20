@@ -4,19 +4,34 @@ $color3: #0830FF; //синий
 $color4: #0470E8; //голубой
 $color5: #04C9FF; //берюса
 
-@import url('https://fonts.googleapis.com/css?family=Lobster');
-@import url('https://fonts.googleapis.com/css?family=Bad+Script');
+//@import url('https://fonts.googleapis.com/css?family=Lobster');
+//@import url('https://fonts.googleapis.com/css?family=Bad+Script');
 
 @import "tree"; //дерево
 @import "diamonds"; //коллектив
-@import "diamonds-contacts"; //
+//@import "diamonds-contacts"; //
 @import "landing-page"; //
 @import "style"; //
 @import "icons";
 
+.description {
+	border: 2px solid #FFF;
+	border-radius: 5px;
+}
+
+.jumbotron img {
+  width: 120px;
+}
+.jumbotron {
+  margin-top: 15px;
+	margin-bottom: 15px;
+}
+.thumbnail {
+	margin-bottom: 0px !important;
+}
 .handwright {
-  //font-family: 'Lobster', cursive;
-  //font-family: 'Bad Script', cursive;
+  font-family: 'Lobster', cursive;
+  font-family: 'Bad Script', cursive;
 
 }
 .rounded {
@@ -25,16 +40,11 @@ $color5: #04C9FF; //берюса
   padding: 10px 10px 10px 10px;
   min-height: 290px;
 }
-.contact {
-	text-align: left;
-	//border: 2px solid #000;
-	//border-radius: 3px;
-	max-height: 280px;
-	margin-left: 10px;
-	margin-right: 10px;
+.contacts {
+
 	.panel-heading {
 		text-align: center;
-		height: 55px;
+		min-height: 55px;
 	}
 	ul {
 		list-style-type: none;
