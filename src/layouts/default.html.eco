@@ -23,7 +23,7 @@
 		<link rel="apple-touch-icon" href="/images/icons/apple-touch-icon-57x57.png">
 
 
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 		<% for url in @assets('css'): %><link rel="stylesheet" href="<%= url %>" /><% end %>
 
@@ -155,7 +155,10 @@ $(document).ready(function(){uhpv(has)});
 	</div>
 	<div id="footer">
 		<div class="container-fluid">
-			<ul class="nav-bottom">
+			<ul class="nav-bottom inline-block">
+				<li>
+					<i class="fa fa-3x fa-info-circle inline-block" aria-hidden="true"></i>
+				</li>
 				<% for document in @getCollection('menu2').toJSON(): %>
 					<li>
 						<a href="<%= document.url %>" property="dc:title">

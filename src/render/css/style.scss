@@ -141,9 +141,7 @@ a:hover .card .icon i{
   font-size: 25px;
   text-indent: 30px;
 }
-.jumbotron {
-  margin-bottom:  100px;
-}
+
 .navbar {
   background-color: #2F3950;
 }
@@ -256,32 +254,6 @@ p
     {
     font-size: 1.2em;
 }
-.jumbotron {
-  overflow: hidden;
-}
-#links1 {
-  display: inline-flex;
-
-}
-.thumbnail {
-  position: relative;
-  width: 100px;
-  height: 100px;
-  overflow: hidden;
-  float: left;
-  display: inline;
-}
-/*
-.thumbnail img {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  height: 100%;
-  width: auto;
-  -webkit-transform: translate(-50%,-50%);
-      -ms-transform: translate(-50%,-50%);
-          transform: translate(-50%,-50%);
-}*/
 
 .center-block {float: none !important}
 .posts_list, .posts_list:hover {
@@ -543,12 +515,7 @@ margin: 0px auto 15px;
 	padding: 20px;
 }
 
-.jumbotron img {
-  width: 100%;
-}
-.jumbotron {
-  margin-top: 15px;
-}
+
 
 .qsearch {
   cursor: pointer;
