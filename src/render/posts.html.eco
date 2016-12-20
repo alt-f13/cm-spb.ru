@@ -4,17 +4,14 @@ menutitle: Новости
 layout: page
 pageOrder: 6
 ---
-<div class="container">
-	<div class="row"></div>
-</div>
+<div class="list-group">
 
-</a>
 
-<% for document in @getCollection('posts').toJSON(): %>
-  <a href="<%= document.url %>" class="list-group-item ">
-    <h4 class="list-group-item-heading">
+	<% for document in @getCollection('posts').toJSON(): %>
+  <a href="<%= document.url %>" class="list-group-item">
+    <h6 class="list-group-item-heading">
 			<%= document.title %>
-    </h4>
+    </h6>
 
 		  <small>
         <span class="pull-right label label-primary">
@@ -24,18 +21,16 @@ pageOrder: 6
       </small>
 
 		<div class="row list-group-item-text">
-      <div class="col-md-2 col-xs-4">
-			<% if document.img: %>
-				<img class="thumbnail" src="<%= document.img %>" alt="">
-      <% else: %>
-        <img class="thumbnail" src="/images/logo.png" alt="<%= document.description %>">
+      <div class="col-md-2 col-xs-6">
+				<% if document.img: %>
+					<img class="thumbnail" src="<%= @getThumbnail(document.img, { w: 150, h:150 }) %>" alt="<%= document.description %>">
+	      <% else: %>
+	        <img class="thumbnail" src="/images/logo.png" alt="<%= document.description %>">
+				<% end %>
+    	</div>
 
-			<% end %>
-    </div>
-
-			<div class="col-md-10 col-xs-8">
-										<%= document.description %>
-
+			<div class="col-md-10 col-xs-6">
+				<%= document.description %>
 			</div>
 		</div>
 
