@@ -1,0 +1,23 @@
+{
+  "name": "cm-spb.ru",
+  "description": "cm",
+  "main": "node_modules/docpad/bin/docpad-server",
+  "authors": [
+    "galyamin.d.d@gmail.com"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "docpad-skeleton",
+    "docpad",
+    "website",
+    "bootstrap"
+  ],
+  "homepage": "http://cm-spb.ru",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

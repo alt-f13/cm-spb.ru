@@ -25,6 +25,7 @@
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 
+		<% for url in @assets('css'): %><link rel="stylesheet" href="<%= url %>" /><% end %>
 
 	<!-- Shims: IE6-8 support of HTML5 elements -->
 	<!--[if lt IE 9]>
@@ -168,6 +169,7 @@ $(document).ready(function(){uhpv(has)});
 
 	</ul>
 
+	<% for url in @assets('js'): %><script src="<%= url %>"></script><% end %>
 
 	<!-- Scripts -->
 	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
