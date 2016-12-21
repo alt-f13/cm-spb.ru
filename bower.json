@@ -19,5 +19,11 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "jquery-textfill": "^0.6.0",
+    "angular": "^1.6.0",
+    "angular-simplecouch": "*",
+    "ngHandsontable": "^0.13.0"
+  }
 }

@@ -78,6 +78,7 @@ docpadConfig = {
 				"https://rawgit.com/kimmobrunfeldt/progressbar.js/1.0.0/dist/progressbar.js"
 				#"/js/jquery.knob.min.js"
 				"/js/jquery.vide.js"
+				"/bower_components/jquery-textfill/source/jquery.textfill.min.js"
 			]
 
 
