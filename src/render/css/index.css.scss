@@ -32,10 +32,12 @@ $color5: #04C9FF; //берюса
 		overflow: visible;
 		padding: 0 0 0 0;
 		margin: 0 0 0 0;
+		width: 100%;
+		height: 100%;
 		img {
-			position: absolute;
-			width: 100%;
-			height: 100%;
+			//position: absolute;
+			width: 100px;
+			height: 150px;
 		}
 	}
 	.contacts-links {
@@ -43,14 +45,13 @@ $color5: #04C9FF; //берюса
 		width: 100%;
 		a {
 			box-sizing: border-box;
-
 			//width: 50%;
 			display: inline-block;
 			text-align: center;
 			word-break: keep-all;
 			white-space: nowrap;
 			text-transform: uppercase;
-			font-size: 10pt;
+			font-size: 1vh;
 		}
 		.contacts-links-btn {
 			font-size: 10pt;
@@ -69,7 +70,7 @@ $color5: #04C9FF; //берюса
 	}
 	.panel-footer {
 		//padding: 0 0 0 0 !important;
-		height: 40px;
+		height: 45px;
 		overflow: hidden;
 	}
 	.panel-heading {
@@ -77,6 +78,7 @@ $color5: #04C9FF; //берюса
 		font-weight: bold;
 		padding: 0 0 0 0;
 		text-transform: uppercase;
+		font-size: 1.8vw;
 	}
 	// .panel-title {
 	// 	width: 320px;

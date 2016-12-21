@@ -1,6 +1,25 @@
 ---
 title: Расписание
+menutitle: Расписание
 description: Изменения в расписании
 layout: page
 pageOrder: 8
 ---
+<link rel="stylesheet" href="/bower_components/handsontable/dist/handsontable.full.css">
+<script src="/bower_components/angular/angular.min.js" charset="utf-8"></script>
+<script src="/bower_components/angular-simplecouch/angular.simplecouch.js" charset="utf-8"></script>
+<script src="/bower_components/handsontable/dist/handsontable.full.js" charset="utf-8"></script>
+<script src="/bower_components/ngHandsontable/dist/ngHandsontable.min.js" charset="utf-8"></script>
+<script src="/bower_components/angular-resource/angular-resource.min.js" charset="utf-8"></script>
+<script src="/js/scheduler.js" charset="utf-8"></script>
+<hot-table
+         hot-id="my-handsontable"
+
+           datarows="_doc.grid.data"
+           settings="settings"
+           col-headers="_doc.grid.columns"
+           row-headers="true"
+           mergeCells="_doc.grid.mergeCells"
+         >
+          <hot-column ng-repeat="column in _doc.grid.columns" title="column" renderer="validRenderer" read-only="!authenticated"></hot-column>
+</hot-table>
