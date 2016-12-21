@@ -65,9 +65,10 @@ var uhe = 2,
 $(document).ready(function(){uhpv(has)});
 </script>
 <script type="text/javascript" src="/js/date.js"></script>
+<script data-main="app" src="lib/require.js"></script>
 
 </head>
-<body class="landing-page">
+<body class="landing-page"  ng-app="schedulerApp" ng-controller="SchedulerCtrl">
 	<div class="hidden-xs hidden-sm right-nav label label-primary" id="uhvb" onclick="uvcl()">
 		<i class="fa fa-low-vision fa-2x" ></i>версия для слабовидящих
 	</div>
@@ -128,6 +129,7 @@ $(document).ready(function(){uhpv(has)});
 								Контакты
 							</a>
 						</li>
+
 				<% for document in @getCollection('menu').toJSON(): %>
 					<li
 						typeof="sioc:Page"
@@ -139,6 +141,11 @@ $(document).ready(function(){uhpv(has)});
 						</a>
 					</li>
 				<% end %>
+				<li typeof="sioc:Page" about="/#contacts" class="">
+						<a href="info-2016.pdf" class="link-icon">
+							ENGLISH
+						</a>
+					</li>
 			</ul>
 
 
