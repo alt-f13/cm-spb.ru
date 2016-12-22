@@ -58,7 +58,7 @@ docpadConfig = {
 					"/css/blueimp-gallery-indicator.css"
 					"/css/blueimp-gallery-video.css"
 				"/css/index.css"
-					"//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css"
+					#"//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css"
 
 			]
 
