@@ -1,6 +1,5 @@
 ---
-title: Расписание
-menutitle: Расписание
+# title: Расписание
 description: Изменения в расписании
 layout: page
 pageOrder: 8
@@ -12,6 +11,10 @@ pageOrder: 8
 <script src="/bower_components/ngHandsontable/dist/ngHandsontable.min.js" charset="utf-8"></script>
 <script src="/bower_components/angular-resource/angular-resource.min.js" charset="utf-8"></script>
 <script src="/js/scheduler.js" charset="utf-8"></script>
+
+<h4>
+	{{_doc.date}}
+</h4>
 <hot-table
          hot-id="my-handsontable"
 
@@ -21,5 +24,4 @@ pageOrder: 8
            row-headers="true"
            mergeCells="_doc.grid.mergeCells"
          >
-          <hot-column ng-repeat="column in _doc.grid.columns" title="column" renderer="validRenderer" read-only="!authenticated"></hot-column>
 </hot-table>

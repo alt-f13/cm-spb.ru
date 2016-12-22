@@ -77,26 +77,26 @@ $(document).ready(function(){uhpv(has)});
 	<div class="navbar navbar-inverse">
 		<div class="container-fluid hidden-xs">
 
-			<div class="row header hidden-xs">
-				<div class="col-xs-5 hidden-xs">
+			<div class="row header">
+				<div class="col-xs-4 col-md-4 col-lg-4 hidden-sm">
 					<h6 style="color: #fff; text-align: right;">
 						САНКТ-ПЕТЕРБУРГСКОЕ ГОСУДАРСТВЕННОЕ<br>
 						БЮДЖЕТНОЕ ПРОФЕССИОНАЛЬНОЕ<br>
 						ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ
 					</h6>
 					</div>
-					<div class="col-xs-1 hidden-xs logo">
+					<div class="col-xs-1 col-md-1 col-lg-1 col-sm-1 logo">
 						<a href="/"><img src="/images/logo.png" alt=""></a>
 					</div>
-				<div class="col-xs-3">
-					<h1 style="color: #fff;">
+				<div class="col-xs-6 col-md-5 col-sm-8 col-lg-5 ">
+					<h1 style="color: #fff;" class="logo-title">
 
 							<small>КОЛЛЕДЖ</small><br>
 						МЕТРОПОЛИТЕНА
 					</h1>
 				</div>
-				<div class="col-xs-2 hidden-sm hidden-xs">
-						<div class="address">
+				<div class="col-xs-2 col-md-2 col-sm-2 col-lg-2 ">
+						<div class="address pull-right">
 							<h5>771-59-09</h5>
 							<a href="/pages/contacts.html">ул. Купчинская, д. 28</a>
 						</div>
@@ -141,9 +141,9 @@ $(document).ready(function(){uhpv(has)});
 						</a>
 					</li>
 				<% end %>
-				<li typeof="sioc:Page" about="/#contacts" class="">
-						<a href="info-2016.pdf" class="link-icon">
-							ENGLISH
+				<li typeof="sioc:Page" about="/#contacts">
+						<a href="/pages/info-2016_en.pdf" class="pull-right link-icon">
+							ENG
 						</a>
 					</li>
 			</ul>

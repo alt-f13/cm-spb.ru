@@ -7,14 +7,14 @@ layout: default
         </div>
         <div class= "container">
             <div class="row">
-                <div class="col-sm-3 hidden-xs">
+                <div class="col-sm-2 col-md-3 col-lg-4 hidden-xs photoIndex">
                     <div class="parallax-image">
                       <figure>
-											<img src="/img/avg.jpg">
-                    </figure>
+											    <img class="img-responsive"  src="/img/avg.jpg">
+                        </figure>
                     </div>
                 </div>
-                <div class="col-sm-8 col-xs-offset-1">
+                <div class="col-sm-8 col-md-7 col-lg-6 col-md-offset-2 col-lg-offset-2">
 									<div class="description">
                     <i class="fa fa-quote-left fa-3x fa-pull-left fa-border" aria-hidden="true"></i>
 									<b>Санкт-Петербург</b> – крупнейший мегаполис мира и представить город без
@@ -48,19 +48,25 @@ layout: default
     <div class="section section-features section-no-padding" >
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-3 grayblock2">
+                <div class="col-md-3 col-sm-4 col-lg-4 grayblock2">
                     <div class="card card-green">
 
 																	<div class="icon">
 																		<i class="fa fa-lg fa-fw fa-child"></i>
 																	</div>
 																	<h5 class="h5">ДОКУМЕНТЫ ДЛЯ ПОСТУПЛЕНИЯ</h5>
-																		<ul>
-																			<li><i class="fa fa-camera"></i> 6 фотографий <em>(3х4см)</em></li>
-																			<li>Документ об образовании</li>
-																			<li>Паспорт</li>
-																			<li><a class="link-icon" href="/pages/info/Анкета-заявление-2015.pdf">Заявление</a></li>
-																			<li><a class="link-icon" href="/pages/info/Договор-с-обучающимися-2015.pdf">Договор</a></li>
+																		<ul class="list-group">
+																			<li class="list-group-item">
+                                        <i class="fa fa-camera"></i>6 фотографий<em>(3х4см)</em>
+                                      </li>
+																			<li class="list-group-item">Документ об образовании</li>
+																			<li class="list-group-item">Паспорт</li>
+																			<li class="list-group-item">
+                                        <a class="link-icon" href="/pages/info/Анкета-заявление-2015.pdf">Заявление</a>
+                                      </li>
+																			<li class="list-group-item">
+                                        <a class="link-icon" href="/pages/info/Договор-с-обучающимися-2015.pdf">Договор</a>
+                                      </li>
 																		</ul>
 																	</div>
 															</div>
@@ -68,7 +74,7 @@ layout: default
 
 
 
-                <div class="col-md-6 grayblock">
+                <div class="col-md-6  col-sm-4 col-lg-4 grayblock">
                     <div class="card card-red">
 														<div class="icon">
 															<i class="fa fa-lg fa-fw fa-user-md "></i>
@@ -77,18 +83,18 @@ layout: default
                               <div class="row">
                                 <div class="col-sm-6">
                                   <h6 class="h6">ДОКУМЕНТЫ:</h6>
-																	<ul class="doc-list">
-																			<li>Cправка <i>086у</i></li>
-																			<li>Сертификат о прививках</li>
-																			<li>Медицинская карта</li>
+																	<ul class="list-group">
+																			<li class="list-group-item">Cправка <i>086у</i></li>
+																			<li class="list-group-item">Сертификат о прививках</li>
+																			<li class="list-group-item">Медицинская карта</li>
                                   </ul>
                                 </div>
                                 <div class="col-sm-6">
                                   <h6 class="h6">Справки из диспансеров:</h6>
-																				<ul class="doc-list">
-																					<li>противотуберкулезного</li>
-																					<li>наркологического</li>
-																					<li>психоневрологического</li>
+																				<ul class="list-group">
+																					<li class="list-group-item">противотуберкулезного</li>
+																					<li class="list-group-item">наркологического</li>
+																					<li class="list-group-item">психоневрологического</li>
 
 																		</ul>
                                   </div>
@@ -96,17 +102,17 @@ layout: default
 																	</div>
 																</div>
 
-                 <div class="col-md-3 grayblock2">
+                 <div class="col-md-3 col-sm-4 col-lg-4 grayblock2">
                     <div class="card card-orange">
 								            <div class="icon"><i class="fa fa-eye fa-fw fa-3x"></i></div>
 														<h5 class="h5">ДНИ ОТКРЫТЫХ ДВЕРЕЙ:</h5>
 
-								                    	<ul>
-																				<li>16 февраля 2017 в 17:00</li>
-                                        <li>30 марта 2017 в 17:00</li>
-                                        <li>20 апреля 2017 в 17:00</li>
-																				<li>20 мая 2017 в 11:00</li>
-																				<li>3 июня 2017 в 11:00</li>
+								                    	<ul class="list-group">
+																				<li class="list-group-item">16 февраля 2017 в 17:00</li>
+                                        <li class="list-group-item">30 марта 2017 в 17:00</li>
+                                        <li class="list-group-item">20 апреля 2017 в 17:00</li>
+																				<li class="list-group-item">20 мая 2017 в 11:00</li>
+																				<li class="list-group-item">3 июня 2017 в 11:00</li>
 																			</ul>
 																		</div>
 											</div>
@@ -124,7 +130,7 @@ layout: default
                     Среднее профессиональное образование с присвоением квалификации техник</h5>
                 </div>
                 <div class="row">
-                  <div class="col-md-4 grayblock">
+                  <div class="col-md-4 col-xs-4 col-sm-4 grayblock">
                     <a href="/pages/programs/avit.html">
 
                       <div class="card card-blue">
@@ -138,7 +144,7 @@ layout: default
                       </div>
                     </a>
                   </div>
-                  <div class="col-md-4 grayblock2">
+                  <div class="col-md-4 col-xs-4 col-sm-4  grayblock2">
                     <a href="/pages/programs/el2t.html">
                       <div class="card card-yellow">
                         <div class="icon">
@@ -149,7 +155,7 @@ layout: default
                       </div>
                     </a>
                   </div>
-                  <div class="col-md-4 grayblock">
+                  <div class="col-md-4 col-xs-4 col-sm-4  grayblock">
                     <a href="/pages/programs/inst.html">
                         <div class="card card-black">
                         <div class="icon">
@@ -166,7 +172,7 @@ layout: default
                   <h5 class="h5"> <i class="fa fa-university fa-5x"></i> Среднее профессиональное образование с присвоением рабочей квалификации</h5>
                 </div>
                 <div class="row">
-                  <div class="col-md-3 grayblock2">
+                  <div class="col-md-3  col-xs-3 col-sm-3 grayblock2">
                     <a href="/pages/programs/sem.html">
 
                       <div class="card card-orange">
@@ -180,7 +186,7 @@ layout: default
                     </a>
 
                   </div>
-                  <div class="col-md-3 grayblock">
+                  <div class="col-md-3 col-xs-3 col-sm-3 grayblock">
 
                     <a href="/pages/programs/sps.html">
                       <div class="card card-red">
@@ -193,7 +199,7 @@ layout: default
                     </a>
 
                   </div>
-                  <div class="col-md-3 grayblock2">
+                  <div class="col-md-3 col-xs-3 col-sm-3 grayblock2">
                     <a href="/pages/programs/etp.html">
                       <div class="card card-yellow">
                         <div class="icon">
@@ -206,7 +212,7 @@ layout: default
                     </a>
 
                   </div>
-                  <div class="col-md-3 grayblock">
+                  <div class="col-md-3 col-xs-3 col-sm-3  grayblock">
                     <a href="/pages/programs/scb.html">
 
                       <div class="card card-orange">
