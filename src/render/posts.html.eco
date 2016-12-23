@@ -23,7 +23,7 @@ pageOrder: 6
 		<div class="row list-group-item-text">
       <div class="col-md-3 col-xs-4">
 				<% if document.img: %>
-					<img class="thumbnail img-responsive" src="<%= @getThumbnail(document.img, { w: 120 }) %>" alt="<%= document.description %>">
+					<img class="thumbnail" src="<%= @getThumbnail(document.img, { w: 120 }) %>" alt="<%= document.description %>">
 	      <% else: %>
 	        <img class="thumbnail" src="/images/logo.png" alt="<%= document.description %>">
 				<% end %>

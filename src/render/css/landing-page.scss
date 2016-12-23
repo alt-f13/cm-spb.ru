@@ -817,14 +817,16 @@ vertical-align: middle;
   background-size: 100%;
 }
 
-.landing-page .parallax .container{
-  z-index: 2;
-  position: absolute;
-  top: 0;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
+.landing-page .parallax {
+  .container, .container-fluid {
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
 }
 
 .filter-gradient{
