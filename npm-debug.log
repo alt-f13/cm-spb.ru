@@ -1,0 +1,114 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/6.3.1/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'docpad-plugin-beautify@2',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.3
+3 info using node@v6.3.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData docpad-plugin-beautify@2
+8 silly fetchNamedPackageData docpad-plugin-beautify
+9 silly mapToRegistry name docpad-plugin-beautify
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'docpad-plugin-beautify',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'docpad-plugin-beautify',
+12 silly mapToRegistry   name: 'docpad-plugin-beautify',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/docpad-plugin-beautify
+14 verbose request uri https://registry.npmjs.org/docpad-plugin-beautify
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 10:48:11
+17 verbose request id 01a04d7c54da4046
+18 http request GET https://registry.npmjs.org/docpad-plugin-beautify
+19 http 200 https://registry.npmjs.org/docpad-plugin-beautify
+20 verbose headers { server: 'nginx/1.10.1',
+20 verbose headers   'content-type': 'application/json',
+20 verbose headers   'last-modified': 'Thu, 27 Mar 2014 05:51:17 GMT',
+20 verbose headers   etag: 'W/"5333bc55-1988"',
+20 verbose headers   'content-encoding': 'gzip',
+20 verbose headers   'cache-control': 'max-age=300',
+20 verbose headers   'content-length': '2126',
+20 verbose headers   'accept-ranges': 'bytes',
+20 verbose headers   date: 'Fri, 23 Dec 2016 07:48:11 GMT',
+20 verbose headers   via: '1.1 varnish',
+20 verbose headers   age: '0',
+20 verbose headers   connection: 'keep-alive',
+20 verbose headers   'x-served-by': 'cache-ams4137-AMS',
+20 verbose headers   'x-cache': 'MISS',
+20 verbose headers   'x-cache-hits': '0',
+20 verbose headers   'x-timer': 'S1482479291.399809,VS0,VE14',
+20 verbose headers   vary: 'Accept-Encoding' }
+21 silly get cb [ 200,
+21 silly get   { server: 'nginx/1.10.1',
+21 silly get     'content-type': 'application/json',
+21 silly get     'last-modified': 'Thu, 27 Mar 2014 05:51:17 GMT',
+21 silly get     etag: 'W/"5333bc55-1988"',
+21 silly get     'content-encoding': 'gzip',
+21 silly get     'cache-control': 'max-age=300',
+21 silly get     'content-length': '2126',
+21 silly get     'accept-ranges': 'bytes',
+21 silly get     date: 'Fri, 23 Dec 2016 07:48:11 GMT',
+21 silly get     via: '1.1 varnish',
+21 silly get     age: '0',
+21 silly get     connection: 'keep-alive',
+21 silly get     'x-served-by': 'cache-ams4137-AMS',
+21 silly get     'x-cache': 'MISS',
+21 silly get     'x-cache-hits': '0',
+21 silly get     'x-timer': 'S1482479291.399809,VS0,VE14',
+21 silly get     vary: 'Accept-Encoding' } ]
+22 verbose get saving docpad-plugin-beautify to /Users/alt-f13/.npm/registry.npmjs.org/docpad-plugin-beautify/.cache.json
+23 verbose correctMkdir /Users/alt-f13/.npm correctMkdir not in flight; initializing
+24 silly fetchPackageMetaData Error: No compatible version found: docpad-plugin-beautify@2
+24 silly fetchPackageMetaData Valid install targets:
+24 silly fetchPackageMetaData 2.0.0-alpha1
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:170:16)
+24 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+24 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+24 silly fetchPackageMetaData     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+24 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+24 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15)
+24 silly fetchPackageMetaData  error for docpad-plugin-beautify@2 Error: No compatible version found: docpad-plugin-beautify@2
+24 silly fetchPackageMetaData Valid install targets:
+24 silly fetchPackageMetaData 2.0.0-alpha1
+24 silly fetchPackageMetaData
+24 silly fetchPackageMetaData     at pickVersionFromRegistryDocument (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:170:16)
+24 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+24 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+24 silly fetchPackageMetaData     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+24 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+24 silly fetchPackageMetaData     at FSReqWrap.oncomplete (fs.js:123:15)
+25 silly rollbackFailedOptional Starting
+26 silly rollbackFailedOptional Finishing
+27 silly runTopLevelLifecycles Starting
+28 silly runTopLevelLifecycles Finishing
+29 silly install printInstalled
+30 verbose stack Error: No compatible version found: docpad-plugin-beautify@2
+30 verbose stack Valid install targets:
+30 verbose stack 2.0.0-alpha1
+30 verbose stack
+30 verbose stack     at pickVersionFromRegistryDocument (/usr/local/lib/node_modules/npm/lib/fetch-package-metadata.js:170:16)
+30 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/iferr/index.js:13:50
+30 verbose stack     at /usr/local/lib/node_modules/npm/lib/utils/pulse-till-done.js:20:8
+30 verbose stack     at saved (/usr/local/lib/node_modules/npm/lib/cache/caching-client.js:174:7)
+30 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/polyfills.js:210:7
+30 verbose stack     at FSReqWrap.oncomplete (fs.js:123:15)
+31 verbose cwd /Users/alt-f13/dev/cm-spb.ru
+32 error Darwin 16.1.0
+33 error argv "/usr/local/Cellar/node/6.3.1/bin/node" "/usr/local/bin/npm" "install" "docpad-plugin-beautify@2" "--save"
+34 error node v6.3.1
+35 error npm  v3.10.3
+36 error No compatible version found: docpad-plugin-beautify@2
+36 error Valid install targets:
+36 error 2.0.0-alpha1
+37 error If you need help, you may report this error at:
+37 error     <https://github.com/npm/npm/issues>
+38 verbose exit [ 1, true ]

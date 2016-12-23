@@ -3,37 +3,38 @@
 	<% for face in @getCollection('contacts').toJSON(): %>
 		<div class="col-md-4 col-sm-6 col-xs-12 col-lg-3 contacts-panel">
 			<div class="panel panel-default">
-			  <div class="panel-heading contacts-heading textfill">
+			  <div class="panel-heading contacts-heading textfill uppercase ">
 						<!-- <i class="fa fa-address-card" aria-hidden="true"></i> -->
 
-			     <h3 class="panel-title textfill">
-							<%= face.appointment %>
-					 </h3>
+			     <h5 class="contacts-title panel-title textfill">
+							<span><%= face.appointment %></span>
+					 </h5>
 			  </div>
 			  <div class="panel-body contacts-body">
-
-						<div class="col-xs-6 col-md-5 photo">
-							<img class="img-responsive" src="<%= @getThumbnail(face.img, { w: 250, h:200 }) %>" alt="<%= face.firstname %> <%= face.fathername %> <%= face.lastname %>">
+					<div class="media">
+						<div class="media-left media-middle photo">
+							<img class="media-object " src="<%= @getThumbnail(face.img, { w: 250, h:200 }) %>" alt="<%= face.firstname %> <%= face.fathername %> <%= face.lastname %>">
 						</div>
-						<div class="col-xs-6 col-md-7 info">
-							<h6 class="contact_title">
-								<%= face.firstname %><br>
-								<%= face.fathername %><br>
+						<div class="media-body">
+							<h6 class="media-heading contacts-heading">
+								<%= face.firstname %>
+								<%= face.fathername %>
 								<%= face.lastname %>
 							</h6>
-							<ul class="list-group">
+							<p class="contacts-info">
 								<% if face.time: %>
-								<li class="list-group-item list-group-item-cust ">
-									<i class="list-group-addon fa fa-2x fa-clock-o pull-right" aria-hidden="true"></i>
-										<small>Время приема:</small>
-									<br>
-									<%= face.day %>
-									<br>
-									<%= face.time %>
-								</li>
+										<i class="fa fa-2x fa-clock-o pull-left" aria-hidden="true"></i>
+											<small>Время приема:</small>
+										<br>
+										<%= face.day %>
+										<br>
+										<%= face.time %>
 								<% end %>
-							</ul>
+							</p>
 						</div>
+					</div>
+
+
 
 			  </div>
 				<div class="panel-footer">
@@ -67,11 +68,11 @@
 <script type="text/javascript">
 	$(".panel-body>.info").textfill();
 	$(".textfill").textfill({
+				maxFontPixels: 17,
+				minFontPixels: 14,
+				changeLineHeight: true,
         success: function() {
             console.log("yay!")
-        },
-        fail: function() {
-            alert("boo hoo!")
         }
     });
 
