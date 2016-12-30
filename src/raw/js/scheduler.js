@@ -8,7 +8,7 @@
  *
  * Main module of the application.
  */
-var db_name = 'gbook';
+var db_name = 'cm-spb';
 
 var $app = angular
   .module('schedulerApp', [
@@ -85,5 +85,5 @@ var $app = angular
 
 		}
 		$scope._get(_today.add(1).day());
- 
+
   });

@@ -50,31 +50,42 @@ layout: default
             <div class="row">
                 <div class="col-md-3 col-sm-3 col-lg-3 grayblock2">
                     <div class="card card-green">
+                        <div class="card-header">
+                          <div class="icon">
+                            <i class="fa fa-lg fa-fw fa-child"></i>
+                          </div>
+                          <div class="card-header-text">
+                            <h5 class="h5">ДОКУМЕНТЫ ДЛЯ ПОСТУПЛЕНИЯ</h5>
+                          </div>
+                        </div>
+                        <div class="card-body">
+                          <div class="list-group">
+                            <div class="list-group-item">
+														<i class="fa fa-user-circle" aria-hidden="true"></i>
+                              6 фотографий <em>(3х4см)</em>
+                            </div>
+                            <div class="list-group-item">
+															<i class="fa fa-file-text-o" aria-hidden="true"></i>
+															Документ об образовании
+                            </div>
+                            <div class="list-group-item">
+																<i class="fa fa-address-card-o"></i>
+														                             Паспорт
+                            </div>
+                            <a class="list-group-item" href="/pages/info/Анкета-заявление-2015.pdf">
+															<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
 
-																	<div class="icon">
-																		<i class="fa fa-lg fa-fw fa-child"></i>
-																	</div>
-																	<h5 class="h5">ДОКУМЕНТЫ ДЛЯ ПОСТУПЛЕНИЯ</h5>
-																		<div class="list-group">
-																			<div class="list-group-item">
-                                        <i class="fa fa-camera">
-                                        </i>6 фотографий<em>(3х4см)</em>
-                                      </div>
-																			<div class="list-group-item">
-																				Документ об образовании
-																			</div>
-																			<div class="list-group-item">
-																				Паспорт
-																			</div>
-																			<div class="list-group-item">
-                                        <a class="link-icon" href="/pages/info/Анкета-заявление-2015.pdf">Заявление</a>
-                                      </div>
-																			<div class="list-group-item">
-                                        <a class="link-icon" href="/pages/info/Договор-с-обучающимися-2015.pdf">Договор</a>
-                                      </div>
-																		</div>
-																	</div>
-															</div>
+																Заявление
+                            </a>
+														<a class="list-group-item" href="/pages/info/Договор-с-обучающимися-2015.pdf">
+															<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
+
+															Договор
+														</a>
+                          </div>
+                        </div>
+  										</div>
+  								</div>
 
 
 

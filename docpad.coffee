@@ -58,27 +58,26 @@ docpadConfig = {
 					"/css/blueimp-gallery-indicator.css"
 					"/css/blueimp-gallery-video.css"
 				"/css/index.css"
+				"/bower_components/handsontable/dist/handsontable.full.css"
 					#"//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css"
 
 			]
 
 			# Scripts
 			scripts: [
-				#"//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"
-				#"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"
-				#"/vendor/twitter-bootstrap/dist/js/bootstrap.min.js"
 				"//netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
 				"//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"
-				#"/js/bootstrap-image-gallery.js"
 				"/js/tree.js"
 				"/js/uhpv-full.min.js"
 				"http://pupunzi.com/mb.components/mb.YTPlayer/demo/inc/jquery.mb.YTPlayer.js"
 				"/js/jquery.diamonds.js"
 				"/js/date.js"
 				"https://rawgit.com/kimmobrunfeldt/progressbar.js/1.0.0/dist/progressbar.js"
-				#"/js/jquery.knob.min.js"
 				"/js/jquery.vide.js"
 				"/bower_components/jquery-textfill/source/jquery.textfill.min.js"
+				"/bower_components/handsontable/dist/handsontable.full.js"
+				"/bower_components/ngHandsontable/dist/ngHandsontable.min.js"
+				"/bower_components/angular-resource/angular-resource.min.js"
 			]
 
 
