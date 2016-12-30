@@ -29,6 +29,7 @@
 										<%= face.day %>
 										<br>
 										<%= face.time %>
+								
 								<% end %>
 							</p>
 						</div>
