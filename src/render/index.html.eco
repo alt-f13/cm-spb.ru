@@ -1,346 +1,349 @@
 ---
 layout: default
 ---
-    <div class="parallax filter-gradient blue" data-color="blue">
-        <div class="parallax-background">
-            <img class="pull-right" src="/img/bg.building.png">
-        </div>
-        <div class= "container-fluid">
-            <div class="row">
-                <div class="col-sm-4 col-md-4 col-lg-4 hidden-xs photoIndex">
-                    <div class="parallax-image">
-                      <figure>
-											    <img class="img-responsive"  src="/img/avg.jpg">
-                        </figure>
-                    </div>
-                </div>
-                <div class="col-sm-7 col-md-7 col-lg-7 col-md-offset-1 col-lg-offset-1">
-									<div class="description">
-                    <i class="fa fa-quote-left fa-3x fa-pull-left fa-border" aria-hidden="true"></i>
-									<b>Санкт-Петербург</b> – крупнейший мегаполис мира и представить город без
-									<i>метрополитена</i> сегодня невозможно. <br>
-									Поэтому вопрос подготовки кадров для метрополитена очень актуален.
-									Приоритетной задачей колледжа является развитие <i>инновационного образования</i>,
-									ориентированного, прежде всего, на интересы города,
-									на стратегическое партнерство нашего учреждения и
-									<i>Петербургского метрополитена</i>, других предприятий города,
-									на повышение престижа рабочих профессий.
-									<hr>
-									<B>Колледж метрополитена</b> является единственным образовательным учреждением <i>Санкт-Петербурга</i> и России
-										в области <i>подготовки профессиональных кадров для метрополитена</i>.
-										Высокопрофессиональный инженерно-педагогический коллектив,
-										широко использующий <b>инновационные образовательные технологии</b>,
-										современные компьютерные программно-аппаратные комплексы,
-										реализует систему подготовки рабочих и специалистов для <i>метрополитена</i> с учетом
-										<i>новых федеральных образовательных стандартов</i>.
-									Сегодня, в условиях стремительных изменений в образовательной сфере,
-									 коллектив колледжа сохраняет всё лучшее, что было сделано более
-									 чем 40 летнюю историю существования нашего <i>образовательного учреждения</i> и,
-									 наряду с этим, старается соответствовать всем требованиям, которые
-									 диктуют современные условия работы.
+<div class="landing-page">
 
-                	</div>
-							</div>
-            </div>
-        </div>
-    </div>
-
-    <div class="section section-features section-no-padding" >
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-3 col-sm-3 col-lg-3 grayblock2">
-                    <div class="card card-green">
-                        <div class="card-header">
-                          <div class="icon">
-                            <i class="fa fa-lg fa-fw fa-child"></i>
-                          </div>
-                          <div class="card-header-text">
-                            <h5 class="h5">ДОКУМЕНТЫ ДЛЯ ПОСТУПЛЕНИЯ</h5>
-                          </div>
-                        </div>
-                        <div class="card-body">
-                          <div class="list-group">
-                            <div class="list-group-item">
-														<i class="fa fa-user-circle" aria-hidden="true"></i>
-                              6 фотографий <em>(3х4см)</em>
-                            </div>
-                            <div class="list-group-item">
-															<i class="fa fa-file-text-o" aria-hidden="true"></i>
-															Документ об образовании
-                            </div>
-                            <div class="list-group-item">
-																<i class="fa fa-address-card-o"></i>
-														                             Паспорт
-                            </div>
-                            <a class="list-group-item" href="/pages/info/Анкета-заявление-2015.pdf">
-															<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-
-																Заявление
-                            </a>
-														<a class="list-group-item" href="/pages/info/Договор-с-обучающимися-2015.pdf">
-															<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-
-															Договор
-														</a>
-                          </div>
-                        </div>
-  										</div>
-  								</div>
-
-
-
-
-                <div class="col-md-6  col-sm-6 col-lg-6 grayblock">
-                    <div class="card card-red">
-														<div class="icon">
-															<i class="fa fa-lg fa-fw fa-user-md "></i>
-														</div>
-														<h5 class="h5">МЕДИЦИНСКАЯ КОМИССИЯ</h5>
-                              <div class="row">
-                                <div class="col-sm-6">
-                                  <h6 class="h6">ДОКУМЕНТЫ:</h6>
-																	<div class="list-group">
-																			<div class="list-group-item">
-																				Cправка <i>086у</i>
-																			</div>
-																			<div class="list-group-item">
-																				Сертификат о прививках
-																			</div>
-																			<div class="list-group-item">
-																				Медицинская карта
-																			</div>
-                                  </div>
-                                </div>
-                                <div class="col-sm-6">
-                                  <h6 class="h6">Справки из диспансеров:</h6>
-																				<div class="list-group">
-																					<div class="list-group-item">
-																						противотуберкулезного
-																					</div>
-																					<div class="list-group-item">
-																						наркологического
-																					</div>
-																					<div class="list-group-item">
-																						психоневрологического
-																					</div>
-
-																		</div>
-                                  </div>
-                                </div>
-																	</div>
-																</div>
-
-                 <div class="col-md-3 col-sm-3 col-lg-3 grayblock2">
-                    <div class="card card-orange">
-								            <div class="icon"><i class="fa fa-eye fa-fw fa-3x"></i></div>
-														<h5 class="h5">ДНИ ОТКРЫТЫХ ДВЕРЕЙ:</h5>
-
-								                    	<div class="list-group">
-																				<div class="list-group-item">
-																					16 февраля 2017 в 17:00
-																				</div>
-                                        <div class="list-group-item">
-																					30 марта 2017 в 17:00
-																				</div>
-                                        <div class="list-group-item">
-																					20 апреля 2017 в 17:00
-																				</div>
-																				<div class="list-group-item">
-																					20 мая 2017 в 11:00
-																				</div>
-																				<div class="list-group-item">
-																					3 июня 2017 в 11:00
-																				</div>
-																			</div>
-																		</div>
-											</div>
-                </div>
-            </div>
-        </div>
-        <section class="content-section section-features video-section" id="programs">
-          <!-- <div class="pattern-overlay" data-vide-bg="/video/Metro_obshii.mp4" data-vide-options="loop: false, muted: false, position: 0% 0%"> -->
-          <a id="bgndVideo" class="player" data-property="{videoURL:'https://youtu.be/t2my91byjR4',containment:'.video-section', quality:'720p', autoPlay:true, mute:true, opacity:1}">bg</a>
-            <div class="container">
+      <div class="parallax filter-gradient blue" data-color="blue">
+          <div class="parallax-background">
+              <img class="pull-right" src="/img/bg.building.png">
+          </div>
+          <div class= "container-fluid">
               <div class="row">
-                <div class="container">
-                <div class="programs-ico">
-                    <h5 class="h5"><i class="fa fa-graduation-cap fa-5x big_image"></i>
-                    Среднее профессиональное образование с присвоением квалификации техник</h5>
-                </div>
-                <div class="row">
-                  <div class="col-md-4 col-xs-4 col-sm-4 grayblock">
-                    <a href="/pages/programs/avit.html">
-
-                      <div class="card card-blue">
-                        <div class="icon">
-                          <i class="fa fa-subway fa-5x"></i>
-                        </div>
-                        <div class="text">
-                          <h6>Автоматика и телемеханика<br>
-                            <!-- <small>на железнодорожном транспорте</small></h6> -->
-                        </div>
+                  <div class="col-sm-4 col-md-4 col-lg-4 hidden-xs photoIndex">
+                      <div class="parallax-image">
+                        <figure>
+  											    <img class="img-responsive"  src="/img/avg.jpg">
+                          </figure>
                       </div>
-                    </a>
                   </div>
-                  <div class="col-md-4 col-xs-4 col-sm-4  grayblock2">
-                    <a href="/pages/programs/el2t.html">
-                      <div class="card card-yellow">
-                        <div class="icon">
-                          <i class="fa  fa-bolt fa-5x"></i>
-                        </div>
-                        <h6>Электроснабжение<br>
-                          <small>по отраслям</small></h6>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="col-md-4 col-xs-4 col-sm-4  grayblock">
-                    <a href="/pages/programs/inst.html">
-                        <div class="card card-black">
-                        <div class="icon">
-                          <i class="fa fa-laptop fa-5x"></i>
-                        </div>
-                        <h6>Информационные системы<br>
-                          <small>по отраслям</small></h6>
-                      </div>
-                    </a>
-                  </div>
+                  <div class="col-sm-7 col-md-7 col-lg-7 col-md-offset-1 col-lg-offset-1">
+  									<div class="description">
+                      <i class="fa fa-quote-left fa-3x fa-pull-left fa-border" aria-hidden="true"></i>
+  									<b>Санкт-Петербург</b> – крупнейший мегаполис мира и представить город без
+  									<i>метрополитена</i> сегодня невозможно. <br>
+  									Поэтому вопрос подготовки кадров для метрополитена очень актуален.
+  									Приоритетной задачей колледжа является развитие <i>инновационного образования</i>,
+  									ориентированного, прежде всего, на интересы города,
+  									на стратегическое партнерство нашего учреждения и
+  									<i>Петербургского метрополитена</i>, других предприятий города,
+  									на повышение престижа рабочих профессий.
+  									<hr>
+  									<B>Колледж метрополитена</b> является единственным образовательным учреждением <i>Санкт-Петербурга</i> и России
+  										в области <i>подготовки профессиональных кадров для метрополитена</i>.
+  										Высокопрофессиональный инженерно-педагогический коллектив,
+  										широко использующий <b>инновационные образовательные технологии</b>,
+  										современные компьютерные программно-аппаратные комплексы,
+  										реализует систему подготовки рабочих и специалистов для <i>метрополитена</i> с учетом
+  										<i>новых федеральных образовательных стандартов</i>.
+  									Сегодня, в условиях стремительных изменений в образовательной сфере,
+  									 коллектив колледжа сохраняет всё лучшее, что было сделано более
+  									 чем 40 летнюю историю существования нашего <i>образовательного учреждения</i> и,
+  									 наряду с этим, старается соответствовать всем требованиям, которые
+  									 диктуют современные условия работы.
 
-                </div>
-                <div>
-                  <h5 class="h5"> <i class="fa fa-university fa-5x"></i> Среднее профессиональное образование с присвоением рабочей квалификации</h5>
-                </div>
-                <div class="row">
-                  <div class="col-md-3  col-xs-3 col-sm-3 grayblock2">
-                    <a href="/pages/programs/sem.html">
+                  	</div>
+  							</div>
+              </div>
+          </div>
+      </div>
 
-                      <div class="card card-orange">
-                        <div class="icon">
-                          <i class="fa fa-wrench fa-5x"></i>
-                        </div>
-                        <h6>Слесарь-электрик<br>
-                          <small>метрополитена</small></h6>
+      <div class="section section-features section-no-padding" >
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col-md-3 col-sm-3 col-lg-3 grayblock2">
+                      <div class="card card-green">
+                          <div class="card-header">
+                            <div class="icon">
+                              <i class="fa fa-lg fa-fw fa-child"></i>
+                            </div>
+                            <div class="card-header-text">
+                              <h5 class="h5">ДОКУМЕНТЫ ДЛЯ ПОСТУПЛЕНИЯ</h5>
+                            </div>
+                          </div>
+                          <div class="card-body">
+                            <div class="list-group">
+                              <div class="list-group-item">
+  														<i class="fa fa-user-circle" aria-hidden="true"></i>
+                                6 фотографий <em>(3х4см)</em>
+                              </div>
+                              <div class="list-group-item">
+  															<i class="fa fa-file-text-o" aria-hidden="true"></i>
+  															Документ об образовании
+                              </div>
+                              <div class="list-group-item">
+  																<i class="fa fa-address-card-o"></i>
+  														                             Паспорт
+                              </div>
+                              <a class="list-group-item" href="/pages/info/Анкета-заявление-2015.pdf">
+  															<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
 
-                      </div>
-                    </a>
+  																Заявление
+                              </a>
+  														<a class="list-group-item" href="/pages/info/Договор-с-обучающимися-2015.pdf">
+  															<i class="fa fa-file-pdf-o" aria-hidden="true"></i>
 
-                  </div>
-                  <div class="col-md-3 col-xs-3 col-sm-3 grayblock">
+  															Договор
+  														</a>
+                            </div>
+                          </div>
+    										</div>
+    								</div>
 
-                    <a href="/pages/programs/sps.html">
+
+
+
+                  <div class="col-md-6  col-sm-6 col-lg-6 grayblock">
                       <div class="card card-red">
-                        <div class="icon">
-                          <i class="fa fa-cogs fa-5x"></i>
-                        </div>
-                        <h6>Слесарь<br>
-                          <small>по обслуживанию и ремонту подвижного состава</small></h6>
-                      </div>
-                    </a>
+  														<div class="icon">
+  															<i class="fa fa-lg fa-fw fa-user-md "></i>
+  														</div>
+  														<h5 class="h5">МЕДИЦИНСКАЯ КОМИССИЯ</h5>
+                                <div class="row">
+                                  <div class="col-sm-6">
+                                    <h6 class="h6">ДОКУМЕНТЫ:</h6>
+  																	<div class="list-group">
+  																			<div class="list-group-item">
+  																				Cправка <i>086у</i>
+  																			</div>
+  																			<div class="list-group-item">
+  																				Сертификат о прививках
+  																			</div>
+  																			<div class="list-group-item">
+  																				Медицинская карта
+  																			</div>
+                                    </div>
+                                  </div>
+                                  <div class="col-sm-6">
+                                    <h6 class="h6">Справки из диспансеров:</h6>
+  																				<div class="list-group">
+  																					<div class="list-group-item">
+  																						противотуберкулезного
+  																					</div>
+  																					<div class="list-group-item">
+  																						наркологического
+  																					</div>
+  																					<div class="list-group-item">
+  																						психоневрологического
+  																					</div>
 
-                  </div>
-                  <div class="col-md-3 col-xs-3 col-sm-3 grayblock2">
-                    <a href="/pages/programs/etp.html">
-                      <div class="card card-yellow">
-                        <div class="icon">
-                          <i class="fa fa-bolt fa-5x"></i>
-                        </div>
-                        <h6>Электромонтер<br>
-                          <small>тяговой подстанции</small></h6>
+  																		</div>
+                                    </div>
+                                  </div>
+  																	</div>
+  																</div>
 
-                      </div>
-                    </a>
-
-                  </div>
-                  <div class="col-md-3 col-xs-3 col-sm-3  grayblock">
-                    <a href="/pages/programs/scb.html">
-
+                   <div class="col-md-3 col-sm-3 col-lg-3 grayblock2">
                       <div class="card card-orange">
-                        <div class="icon">
-                          <i class="fa fa-chain-broken fa-5x"></i>
+  								            <div class="icon"><i class="fa fa-eye fa-fw fa-3x"></i></div>
+  														<h5 class="h5">ДНИ ОТКРЫТЫХ ДВЕРЕЙ:</h5>
+
+  								                    	<div class="list-group">
+  																				<div class="list-group-item">
+  																					16 февраля 2017 в 17:00
+  																				</div>
+                                          <div class="list-group-item">
+  																					30 марта 2017 в 17:00
+  																				</div>
+                                          <div class="list-group-item">
+  																					20 апреля 2017 в 17:00
+  																				</div>
+  																				<div class="list-group-item">
+  																					20 мая 2017 в 11:00
+  																				</div>
+  																				<div class="list-group-item">
+  																					3 июня 2017 в 11:00
+  																				</div>
+  																			</div>
+  																		</div>
+  											</div>
+                  </div>
+              </div>
+          </div>
+          <section class="content-section section-features video-section" id="programs">
+            <!-- <div class="pattern-overlay" data-vide-bg="/video/Metro_obshii.mp4" data-vide-options="loop: false, muted: false, position: 0% 0%"> -->
+            <a id="bgndVideo" class="player" data-property="{videoURL:'https://youtu.be/t2my91byjR4',containment:'.video-section', quality:'720p', autoPlay:true, mute:true, opacity:1}">bg</a>
+              <div class="container">
+                <div class="row">
+                  <div class="container">
+                  <div class="programs-ico">
+                      <h5 class="h5"><i class="fa fa-graduation-cap fa-5x big_image"></i>
+                      Среднее профессиональное образование с присвоением квалификации техник</h5>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4 col-xs-4 col-sm-4 grayblock">
+                      <a href="/pages/programs/avit.html">
+
+                        <div class="card card-blue">
+                          <div class="icon">
+                            <i class="fa fa-subway fa-5x"></i>
+                          </div>
+                          <div class="text">
+                            <h6>Автоматика и телемеханика<br>
+                              <!-- <small>на железнодорожном транспорте</small></h6> -->
+                          </div>
                         </div>
-                        <h6>Электромонтер устройств сигнализации, централизации, блокировки<small>(СЦБ)</small></h6>
+                      </a>
+                    </div>
+                    <div class="col-md-4 col-xs-4 col-sm-4  grayblock2">
+                      <a href="/pages/programs/el2t.html">
+                        <div class="card card-yellow">
+                          <div class="icon">
+                            <i class="fa  fa-bolt fa-5x"></i>
+                          </div>
+                          <h6>Электроснабжение<br>
+                            <small>по отраслям</small></h6>
+                        </div>
+                      </a>
+                    </div>
+                    <div class="col-md-4 col-xs-4 col-sm-4  grayblock">
+                      <a href="/pages/programs/inst.html">
+                          <div class="card card-black">
+                          <div class="icon">
+                            <i class="fa fa-laptop fa-5x"></i>
+                          </div>
+                          <h6>Информационные системы<br>
+                            <small>по отраслям</small></h6>
+                        </div>
+                      </a>
+                    </div>
 
-                      </div>
-                    </a>
+                  </div>
+                  <div>
+                    <h5 class="h5"> <i class="fa fa-university fa-5x"></i> Среднее профессиональное образование с присвоением рабочей квалификации</h5>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-3  col-xs-3 col-sm-3 grayblock2">
+                      <a href="/pages/programs/sem.html">
 
+                        <div class="card card-orange">
+                          <div class="icon">
+                            <i class="fa fa-wrench fa-5x"></i>
+                          </div>
+                          <h6>Слесарь-электрик<br>
+                            <small>метрополитена</small></h6>
+
+                        </div>
+                      </a>
+
+                    </div>
+                    <div class="col-md-3 col-xs-3 col-sm-3 grayblock">
+
+                      <a href="/pages/programs/sps.html">
+                        <div class="card card-red">
+                          <div class="icon">
+                            <i class="fa fa-cogs fa-5x"></i>
+                          </div>
+                          <h6>Слесарь<br>
+                            <small>по обслуживанию и ремонту подвижного состава</small></h6>
+                        </div>
+                      </a>
+
+                    </div>
+                    <div class="col-md-3 col-xs-3 col-sm-3 grayblock2">
+                      <a href="/pages/programs/etp.html">
+                        <div class="card card-yellow">
+                          <div class="icon">
+                            <i class="fa fa-bolt fa-5x"></i>
+                          </div>
+                          <h6>Электромонтер<br>
+                            <small>тяговой подстанции</small></h6>
+
+                        </div>
+                      </a>
+
+                    </div>
+                    <div class="col-md-3 col-xs-3 col-sm-3  grayblock">
+                      <a href="/pages/programs/scb.html">
+
+                        <div class="card card-orange">
+                          <div class="icon">
+                            <i class="fa fa-chain-broken fa-5x"></i>
+                          </div>
+                          <h6>Электромонтер устройств сигнализации, централизации, блокировки<small>(СЦБ)</small></h6>
+
+                        </div>
+                      </a>
+
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        </section>
+          </section>
 
-					<div id="map"></div>
-					<!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script> -->
-					<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARQryn-lx7tbexD1fciSgO5zNr4i2BQIQ&sensor=false"></script>
-					<script type="text/javascript" src="/js/gmaps.js"></script>
-          <!-- <div class="section section-contact  section-no-padding full-background filter-gradient blue" style="background-image:url('https://lh3.googleusercontent.com/wZJW30TRsD1h9m7ysnE4dC93ew9fgavb1EVt81UpQ74exMwzHZZ7li2a6OxMawhKFfhrsTTS7tIj8LL9v2GCWID1ALl1prO_ECzq7n3x5r1gx56-mj2rfO7FZbcfbIJabAd-Cst1OFeUMQeeOPum8Q0V7Lq_ptTPfmBfGJt8BWtgpnLiVfNh8fGmNpGHakyrK63444esHEZvKC9rTQLm3n36uv0LDRfBsOv0xQEi0CcwyHYJXFeSaSz6uTN_2gnZyYeR2mxdMVqOrwwUZ-chEvLN-XvJA6_c9qvG-SQtyPC6oPKDyfVjC1PRdD_Udkk5DDcGw6ujl57jI6x6MsOQtMlKyjyBTkCZYiFlq7pdjh-8ORh17uTQynAtI9BdkD2Bfv-wNaRs3DgKOJsVqD9eB-lPHM6aD-1BPzjhEL1vLUO2twyIUd3wN5BcNT3CqpubW0AyuUICOFN79BpCC9xInorypAFLC16tub-G90GxIqpjyV1mrkUiUurWvNn7IwOgcIuLhTrz1bImrZNkA1TVYvRVW2p8jX8YL8tdEdN3yg=w1072-h804-no');"> -->
-            <div class="section section-contact">
+  					<div id="map"></div>
+  					<!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script> -->
+  					<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyARQryn-lx7tbexD1fciSgO5zNr4i2BQIQ&sensor=false"></script>
+  					<script type="text/javascript" src="/js/gmaps.js"></script>
+            <!-- <div class="section section-contact  section-no-padding full-background filter-gradient blue" style="background-image:url('https://lh3.googleusercontent.com/wZJW30TRsD1h9m7ysnE4dC93ew9fgavb1EVt81UpQ74exMwzHZZ7li2a6OxMawhKFfhrsTTS7tIj8LL9v2GCWID1ALl1prO_ECzq7n3x5r1gx56-mj2rfO7FZbcfbIJabAd-Cst1OFeUMQeeOPum8Q0V7Lq_ptTPfmBfGJt8BWtgpnLiVfNh8fGmNpGHakyrK63444esHEZvKC9rTQLm3n36uv0LDRfBsOv0xQEi0CcwyHYJXFeSaSz6uTN_2gnZyYeR2mxdMVqOrwwUZ-chEvLN-XvJA6_c9qvG-SQtyPC6oPKDyfVjC1PRdD_Udkk5DDcGw6ujl57jI6x6MsOQtMlKyjyBTkCZYiFlq7pdjh-8ORh17uTQynAtI9BdkD2Bfv-wNaRs3DgKOJsVqD9eB-lPHM6aD-1BPzjhEL1vLUO2twyIUd3wN5BcNT3CqpubW0AyuUICOFN79BpCC9xInorypAFLC16tub-G90GxIqpjyV1mrkUiUurWvNn7IwOgcIuLhTrz1bImrZNkA1TVYvRVW2p8jX8YL8tdEdN3yg=w1072-h804-no');"> -->
+              <div class="section section-contact">
 
-				<div class="container-fluid text-center" id="contacts">
-						<div class="row">
-								<div class="col-lg-8 col-lg-offset-2">
-										<h2>Контакты:</h2>
-										<h4>Купчинская ул., д 28<small> Санкт-Петербург</small> 771-59-09 <a href="mailto:info@cm-spb.ru">info@cm-spb.ru</a></h4>
+  				<div class="container-fluid text-center" id="contacts">
+  						<div class="row">
+  								<div class="col-lg-8 col-lg-offset-2">
+  										<h2>Контакты:</h2>
+  										<h4>Купчинская ул., д 28<small> Санкт-Петербург</small> 771-59-09 <a href="mailto:info@cm-spb.ru">info@cm-spb.ru</a></h4>
 
 
-								</div>
-						</div>
-            <div class="row">
-            	<%- @partial('contacts') %>
-            </div>
+  								</div>
+  						</div>
+              <div class="row">
+              	<%- @partial('contacts') %>
+              </div>
 
-				</div>
-		</div>
+  				</div>
+  		</div>
 
-    <script type="text/javascript">
-        var big_image;
-        $().ready(function(){
+      <script type="text/javascript">
+          var big_image;
+          $().ready(function(){
 
-            responsive = $(window).width();
+              responsive = $(window).width();
 
-            if (responsive >= 768){
-                big_image = $('.parallax-background').find('img');
-                console.log(big_image);
-                $(window).on('scroll',function(){
-                    parallax();
-                });
-            }
+              if (responsive >= 768){
+                  big_image = $('.parallax-background').find('img');
+                  console.log(big_image);
+                  $(window).on('scroll',function(){
+                      parallax();
+                  });
+              }
 
-            $('.selector').click(function() {
-                SelectColor(this);
-            });
-        });
+              $('.selector').click(function() {
+                  SelectColor(this);
+              });
+          });
 
-        function SelectColor(btn) {
-            oldColor = $('.filter-gradient').attr('data-color');
-            newColor = $(btn).attr('data-color');
+          function SelectColor(btn) {
+              oldColor = $('.filter-gradient').attr('data-color');
+              newColor = $(btn).attr('data-color');
 
-            oldButton = $('#Demo').attr('data-button');
-            newButton = $(btn).attr('data-button');
+              oldButton = $('#Demo').attr('data-button');
+              newButton = $(btn).attr('data-button');
 
-            $('.filter-gradient').removeClass(oldColor).addClass(newColor).attr('data-color',newColor);
+              $('.filter-gradient').removeClass(oldColor).addClass(newColor).attr('data-color',newColor);
 
-            $('#Demo').removeClass("btn-"+oldButton).addClass("btn-"+newButton).attr('data-button',newButton);
+              $('#Demo').removeClass("btn-"+oldButton).addClass("btn-"+newButton).attr('data-button',newButton);
 
-            $('.carousel-indicators').removeClass("carousel-indicators-"+oldColor).addClass("carousel-indicators-"+newColor);
+              $('.carousel-indicators').removeClass("carousel-indicators-"+oldColor).addClass("carousel-indicators-"+newColor);
 
-            $('.card').removeClass("card-"+oldColor).addClass("card-"+newColor);
+              $('.card').removeClass("card-"+oldColor).addClass("card-"+newColor);
 
-            $('.selector').parent().removeClass('active');
-            $(btn).parent().addClass('active');
-        }
+              $('.selector').parent().removeClass('active');
+              $(btn).parent().addClass('active');
+          }
 
-       var parallax = function() {
-            var current_scroll = $(this).scrollTop();
+         var parallax = function() {
+              var current_scroll = $(this).scrollTop();
 
-            oVal = ($(window).scrollTop() / 3);
-            big_image.css('top',oVal);
-        };
-        $(document).ready(function () {
+              oVal = ($(window).scrollTop() / 3);
+              big_image.css('top',oVal);
+          };
+          $(document).ready(function () {
 
-    $(".player").mb_YTPlayer();
+      $(".player").mb_YTPlayer();
 
-});
-    </script>
-	<script src="/js/SmoothScroll.js"></script>
+  });
+      </script>
+  	<script src="/js/SmoothScroll.js"></script>
+</div>
