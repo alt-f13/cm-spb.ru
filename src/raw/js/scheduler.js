@@ -18,7 +18,7 @@ var $app = angular
   ])
   .config(function ($httpProvider,couchConfigProvider) {
 		couchConfigProvider.setServer("https://couch.2d-it.ru");
-    couchConfigProvider.setDB('gbook');
+    couchConfigProvider.setDB('cm-spb');
   });
 	angular.module('schedulerApp')
   .controller('SchedulerCtrl', function ($scope, couchdb) {
@@ -54,9 +54,10 @@ var $app = angular
 			readOnly: true,
       rowHeights: 50,
       stretchH: 'all',
-      colWidths: 30, // can also be a number or a function
+      colWidths: 50, // can also be a number or a function
       rowHeaders: true,
       colHeaders: true,
+			height: 550
     };
 		var foo=1;
 		var _today=Date.today();

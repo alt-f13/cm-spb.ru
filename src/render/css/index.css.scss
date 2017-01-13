@@ -14,7 +14,8 @@ $color5: #04C9FF; //берюса
 @import "style"; //
 @import "icons";
 @import "blocks";
-
+@import "table";
+@import "/bower_components/handsontable/plugins/bootstrap/handsontable.bootstrap.css";
 .photoIndex {
 	text-align: left;
 	img {
@@ -149,7 +150,6 @@ $color5: #04C9FF; //берюса
 .handwright {
   font-family: 'Lobster', cursive;
   font-family: 'Bad Script', cursive;
-
 }
 .rounded {
   border-radius: 5px 5px 5px 5px;
