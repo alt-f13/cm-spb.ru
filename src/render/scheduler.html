@@ -1,7 +1,7 @@
 ---
 title: Изменения в расписании
 description: Изменения в расписании
-layout: page
+layout: default
 menutitle: Расписание
 pageOrder: 8
 ---
@@ -11,18 +11,28 @@ pageOrder: 8
 <script src="/bower_components/ngHandsontable/dist/ngHandsontable.min.js" charset="utf-8"></script>
 <script src="/bower_components/angular-resource/angular-resource.min.js" charset="utf-8"></script>
 -->
+<div class="container-fluid">
+	<div class="row ">
+
+		<h4>
+			{{_doc.date}}
+		</h4>
+	</div>
+	<div class="row schedule">
+		<hot-table
+		         hot-id="my-handsontable"
+
+		           datarows="_doc.grid.data"
+		           settings="settings"
+		           col-headers="_doc.grid.columns"
+		           row-headers="true"
+		           mergeCells="_doc.grid.mergeCells"
+
+		         >
+		</hot-table>
+
+
+	</div>
+</div>
+
 <script src="/js/scheduler.js" charset="utf-8"></script>
-
-<h4>
-	{{_doc.date}}
-</h4>
-<hot-table
-         hot-id="my-handsontable"
-
-           datarows="_doc.grid.data"
-           settings="settings"
-           col-headers="_doc.grid.columns"
-           row-headers="true"
-           mergeCells="_doc.grid.mergeCells"
-         >
-</hot-table>

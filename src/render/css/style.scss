@@ -538,22 +538,3 @@ margin: 0px auto 15px;
 #mainTable td {
   background-color: #fff ;
 }
-
-
-/* #8a1314 */
-@media (min-width: 992px) {
-  .col-md-4 > .panel > .panel-body {
-    min-height: 250px;
-  }
-  .col-md-4 {
-    height: 100%;
-    vertical-align: middle;
-  }
-
-}
-@media screen and (max-width: 640px) {
-	table {
-		overflow-x: auto;
-		display: block;
-	}
-}
