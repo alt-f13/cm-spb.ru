@@ -4,6 +4,8 @@ $color3: #0830FF; //синий
 $color4: #0470E8; //голубой
 $color5: #04C9FF; //берюса
 
+$footer: #292F3C;
+
 //@import url('https://fonts.googleapis.com/css?family=Lobster');
 //@import url('https://fonts.googleapis.com/css?family=Bad+Script');
 
@@ -16,6 +18,42 @@ $color5: #04C9FF; //берюса
 @import "blocks";
 @import "table";
 @import "/bower_components/handsontable/plugins/bootstrap/handsontable.bootstrap.css";
+
+#push, .footer {
+	position: absolute;
+	margin-top: 60px;
+	bottom: 0;
+	min-height: 30px;
+	max-height: 100px;
+
+}
+.footer {
+	background-color: $footer;
+	width: 100%;
+	color: #fff;
+}
+
+ 
+.colums-3,.footer-menu {
+	columns: 400px;
+	column-gap: 20px;
+	max-height: 80px;
+	break-inside: avoid;
+	ul li {
+	  width:180px;
+	  float:left;
+		list-style: none;
+		//white-space: pre;
+		//text-align: justify;
+		color: #fff;
+		font-weight: bold;
+		text-transform: uppercase;
+		a {
+			color: #FFF;
+		}
+	}
+}
+
 .photoIndex {
 	text-align: left;
 	img {

@@ -20,21 +20,7 @@
       }
 
       /* Set the fixed height of the footer here */
-      #push,
-      #footer {
-        position: absolute;
-        margin-top: 60px;
-        bottom: 0;
-        min-height: 30px;
-        max-height: 60px;
-
-      }
-      #footer {
-        background-color: #292F3C;
-        width: 100%;
-        color: #fff;
-      }
-
+    
       /* Lastly, apply responsive CSS fixes as necessary */
       @media (max-width: 767px) {
         #footer {

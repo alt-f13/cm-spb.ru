@@ -71,7 +71,7 @@ $(document).ready(function(){uhpv(has)});
 <script type="text/javascript" src="/js/date.js"></script>
 
 </head>
-<body class="landing-page"  ng-app="schedulerApp" ng-controller="SchedulerCtrl">
+<body ng-app="schedulerApp" ng-controller="SchedulerCtrl">
 	<div class="hidden-xs hidden-sm right-nav label label-primary" id="uhvb" onclick="uvcl()">
 		<i class="fa fa-low-vision fa-2x" ></i>версия для слабовидящих
 	</div>
@@ -98,7 +98,7 @@ $(document).ready(function(){uhpv(has)});
 						МЕТРОПОЛИТЕНА
 					</h1>
 				</div>
-				<div class="col-xs-2 col-md-2 col-sm-2 col-lg-2 ">
+				<div class="col-xs-2 col-md-2 col-sm-3 col-lg-2 ">
 						<div class="address pull-right">
 							<h5>771-59-09</h5>
 							<a href="/#contacts">ул. Купчинская, д. 28</a>
@@ -163,24 +163,27 @@ $(document).ready(function(){uhpv(has)});
 		<!-- Footer -->
 	<div id="push"></div>
 	</div>
-	<div id="footer">
+	<div class="footer">
 		<div class="container-fluid">
-			<ul class="nav-bottom inline-block">
-				<li>
-					<i class="fa fa-3x fa-info-circle inline-block" aria-hidden="true"></i>
-				</li>
-				<% for document in @getCollection('menu2').toJSON(): %>
+			<div class="colums-3">
+				<ul class="footer-menu">
 					<li>
-						<a href="<%= document.url %>" property="dc:title">
-							<%= document.menu2title %>
-						</a>
+						<i class="fa fa-3x fa-info-circle inline-block" aria-hidden="true"></i>
 					</li>
-				<% end %>
-			<li>
-				<a href="http://k-obr.spb.ru/page/632">Профилактика негативных явлений среди несовершеннолетних</a>
-			</li>
+					<% for document in @getCollection('menu2').toJSON(): %>
+						<li>
+							<a href="<%= document.url %>" property="dc:title">
+								<%= document.menu2title %>
+							</a>
+						</li>
+					<% end %>
+						<li>
+							<a href="http://k-obr.spb.ru/page/632">Профилактика негативных явлений среди несовершеннолетних</a>
+						</li>
 
-	</ul>
+				</ul>
+			</div>
+
 
 	<% for url in @assets('js'): %><script src="<%= url %>"></script><% end %>
 
