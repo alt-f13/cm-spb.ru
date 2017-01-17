@@ -14,7 +14,11 @@
 	<%- @getBlock('meta').toHTML() %>
 
 		<meta name="viewport" content="width=device-width" />
-
+		<!-- Shims: IE6-8 support of HTML5 elements -->
+		<!--[if lt IE 9]>
+			<script async src="/bower_components/html5shiv/dist/html5shiv.min.js"></script>
+			<script async src="/bower_components/respond/dest/respond.min.js"></script>
+		<![endif]-->
 	<!-- Icons -->
 		<link rel="shortcut icon" href="/images/icons/favicon.ico">
 		<link rel="apple-touch-icon" sizes="144x144" href="/images/icons/apple-touch-icon-144x144.png">
@@ -41,10 +45,7 @@
 		</style>
 		<% for url in @assets('css'): %><link rel="stylesheet" href="<%= url %>" /><% end %>
 
-	<!-- Shims: IE6-8 support of HTML5 elements -->
-	<!--[if lt IE 9]>
-		<script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+
 
 	<!-- Styles -->
 	<script src="/bower_components/angular/angular.min.js" charset="utf-8"></script>
@@ -75,7 +76,6 @@ $(document).ready(function(){uhpv(has)});
 	<div class="hidden-xs hidden-sm right-nav label label-primary" id="uhvb" onclick="uvcl()">
 		<i class="fa fa-low-vision fa-2x" ></i>версия для слабовидящих
 	</div>
-</div>
 <div>
 	<div class="navbar navbar-inverse">
 		<div class="container-fluid hidden-xs">
@@ -163,27 +163,11 @@ $(document).ready(function(){uhpv(has)});
 		<!-- Footer -->
 	<div id="push"></div>
 	</div>
-	<div class="footer">
-		<div class="container-fluid">
-			<div class="colums-3">
-				<ul class="footer-menu">
-					<li>
-						<i class="fa fa-3x fa-info-circle inline-block" aria-hidden="true"></i>
-					</li>
-					<% for document in @getCollection('menu2').toJSON(): %>
-						<li>
-							<a href="<%= document.url %>" property="dc:title">
-								<%= document.menu2title %>
-							</a>
-						</li>
-					<% end %>
-						<li>
-							<a href="http://k-obr.spb.ru/page/632">Профилактика негативных явлений среди несовершеннолетних</a>
-						</li>
 
-				</ul>
-			</div>
 
+
+
+<%- @partial('footerOld') %>
 
 	<% for url in @assets('js'): %><script src="<%= url %>"></script><% end %>
 

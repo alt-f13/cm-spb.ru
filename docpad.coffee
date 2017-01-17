@@ -7,6 +7,28 @@ docpadConfig = {
 	# These are variables that will be accessible via our templates
 	# To access one of these within our templates, refer to the FAQ: https://github.com/bevry/docpad/wiki/FAQ
 
+		#regenerateDelay: 300    # default
+	layoutsPaths: [
+		'layouts'
+	]
+
+	# Ignore Paths
+	# Can be set to an array of absolute paths that we should ignore from the scanning process
+	ignorePaths: false # default
+
+	# Ignore Hidden Files
+	# Whether or not we should ignore files that start with a dot from the scanning process
+	ignoreHiddenFiles: false # default
+
+	# Ignore Common Patterns
+	# Whether or not we should ignore commonly undesired files from the scanning process
+	# (e.g., .DStore, thumbs.db, .git, files that start with a tilda, etc.)
+	ignoreCommonPatterns: true # default
+
+	# Ignore Custom Patterns
+	# Can be set to a regex of custom patterns to ignore from the scanning process
+	ignoreCustomPatterns: false # default
+
 	templateData:
 
 		# Specify some site properties
@@ -59,6 +81,8 @@ docpadConfig = {
 					"/css/blueimp-gallery-video.css"
 				"/css/index.css"
 				"/bower_components/handsontable/dist/handsontable.full.css"
+				"/bower_components/handsontable/plugins/bootstrap/handsontable.bootstrap.css"
+				"/bower_components/lightbox2/dist/css/lightbox.css"
 					#"//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css"
 
 			]
@@ -78,6 +102,7 @@ docpadConfig = {
 				"/bower_components/handsontable/dist/handsontable.full.js"
 				"/bower_components/ngHandsontable/dist/ngHandsontable.min.js"
 				"/bower_components/angular-resource/angular-resource.min.js"
+				"/bower_components/lightbox2/dist/js/lightbox.js"
 			]
 
 
@@ -137,13 +162,25 @@ docpadConfig = {
 		@getCollection('html').findAllLive(type: 'link',[name:1])
 
 	plugins:
-    sitemap:
-      cachetime: 600000
-      changefreq: 'weekly'
-    	priority: 0.5
-    	filePath: 'sitemap.xml'
-		,
-
+		sitemap:
+			cachetime: 600000
+			changefreq: 'weekly'
+			priority: 0.5
+			filePath: 'sitemap.xml'
+		nodesass:
+			options:
+				importer: require('node-sass-import-once')
+				debugInfo: 'normal'
+				outputStyle: 'nested'
+				importOnce:
+					index: true # @import 'foo'; will load foo/_index.scss if foo is a folder
+					css: true # @import 'bar'; will import bar.css
+					bower: true # automatically search bower_components directory for imports
+		sitemap:
+		  cachetime: 600000
+		  changefreq: 'weekly'
+		  priority: 0.5
+		  filePath: 'sitemap.xml'
 		#
 			# 	ghpages:
 			#   	deployBranch: 'master'
