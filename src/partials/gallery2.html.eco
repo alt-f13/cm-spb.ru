@@ -1,0 +1,39 @@
+<% image_exts = ['jpg', 'JPG', 'jpeg', 'JPEG', 'png', 'PNG'] %>
+
+<style>
+    .thumbnails_list li {
+        width: 100px;
+        min-height: 30px;
+        border: 1px solid #000;
+        display: -moz-inline-stack;
+        display: inline-block;
+        vertical-align: top;
+        margin: 5px;
+        zoom: 1;
+        *display: inline;
+        _height: 250px;
+    }
+</style>
+<ul class="thumbnails_list">
+	<% for file in @images: %>
+		<li>
+			<a href="<%= @getThumbnail(file, "zoomcrop", { w: 1600, h: 1200 }) %>" title="<%= file.title or file %>" data-gallery class="thumbnail">
+					<img src="<%= @getThumbnail(file, "zoomcrop", { w: 100, h: 100 }) %>" alt="<%= file.title or file %>">
+			</a>
+		</li>
+	<% end %>
+</ul>
+<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a href="#" class="prev">‹</a>
+    <a href="#"  class="next">›</a>
+    <a href="#"  class="close">×</a>
+    <a href="#"  class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
+<script src="/js/blueimp-helper.js"></script>
+<script src="/js/blueimp-gallery.js"></script>
+<script src="/js/blueimp-gallery-fullscreen.js"></script>
+<script src="/js/blueimp-gallery-indicator.js"></script>
+<script src="/js/jquery.blueimp-gallery.js"></script>

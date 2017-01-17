@@ -1,6 +1,6 @@
 <nav class="navbar navbar-inverse navbar-fixed-bottom">
 	<div class="container-fluid ">
-		<div class="navbar-header">
+		<div class="navbar-header footer-header">
       <a class="navbar-brand uppercase "  href="/pages/info/index.html">
 				<i class="fa fa-3x fa-info-circle pull-left"></i>
 						<h4 class="footer-info">
@@ -8,20 +8,30 @@
 							образовательной организации
 						</h4>
       </a>
+			<a href="/anketa.pdf" class="navbar-brand uppercase footer-small">
+					<i class="fa fa-flag fa-3x"></i>
+					<div>
+						анкетирование
+					</div>
+			</a>
+			<a class=" uppercase navbar-brand footer-small"  href="http://k-obr.spb.ru/page/632">
+
+				  <i class="fa fa-child fa-3x fa-inverse"></i>
+					<div>
+						Профилактика негативных<br>
+						явлений среди <br>
+						несовершеннолетних
+					</div>
+
+
+
+			</a>
 		</div>
-			<ul class="nav navbar-nav">
-				<li><a href="/anketa.pdf" class="footer-btn btn btn-simple uppercase">
-					анкетирование
-				</a></li>
-				<li>
-					<a class="footer-btn btn btn-simple uppercase footer-mid"  href="http://k-obr.spb.ru/page/632">
-							Профилактика негативных явлений<br>
-							 среди несовершеннолетних
-					</a>
-				</li>
+			<ul class="nav navbar-nav flex">
+
 				<% for document in @getCollection('menu2').toJSON(): %>
 					<li>
-						<a class="textfill uppercase footer-small" href="<%= document.url %>">
+						<a class="uppercase footer-small white" href="<%= document.url %>">
 
 								<span>
 									<%= document.menu2title %>

@@ -20,6 +20,7 @@ echo $a $b $c $d $e $f $g $since $edusince
 img=$(ls $DDIR|grep jpg)
 echo $img|wc
 echo -e "---\n\
+standalone:\t true\n\
 associatedFilesRelative:\t true\n\
 associatedFilesPath:\t './files'\n\
 title:\t $g $a $b $c \n\
