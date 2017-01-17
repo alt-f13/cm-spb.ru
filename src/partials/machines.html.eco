@@ -1,9 +1,7 @@
 
 <hr>
 <h4>Материально-техническая база</h4>
-<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingOne">
+<hr>
       <h4 class="panel-title">
         <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
           Мастерские
@@ -11,127 +9,31 @@
 
         </a>
       </h4>
-    </div>
-    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-      <ul class="list-group">
-      	<li class="list-group-item">
-					Электромонтажная
-					<ul>
 
-							<a data-lightbox="roadtrip" href="/machines/GOPR0090.JPG" alt="">11</a>
-						</li>
+      	<%- @partial('lightbox', {images:['/machines/GOPR0090.JPG'],title:['Электромонтажная мастерская']}) %>
+      	<%- @partial('lightbox', {images:['/machines/GOPR0098.JPG', '/machines/GOPR0100.JPG'],title:['Слесарная мастерская']}) %>
+      	<%- @partial('lightbox', {images:['/machines/GOPR0101.JPG'],title:['Мастерская Металлообработки']}) %>
 
-							<a data-lightbox="roadtrip" href="/machines/GOPR0092.JPG" alt="">11</a>
-						</li>
 
-					</ul>
-
-      	</li>
-      	<li class="list-group-item">
-						Слесарная
-						<ul>
-
-								<a data-lightbox="roadtrip" href="/machines/GOPR0098.JPG" alt="">11</a>
-							</li>
-
-								<a data-lightbox="roadtrip" href="/machines/GOPR0100.JPG" alt="">11</a>
-							</li>
-
-								<a data-lightbox="roadtrip" href="/machines/GOPR0101.JPG" alt="">11</a>
-							</li>
-
-						</ul>
-      	</li>
-      	<li class="list-group-item">
-					Металлообработки
-					<ul>
-
-							<a data-lightbox="roadtrip" href="/machines/GOPR0102.JPG" alt="">11</a>
-						</li>
-					</ul>
-      	</li>
-
-      </ul>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingTwo">
       <h4 class="panel-title">
         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
           Лаборатории
         </a>
       </h4>
-    </div>
-    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-			<ul class="list-group">
-      	<li class="list-group-item">
-					Лаборатория материаловедения
-					<ul>
-						
-							<a data-lightbox="roadtrip" href="/machines/GOPR0102.JPG" alt="">11</a>
-						</li>
-					</ul>
-      	</li>
-      	<li class="list-group-item">
-					Лаборатория  устройства и технического оборудования электропоезда
-					<ul>
 
-							<a data-lightbox="roadtrip" href="/machines/GOPR0104.JPG" alt="">11</a>
-						</li>
+      	<%- @partial('lightbox', {images:['/machines/GOPR0102.JPG'],title:['Лаборатория материаловедения']}) %>
+      	<%- @partial('lightbox', {images:['/machines/GOPR0104.JPG'],title:['Лаборатория  устройства и технического оборудования электропоезда']}) %>
+      	<%- @partial('lightbox', {images:['/machines/GOPR0124.JPG'],title:['Лаборатория монтажа и технической эксплуатации оборудования тяговых подстанций и контактной сети']}) %>
+        <%- @partial('lightbox', {images:['/machines/GOPR0132.JPG'], title:['Лаборатория монтажа и технической эксплуатации устройств СЦБ']}) %>
+      	<%- @partial('lightbox', {images:['/machines/GOPR0104.JPG'],title:['Лаборатория электротехники']}) %>
+      	<%- @partial('lightbox', {images:['/machines/GOPR0116.JPG'],title:['Лаборатория общего курса железных дорог и ПТЭ']}) %>
 
-							<a data-lightbox="roadtrip" href="/machines/GOPR0114.JPG" alt="">11</a>
-						</li>
-					</ul>
-      	</li>
-      	<li class="list-group-item">
-					Лаборатория монтажа и технической эксплуатации оборудования тяговых подстанций и контактной сети
-					<ul>
-
-							<a data-lightbox="roadtrip" href="/machines/GOPR0124.JPG" alt="">11</a>
-						</li>
-					</ul>
-      	</li>
-      	<li class="list-group-item">
-					Лаборатория монтажа и технической эксплуатации устройств СЦБ
-					<ul>
-
-							<a data-lightbox="roadtrip" href="/machines/GOPR0132.JPG" alt="">11</a>
-						</li>
-						<ul>
-
-								<a data-lightbox="roadtrip" href="/machines/GOPR0134.JPG" alt="">11</a>
-							</li>
-						</ul>
-					</ul>
-      	</li>
-      	<li class="list-group-item">
-					Лаборатория электротехники
-					<ul>
-
-							<a data-lightbox="roadtrip" href="/machines/GOPR0104.JPG" alt="">11</a>
-						</li>
-					</ul>
-      	</li>
-      	<li class="list-group-item">
-					Лаборатория общего курса железных дорог и ПТЭ
-					<ul>
-
-							<a data-lightbox="roadtrip" href="/machines/GOPR0116.JPG" alt="">11</a>
-						</li>
-					</ul>
-      	</li>
-      </ul>
-    </div>
-  </div>
-  <div class="panel panel-default">
-    <div class="panel-heading" role="tab" id="headingThree">
       <h4 class="panel-title">
         <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
 					Полигон
         </a>
       </h4>
-    </div>
-    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+
 			<ul class="list-group">
 				<li class="list-group-item">
 					Участок железной дороги
@@ -143,6 +45,3 @@
 				</li>
 
 			</ul>
-    </div>
-  </div>
-</div>

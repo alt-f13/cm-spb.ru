@@ -23,13 +23,62 @@ $footer: #292F3C;
 .uppercase {
 	text-transform: uppercase;
 }
+.white {
+	color: #fff;
+}
+.footer-btn {
+	color: #fff;
+	font-size: 13px;
+	box-sizing: border-box;
+}
 .footer-small {
-	font-size: 11px;
+	font-size: 11px !important;
 	padding: 0px 0px 0px 0px;
+	white-space: nowrap;
 }
 .footer-mid {
-	font-size: 13px
+	font-size: 13px !important;
 }
+.footer-header {
+	padding-top: 5px !important;
+	//margin-top: 60px;
+	a {
+		color: #fff;
+		font-size: 13px;
+		//display: block;
+	}
+	.footer-btn {
+		font-size: 13px;
+		color: #FFF;
+
+	}
+	.navbar-brand {
+		padding-top: 0px !important;
+		line-height: 13px !important;
+		color: #fff;
+		* {
+			color: #fff;
+			font-weight: bolder;
+
+		}
+		.rounded {
+			  display: inline-block;
+			  border-radius: 60px;
+			  box-shadow: 0px 0px 2px #888;
+		}
+		div {
+			display: inline-block;
+		}
+	}
+}
+
+// .flex {
+// 	//display: flex;
+// 	//columns: 3;
+// 	li {
+// 		//flex: 1;
+// 	}
+// }
 .footer-info {
 	padding: 5 5 5 5;
 	font-size: 12px !important;

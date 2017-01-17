@@ -14,11 +14,14 @@ docpadConfig = {
 
 	# Ignore Paths
 	# Can be set to an array of absolute paths that we should ignore from the scanning process
-	ignorePaths: false # default
+	ignorePaths: [
+		'render/css'
+		'render/js'
+	] # default
 
 	# Ignore Hidden Files
 	# Whether or not we should ignore files that start with a dot from the scanning process
-	ignoreHiddenFiles: false # default
+	ignoreHiddenFiles: true # default
 
 	# Ignore Common Patterns
 	# Whether or not we should ignore commonly undesired files from the scanning process
@@ -181,7 +184,14 @@ docpadConfig = {
 		  changefreq: 'weekly'
 		  priority: 0.5
 		  filePath: 'sitemap.xml'
-		#
+		redirector:
+			redirects:
+			    # source: destination
+			    "project/": "http://new-site.com/"
+			    "project/info.html": "http://new-site.com/new-info-page"
+
+
+
 			# 	ghpages:
 			#   	deployBranch: 'master'
 			#   	deployRemote: 'pages'
