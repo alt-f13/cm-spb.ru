@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "datejs": "^1.0.0-rc3",
-    "docpad": "^6.79.0",
+    "docpad": "~6.79.0",
     "docpad-plugin-associatedfiles": "~2.2.0",
     "docpad-plugin-coffeescript": "~2.5.0",
     "docpad-plugin-copy": "~2.1.3",
