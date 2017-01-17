@@ -20,6 +20,23 @@ $footer: #292F3C;
 //@import "";
 //@import "";
 
+.col3 {
+	columns: 3;
+	ul {
+		break-inside: avoid;
+	}
+	hr {
+		color: $footer;
+	}
+	p {
+		font-size: 13px !important;
+		line-height: 15px;
+	}
+	p:after {
+		border-bottom: 1px solid $footer;
+	}
+}
+
 .uppercase {
 	text-transform: uppercase;
 }
