@@ -1,5 +1,6 @@
 ---
 layout: default
+standalone: true
 ---
 <div class="landing-page">
 

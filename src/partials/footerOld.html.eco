@@ -1,0 +1,37 @@
+<nav class="navbar navbar-inverse navbar-fixed-bottom">
+	<div class="container-fluid ">
+		<div class="navbar-header">
+      <a class="navbar-brand uppercase "  href="/pages/info/index.html">
+				<i class="fa fa-3x fa-info-circle pull-left"></i>
+						<h4 class="footer-info">
+							Сведения об <br>
+							образовательной организации
+						</h4>
+      </a>
+		</div>
+			<ul class="nav navbar-nav">
+				<li><a href="/anketa.pdf" class="footer-btn btn btn-simple uppercase">
+					анкетирование
+				</a></li>
+				<li>
+					<a class="footer-btn btn btn-simple uppercase footer-mid"  href="http://k-obr.spb.ru/page/632">
+							Профилактика негативных явлений<br>
+							 среди несовершеннолетних
+					</a>
+				</li>
+				<% for document in @getCollection('menu2').toJSON(): %>
+					<li>
+						<a class="textfill uppercase footer-small" href="<%= document.url %>">
+
+								<span>
+									<%= document.menu2title %>
+								</span>
+						</a>
+					</li>
+				<% end %>
+			</ul>
+
+	</div>
+
+
+</nav>

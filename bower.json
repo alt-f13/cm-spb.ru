@@ -25,6 +25,12 @@
     "angular": "1.5.10",
     "angular-simplecouch": "*",
     "ngHandsontable": "^0.13.0",
-    "angular-resource": "^1.6.0"
+    "angular-resource": "^1.6.0",
+    "html5shiv": "^3.7.3",
+    "respond": "^1.4.2",
+    "lightbox2": "^2.9.0"
+  },
+  "devDependencies": {
+    "html5shiv": "^3.7.3"
   }
 }

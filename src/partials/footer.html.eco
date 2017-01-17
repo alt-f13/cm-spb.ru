@@ -1,0 +1,17 @@
+	<div class="footer footer-menu">
+			<i class="fa fa-3x fa-info-circle pull-left footer-logo" aria-hidden="true"></i>
+						<a href="/pages/info/index.html">
+									Сведения об <br>
+									образовательной организации
+						</a>
+					<% for document in @getCollection('menu2').toJSON(): %>
+								<a href="<%= document.url %>">
+											<%= document.menu2title %>
+								</a>
+					<% end %>
+							<a   href="http://k-obr.spb.ru/page/632">
+									Профилактика негативных явлений<br>
+									 среди несовершеннолетних
+							</a>
+
+			</div>
