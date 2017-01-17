@@ -64,7 +64,7 @@ standalone: true
 						<td>192281, Санкт-Петербург, Купчинская ул., д 28 литер А</td>
 					</tr>
 					<tr>
-						<td colspan="2"><a href="/pages/contacts.html">Контактные телефоны</a></td>
+						<td colspan="2"><a href="/#contacts"><h6>Контактные телефоны</h6></a></td>
 					</tr>
 					<tr>
 						<th>Стипендии и иные виды материальной поддержки</th>
@@ -88,25 +88,20 @@ standalone: true
 							<th>Уровень, форма, нормативный срок</th>
 							<td>
 									<ul>
-										<li>основного общего (после 9 класса) – 2 года 10 месяцев</li>
-										<li>основного общего (после 9 класса) – 3 года 10 месяцев</li>
+										<li>основного общего  - очная – 2 года 10 месяцев</li>
+										<li>основного общего  – очная - 3 года 10 месяцев</li>
 									</ul>
+									<i>* после 9 класса</i>
 							</td>
 						</tr>
 
 					<tr>
 						<th>Учредитель</th>
 						<td>
-							<a href="http://k-obr.spb.ru/" target="_blank">
-							<div class="row">
-								<div class="col-md-6"><img style="width: 200px;" src="http://www.spb-gov.ru/static/i/arms_full.jpg" alt=""></div>
-								<div class="col-md-6">Комитет по образованию Санкт-Петербурга
-								<p>Адрес:
-									<br>190000, Санкт-Петербург,
-									<br>пер. Антоненко, д. 8</p>
+							<a href="http://k-obr.spb.ru/">
+									<img style="width: 100%;" src="/images/kobr.gif" alt="Комитет по образованию Санкт-Петербурга">
+									<small>Адрес: 190000, Санкт-Петербург, пер. Антоненко, д. 8</small>
 
-								</div>
-							</div>
 						</a>
 						</td>
 					</tr>
