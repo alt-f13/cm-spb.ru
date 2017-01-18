@@ -104,7 +104,7 @@ $(document).ready(function(){uhpv(has)});
 							<a href="/#contacts">ул. Купчинская, д. 28</a>
 						</div>
 					</div>
-					<%- @getLunrSearchBlock('/search.html') %>
+					<%- @getLunrSearchBlock('search.html') %>
 
 				</div>
 		</div>
