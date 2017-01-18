@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse navbar-fixed-bottom">
+<nav class="navbar navbar-inverse navbar-fixed-bottom hidden-xs">
 	<div class="container-fluid ">
 		<div class="navbar-header footer-header">
       <a class="navbar-brand uppercase "  href="/pages/info/index.html">
