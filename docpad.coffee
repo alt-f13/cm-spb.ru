@@ -158,8 +158,8 @@ docpadConfig = {
 	# =================================
 	# Plugins
 
-#		getIndex: ->
-#			@getCollection('html').findOne(url: '/')?.toJSON()
+	getIndex: ->
+		@getCollection('html')
 	getArticles: ->
 		@getCollection('html').findAllLive(type:'post',[ date:-1])
 	getLinks: ->
@@ -191,9 +191,10 @@ docpadConfig = {
 			    "project/": "http://new-site.com/"
 			    "project/info.html": "http://new-site.com/new-info-page"
 		lunr:
+			resultsTemplate: 'src/partials/teaser.html.eco'
 			indexes:
 			  myIndex:
-			    collection: ['posts','faces']
+			    collection: ['posts']
 
 
 			# 	ghpages:

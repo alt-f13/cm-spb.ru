@@ -1,0 +1,127 @@
+<div class="section section-features section-no-padding" >
+		<div class="container-fluid">
+				<div class="row">
+						<div class="col-md-3 col-sm-3 col-lg-3 grayblock2">
+								<div class="card card-green">
+										<div class="card-header">
+											<div class="icon">
+												<i class="fa fa-lg fa-fw fa-child"></i>
+											</div>
+											<div class="card-header-text">
+												<i class="fa fa-file-text-o fa-fw" aria-hidden="true"></i>
+												<h5 class="h5">ДОКУМЕНТЫ ДЛЯ ПОСТУПЛЕНИЯ</h5>
+											</div>
+										</div>
+										<div class="card-body">
+											<div class="list-group">
+												<div class="list-group-item">
+												<i class="fa fa-user-circle-o fa-fw" aria-hidden="true"></i>
+													6 фотографий <em>(3х4см)</em>
+												</div>
+												<div class="list-group-item">
+													<i class="fa fa-file-text-o fa-fw" aria-hidden="true"></i>
+													Документ об образовании
+												</div>
+												<div class="list-group-item">
+														<i class="fa fa-address-card-o fa-fw"></i>
+																										 Паспорт
+												</div>
+												<a class="list-group-item" href="/pages/info/Анкета-заявление-2015.pdf">
+													<i class="fa fa-file-pdf-o fa-fw" aria-hidden="true"></i>
+
+														Заявление
+												</a>
+												<a class="list-group-item" href="/pages/info/Договор-с-обучающимися-2015.pdf">
+													<i class="fa fa-file-pdf-o fa-fw" aria-hidden="true"></i>
+
+													Договор
+												</a>
+											</div>
+										</div>
+									</div>
+							</div>
+
+
+
+
+						<div class="col-md-6  col-sm-6 col-lg-6 grayblock">
+								<div class="card card-red">
+												<div class="icon">
+													<i class="fa fa-lg fa-fw fa-user-md "></i>
+												</div>
+												<h5 class="h5">МЕДИЦИНСКАЯ КОМИССИЯ</h5>
+													<div class="row">
+														<div class="col-sm-6">
+															<i class="fa fa-file-text-o fa-fw" aria-hidden="true"></i>
+															<h6 class="h6">ДОКУМЕНТЫ:</h6>
+															<div class="list-group">
+																	<div class="list-group-item">
+																		<i class="fa fa-check-circle-o fa-fw"></i>
+
+																		Cправка <i>086у</i>
+																	</div>
+																	<div class="list-group-item">
+																		<i class="fa fa-check-circle-o fa-fw"></i>
+																		Сертификат о прививках
+																	</div>
+																	<div class="list-group-item">
+																		<i class="fa fa-check-circle-o fa-fw"></i>
+																		Медицинская карта
+																	</div>
+															</div>
+														</div>
+														<div class="col-sm-6">
+															<i class="fa fa-file-text-o fa-fw" aria-hidden="true"></i>
+															<h6 class="h6">Справки из диспансеров:</h6>
+																		<div class="list-group">
+																			<div class="list-group-item">
+																				<i class="fa fa-check-circle-o fa-fw"></i>
+																				противотуберкулезного
+																			</div>
+																			<div class="list-group-item">
+																				<i class="fa fa-check-circle-o fa-fw"></i>
+																				наркологического
+																			</div>
+																			<div class="list-group-item">
+																				<i class="fa fa-check-circle-o fa-fw"></i>
+																				психоневрологического
+																			</div>
+
+																</div>
+															</div>
+														</div>
+															</div>
+														</div>
+
+						 <div class="col-md-3 col-sm-3 col-lg-3 grayblock2">
+								<div class="card card-orange">
+												<div class="icon"><i class="fa fa-eye fa-fw fa-3x"></i></div>
+												<h5 class="h5">ДНИ ОТКРЫТЫХ ДВЕРЕЙ:</h5>
+
+																	<div class="list-group">
+																		<div class="list-group-item  active">
+																			<i class="fa fa-calendar fa-fw"></i>
+																			16 февраля 2017 в 17:00
+																		</div>
+																		<div class="list-group-item  list-group-item-success">
+																			<i class="fa fa-calendar fa-fw"></i>
+																			30 марта 2017 в 17:00
+																		</div>
+																		<div class="list-group-item  list-group-item-success">
+																			<i class="fa fa-calendar fa-fw"></i>
+																			20 апреля 2017 в 17:00
+																		</div>
+																		<div class="list-group-item list-group-item-info">
+																			<i class="fa fa-calendar fa-fw"></i>
+																			20 мая 2017 в 11:00
+																		</div>
+																		<div class="list-group-item list-group-item-info">
+																			<i class="fa fa-calendar fa-fw"></i>
+																			3 июня 2017 в 11:00
+																		</div>
+																	</div>
+																</div>
+									</div>
+						</div>
+				</div>
+		</div>
