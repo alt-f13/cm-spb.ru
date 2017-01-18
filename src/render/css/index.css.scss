@@ -19,7 +19,10 @@ $footer: #292F3C;
 @import "table";
 //@import "";
 //@import "";
-
+.push {
+	padding-bottom: 50px;
+	margin-bottom: 20px;
+}
 .col3 {
 	columns: 3;
 	ul {

@@ -161,7 +161,7 @@ $(document).ready(function(){uhpv(has)});
 			<%- @content %>
 
 		<!-- Footer -->
-	<div id="push"></div>
+	<div class="push"></div>
 	</div>
 
 
