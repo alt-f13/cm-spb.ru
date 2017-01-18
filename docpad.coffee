@@ -154,6 +154,7 @@ docpadConfig = {
 			database.findAllLive({layout:$has:'gallery'})
 
 
+
 	# =================================
 	# Plugins
 
@@ -189,7 +190,10 @@ docpadConfig = {
 			    # source: destination
 			    "project/": "http://new-site.com/"
 			    "project/info.html": "http://new-site.com/new-info-page"
-
+		lunr:
+			indexes:
+			  myIndex:
+			    collection: ['posts','faces']
 
 
 			# 	ghpages:

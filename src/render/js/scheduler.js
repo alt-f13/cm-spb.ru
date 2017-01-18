@@ -74,14 +74,14 @@ var $app = angular
 
 					foo++;
 					console.log("next day", day.add(1).day(), foo);
-					if(0 < foo < 14) {
+					if(foo < 14) {
 						$scope._get(day.add(1).day())
-					}else if (foo<0) {
-						console.log("loading today");
-						return;
 					}else{
-						foo=-10;
-						$scope._get(_today);
+						var _day = moment(_today).unix().toString();
+						$db.doc.get(_day, function(data) {
+				        $scope._doc=data;
+				        console.log(data);
+				    })
 					};
 	    });
 
