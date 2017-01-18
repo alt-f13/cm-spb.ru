@@ -1,6 +1,81 @@
 # The DocPad Configuration File
 # It is simply a CoffeeScript Object which is parsed by CSON
 docpadConfig = {
+	# =================================
+	# Paths Configuration
+
+	# Root Path
+	# The root path of our our project
+	rootPath: process.cwd()  # default
+
+	# Package Path
+	# The project's package.json path
+	# If it is a relative path, it will have the resolved `rootPath` prepended to it
+	packagePath: 'package.json'  # default
+
+	# Config Paths
+	# An array of paths that we try to extract our docpad configuration from
+	configPaths: [  # default
+	    'docpad.js'
+	    'docpad.coffee'
+	    'docpad.json'
+	    'docpad.cson'
+	]
+
+	# Plugin Paths
+	# An array of special paths which to load single plugins from
+	# (e.g., ['/a/path/to/a/docpad-plugin-special'])
+	pluginPaths: ['/plugins/docpad-plugin-lunr/out/lunr.plugin.js']  # default
+
+	# Plugins Paths
+	# An array of paths which to load multiple plugins from
+	pluginsPaths: [  # default
+	    'node_modules'
+	    'plugins'
+	]
+
+	# Reload Paths
+	# An array of special paths that when changes occur in, we reload our configuration
+	reloadPaths: []  # default
+
+	# Regenerate Paths
+	# An array of special paths that when changes occur in, we regenerate our website
+	regeneratePaths: []  # default
+
+	# Regenerate Delay
+	# The time (in milliseconds) to wait after a source file has
+	# changed before using it to regenerate. Updating over the
+	# network (e.g., via FTP) can cause a page to be partially
+	# rendered as the page is regenerated *before* the source file
+	# has completed updating: in this case increase this value.
+	regenerateDelay: 100    # default
+
+	# Out Path
+	# Where should we put our generated website files?
+	# If it is a relative path, it will have the resolved `rootPath` prepended to it
+	outPath: 'out'  # default
+
+	# Src Path
+	# Where can we find our source website files?
+	# If it is a relative path, it will have the resolved `rootPath` prepended to it
+	srcPath: 'src'  # default
+
+	# Documents Paths
+	# An array of paths which contents will be treated as documents
+	# If it is a relative path, it will have the resolved `srcPath` prepended to it
+	documentsPaths: [  # default
+	    'render'
+	    'documents'
+	]
+
+	# Files Paths
+	# An array of paths which contents will be treated as files
+	# If it is a relative path, it will have the resolved `srcPath` prepended to it
+	filesPaths: [  # default
+	    'static'
+	    'files'
+	    'public'
+	]
 
 	# =================================
 	# Template Data
