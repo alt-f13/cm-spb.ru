@@ -15,8 +15,8 @@ docpadConfig = {
 	# Ignore Paths
 	# Can be set to an array of absolute paths that we should ignore from the scanning process
 	ignorePaths: [
-		'render/css'
-		'render/js'
+		'render/css/'
+		'render/js/'
 	] # default
 
 	# Ignore Hidden Files
