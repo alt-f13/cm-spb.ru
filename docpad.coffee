@@ -157,11 +157,12 @@ docpadConfig = {
 					"/css/blueimp-gallery.css"
 					"/css/blueimp-gallery-indicator.css"
 					"/css/blueimp-gallery-video.css"
-				"/css/index.css"
 				"/bower_components/handsontable/dist/handsontable.full.css"
 				"/bower_components/handsontable/plugins/bootstrap/handsontable.bootstrap.css"
 				"/bower_components/lightbox2/dist/css/lightbox.css"
 					#"//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css"
+									"/css/index.css"
+
 
 			]
 
