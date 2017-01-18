@@ -7,12 +7,7 @@
 	.handsontable {
 		//width: 900px;
 		//height: 550px;
-		.rowHeader {
-		    width: 14px;
-				vertical-align: middle;
-				min-height: 100%;
 
-		}
 		td {
 
 	    border-right: 1px solid #CCC;
@@ -39,9 +34,15 @@
 
 @media screen and (max-device-width: 700px) {
 	.handsontable {
-		table.htCore {
-			width: 900px !important;
-			overflow: scroll;
-		}
+		// .rowHeader {
+		// 		max-width: 10px !important;
+		// 		//vertical-align: middle;
+		// 		//min-height: 100%;
+		//
+		// }
+		// table.htCore {
+		// 	//width: 900px !important;
+		// 	//overflow: scroll;
+		// }
 	}
 }

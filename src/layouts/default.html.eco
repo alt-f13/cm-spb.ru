@@ -16,8 +16,10 @@
 		<meta name="viewport" content="width=device-width" />
 		<!-- Shims: IE6-8 support of HTML5 elements -->
 		<!--[if lt IE 9]>
-			<script async src="/bower_components/html5shiv/dist/html5shiv.min.js"></script>
-			<script async src="/bower_components/respond/dest/respond.min.js"></script>
+			<script type="text/javascript"  src="/bower_components/es5-shim/es5-shim.min.js"></script>
+
+			<script type="text/javascript"  async src="/bower_components/html5shiv/dist/html5shiv.min.js"></script>
+			<script type="text/javascript" src="/bower_components/respond/dest/respond.min.js"></script>
 		<![endif]-->
 	<!-- Icons -->
 		<link rel="shortcut icon" href="/images/icons/favicon.ico">
