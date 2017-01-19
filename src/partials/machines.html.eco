@@ -14,18 +14,18 @@
 
 	</div>
 	<div class="panel-body">
-
+		<small>Оснащены современным оборудованием и техническими средствами обучения для проведения практических и лабораторных работ</small>
 	</div>
 	<ul class="list-group">
 		<li class="list-group-item">
-			<h4 class="list-group-item-heading">
+			<h4 class="list-group-item-heading active">
 				Общепрофессиональный и профессиональных дисциплин 				<span class="badge pull-right">7</span>
 
 			</h4>
 			<p class="list-group-item-text">
 			</p>
 		</li>
-		<li class="list-group-item">
+		<li class="list-group-item list-group-item-warning">
 			<h4 class="list-group-item-heading">
 				Мастерские 			<span class="badge pull-right">3</span>
 
@@ -36,7 +36,7 @@
 				<%- @partial('lightbox', {images:['/machines/GOPR0101.JPG'],title:['Мастерская Металлообработки']}) %>
 			</p>
 		</li>
-		<li class="list-group-item">
+		<li class="list-group-item list-group-item-success">
 			<h4 class="list-group-item-heading">
 				Лаборатории
 				<span class="badge pull-right">
@@ -48,11 +48,11 @@
 				<%- @partial('lightbox', {images:['/machines/GOPR0104.JPG'],title:['Лаборатория  устройства и технического оборудования электропоезда']}) %>
 				<%- @partial('lightbox', {images:['/machines/GOPR0124.JPG'],title:['Лаборатория монтажа и технической эксплуатации оборудования тяговых подстанций и контактной сети']}) %>
 				<%- @partial('lightbox', {images:['/machines/GOPR0132.JPG'], title:['Лаборатория монтажа и технической эксплуатации устройств СЦБ']}) %>
-				<%- @partial('lightbox', {images:['/machines/GOPR0104.JPG'],title:['Лаборатория электротехники']}) %>
+				<!-- <%- @partial('lightbox', {images:['/machines/GOPR0104.JPG'],title:['Лаборатория электротехники']}) %> -->
 				<%- @partial('lightbox', {images:['/machines/GOPR0116.JPG'],title:['Лаборатория общего курса железных дорог и ПТЭ']}) %>
 			</p>
 		</li>
-		<li class="list-group-item">
+		<li class="list-group-item list-group-item-info">
 			<h4 class="list-group-item-heading">
 					Полигоны
 					<span class="badge pull-right">

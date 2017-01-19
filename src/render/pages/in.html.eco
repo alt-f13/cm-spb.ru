@@ -53,38 +53,8 @@ standalone: true
 			});
 		</script> -->
 
-	</div>
-
-		<div class="row">
-			<div class="col-md-10">
-				<ul class="tree">
-					<a href="#">Дополнительные сведения</a>
-						<ul>
-
-
-						</ul>
-
-					<a href="#">Иностранные граждане</a>
-						<ul>
-
-
-
-						</ul>
-
-
-		<a href="#">Документы</a>
-			<ul>
-
-
-			</ul>
-
-				</ul>
-
-
-			</div>
-		</div>
-	</div>
 </div>
+
 
 
 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
@@ -147,7 +117,7 @@ standalone: true
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="headingOne">
       <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
           Документы
         </a>
       </h4>

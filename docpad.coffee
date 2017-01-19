@@ -48,7 +48,7 @@ docpadConfig = {
 	# network (e.g., via FTP) can cause a page to be partially
 	# rendered as the page is regenerated *before* the source file
 	# has completed updating: in this case increase this value.
-	regenerateDelay: 100    # default
+	regenerateDelay: 400    # default
 
 	# Out Path
 	# Where should we put our generated website files?

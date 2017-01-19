@@ -20,7 +20,7 @@ standalone: true
 				</div>
 				<table class="table table-bordered  table-striped table-responsive">
 					<tbody>
-						<tr>
+						<tr class="active">
 							<th>Название ОУ</th>
 							<td>Санкт-Петербургское государственное бюджетное профессиональное образовательное учреждение <strong>«Колледж метрополитена»</th>
 						</tr>
