@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 ---
 
 
@@ -19,28 +19,18 @@ layout: post
 
 
 <!-- Put this script tag to the <head> of your page -->
+<!-- Put this script tag to the <head> of your page -->
 <script type="text/javascript" src="//vk.com/js/api/openapi.js?137"></script>
 
 <script type="text/javascript">
   VK.init({apiId: 5385298, onlyWidgets: true});
 </script>
-<!--
-<footer>
-	<% if @getRelatedDocuments() and @getRelatedDocuments().length: %>
-		<section id="related">
-			<h3>Новости:</h3>
-			<div class="list-group">
-				<% for document in @getCollection('posts').toJSON(): %>
-					<a href="<%= document.url %>" class="list-group-item">
-						<%= @moment(document.date).lang("ru").format('DD MMMM YYYY') %>
-						&raquo;
-						<%= document.title %>
-					</a>
-				<% end %>
-			</div>
-		</section>
-	<% end %>
-</footer> -->
+
+<!-- Put this div tag to the place, where the Comments block will be -->
+<div id="vk_comments"></div>
+<script type="text/javascript">
+VK.Widgets.Comments("vk_comments", {limit: 10, width: "665", attach: false});
+</script>
 
 
 </div>

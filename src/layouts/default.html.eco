@@ -10,7 +10,11 @@
 	<meta name="description" content="<%= @getPreparedDescription() %>" />
 	<meta name="keywords" content="<%= @getPreparedKeywords() %>" />
 	<meta name="author" content="<%= @site.author or '' %>" />
-
+	<script type="text/javascript">
+	if (window.location == "plm-spb.ru") {
+	   window.location.href = 'http://cm-spb.ru';
+	}
+	</script>
 	<%- @getBlock('meta').toHTML() %>
 
 		<meta name="viewport" content="width=device-width" />
@@ -154,7 +158,7 @@ $(document).ready(function(){uhpv(has)});
 					</li>
 					<li typeof="sioc:Page" about="Vkontakte">
 							<a href="https://vk.com/cmetro" class="pull-right">
-								<i class="fa fa-vk fa-2x"></i>
+								<i class="fa fa-vk"></i>VK.COM
 							</a>
 						</li>
 			</ul>
