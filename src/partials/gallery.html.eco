@@ -1,19 +1,6 @@
 <% image_exts = ['jpg', 'JPG', 'jpeg', 'JPEG', 'png', 'PNG'] %>
 
-<style>
-    .thumbnails_list li {
-        width: 100px;
-        min-height: 30px;
-        border: 1px solid #000;
-        display: -moz-inline-stack;
-        display: inline-block;
-        vertical-align: top;
-        margin: 5px;
-        zoom: 1;
-        *display: inline;
-        _height: 250px;
-    }
-</style>
+
 <ul class="thumbnails_list">
 	<% for file in @getDocument().getAssociatedFiles().findAll({extension: $in: image_exts}).toJSON(): %>
 		<li>

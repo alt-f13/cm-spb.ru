@@ -1,47 +1,119 @@
 
 <hr>
-<h4>Материально-техническая база</h4>
+<h2 class="uppercase">Материально-техническое обеспечение</h2>
 <hr>
-      <h4 class="panel-title">
-        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-          Мастерские
 
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title">
+			Кабинеты:
+			<span class="badge pull-right">
+					19
+				</span>
+		</h3>
 
-        </a>
-      </h4>
+	</div>
+	<div class="panel-body">
 
-      	<%- @partial('lightbox', {images:['/machines/GOPR0090.JPG'],title:['Электромонтажная мастерская']}) %>
-      	<%- @partial('lightbox', {images:['/machines/GOPR0098.JPG', '/machines/GOPR0100.JPG'],title:['Слесарная мастерская']}) %>
-      	<%- @partial('lightbox', {images:['/machines/GOPR0101.JPG'],title:['Мастерская Металлообработки']}) %>
+	</div>
+	<ul class="list-group">
+		<li class="list-group-item">
+			<h4 class="list-group-item-heading">
+				Общепрофессиональный и профессиональных дисциплин 				<span class="badge pull-right">7</span>
 
+			</h4>
+			<p class="list-group-item-text">
+			</p>
+		</li>
+		<li class="list-group-item">
+			<h4 class="list-group-item-heading">
+				Мастерские 			<span class="badge pull-right">3</span>
 
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-          Лаборатории
-        </a>
-      </h4>
+			</h4>
+			<p class="list-group-item-text">
+				<%- @partial('lightbox', {images:['/machines/GOPR0090.JPG'],title:['Электромонтажная мастерская']}) %>
+				<%- @partial('lightbox', {images:['/machines/GOPR0098.JPG'],title:['Слесарная мастерская']}) %>
+				<%- @partial('lightbox', {images:['/machines/GOPR0101.JPG'],title:['Мастерская Металлообработки']}) %>
+			</p>
+		</li>
+		<li class="list-group-item">
+			<h4 class="list-group-item-heading">
+				Лаборатории
+				<span class="badge pull-right">
+						6
+				</span>
+			</h4>
+			<p class="list-group-item-text">
+				<%- @partial('lightbox', {images:['/machines/GOPR0102.JPG'],title:['Лаборатория материаловедения']}) %>
+				<%- @partial('lightbox', {images:['/machines/GOPR0104.JPG'],title:['Лаборатория  устройства и технического оборудования электропоезда']}) %>
+				<%- @partial('lightbox', {images:['/machines/GOPR0124.JPG'],title:['Лаборатория монтажа и технической эксплуатации оборудования тяговых подстанций и контактной сети']}) %>
+				<%- @partial('lightbox', {images:['/machines/GOPR0132.JPG'], title:['Лаборатория монтажа и технической эксплуатации устройств СЦБ']}) %>
+				<%- @partial('lightbox', {images:['/machines/GOPR0104.JPG'],title:['Лаборатория электротехники']}) %>
+				<%- @partial('lightbox', {images:['/machines/GOPR0116.JPG'],title:['Лаборатория общего курса железных дорог и ПТЭ']}) %>
+			</p>
+		</li>
+		<li class="list-group-item">
+			<h4 class="list-group-item-heading">
+					Полигоны
+					<span class="badge pull-right">
+						2
+					</span>
+			</h4>
+			<p class="list-group-item-text">
+				<ul class="list-group">
+					<li class="list-group-item">
+						Участок железной дороги
+					</li>
+					<li class="list-group-item">
+						Стрелочный перевод
+					</li>
+				</ul>
+			</p>
+		</li>
+		<li class="list-group-item">
+			<h4 class="list-group-item-heading">
+				Техническое обеспечение
+			</h4>
+			<p class="list-group-item-text">
+				<ul class="list-group">
+					<li class="list-group-item">
+						Библиотека, читальный зал с выходом в Internet
+					</li>
+					<li class="list-group-item">
+						Спортивный зал
+					</li>
+					<li class="list-group-item">
+						Тренажерный зал
+					</li>
+					<li class="list-group-item">
+						Открытый стадион широкого профиля
+					</li>
+					<li class="list-group-item list-group-item-info">
+						<span class="badge">
+								46
+						</span>
+					  рабочих мест с выходом в Internet
 
-      	<%- @partial('lightbox', {images:['/machines/GOPR0102.JPG'],title:['Лаборатория материаловедения']}) %>
-      	<%- @partial('lightbox', {images:['/machines/GOPR0104.JPG'],title:['Лаборатория  устройства и технического оборудования электропоезда']}) %>
-      	<%- @partial('lightbox', {images:['/machines/GOPR0124.JPG'],title:['Лаборатория монтажа и технической эксплуатации оборудования тяговых подстанций и контактной сети']}) %>
-        <%- @partial('lightbox', {images:['/machines/GOPR0132.JPG'], title:['Лаборатория монтажа и технической эксплуатации устройств СЦБ']}) %>
-      	<%- @partial('lightbox', {images:['/machines/GOPR0104.JPG'],title:['Лаборатория электротехники']}) %>
-      	<%- @partial('lightbox', {images:['/machines/GOPR0116.JPG'],title:['Лаборатория общего курса железных дорог и ПТЭ']}) %>
+					</li>
+					<li class="list-group-item list-group-item-info">
+						<span class="badge">
+								17
+						</span>мультимедийных проекторов
+					</li>
+					<li class="list-group-item list-group-item-info">
+						<span class="badge">
+								9
+						</span>интерактивных досок
+					</li>
+					<li class="list-group-item list-group-item-info">
+						<span class="badge">
+								2
+						</span>МФУ
+					</li>
+				</ul>
+			</p>
+		</li>
 
-      <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-					Полигон
-        </a>
-      </h4>
+	</ul>
 
-			<ul class="list-group">
-				<li class="list-group-item">
-					Участок железной дороги
-
-				</li>
-				<li class="list-group-item">
-					Стрелочный перевод
-
-				</li>
-
-			</ul>
+</div>

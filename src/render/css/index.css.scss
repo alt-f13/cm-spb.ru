@@ -19,6 +19,22 @@ $footer: #292F3C;
 //@import "table";
 //@import "";
 //@import "";
+.thumbnails_list {
+	li, div {
+		width: 100px;
+		min-height: 30px;
+		border: 1px solid #000;
+		display: -moz-inline-stack;
+		display: inline-block;
+		vertical-align: top;
+		margin: 5px;
+		zoom: 1;
+		*display: inline;
+		_height: 250px;
+}
+}
+
+
 .push {
 	padding-bottom: 50px;
 	margin-bottom: 20px;
