@@ -1,41 +1,61 @@
 ---
 title: Новости
 menutitle: Новости
-layout: page
+layout: default
 pageOrder: 6
 ---
-<div class="list-group">
 
 
-	<% for document in @getCollection('posts').toJSON(): %>
-  <a href="<%= document.url %>" class="list-group-item">
-    <h6 class="list-group-item-heading">
-			<%= document.title %>
-    </h6>
+<div class="container-fluid">
 
-		  <small>
-        <span class="pull-right label label-primary">
-  				<i class="fa fa-clock-o fa-2x"></i>
-  				<%= @moment(document.date).lang("ru").format('DD MMMM YYYY') %>
-  			</span>
-      </small>
+		<div class="col-md-6">
 
-		<div class="row list-group-item-text">
-      <div class="col-md-3 col-xs-4">
-				<% if document.img: %>
-					<img class="thumbnail" src="<%= @getThumbnail(document.img, { w: 120 }) %>" alt="<%= document.description %>">
-	      <% else: %>
-	        <img class="thumbnail" src="/images/logo.png" alt="<%= document.description %>">
+			<div class="list-group">
+
+
+				<% for document in @getCollection('posts').toJSON(): %>
+			  <a href="<%= document.url %>" class="list-group-item">
+			    <h6 class="list-group-item-heading">
+						<%= document.title %>
+			    </h6>
+
+			        <span class="pull-right label label-primary">
+			  				<i class="fa fa-clock-o fa-2x"></i>
+			  				<%= @moment(document.date).lang("ru").format('DD MMMM YYYY') %>
+			  			</span>
+
+					<div class="list-group-item-text">
+						<div class="row">
+							<div class="col-md-3 col-xs-4">
+								<% if document.img: %>
+									<img class="thumbnail" src="<%= @getThumbnail(document.img, { w: 120 }) %>" alt="<%= document.description %>">
+								<% else: %>
+									<img class="thumbnail" src="/images/logo.png" alt="<%= document.description %>">
+								<% end %>
+							</div>
+
+							<div class="col-md-9 col-xs-8">
+								<%= document.description %>
+							</div>
+						</div>
+
+					</div>
+
+
+			  </a>
+
 				<% end %>
-    	</div>
-
-			<div class="col-md-9 col-xs-8">
-				<%= document.description %>
 			</div>
+
 		</div>
+		<div class="col-md-6">
+			<script type="text/javascript" src="//vk.com/js/api/openapi.js?137"></script>
 
-
-  </a>
-
-	<% end %>
+			<!-- VK Widget -->
+					<div id="vk_groups"></div>
+					<script type="text/javascript">
+					VK.Widgets.Group("vk_groups", {mode: 4, width: "400", height: "1000"}, 21159786);
+			</script>
+		</div>
+	</div>
 </div>

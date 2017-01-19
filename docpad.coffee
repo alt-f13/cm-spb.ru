@@ -15,12 +15,12 @@ docpadConfig = {
 
 	# Config Paths
 	# An array of paths that we try to extract our docpad configuration from
-	configPaths: [  # default
-	    'docpad.js'
-	    'docpad.coffee'
-	    'docpad.json'
-	    'docpad.cson'
-	]
+	# configPaths: [  # default
+	#     'docpad.js'
+	#     'docpad.coffee'
+	#     'docpad.json'
+	#     'docpad.cson'
+	# ]
 
 	# Plugin Paths
 	# An array of special paths which to load single plugins from
@@ -29,10 +29,10 @@ docpadConfig = {
 
 	# Plugins Paths
 	# An array of paths which to load multiple plugins from
-	pluginsPaths: [  # default
-	    'node_modules'
-	    'plugins'
-	]
+	# pluginsPaths: [  # default
+	#     'node_modules'
+	#     'plugins'
+	# ]
 
 	# Reload Paths
 	# An array of special paths that when changes occur in, we reload our configuration
@@ -63,10 +63,10 @@ docpadConfig = {
 	# Documents Paths
 	# An array of paths which contents will be treated as documents
 	# If it is a relative path, it will have the resolved `srcPath` prepended to it
-	documentsPaths: [  # default
-	    'render'
-	    'documents'
-	]
+	# documentsPaths: [  # default
+	#     'render'
+	#     'documents'
+	# ]
 
 	# Files Paths
 	# An array of paths which contents will be treated as files
@@ -113,7 +113,7 @@ docpadConfig = {
 		site:
 			# The production url of our website
 			url: "http://cm-spb.ru"
-			outPath: './output'
+			# outPath: './output'
 
 
 			# Here are some old site urls that you would like to redirect from
@@ -226,18 +226,18 @@ docpadConfig = {
 			database.findAllLive({layout:$has:'faces'}, [lastname:1])
 		contacts: (database) ->
 			database.findAllLive({layout:$has:'contacts'}, [order:1])
-		gallery: (database) ->
-			database.findAllLive({layout:$has:'gallery'})
+		# gallery: (database) ->
+		# 	database.findAllLive({layout:$has:'gallery'})
 
 
 
 	# =================================
 	# Plugins
 
-	getIndex: ->
-		@getCollection('html')
-	getArticles: ->
-		@getCollection('html').findAllLive(type:'post',[ date:-1])
+	# getIndex: ->
+	# 	@getCollection('html')
+	# getArticles: ->
+	# 	@getCollection('html').findAllLive(type:'post',[ date:-1])
 	getLinks: ->
 		@getCollection('html').findAllLive(type: 'link',[name:1])
 
@@ -266,11 +266,6 @@ docpadConfig = {
 			    # source: destination
 			    "project/": "http://new-site.com/"
 			    "project/info.html": "http://new-site.com/new-info-page"
-		lunr:
-			resultsTemplate: 'src/partials/teaser.html.eco'
-			indexes:
-			  myIndex:
-			    collection: ['posts']
 
 
 			# 	ghpages:
