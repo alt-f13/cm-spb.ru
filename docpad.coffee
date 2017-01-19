@@ -25,7 +25,7 @@ docpadConfig = {
 	# Plugin Paths
 	# An array of special paths which to load single plugins from
 	# (e.g., ['/a/path/to/a/docpad-plugin-special'])
-	pluginPaths: ['/plugins/docpad-plugin-lunr/out/lunr.plugin.js']  # default
+	#pluginPaths: ['/plugins/docpad-plugin-lunr/out/lunr.plugin.js']  # default
 
 	# Plugins Paths
 	# An array of paths which to load multiple plugins from
