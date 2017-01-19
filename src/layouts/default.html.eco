@@ -152,6 +152,11 @@ $(document).ready(function(){uhpv(has)});
 							ENG
 						</a>
 					</li>
+					<li typeof="sioc:Page" about="Vkontakte">
+							<a href="https://vk.com/cmetro" class="pull-right">
+								<i class="fa fa-vk fa-2x"></i>
+							</a>
+						</li>
 			</ul>
 
 
@@ -164,11 +169,17 @@ $(document).ready(function(){uhpv(has)});
 			<%- @content %>
 
 		<!-- Footer -->
-	<div class="push"></div>
+	<div class="push clearfix"></div>
 	</div>
 
 
+	<script type="text/javascript" src="//vk.com/js/api/openapi.js?137"></script>
 
+	<!-- VK Widget -->
+	<div id="vk_community_messages"></div>
+	<script type="text/javascript">
+		VK.Widgets.CommunityMessages("vk_community_messages", 21159786, {tooltipButtonText: "Задайте вопрос"});
+	</script>
 
 <%- @partial('footerOld') %>
 

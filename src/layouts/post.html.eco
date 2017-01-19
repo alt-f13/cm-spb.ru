@@ -1,14 +1,30 @@
 ---
-layout: default
+layout: post
 ---
+
+
 <div class="container">
 <div class="jumbotron">
+	<div class="row">
+		<ol class="breadcrumb">
+			<li><a href="/posts.html">Новости</a></li>
+			<li class="active"><%= @document.title %></li>
+		</ol>
+	</div>
+	<div class="row">
 <article id="post" class="post">
 	<h4><%= @document.title %></h4>
 	<div class="post-content"><%- @content %></div>
 </article>
 
 
+<!-- Put this script tag to the <head> of your page -->
+<script type="text/javascript" src="//vk.com/js/api/openapi.js?137"></script>
+
+<script type="text/javascript">
+  VK.init({apiId: 5385298, onlyWidgets: true});
+</script>
+<!--
 <footer>
 	<% if @getRelatedDocuments() and @getRelatedDocuments().length: %>
 		<section id="related">
@@ -24,7 +40,7 @@ layout: default
 			</div>
 		</section>
 	<% end %>
-</footer>
+</footer> -->
 
 
 </div>
