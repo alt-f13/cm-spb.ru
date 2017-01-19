@@ -1,5 +1,5 @@
 <% for image in @images: %>
-<a data-lightbox="roadtrip" href="<%= @getThumbnail(image, "zoomcrop", { w: 1600, h: 1200 }) %>" class="thumbnail" data-title="<%= @title %>">
+<a data-lightbox="roadtrip" href="<%= @getThumbnail(image, "zoomcrop", { w: 1600, h: 1200 }) %>" data-title="<%= @title %>">
   <img src="<%= @getThumbnail(image, "zoomcrop", { w: 100, h: 100 }) %>"  class="img-thumbnail" alt="<%= @title %>">
 </a>
 <% end %>

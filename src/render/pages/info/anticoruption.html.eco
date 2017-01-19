@@ -10,7 +10,19 @@ standalone: true
   <a class="link-icon list-group-item"  href="антикоррупция-2013.pdf">Информация о введении в образовательный процесс учебных курсов, предметов, дисциплин (модулей), направленных на решение задач формирования антикоррупционного мировоззрения, повышения уровня правосознания и правовой культуры обучающихся в СПб ГБПОУ “Колледж метрополитена”</a>
   <!-- <a class="link-icon list-group-item"  href="мероприятия.pdf">План мероприятий противодействия коррупции в СПб ГБПОУ “Колледж метрополитена”</a>
   <a class="link-icon list-group-item"  href="приказ-238.pdf">Приказ об антикоррупционной деятельности колледжа</a> -->
-  <a class="link-icon list-group-item" href="http://www.zakon.gov.spb.ru/hot_line">Специальная линия «Нет коррупции»</a>
+  <div class="link-icon list-group-item">
+		<h6 class="list-group-item-heading">
+			<a href="http://www.zakon.gov.spb.ru/hot_line">Специальная линия «Нет коррупции»</a>
+
+			</h6>
+				<a class="btn  btn-primary pull-right btn-sm active" role="button" href="tel:88125767765"><i class="fa fa-phone fa-2x"></i>576-77-65</a>
+		<p class="list-group-item-text">
+			<%- @partial('lightbox', {images:['/images/KORRUPTION_avgust-A4.jpg','/images/KORRUPTION_VLTS-A4.jpg', '/images/KORRUPTION-A4.jpg'],title:['Антикоррупция']}) %>
+
+
+		</p>
+
+	</div>
 	<a class="link-icon list-group-item" href="anticoruption/1.pdf" >
 		перечень должностей,связанных с коррупцией
 	</a>
@@ -18,11 +30,9 @@ standalone: true
 	<a class="link-icon list-group-item" href="anticoruption/3.pdf"  >комиссия по урегулированию споров</a>
 	<a class="link-icon list-group-item" href="anticoruption/4.pdf"  >комиссия по противодействию коррупции</a>
 	<a class="link-icon list-group-item"  href="anticoruption/5.pdf"  >план мероприятий</a>
-  <a class="link-icon list-group-item" href="tel:88125767765">СПЕЦИАЛЬНАЯ ЛИНИЯ «НЕТ КОРРУПЦИИ!» ТЕЛ.: 576-77-65</a>
 
   <a class="link-icon list-group-item"  href="Локальный-акт-№-10-Положение-о-Комиссии-по-урегулировании-споров.pdf">Положение о Комиссии по урегулировании споров между участниками образовательных отношений в СПб ГБПОУ “Колледж метрополитена”</a>
   <a class="link-icon list-group-item"  href="локальный-акт-№-7-Кодекс-профессиональной-этики.pdf">Кодекс профессиональной этики работников СПб ГБПОУ “Колледж метрополитена”</a>
 
 
 </div>
-<%- @partial('lightbox', {images:['/images/KORRUPTION_avgust-A4.jpg','/images/KORRUPTION_VLTS-A4.jpg', '/images/KORRUPTION-A4.jpg'],title:['Антикоррупция']}) %>

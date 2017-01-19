@@ -77,8 +77,8 @@ var $app = angular
 					if(foo < 14) {
 						$scope._get(day.add(1).day())
 					}else{
-						var _day = moment(_today).unix().toString();
-						$db.doc.get(_day, function(data) {
+					
+						$db.doc.get(moment(Date.today()).unix().toString(), function(data) {
 				        $scope._doc=data;
 				        console.log(data);
 				    })
