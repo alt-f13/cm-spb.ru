@@ -81,9 +81,13 @@
 					</li>
 					<li class="list-group-item">
 						Спортивный зал
+						<%- @partial('lightbox', {images:['/machines/GOPR0162.JPG', '/machines/GOPR0163.JPG', '/machines/GOPR0165.JPG'], title:['Спортивный зал']}) %>
+
 					</li>
 					<li class="list-group-item">
 						Тренажерный зал
+						<%- @partial('lightbox', {images:['/machines/GOPR0140.JPG', '/machines/GOPR0141.JPG', '/machines/GOPR0143.JPG'], title:['Тренажерный зал']}) %>
+
 					</li>
 					<li class="list-group-item">
 						Открытый стадион широкого профиля

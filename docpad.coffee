@@ -182,6 +182,7 @@ docpadConfig = {
 				"/bower_components/ngHandsontable/dist/ngHandsontable.min.js"
 				"/bower_components/angular-resource/angular-resource.min.js"
 				"/bower_components/lightbox2/dist/js/lightbox.js"
+				"/bower_components/bootstrap-autohidingnavbar/dist/jquery.bootstrap-autohidingnavbar.min.js"
 			]
 
 

@@ -31,11 +31,13 @@
     "datejs": "^1.0.0-rc3",
     "docpad": "~6.79.0",
     "docpad-plugin-associatedfiles": "~2.2.0",
+    "docpad-plugin-browsersync": "~2.0.7",
     "docpad-plugin-coffeescript": "~2.5.0",
     "docpad-plugin-copy": "~2.1.3",
     "docpad-plugin-eco": "~2.1.0",
     "docpad-plugin-frontend": "~2.1.1",
     "docpad-plugin-ghpages": "~2.4.4",
+    "docpad-plugin-gulp": "~2.1.6",
     "docpad-plugin-imagin": "~2.0.3",
     "docpad-plugin-marked": "~2.3.0",
     "docpad-plugin-menu": "~2.1.0",
@@ -46,10 +48,13 @@
     "docpad-plugin-related": "~2.2.2",
     "docpad-plugin-sitemap": "~2.2.0",
     "docpad-plugin-text": "~2.3.3",
+    "gulp": "^3.9.1",
     "node-sass-import-once": "^1.2.0"
   },
   "devDependencies": {
-    "docpad-plugin-livereload": "~2.7.1"
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-useref": "^3.1.2"
   },
   "main": "node_modules/docpad/bin/docpad-server",
   "scripts": {
