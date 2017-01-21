@@ -48,7 +48,10 @@ docpadConfig = {
 	# network (e.g., via FTP) can cause a page to be partially
 	# rendered as the page is regenerated *before* the source file
 	# has completed updating: in this case increase this value.
-	regenerateDelay: 400    # default
+	regenerateDelay: 0    # default
+	watchOptions: [
+		'catchupDelay': 0
+	]
 
 	# Out Path
 	# Where should we put our generated website files?
@@ -224,9 +227,11 @@ docpadConfig = {
 		posts: (database) ->
 			database.findAllLive({layout:$has:'post'}, [date:-1])
 		faces: (database) ->
-			database.findAllLive({layout:$has:'faces'}, [lastname:1])
+			database.findAllLive({$and:[
+				layout:'faces',
+				img:$exists:true]}, [lastname:1])
 		contacts: (database) ->
-			database.findAllLive({layout:$has:'contacts'}, [order:1])
+			database.findAllLive({type:$has:'contacts'}, [order:1])
 		# gallery: (database) ->
 		# 	database.findAllLive({layout:$has:'gallery'})
 
