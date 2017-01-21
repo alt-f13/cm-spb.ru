@@ -78,7 +78,7 @@ $(document).ready(function(){uhpv(has)});
 <script type="text/javascript" src="/js/date.js"></script>
 
 </head>
-<body ng-app="schedulerApp" ng-controller="SchedulerCtrl">
+<body ng-app="schedulerApp" >
 	<div class="hidden-xs hidden-sm right-nav label label-primary" id="uhvb" onclick="uvcl()">
 		<i class="fa fa-low-vision fa-2x" ></i>версия для слабовидящих
 	</div>
