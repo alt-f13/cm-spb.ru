@@ -29,13 +29,15 @@
     "html5shiv": "^3.7.3",
     "respond": "^1.4.2",
     "lightbox2": "^2.9.0",
-    "v-accordion": "^1.6.0",
-    "angular-animate": "^1.6.1"
+    "v-accordion": "1.5.2",
+    "angular-animate": "1.5.10"
   },
   "devDependencies": {
     "html5shiv": "^3.7.3"
   },
   "resolutions": {
-    "angular": "~1.5.0"
+    "angular": "1.5.10",
+    "angular-animate": "1.5.10",
+    "v-accordion": "1.5.2"
   }
 }

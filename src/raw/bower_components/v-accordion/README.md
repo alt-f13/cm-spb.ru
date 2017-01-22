@@ -27,9 +27,9 @@
   <script src="v-accordion.js"></script>
   ```
 
-  - Add `vAccordion` and `ngAnimate` as dependencies to your application module:
+  - Add `vAccordion` as a dependency to your application module:
   ```js
-  angular.module('myApp', ['vAccordion', 'ngAnimate']);
+  angular.module('myApp', ['vAccordion']);
   ```
 
   - Put the following markup in your template:

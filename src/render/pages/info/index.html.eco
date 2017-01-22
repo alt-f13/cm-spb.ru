@@ -7,12 +7,10 @@ standalone: true
 <script src="/js/documents.js" charset="utf-8"></script>
 
 <script type="text/ng-template"  id="tree_item_renderer.html">
-
-          {{data.title}}
-
-      <div class="list-group">
-          <a class="list-group-item link-icon"  ng-href="{{data.href}}"  ng-repeat="data in data.children" ng-include="'tree_item_renderer.html'"></a>
-      </div>
+    {{data.title}}
+    <div class="list-group">
+        <a class="list-group-item link-icon"  ng-href="{{data.href}}"  ng-repeat="data in data.children" ng-include="'tree_item_renderer.html'"></a>
+    </div>
 </script>
 
 
@@ -22,8 +20,6 @@ standalone: true
 
 <div class="container-fluid" ng-app="schedulerApp" ng-controller="DocumentsCtrl">
 	<div class="row">
-		<div class="col-md-6">
-
 
 			<div class="panel panel-info">
 				<div class="panel-heading">
@@ -144,29 +140,16 @@ standalone: true
 
 
 		</div>
-		<div class="col-md-6">
+		<div class="row">
 
 			<div class="list-group">
 
 			</div>
 
 
-      <div class="panel-group" id="">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#" href="#">
-                {{data.title}}
-              </a>
-            </h4>
-          </div>
-          <div id="" class="panel-collapse collapse in">
-            <div class="list-group">
-                <a class="list-group-item"  href="{{data.href}}"  ng-repeat="data in tree" ng-include="'tree_item_renderer.html'"></a>
-            </div>
-          </div>
-        </div>
-      </div>
+<div class="list-group" id="tree">
+	 <a class="list-group-item link-icon" ng-href="{{data.href}}" ng-repeat="data in tree" ng-include="'tree_item_renderer.html'"></a>
+</div>
 
 		</div>
 	</div>

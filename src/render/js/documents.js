@@ -13,7 +13,9 @@ var db_name = 'cm-spb';
 var $app = angular
   .module('schedulerApp', [
     'ngResource',
-    'SimpleCouch'
+    'SimpleCouch',
+    'vAccordion',
+    'ngAnimate'
   ])
   .config(function ($httpProvider,couchConfigProvider) {
 		couchConfigProvider.setServer("https://couch.2d-it.ru");

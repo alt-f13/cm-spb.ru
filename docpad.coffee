@@ -163,6 +163,7 @@ docpadConfig = {
 				"/bower_components/handsontable/dist/handsontable.full.css"
 				"/bower_components/handsontable/plugins/bootstrap/handsontable.bootstrap.css"
 				"/bower_components/lightbox2/dist/css/lightbox.css"
+				"/bower_components/v-accordion/dist/v-accordion.min.css"
 					#"//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css"
 									"/css/index.css"
 
@@ -186,6 +187,8 @@ docpadConfig = {
 				"/bower_components/angular-resource/angular-resource.min.js"
 				"/bower_components/lightbox2/dist/js/lightbox.js"
 				"/bower_components/bootstrap-autohidingnavbar/dist/jquery.bootstrap-autohidingnavbar.min.js"
+				"/bower_components/angular-animate/angular-animate.min.js"
+				"/bower_components/v-accordion/dist/v-accordion.min.js"
 			]
 
 

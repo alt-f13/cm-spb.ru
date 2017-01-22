@@ -1,6 +1,6 @@
 /**
  * vAccordion - AngularJS multi-level accordion component
- * @version v1.6.0
+ * @version v1.5.2
  * @link http://lukaszwatroba.github.io/v-accordion
  * @author Łukasz Wątroba <l@lukaszwatroba.com>
  * @license MIT License, http://www.opensource.org/licenses/MIT
@@ -431,11 +431,9 @@ function vPaneDirective ($timeout, $animate, accordionConfig) {
       function expand () {
         accordionCtrl.disable();
 
-        paneContent.attr('aria-hidden', 'false');
-
         paneHeader.attr({
           'aria-selected': 'true',
-          'aria-expanded': 'true'
+          'tabindex': '0'
         });
 
         emitEvent('onExpand');
@@ -451,11 +449,9 @@ function vPaneDirective ($timeout, $animate, accordionConfig) {
       function collapse () {
         accordionCtrl.disable();
 
-        paneContent.attr('aria-hidden', 'true');
-
         paneHeader.attr({
           'aria-selected': 'false',
-          'aria-expanded': 'false'
+          'tabindex': '-1'
         });
 
         emitEvent('onCollapse');
@@ -471,22 +467,18 @@ function vPaneDirective ($timeout, $animate, accordionConfig) {
       scope.$evalAsync(function () {
         if (scope.isExpanded) {
           iElement.addClass(states.expanded);
-          paneContent
-            .css('max-height', 'none')
-            .attr('aria-hidden', 'false');
+          paneContent.css('max-height', 'none');
 
           paneHeader.attr({
             'aria-selected': 'true',
-            'aria-expanded': 'true'
+            'tabindex': '0'
           });
         } else {
-          paneContent
-            .css('max-height', '0px')
-            .attr('aria-hidden', 'true');
+          paneContent.css('max-height', '0px');
 
           paneHeader.attr({
             'aria-selected': 'false',
-            'aria-expanded': 'false'
+            'tabindex': '-1'
           });
         }
       });
@@ -561,7 +553,6 @@ function vPaneContentDirective () {
     scope: {},
     link: function (scope, iElement, iAttrs) {
       iAttrs.$set('role', 'tabpanel');
-      iAttrs.$set('aria-hidden', 'true');
     }
   };
 }
@@ -582,7 +573,7 @@ function vPaneHeaderDirective () {
     scope: {},
     link: function (scope, iElement, iAttrs, ctrls) {
       iAttrs.$set('role', 'tab');
-      iAttrs.$set('tabindex', '0');
+      iAttrs.$set('tabindex', '-1');
 
       var paneCtrl = ctrls[0],
           accordionCtrl = ctrls[1];
@@ -598,10 +589,10 @@ function vPaneHeaderDirective () {
         if (event.keyCode === 32  || event.keyCode === 13) {
           scope.$apply(function () { paneCtrl.toggle(); });
           event.preventDefault();
-        } else if (event.keyCode === 39 || event.keyCode === 40) {
+        } else if (event.keyCode === 39) {
           scope.$apply(function () { accordionCtrl.focusNext(); });
           event.preventDefault();
-        } else if (event.keyCode === 37 || event.keyCode === 38) {
+        } else if (event.keyCode === 37) {
           scope.$apply(function () { accordionCtrl.focusPrevious(); });
           event.preventDefault();
         }
