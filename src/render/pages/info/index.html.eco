@@ -7,10 +7,12 @@ standalone: true
 <script src="/js/documents.js" charset="utf-8"></script>
 
 <script type="text/ng-template"  id="tree_item_renderer.html">
-    {{data.title}}
-    <div class="list-group">
-        <a class="list-group-item link-icon"  ng-href="{{data.href}}"  ng-repeat="data in data.children" ng-include="'tree_item_renderer.html'"></a>
-    </div>
+    <a ng-href="#"  ng-if="data.children">{{data.title}}</a>
+    <a ng-href="{{data.href}}"  ng-if="data.href" class="link-icon">{{data.title}}</a>
+    <ul class="list-group"  ng-if="data.children">
+        <li class="list-group-item"  ng-href="{{data.href}}"  ng-repeat="data in data.children" ng-include="'tree_item_renderer.html'"></li>
+    </ul>
+  </ng-if>
 </script>
 
 
@@ -147,11 +149,10 @@ standalone: true
 			</div>
 
 
-<div class="list-group" id="tree">
-	 <a class="list-group-item link-icon" ng-href="{{data.href}}" ng-repeat="data in tree" ng-include="'tree_item_renderer.html'"></a>
-</div>
+<ul class="list-group tree3">
+	 <li class="list-group-item" ng-repeat="data in tree" ng-include="'tree_item_renderer.html'"></li>
+</ul>
 
 		</div>
 	</div>
-</div>
 <%- @partial('machines') %>
