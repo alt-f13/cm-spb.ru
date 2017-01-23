@@ -70,54 +70,76 @@
 				</ul>
 			</p>
 		</li>
-		<li class="list-group-item">
-			<h4 class="list-group-item-heading">
-				Техническое обеспечение
-			</h4>
-			<p class="list-group-item-text">
-				<ul class="list-group">
-					<li class="list-group-item">
-						Библиотека, читальный зал с выходом в Internet
-					</li>
-					<li class="list-group-item">
-						Спортивный зал
-						<%- @partial('lightbox', {images:['/machines/GOPR0162.JPG', '/machines/GOPR0163.JPG', '/machines/GOPR0165.JPG'], title:['Спортивный зал']}) %>
 
-					</li>
-					<li class="list-group-item">
-						Тренажерный зал
-						<%- @partial('lightbox', {images:['/machines/GOPR0140.JPG', '/machines/GOPR0141.JPG', '/machines/GOPR0143.JPG'], title:['Тренажерный зал']}) %>
 
-					</li>
-					<li class="list-group-item">
-						Открытый стадион широкого профиля
-					</li>
-					<li class="list-group-item list-group-item-info">
-						<span class="badge">
-								46
-						</span>
-					  рабочих мест с выходом в Internet
 
-					</li>
-					<li class="list-group-item list-group-item-info">
-						<span class="badge">
-								17
-						</span>мультимедийных проекторов
-					</li>
-					<li class="list-group-item list-group-item-info">
-						<span class="badge">
-								9
-						</span>интерактивных досок
-					</li>
-					<li class="list-group-item list-group-item-info">
-						<span class="badge">
-								2
-						</span>МФУ
-					</li>
-				</ul>
-			</p>
-		</li>
+
+
 
 	</ul>
 
+</div>
+
+<div class="panel panel-success">
+	<div class="panel-heading">
+		<h3 class="panel-title">
+			Техническое обеспечение
+		</h3>
+	</div>
+	<ul class="list-group">
+		<li class="list-group-item">
+			<h4 class="list-group-item-heading">
+				Библиотека, читальный зал с выходом в Internet
+			</h4>
+		</li>
+		<li class="list-group-item">
+			<h4 class="list-group-item-heading">
+				Спортивный зал
+			</h4>
+			<p class="list-group-item-text">
+				<%- @partial('lightbox', {images:['/machines/GOPR0162.JPG', '/machines/GOPR0163.JPG', '/machines/GOPR0165.JPG'], title:['Спортивный зал']}) %>
+
+			</p>
+
+		</li>
+		<li class="list-group-item">
+			<h4 class="list-group-item-heading">
+				Тренажерный зал
+			</h4>
+			<p class="list-group-item-text">
+				<%- @partial('lightbox', {images:['/machines/GOPR0140.JPG', '/machines/GOPR0141.JPG', '/machines/GOPR0143.JPG'], title:['Тренажерный зал']}) %>
+
+			</p>
+
+
+		</li>
+		<li class="list-group-item">
+			<h4 class="list-group-item-heading">
+				Открытый стадион широкого профиля
+
+			</h4>
+		</li>
+		<li class="list-group-item list-group-item-info">
+			<span class="badge">
+					46
+			</span>
+			рабочих мест с выходом в Internet
+
+		</li>
+		<li class="list-group-item list-group-item-info">
+			<span class="badge">
+					17
+			</span>мультимедийных проекторов
+		</li>
+		<li class="list-group-item list-group-item-info">
+			<span class="badge">
+					9
+			</span>интерактивных досок
+		</li>
+		<li class="list-group-item list-group-item-info">
+			<span class="badge">
+					2
+			</span>МФУ
+		</li>
+	</ul>
 </div>
