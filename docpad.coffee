@@ -294,8 +294,15 @@ docpadConfig = {
 
 	#thumbnails:
 		#imageMagick: true
-
-
+	environments:
+		development:
+			templateData:
+				site:
+					services:
+						vkGroup: false
+						vkNews: false
+						vkComments: false
+						googleAnalytics: false
 
 
 	# =================================
