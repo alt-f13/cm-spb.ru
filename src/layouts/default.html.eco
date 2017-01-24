@@ -184,7 +184,7 @@ $(document).ready(function(){uhpv(has)});
 	<div class="push clearfix"></div>
 	</div>
 
-	<% if 'production' in @getEnvironments(): %>
+	<% if 'static' in @getEnvironments(): %>
 		<script type="text/javascript" src="//vk.com/js/api/openapi.js?137"></script>
 		<!-- VK Widget -->
 		<div id="vk_community_messages"></div>
