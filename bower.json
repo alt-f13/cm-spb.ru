@@ -38,6 +38,7 @@
   "resolutions": {
     "angular": "1.5.10",
     "angular-animate": "1.5.10",
-    "v-accordion": "1.5.2"
+    "v-accordion": "1.5.2",
+    "jquery": "^3.1.1"
   }
 }

@@ -166,6 +166,7 @@ docpadConfig = {
 				"/bower_components/v-accordion/dist/v-accordion.min.css"
 					#"//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css"
 									"/css/index.css"
+									"/bower_components/bootstrap-treeview/src/css/bootstrap-treeview.css"
 
 
 			]
@@ -185,10 +186,13 @@ docpadConfig = {
 				"/bower_components/handsontable/dist/handsontable.full.js"
 				"/bower_components/ngHandsontable/dist/ngHandsontable.min.js"
 				"/bower_components/angular-resource/angular-resource.min.js"
-				"/bower_components/lightbox2/dist/js/lightbox.js"
-				"/bower_components/bootstrap-autohidingnavbar/dist/jquery.bootstrap-autohidingnavbar.min.js"
 				"/bower_components/angular-animate/angular-animate.min.js"
+
+				"/bower_components/lightbox2/dist/js/lightbox.js"
+				"/bower_components/jquery/dist/jquery.min.js"
+				"/bower_components/bootstrap-autohidingnavbar/dist/jquery.bootstrap-autohidingnavbar.min.js"
 				"/bower_components/v-accordion/dist/v-accordion.min.js"
+				"/bower_components/bootstrap-treeview/src/js/bootstrap-treeview.js"
 			]
 
 

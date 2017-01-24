@@ -205,12 +205,12 @@ $(document).ready(function(){uhpv(has)});
 function getDomain(url) {
   return url.match(/:\/\/(.[^/]+)/)[1];
 }
-$(".list-group > a[href^='http']").each(function() {
-  $(this).css({
-    background: "url(http://www.google.com/s2/favicons?domain=" + getDomain(this.href) + ") left center no-repeat",
-    "padding-left": "20px"
-  });
-});
+// $(".list-group > a[href^='http']").each(function() {
+//   $(this).css({
+//     background: "url(http://www.google.com/s2/favicons?domain=" + getDomain(this.href) + ") left center no-repeat",
+//     "padding-left": "20px"
+//   });
+// });
 
 $('a').each(function() {
    var a = new RegExp('/' + window.location.host + '/');
@@ -221,6 +221,10 @@ $('a').each(function() {
            window.open(this.href, '_blank');
        });
    }
+});
+
+$(".navbar-fixed-bottom").autoHidingNavbar({
+  // see next for specifications
 });
 </script>
 

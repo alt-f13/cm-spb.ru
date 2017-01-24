@@ -7,20 +7,37 @@ standalone: true
 <script src="/js/documents.js" charset="utf-8"></script>
 
 <script type="text/ng-template"  id="tree_item_renderer.html">
-    <a ng-href="#"  ng-if="data.children">{{data.title}}</a>
-    <a ng-href="{{data.href}}"  ng-if="data.href" class="link-icon">{{data.title}}</a>
-    <ul class="list-group"  ng-if="data.children">
-        <li class="list-group-item"  ng-href="{{data.href}}"  ng-repeat="data in data.children" ng-include="'tree_item_renderer.html'"></li>
+    <a ng-href="{{data.href}}"  ng-if="data.href" class="link-icon">{{data.text}}</a>
+    <div  ng-if="data.nodes" ng-init="listToggle[$index]=false" ng-click="listToggle[$index]!=listToggle[$index]">{{data.text}}
+    <ul class="list-group"  ng-if="data.nodes" ng-show="listToggle[$index]">
+        <li class="list-group-item"  ng-href="{{data.href}}"  ng-repeat="data in data.nodes" ng-include="'tree_item_renderer.html'"></li>
     </ul>
+  </div>
   </ng-if>
 </script>
+<script type="text/ng-template"  id="accordionTree.html">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#{{$index}}" href="#">
+            {{data.text}}
+          </a>
+        </h4>
+      </div>
+      <div id="{{$index}}" class="panel-collapse collapse in">
+        <div class="list-group">
+            <a class="list-group-item"  ng-href="{{data.href}}"  ng-repeat="data in data.nodes" ng-include="'tree_item_renderer.html'"></a>
+        </div>
+      </div>
+</script>
+
+<div id="tree"></div>
 
 
 
 
 
 
-<div class="container-fluid" ng-app="schedulerApp" ng-controller="DocumentsCtrl">
+<div class="container-fluid">
 	<div class="row">
 
 			<div class="panel panel-info">
@@ -149,10 +166,28 @@ standalone: true
 			</div>
 
 
-<ul class="list-group tree3">
-	 <li class="list-group-item" ng-repeat="data in tree" ng-include="'tree_item_renderer.html'"></li>
-</ul>
 
 		</div>
 	</div>
+  <div class="panel-group" id="acTree" ng-app="schedulerApp" ng-controller="DocumentsCtrl">
+    <div class="panel panel-default" ng-repeat="data in tree" ng-include="'accordionTree.html'">
+    </div>
+  </div>
 <%- @partial('machines') %>
+<script type="text/javascript">
+//
+// $(function() {
+//   var documents;
+//   $.getJSON('./includes/documents.json', function(data) {
+//     documents=data;
+//     $('#tree').treeview({
+//       data: documents,         // data is not optional
+//       levels: 1,
+//       enableLinks: true,
+// 	     levels: 1,
+//        icon: "fa fa-folder fa-2x"
+//     });
+//   });
+// })
+
+</script>
