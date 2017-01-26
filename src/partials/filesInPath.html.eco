@@ -1,0 +1,7 @@
+<ul class="list-group">
+	<% for file in @getFilesAtPath(@path).toJSON(): %>
+		<li class="list-group-item">
+			<%= file %>
+		</li>
+	<% end %>
+</ul>
