@@ -1,0 +1,15 @@
+---
+layout: page
+title: Сведения об образовательной организации
+standalone: true
+associatedFilesRelative: true
+associatedFilesPath: './fgosSpo'
+---
+<%= @getDocument().getAssociatedFiles().toJSON() %>
+<ul class="list-group">
+	<% for file in @getDocument().getAssociatedFiles().toJSON(): %>
+		<li class="list-group-item">
+			<%= file.url %>  <%= file.title or file.name %>
+		</li>
+	<% end %>
+</ul>

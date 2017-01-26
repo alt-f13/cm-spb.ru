@@ -26,12 +26,12 @@
 														<i class="fa fa-address-card-o fa-fw"></i>
 																										 Паспорт
 												</div>
-												<a class="list-group-item" href="/pages/info/Анкета-заявление-2015.pdf">
+												<a class="list-group-item" href="/info/anketa2017.pdf">
 													<i class="fa fa-file-pdf-o fa-fw" aria-hidden="true"></i>
 
 														Заявление
 												</a>
-												<a class="list-group-item" href="/pages/info/Договор-с-обучающимися-2015.pdf">
+												<a class="list-group-item" href="/info/dogovor2017.pdf">
 													<i class="fa fa-file-pdf-o fa-fw" aria-hidden="true"></i>
 
 													Договор

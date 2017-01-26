@@ -1,27 +1,27 @@
 {
-  "name": "twitter-bootstrap.docpad",
-  "version": "0.10.0",
+  "name": "cm-spb.ru",
+  "version": "0.5.0",
   "description": "Bootstrap skeleton for DocPad. Simple and flexible HTML, CSS, and Javascript for popular user interface components and interactions.",
-  "homepage": "https://github.com/bevry/twitter-bootstrap.docpad",
+  "homepage": "https://github.com/alt-f13/cm-spb.ru",
   "keywords": [
-    "docpad-skeleton",
-    "docpad",
-    "website",
+    "колледж",
+    "метрополитена",
+    "официальный сайт",
     "bootstrap"
   ],
-  "author": "Bevry Pty Ltd <us@bevry.me> (http://bevry.me)",
+  "author": "https://github.com/alt-f13/",
   "maintainers": [
-    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+    "https://github.com/alt-f13/"
   ],
   "contributors": [
-    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+    "https://github.com/alt-f13/"
   ],
   "bugs": {
-    "url": "https://github.com/docpad/twitter-bootstrap.docpad/issues"
+    "url": "https://github.com/alt-f13/cm-spb.ru/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/docpad/twitter-bootstrap.docpad.git"
+    "url": "https://github.com/alt-f13/cm-spb.ru.git"
   },
   "engines": {
     "node": "0.10",
@@ -48,20 +48,29 @@
     "docpad-plugin-related": "~2.2.2",
     "docpad-plugin-sitemap": "~2.2.0",
     "docpad-plugin-text": "~2.3.3",
+    "docpad-plugin-webpack": "~2.2.1",
     "gulp": "^3.9.1",
+    "jshint": "^2.9.4",
+    "json-loader": "^0.5.4",
     "node-sass-import-once": "^1.2.0"
   },
   "devDependencies": {
+    "css-loader": "^0.26.1",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",
     "gulp-jshint": "^2.0.4",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^2.0.0",
-    "gulp-useref": "^3.1.2"
+    "gulp-useref": "^3.1.2",
+    "handlebars-loader": "^1.4.0",
+    "json-loader": "^0.5.4",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7"
   },
   "main": "node_modules/docpad/bin/docpad-server",
   "scripts": {
-    "start": "node_modules/docpad/bin/docpad-server"
+    "start": "node_modules/docpad/bin/docpad-server",
+    "postinstall": "node_modules/bower/bin/bower install"
   }
 }
