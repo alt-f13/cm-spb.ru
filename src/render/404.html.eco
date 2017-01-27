@@ -5,9 +5,9 @@ dynamic: false
 permalink: /404.html
 ---
 <script type="text/javascript">
-if (window.location.hostname !== "cm-spb.ru") {
-	 window.location.href = 'http://cm-spb.ru';
-}
+// if (window.location.hostname !== "cm-spb.ru") {
+// 	 window.location.href = 'http://cm-spb.ru';
+// }
 </script>
 <div class="hero-unit">
 	<h1>404</h1>
