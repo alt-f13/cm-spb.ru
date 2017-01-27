@@ -55,6 +55,7 @@
     "node-sass-import-once": "^1.2.0"
   },
   "devDependencies": {
+    "bower-webpack-plugin": "^0.1.9",
     "css-loader": "^0.26.1",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.1",

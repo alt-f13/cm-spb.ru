@@ -1,5 +1,6 @@
 ---
 webpack: true
+standalone: true
 ---
 
 /**
@@ -9,4 +10,8 @@ webpack: true
  */
 
 // Example of how to load the package information with "json-loader":
-var package = require("json!../bower.json");
+//var package = require("json!../package.json");
+
+//require('angular');
+//require('jquery')
+//require('../src/raw/bower_components/angular/angular.js');
