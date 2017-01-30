@@ -15,8 +15,9 @@
 					</div>
 			</a>
 			<a class=" uppercase navbar-brand footer-small"  href="http://k-obr.spb.ru/page/632">
-
-				  <i class="fa fa-child fa-3x fa-inverse"></i>
+					<div style="height: 100%; vertical-align: top;">
+						<i class="fa fa-child fa-3x fa-inverse"></i>
+					</div>
 					<div>
 						Профилактика негативных<br>
 						явлений среди <br>
