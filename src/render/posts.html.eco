@@ -60,3 +60,8 @@ pageOrder: 6
 		</div>
 	</div>
 </div>
+<script type="text/javascript">
+	$.getJSON('https://api.vk.com/api.php?oauth=1&method=wall.get.json&domain=cmetro', function(data) {
+		console.log(data);
+	});
+</script>
