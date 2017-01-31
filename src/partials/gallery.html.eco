@@ -2,7 +2,7 @@
 <style>
 ul.thumbnails_list {
 	list-style: none;
-	
+
 }
 .thumbnails_list li {
 		width: 100px;
@@ -19,7 +19,7 @@ ul.thumbnails_list {
 <ul class="thumbnails_list">
 	<% for file in @getDocument().getAssociatedFiles().findAll({extension: $in: image_exts}).toJSON(): %>
 		<li>
-			<a href="<%= @getThumbnail(file.url, "zoomcrop", { w: 1600, h: 1200 }) %>" title="<%= file.title or file.name %>" data-gallery>
+			<a href="<%= @getThumbnail(file.url, "default", { w: 1600, h: 1200 }) %>" title="<%= file.title or file.name %>" data-gallery>
 						<img src="<%= @getThumbnail(file.url, "zoomcrop", { w: 100, h: 100 }) %>" alt="<%= file.title or file.name %>" class="thumbnail">
 			</a>
 		</li>

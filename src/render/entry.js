@@ -1,7 +1,4 @@
----
-webpack: true
-standalone: true
----
+
 
 /**
  * Entry webpack file for plm-spb.ru.

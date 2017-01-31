@@ -22,7 +22,6 @@
 	</script>
 	<%- @getBlock('meta').toHTML() %>
 
-		<meta name="viewport" content="width=device-width" />
 		<!-- Shims: IE6-8 support of HTML5 elements -->
 		<!--[if lt IE 9]>
 			<script type="text/javascript"  src="/bower_components/es5-shim/es5-shim.min.js"></script>
@@ -114,7 +113,7 @@ $(document).ready(function(){uhpv(has)});
 				</div>
 				<div class="col-xs-2 col-md-2 col-sm-3 col-lg-2 ">
 						<div class="address pull-right">
-							<h5>771-59-09</h5>
+							<h5><a href="tel:88127715909"></a>771-59-09</h5>
 							<a href="/#contacts">ул. Купчинская, д. 28</a>
 						</div>
 					</div>
