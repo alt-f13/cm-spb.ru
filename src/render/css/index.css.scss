@@ -24,7 +24,34 @@ $footer: #292F3C;
 //@import "";
 //@import "";
 
+// .list-group-colored {
+// 	.list-group-item:nth-child(2n){
+// 		background-color: $color3;
+// 	}
+// 	.list-group-item:nth-child(3n){
+// 		background-color: $color4;
+// 	}
+//
+// }
 
+
+
+.list-group-addon {
+  padding: 10px 10px;
+  font-size: 15px;
+  display:inline;
+  font-weight: normal;
+  line-height: 1;
+  color: #555555;
+  text-align: center;
+  background-color: #eeeeee;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+}
+
+.jumbotron p {
+	font-size: 14px !important;
+}
 
 .push {
 	padding-bottom: 50px;

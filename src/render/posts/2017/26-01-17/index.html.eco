@@ -24,4 +24,4 @@ standalone: true
 
 
 
-<%- @partial('gallery') %>
+

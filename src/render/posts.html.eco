@@ -4,64 +4,48 @@ menutitle: Новости
 layout: default
 pageOrder: 6
 ---
+<% image_exts = ['jpg', 'JPG', 'jpeg', 'JPEG', 'png', 'PNG'] %>
 
 
-<div class="container-fluid">
+<div class="container">
+	<div class="jumbotron">
+	  <h1 class="display-3">Лента новостей</h1>
+	  <p class="lead">
 
-		<div class="col-md-8">
-
-			<div class="list-group">
-
-
-				<% for document in @getCollection('posts').toJSON(): %>
-			  <a href="<%= document.url %>" class="list-group-item">
-			    <h6 class="list-group-item-heading">
-						<%= document.title %>
-			    </h6>
-
-			        <span class="pull-right label label-primary">
-			  				<i class="fa fa-clock-o fa-2x"></i>
-			  				<%= @moment(document.date).lang("ru").format('DD MMMM YYYY') %>
-			  			</span>
-
-					<div class="list-group-item-text">
-						<div class="row">
-							<div class="col-md-3 col-xs-4">
-								<% if document.img: %>
-									<img class="img-responsive" src="<%= @getThumbnail(document.img, { w: 120 }) %>" alt="<%= document.description %>">
-								<% else: %>
-									<img class="img-responsive img-rounded" src="/images/logo.png" alt="<%= document.description %>">
-								<% end %>
-							</div>
-
-							<div class="col-md-9 col-xs-8">
-								<%= document.description %>
-
-							</div>
-						</div>
-
-					</div>
+						<ul class="list-group list-group-colored">
 
 
-			  </a>
+							<% for document in @getCollection('posts').toJSON(): %>
+						  <li class="list-group-item">
+						    <h6 class="list-group-item-heading">
+									<%= document.title %>
+						    </h6>
 
-				<% end %>
-			</div>
+						        <span class="pull-right label label-primary">
+						  				<i class="fa fa-clock-o fa-2x"></i>
+						  				<%= @moment(document.date).lang("ru").format('DD MMMM YYYY') %>
+						  			</span>
 
-		</div>
-		<div class="col-md-4">
-			<script type="text/javascript" src="//vk.com/js/api/openapi.js?137"></script>
+								<p class="list-group-item-text">
+									<%- document.content %>
+									<p>
+										<% for file in @getFilesAtPath(document.relativeDirPath).findAll({extension: $in: image_exts}).toJSON(): %>
+										<a data-lightbox="<%= document.relativeDirPath %>" href="<%= file.url %>" data-title="">
+											<img src="<%= @getThumbnail(file.url, "zoomcrop", { w: 100, h: 100 }) %>"  class="img-thumbnail" alt="">
+										</a>
+										<% end %>
 
-			<!-- VK Widget -->
-					<div id="vk_groups"></div>
-					<script type="text/javascript">
-					VK.Widgets.Group("vk_groups", {mode: 4, width: "300", height: "500"}, 21159786);
-			</script>
-		</div>
+									</p>
+								</p>
+
+
+						  </li>
+
+							<% end %>
+						</ul>
+	  </p>
 	</div>
-</div>
-<script type="text/javascript">
-	$.getJSON('https://api.vk.com/api.php?oauth=1&method=wall.get.json&domain=cmetro', function(data) {
-		console.log(data);
-	});
-</script>
+
+
+
+	</div>
