@@ -4,6 +4,7 @@ var fs = require('fs');
 var mkdirp = require('mkdirp');
 var yaml = require('js-yaml');
 var YAML = require('yamljs');
+var moment = require('moment');
 
 var _url='https://api.vk.com/api.php?oauth=1&method=wall.get.json&domain=cmetro';
 
@@ -32,6 +33,26 @@ function _posts() {
 				delete post.likes;
 				delete post.reposts;
 				delete post.id;
+				var _text=post.text;
+				delete post.text;
+				post.date = moment.unix(post.date).format('YYYY-MM-DD');
+				//console.log(post.attachments);
+				var _att=0;
+
+				if(post.attachments) {
+					post.attachments.map(function(i) {
+						var _photo = i.photo;
+						if((typeof(_photo) != 'undefined')) {
+							console.log("photo:", _photo.src_big);
+							var _file = fs.createWriteStream(directory+"/"+_att+".jpg");
+							var req = http.get(_photo.src_big);
+							req.pipe(_file);
+
+						}
+						_att++;
+					});
+				};
+
 
 				if(!fs.existsSync(directory)){
 				    fs.mkdirSync(directory, 0777, function(err){
@@ -42,7 +63,7 @@ function _posts() {
 
 				    });
 				}
-				fs.writeFile(directory+"/index.html", "---\n"+YAML.stringify(post)+"\n---\n", function(err) {
+				fs.writeFile(directory+"/index.html", "---\n"+YAML.stringify(post)+"\n---\n"+_text, function(err) {
 					if(err) {
 							return console.log(err);
 						}
@@ -60,7 +81,7 @@ function _posts() {
 			// $db.attachment.insert(_rows[i].id, "image0.jpg", res.body, res.get('Content-Type'), {"rev": _rows[i].value._rev}, function(resp) {
 			// 	console.log(resp);
 			// })
-			console.log(_posts.response);
+			//console.log(_posts.response);
 		})
 		.catch(function(err) {
 			console.log(err);

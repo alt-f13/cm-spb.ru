@@ -31,4 +31,4 @@ tags: ['post']
 </div>
 
 
-<%- @partial('gallery') %>
+
