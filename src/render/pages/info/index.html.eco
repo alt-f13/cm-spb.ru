@@ -84,11 +84,11 @@ standalone: true
 
 						<tr class="info">
 							<th>Лицензия</th>
-							<td><a class="link-icon" href="documents/Лицензия.pdf">Серия 78Л01 № 0001052 Рег.№ 1030 от 16 июня 2014 г.</a></td>
+							<td><a class="link-icon" href="documents/Лицензия.pdf">Серия 78Л01 № 0001052 Рег.№ 1030 от 16 июня 2014 г</a></td>
 						</tr>
 						<tr class="info">
 							<th>Аккредитация</th>
-							<td><a class="link-icon" href="accreditation2016.pdf">Серия 78A01 № 0000640 Рег. № 1318 от 31 мая 2016 г.</a></td>
+							<td><a class="link-icon" href="accreditation2016.pdf">Серия 78A01 № 0000640 Рег. № 1318 от 31 мая 2016 г</a></td>
 						</tr>
 
 						<tr>
@@ -245,149 +245,178 @@ standalone: true
 				<li><a href="#">Образование</a>
 					<ul>
 						 <li><a href="#">Аннотации к рабочим программам дисциплин</a>
-							<div class="list-group">
-								<a href="./15.01.25-(2014)-Станочник" class="list-group-item link-icon">15.01.25 (2014) Станочник</a>
-								<a href="./15.01.25-(2014)-Станочник/ОП.01-технические-измерения.pdf" class="list-group-item link-icon">ОП.01 технические измерения.pdf</a>
-								<a href="./15.01.25-(2014)-Станочник/ОП.02-Техническая-графика.pdf" class="list-group-item link-icon">ОП.02 Техническая графика.pdf</a>
-								<a href="./15.01.25-(2014)-Станочник/ОП.03-Основы-электротехники.pdf" class="list-group-item link-icon">ОП.03 Основы электротехники.pdf</a>
-								<a href="./15.01.25-(2014)-Станочник/ОП.04.-Основы-материаловедения.pdf" class="list-group-item link-icon">ОП.04. Основы материаловедения.pdf</a>
-								<a href="./15.01.25-(2014)-Станочник/ОП.05Общие-основы-технологии-металлообработки.pdf" class="list-group-item link-icon">ОП.05Общие основы технологии металлообработки.pdf</a>
-								<a href="./15.01.25-(2014)-Станочник/ОП.06--БЖД.pdf" class="list-group-item link-icon">ОП.06  БЖД.pdf</a>
-								<a href="./15.01.25-(2014)-Станочник/ОП.07-Основы-информационных-технологий-в-проф-деят-ти-(станочники)(2014-2015.pdf" class="list-group-item link-icon">ОП.07 Основы информационных технологий в проф деят ти (станочники)(2014 2015.pdf</a>
-								<a href="./15.01.25-(2014)-Станочник/ОП08-Основы-поиска-работы.pdf" class="list-group-item link-icon">ОП08 Основы поиска работы.pdf</a>
-								<a href="./15.01.25-(2014)-Станочник/ПМ.01.pdf" class="list-group-item link-icon">ПМ.01.pdf</a>
-								<a href="./15.01.25-(2014)-Станочник/ПМ.02.pdf" class="list-group-item link-icon">ПМ.02.pdf</a>
-								<a href="./15.01.25-(2014)-Станочник/ПП-ПМ.01.pdf" class="list-group-item link-icon">ПП ПМ.01.pdf</a>
-								<a href="./15.01.25-(2014)-Станочник/ПП.-ПМ.02.pdf" class="list-group-item link-icon">ПП. ПМ.02.pdf</a>
-								<a href="./15.01.25-(2014)-Станочник/УП-ПМ.01.pdf" class="list-group-item link-icon">УП ПМ.01.pdf</a>
-								<a href="./15.01.25-(2014)-Станочник/УП-ПМ.02.pdf" class="list-group-item link-icon">УП ПМ.02.pdf</a>
-								<a href="./15.01.25-(2014)-Станочник/ФК.-Физическая-культура.pdf" class="list-group-item link-icon">ФК. Физическая культура.pdf</a>
+							 <div class="list-group">
+							 <div class="list-group-item">
+							 	<div class="list-group-item-heading">
+							 		<h6>15.01.25 (2014) Станочник</h6>
+							 	</div>
+								<div class="list-group">
+									<a href="/info/education/programs/15.01.25-(2014)-Станочник/ОП.01-технические-измерения.pdf" class="list-group-item link-icon">ОП.01 технические измерения</a>
+									<a href="/info/education/programs/15.01.25-(2014)-Станочник/ОП.02-Техническая-графика.pdf" class="list-group-item link-icon">ОП.02 Техническая графика</a>
+									<a href="/info/education/programs/15.01.25-(2014)-Станочник/ОП.03-Основы-электротехники.pdf" class="list-group-item link-icon">ОП.03 Основы электротехники</a>
+									<a href="/info/education/programs/15.01.25-(2014)-Станочник/ОП.04.-Основы-материаловедения.pdf" class="list-group-item link-icon">ОП.04. Основы материаловедения</a>
+									<a href="/info/education/programs/15.01.25-(2014)-Станочник/ОП.05Общие-основы-технологии-металлообработки.pdf" class="list-group-item link-icon">ОП.05Общие основы технологии металлообработки</a>
+									<a href="/info/education/programs/15.01.25-(2014)-Станочник/ОП.06--БЖД.pdf" class="list-group-item link-icon">ОП.06  БЖД</a>
+									<a href="/info/education/programs/15.01.25-(2014)-Станочник/ОП.07-Основы-информационных-технологий-в-проф-деят-ти-(станочники)(2014-2015.pdf" class="list-group-item link-icon">ОП.07 Основы информационных технологий в проф деят ти (станочники)(2014 2015</a>
+									<a href="/info/education/programs/15.01.25-(2014)-Станочник/ОП08-Основы-поиска-работы.pdf" class="list-group-item link-icon">ОП08 Основы поиска работы</a>
+									<a href="/info/education/programs/15.01.25-(2014)-Станочник/ПМ.01.pdf" class="list-group-item link-icon">ПМ.01</a>
+									<a href="/info/education/programs/15.01.25-(2014)-Станочник/ПМ.02.pdf" class="list-group-item link-icon">ПМ.02</a>
+									<a href="/info/education/programs/15.01.25-(2014)-Станочник/ПП-ПМ.01.pdf" class="list-group-item link-icon">ПП ПМ.01</a>
+									<a href="/info/education/programs/15.01.25-(2014)-Станочник/ПП.-ПМ.02.pdf" class="list-group-item link-icon">ПП. ПМ.02</a>
+									<a href="/info/education/programs/15.01.25-(2014)-Станочник/УП-ПМ.01.pdf" class="list-group-item link-icon">УП ПМ.01</a>
+									<a href="/info/education/programs/15.01.25-(2014)-Станочник/УП-ПМ.02.pdf" class="list-group-item link-icon">УП ПМ.02</a>
+									<a href="/info/education/programs/15.01.25-(2014)-Станочник/ФК.-Физическая-культура.pdf" class="list-group-item link-icon">ФК. Физическая культура</a>
+								</div>
+							 </div>
+							<div class="list-group-item">
+								<div class="list-group-item-heading">
+									<h6>
+										23.01.10(2014) Слесарь по обслуживанию и ремонту подвижного состава
+									</h6>
+								</div>
+								<div class="list-group">
+									<a href="/info/education/programs/23.01.10(2014)-Слесарь-по-обслуживанию-и-ремонту-подвижного-состава/ОП.01.-Основы-технического-черчения.pdf" class="list-group-item link-icon">ОП.01. Основы технического черчения</a>
+									<a href="/info/education/programs/23.01.10(2014)-Слесарь-по-обслуживанию-и-ремонту-подвижного-состава/ОП.02---Слесарное-дело.pdf" class="list-group-item link-icon">ОП.02   Слесарное дело</a>
+									<a href="/info/education/programs/23.01.10(2014)-Слесарь-по-обслуживанию-и-ремонту-подвижного-состава/ОП.03-Электротехника.pdf" class="list-group-item link-icon">ОП.03 Электротехника</a>
+									<a href="/info/education/programs/23.01.10(2014)-Слесарь-по-обслуживанию-и-ремонту-подвижного-состава/ОП.04-Материаловедение.pdf" class="list-group-item link-icon">ОП.04 Материаловедение</a>
+									<a href="/info/education/programs/23.01.10(2014)-Слесарь-по-обслуживанию-и-ремонту-подвижного-состава/ОП.05-Допуски,-посадки-и-технические-измерения-13-14.pdf" class="list-group-item link-icon">ОП.05 Допуски, посадки и технические измерения 13 14</a>
+									<a href="/info/education/programs/23.01.10(2014)-Слесарь-по-обслуживанию-и-ремонту-подвижного-состава/ОП.06.-Охрана-труда.pdf" class="list-group-item link-icon">ОП.06. Охрана труда</a>
+									<a href="/info/education/programs/23.01.10(2014)-Слесарь-по-обслуживанию-и-ремонту-подвижного-состава/ОП.07-Основы-инф-технологий-в-проф-деят-ти.pdf" class="list-group-item link-icon">ОП.07 Основы инф технологий в проф деят ти</a>
+									<a href="/info/education/programs/23.01.10(2014)-Слесарь-по-обслуживанию-и-ремонту-подвижного-состава/ОП.08--БЖД.pdf" class="list-group-item link-icon">ОП.08  БЖД</a>
+									<a href="/info/education/programs/23.01.10(2014)-Слесарь-по-обслуживанию-и-ремонту-подвижного-состава/ОП09-Основы-поиска-работы.pdf" class="list-group-item link-icon">ОП09 Основы поиска работы</a>
+									<a href="/info/education/programs/23.01.10(2014)-Слесарь-по-обслуживанию-и-ремонту-подвижного-состава/ПМ.01.pdf" class="list-group-item link-icon">ПМ.01</a>
+									<a href="/info/education/programs/23.01.10(2014)-Слесарь-по-обслуживанию-и-ремонту-подвижного-состава/ПМ.02.pdf" class="list-group-item link-icon">ПМ.02</a>
+									<a href="/info/education/programs/23.01.10(2014)-Слесарь-по-обслуживанию-и-ремонту-подвижного-состава/ПП-ПМ.02.pdf" class="list-group-item link-icon">ПП ПМ.02</a>
+									<a href="/info/education/programs/23.01.10(2014)-Слесарь-по-обслуживанию-и-ремонту-подвижного-состава/Программа-производственной-практики-ПМ.01.pdf" class="list-group-item link-icon">Программа производственной практики ПМ.01</a>
+									<a href="/info/education/programs/23.01.10(2014)-Слесарь-по-обслуживанию-и-ремонту-подвижного-состава/Программа-учебной-практики-ПМ.01.pdf" class="list-group-item link-icon">Программа учебной практики ПМ.01</a>
+									<a href="/info/education/programs/23.01.10(2014)-Слесарь-по-обслуживанию-и-ремонту-подвижного-состава/Программа-учебной-практики-ПМ.02.pdf" class="list-group-item link-icon">Программа учебной практики ПМ.02</a>
+									<a href="/info/education/programs/23.01.10(2014)-Слесарь-по-обслуживанию-и-ремонту-подвижного-состава/ФК.-Физическая-культура.pdf" class="list-group-item link-icon">ФК. Физическая культура</a>
+								</div>
 							</div>
-							<div class="list-group">
+							<div class="list-group-item">
+								<div class="list-group-item-heading">
+									<h6>23.01.12 (2014) Слесарь электрик метрополитена</h6>
+								</div>
+								<div class="list-group">
+									<a href="/info/education/programs/23.01.12-(2014)-Слесарь-электрик-метрополитена" class="list-group-item link-icon"></a>
+									<a href="/info/education/programs/23.01.12-(2014)-Слесарь-электрик-метрополитена/ОП.01.Основы-технического-черчения-слесарь-электр..pdf" class="list-group-item link-icon">ОП.01.Основы технического черчения слесарь электр</a>
+									<a href="/info/education/programs/23.01.12-(2014)-Слесарь-электрик-метрополитена/ОП.02Основы-слесарных,слесарно-сборочных-и-радиомонтажных-работ-114.pdf" class="list-group-item link-icon">ОП.02Основы слесарных,слесарно сборочных и радиомонтажных работ 114</a>
+									<a href="/info/education/programs/23.01.12-(2014)-Слесарь-электрик-метрополитена/ОП.03-Электротехника-и-промышленная-электроника.pdf" class="list-group-item link-icon">ОП.03 Электротехника и промышленная электроника</a>
+									<a href="/info/education/programs/23.01.12-(2014)-Слесарь-электрик-метрополитена/ОП.04-Материаловедение.pdf" class="list-group-item link-icon">ОП.04 Материаловедение</a>
+									<a href="/info/education/programs/23.01.12-(2014)-Слесарь-электрик-метрополитена/ОП.05--Метрология,-стандартизация-и-сертификация-(1).pdf" class="list-group-item link-icon">ОП.05  Метрология, стандартизация и сертификация (1)</a>
+									<a href="/info/education/programs/23.01.12-(2014)-Слесарь-электрик-метрополитена/ОП.06-Охрана-труда.pdf" class="list-group-item link-icon">ОП.06 Охрана труда</a>
+									<a href="/info/education/programs/23.01.12-(2014)-Слесарь-электрик-метрополитена/ОП.07--БЖД-верное.pdf" class="list-group-item link-icon">ОП.07  БЖД верное</a>
+									<a href="/info/education/programs/23.01.12-(2014)-Слесарь-электрик-метрополитена/ОП08-Основы-поиска-работы.pdf" class="list-group-item link-icon">ОП08 Основы поиска работы</a>
+									<a href="/info/education/programs/23.01.12-(2014)-Слесарь-электрик-метрополитена/ПМ.01.pdf" class="list-group-item link-icon">ПМ.01</a>
+									<a href="/info/education/programs/23.01.12-(2014)-Слесарь-электрик-метрополитена/ПМ.02.pdf" class="list-group-item link-icon">ПМ.02</a>
+									<a href="/info/education/programs/23.01.12-(2014)-Слесарь-электрик-метрополитена/Производственная-практика-ПМ.01.pdf" class="list-group-item link-icon">Производственная практика ПМ.01</a>
+									<a href="/info/education/programs/23.01.12-(2014)-Слесарь-электрик-метрополитена/Производственная-практика-ПМ.02.pdf" class="list-group-item link-icon">Производственная практика ПМ.02</a>
+									<a href="/info/education/programs/23.01.12-(2014)-Слесарь-электрик-метрополитена/Учебная-практика-ПМ.01.pdf" class="list-group-item link-icon">Учебная практика ПМ.01</a>
+									<a href="/info/education/programs/23.01.12-(2014)-Слесарь-электрик-метрополитена/Учебная-практика-ПМ.02.pdf" class="list-group-item link-icon">Учебная практика ПМ.02</a>
+									<a href="/info/education/programs/23.01.12-(2014)-Слесарь-электрик-метрополитена/ФК.-Физическая-культура.pdf" class="list-group-item link-icon">ФК. Физическая культура</a>
+								</div>
+							</div>
+							<div class="list-group-item">
+								<div class="list-group-item-heading">
+									<h6>23.01.13 Электромонтер тяговой подстанции</h6>
+								</div>
+								<div class="list-group">
+									<a href="/info/education/programs/23.01.13-Электромонтер-тяговой-подстанции/ОП.01-Техническое-черчение.pdf" class="list-group-item link-icon">ОП.01 Техническое черчение</a>
+									<a href="/info/education/programs/23.01.13-Электромонтер-тяговой-подстанции/ОП.01.-Технич-черчение" class="list-group-item link-icon">ОП.01. Технич черчение</a>
+									<a href="/info/education/programs/23.01.13-Электромонтер-тяговой-подстанции/ОП.02-Электротехника" class="list-group-item link-icon">ОП.02 Электротехника</a>
+									<a href="/info/education/programs/23.01.13-Электромонтер-тяговой-подстанции/ОП.02-Электротехника.pdf" class="list-group-item link-icon">ОП.02 Электротехника</a>
+									<a href="/info/education/programs/23.01.13-Электромонтер-тяговой-подстанции/ОП.03-Материаловедение.pdf" class="list-group-item link-icon">ОП.03 Материаловедение</a>
+									<a href="/info/education/programs/23.01.13-Электромонтер-тяговой-подстанции/ОП.04-Охрана-труда" class="list-group-item link-icon">ОП.04 Охрана труда</a>
+									<a href="/info/education/programs/23.01.13-Электромонтер-тяговой-подстанции/ОП.04-Охрана-труда.pdf" class="list-group-item link-icon">ОП.04 Охрана труда</a>
+									<a href="/info/education/programs/23.01.13-Электромонтер-тяговой-подстанции/ОП.05-Общий-курс-железных-дорог.pdf" class="list-group-item link-icon">ОП.05 Общий курс железных дорог</a>
+									<a href="/info/education/programs/23.01.13-Электромонтер-тяговой-подстанции/ОП.05Общий-курс-железных-дорог" class="list-group-item link-icon">ОП.05Общий курс железных дорог</a>
+									<a href="/info/education/programs/23.01.13-Электромонтер-тяговой-подстанции/ОП.06--БЖД.pdf" class="list-group-item link-icon">ОП.06  БЖД</a>
+									<a href="/info/education/programs/23.01.13-Электромонтер-тяговой-подстанции/ОП.07-ПТЭ" class="list-group-item link-icon">ОП.07 ПТЭ</a>
+									<a href="/info/education/programs/23.01.13-Электромонтер-тяговой-подстанции/ОП.07-ПТЭ(1).pdf" class="list-group-item link-icon">ОП.07 ПТЭ(1)</a>
+									<a href="/info/education/programs/23.01.13-Электромонтер-тяговой-подстанции/ОП.08-Основы-поиска-работы" class="list-group-item link-icon">ОП.08 Основы поиска работы</a>
+									<a href="/info/education/programs/23.01.13-Электромонтер-тяговой-подстанции/ОП08--Основы-поиска-работы.pdf" class="list-group-item link-icon">ОП08  Основы поиска работы</a>
+									<a href="/info/education/programs/23.01.13-Электромонтер-тяговой-подстанции/ПМ.01.pdf" class="list-group-item link-icon">ПМ.01</a>
+									<a href="/info/education/programs/23.01.13-Электромонтер-тяговой-подстанции/ПМ.02.pdf" class="list-group-item link-icon">ПМ.02</a>
+									<a href="/info/education/programs/23.01.13-Электромонтер-тяговой-подстанции/ПМ.03.pdf" class="list-group-item link-icon">ПМ.03</a>
+									<a href="/info/education/programs/23.01.13-Электромонтер-тяговой-подстанции/ПП-ПМ.01.pdf" class="list-group-item link-icon">ПП ПМ.01</a>
+									<a href="/info/education/programs/23.01.13-Электромонтер-тяговой-подстанции/ПП-ПМ.02.pdf" class="list-group-item link-icon">ПП ПМ.02</a>
+									<a href="/info/education/programs/23.01.13-Электромонтер-тяговой-подстанции/ПП-ПМ.03.pdf" class="list-group-item link-icon">ПП ПМ.03</a>
+									<a href="/info/education/programs/23.01.13-Электромонтер-тяговой-подстанции/УП-ПМ.01.pdf" class="list-group-item link-icon">УП ПМ.01</a>
+									<a href="/info/education/programs/23.01.13-Электромонтер-тяговой-подстанции/УП-ПМ.02.pdf" class="list-group-item link-icon">УП ПМ.02</a>
+									<a href="/info/education/programs/23.01.13-Электромонтер-тяговой-подстанции/УП-ПМ.03.pdf" class="list-group-item link-icon">УП ПМ.03</a>
+									<a href="/info/education/programs/23.01.13-Электромонтер-тяговой-подстанции/ФК.-Физическая-культура.pdf" class="list-group-item link-icon">ФК. Физическая культура</a>
+								</div>
+							</div>
+							<div class="list-group-item">
+								<div class="list-group-item-heading">
+									<h6>23.01.14  (2014) Электромонтер устройств сигнализации, централизации, блокировки СЦБ</h6>
+								</div>
+								<div class="list-group">
+									<a href="/info/education/programs/23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ОП.01-Техническое-черчение" class="list-group-item link-icon">ОП.01 Техническое черчение</a>
+									<a href="/info/education/programs/23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ОП.01Техническое-черчение-СЦБ.pdf" class="list-group-item link-icon">ОП.01Техническое черчение СЦБ</a>
+									<a href="/info/education/programs/23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ОП.02-Электротехника.pdf" class="list-group-item link-icon">ОП.02 Электротехника</a>
+									<a href="/info/education/programs/23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ОП.03-Материаловедение.pdf" class="list-group-item link-icon">ОП.03 Материаловедение</a>
+									<a href="/info/education/programs/23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ОП.04-Охрана-труда" class="list-group-item link-icon">ОП.04 Охрана труда</a>
+									<a href="/info/education/programs/23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ОП.04-Охрана-труда.pdf" class="list-group-item link-icon">ОП.04 Охрана труда</a>
+									<a href="/info/education/programs/23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ОП.05-Общий-курс-железных-дорог.pdf" class="list-group-item link-icon">ОП.05 Общий курс железных дорог</a>
+									<a href="/info/education/programs/23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ОП.06--БЖД.pdf" class="list-group-item link-icon">ОП.06  БЖД</a>
+									<a href="/info/education/programs/23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ОП.07-ПТЭ" class="list-group-item link-icon">ОП.07 ПТЭ</a>
+									<a href="/info/education/programs/23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ОП.07-ПТЭ(1).pdf" class="list-group-item link-icon">ОП.07 ПТЭ(1)</a>
+									<a href="/info/education/programs/23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ОП.08Основы-поиска-работы" class="list-group-item link-icon">ОП.08Основы поиска работы</a>
+									<a href="/info/education/programs/23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ОП08-Основы-поиска-работы.pdf" class="list-group-item link-icon">ОП08 Основы поиска работы</a>
+									<a href="/info/education/programs/23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ПМ.01.pdf" class="list-group-item link-icon">ПМ.01</a>
+									<a href="/info/education/programs/23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ПМ.02.pdf" class="list-group-item link-icon">ПМ.02</a>
+									<a href="/info/education/programs/23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ПМ.03.pdf" class="list-group-item link-icon">ПМ.03</a>
+									<a href="/info/education/programs/23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ПП-ПМ.01.pdf" class="list-group-item link-icon">ПП ПМ.01</a>
+									<a href="/info/education/programs/23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ПП-ПМ.02.pdf" class="list-group-item link-icon">ПП ПМ.02</a>
+									<a href="/info/education/programs/23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ПП-ПМ.03.pdf" class="list-group-item link-icon">ПП ПМ.03</a>
+									<a href="/info/education/programs/23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ПУ-ПМ.01.pdf" class="list-group-item link-icon">ПУ ПМ.01</a>
+									<a href="/info/education/programs/23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ПУ-ПМ.02.pdf" class="list-group-item link-icon">ПУ ПМ.02</a>
+									<a href="/info/education/programs/23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ПУ-ПМ.03.pdf" class="list-group-item link-icon">ПУ ПМ.03</a>
+									<a href="/info/education/programs/23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ФК.-Физическая-культура.pdf" class="list-group-item link-icon">ФК. Физическая культура</a>
+								</div>
+							</div>
+							<div class="list-group-item">
+								<div class="list-group-item-heading">
+									<h6>Общеобразовательный цикл профессии 2014</h6>
+								</div>
+								<div class="list-group">
+									<a href="/info/education/programs/Общеобразовательный-цикл-профессии-2014/ОДБ.01-Русский-язык.pdf" class="list-group-item link-icon">ОДБ.01 Русский язык</a>
+									<a href="/info/education/programs/Общеобразовательный-цикл-профессии-2014/ОДБ.02-Литература.pdf" class="list-group-item link-icon">ОДБ.02 Литература</a>
+									<a href="/info/education/programs/Общеобразовательный-цикл-профессии-2014/ОДБ.03-Иностранный-язык.pdf" class="list-group-item link-icon">ОДБ.03 Иностранный язык</a>
+									<a href="/info/education/programs/Общеобразовательный-цикл-профессии-2014/ОДБ.04-История.pdf" class="list-group-item link-icon">ОДБ.04 История</a>
+									<a href="/info/education/programs/Общеобразовательный-цикл-профессии-2014/ОДБ.05-Обществознание.pdf" class="list-group-item link-icon">ОДБ.05 Обществознание</a>
+									<a href="/info/education/programs/Общеобразовательный-цикл-профессии-2014/ОДБ.06-Химия.pdf" class="list-group-item link-icon">ОДБ.06 Химия</a>
+									<a href="/info/education/programs/Общеобразовательный-цикл-профессии-2014/ОДБ.07-Физика.pdf" class="list-group-item link-icon">ОДБ.07 Физика</a>
+									<a href="/info/education/programs/Общеобразовательный-цикл-профессии-2014/ОДБ.08-Биология.pdf" class="list-group-item link-icon">ОДБ.08 Биология</a>
+									<a href="/info/education/programs/Общеобразовательный-цикл-профессии-2014/ОДБ.09-География.pdf" class="list-group-item link-icon">ОДБ.09 География</a>
+									<a href="/info/education/programs/Общеобразовательный-цикл-профессии-2014/ОДБ.10-Математика.pdf" class="list-group-item link-icon">ОДБ.10 Математика</a>
+									<a href="/info/education/programs/Общеобразовательный-цикл-профессии-2014/ОДБ.11-Информатика-и-ИКТ.pdf" class="list-group-item link-icon">ОДБ.11 Информатика и ИКТ</a>
+									<a href="/info/education/programs/Общеобразовательный-цикл-профессии-2014/ОДБ.12-Основы-безопасности-жизнедеятельности.pdf" class="list-group-item link-icon">ОДБ.12 Основы безопасности жизнедеятельности</a>
+									<a href="/info/education/programs/Общеобразовательный-цикл-профессии-2014/ОДБ.13-Физическая-культура.pdf" class="list-group-item link-icon">ОДБ.13 Физическая культура</a>
+								</div>
+							</div>
+							<div class="list-group-item">
+								<div class="list-group-item-heading">
+									<h6>Общеоразоват цикл спец  автомат 2014</h6>
+								</div>
+								<div class="list-group">
+									<a href="/info/education/programs/Общеоразоват-цикл-спец--автомат-2014/ОДБ.01-Русский-язык.pdf" class="list-group-item link-icon">ОДБ.01 Русский язык</a>
+									<a href="/info/education/programs/Общеоразоват-цикл-спец--автомат-2014/ОДБ.02-Литература.pdf" class="list-group-item link-icon">ОДБ.02 Литература</a>
+									<a href="/info/education/programs/Общеоразоват-цикл-спец--автомат-2014/ОДБ.03-Иностранный-язык.pdf" class="list-group-item link-icon">ОДБ.03 Иностранный язык</a>
+									<a href="/info/education/programs/Общеоразоват-цикл-спец--автомат-2014/ОДБ.04-История.pdf" class="list-group-item link-icon">ОДБ.04 История</a>
+									<a href="/info/education/programs/Общеоразоват-цикл-спец--автомат-2014/ОДБ.05-Обществознание.pdf" class="list-group-item link-icon">ОДБ.05 Обществознание</a>
+									<a href="/info/education/programs/Общеоразоват-цикл-спец--автомат-2014/ОДБ.08-Химия.pdf" class="list-group-item link-icon">ОДБ.08 Химия</a>
+									<a href="/info/education/programs/Общеоразоват-цикл-спец--автомат-2014/ОДБ.09-Биология.pdf" class="list-group-item link-icon">ОДБ.09 Биология</a>
+									<a href="/info/education/programs/Общеоразоват-цикл-спец--автомат-2014/ОДБ.13-Физическая-культура.pdf" class="list-group-item link-icon">ОДБ.13 Физическая культура</a>
+									<a href="/info/education/programs/Общеоразоват-цикл-спец--автомат-2014/ОДБ.14-ОБЖ.pdf" class="list-group-item link-icon">ОДБ.14 ОБЖ</a>
+									<a href="/info/education/programs/Общеоразоват-цикл-спец--автомат-2014/ОДП.15-Математика.pdf" class="list-group-item link-icon">ОДП.15 Математика</a>
+									<a href="/info/education/programs/Общеоразоват-цикл-спец--автомат-2014/ОДП.16-Информатика-и-ИКТ.pdf" class="list-group-item link-icon">ОДП.16 Информатика и ИКТ</a>
+									<a href="/info/education/programs/Общеоразоват-цикл-спец--автомат-2014/ОДП.17-Физика.pdf" class="list-group-item link-icon">ОДП.17 Физика</a>
+								</div>
+							</div>
 
-								<a href="./23.01.10(2014)-Слесарь-по-обслуживанию-и-ремонту-подвижного-состава" class="list-group-item link-icon">23.01.10(2014) Слесарь по обслуживанию и ремонту подвижного состава</a>
-
-								<a href="./23.01.10(2014)-Слесарь-по-обслуживанию-и-ремонту-подвижного-состава/Thumbs.db" class="list-group-item link-icon">Thumbs.db</a>
-								<a href="./23.01.10(2014)-Слесарь-по-обслуживанию-и-ремонту-подвижного-состава/ОП.01.-Основы-технического-черчения.pdf" class="list-group-item link-icon">ОП.01. Основы технического черчения.pdf</a>
-								<a href="./23.01.10(2014)-Слесарь-по-обслуживанию-и-ремонту-подвижного-состава/ОП.02---Слесарное-дело.pdf" class="list-group-item link-icon">ОП.02   Слесарное дело.pdf</a>
-								<a href="./23.01.10(2014)-Слесарь-по-обслуживанию-и-ремонту-подвижного-состава/ОП.03-Электротехника.pdf" class="list-group-item link-icon">ОП.03 Электротехника.pdf</a>
-								<a href="./23.01.10(2014)-Слесарь-по-обслуживанию-и-ремонту-подвижного-состава/ОП.04-Материаловедение.pdf" class="list-group-item link-icon">ОП.04 Материаловедение.pdf</a>
-								<a href="./23.01.10(2014)-Слесарь-по-обслуживанию-и-ремонту-подвижного-состава/ОП.05-Допуски,-посадки-и-технические-измерения-13-14.pdf" class="list-group-item link-icon">ОП.05 Допуски, посадки и технические измерения 13 14.pdf</a>
-								<a href="./23.01.10(2014)-Слесарь-по-обслуживанию-и-ремонту-подвижного-состава/ОП.06.-Охрана-труда.pdf" class="list-group-item link-icon">ОП.06. Охрана труда.pdf</a>
-								<a href="./23.01.10(2014)-Слесарь-по-обслуживанию-и-ремонту-подвижного-состава/ОП.07-Основы-инф-технологий-в-проф-деят-ти.pdf" class="list-group-item link-icon">ОП.07 Основы инф технологий в проф деят ти.pdf</a>
-								<a href="./23.01.10(2014)-Слесарь-по-обслуживанию-и-ремонту-подвижного-состава/ОП.08--БЖД.pdf" class="list-group-item link-icon">ОП.08  БЖД.pdf</a>
-								<a href="./23.01.10(2014)-Слесарь-по-обслуживанию-и-ремонту-подвижного-состава/ОП09-Основы-поиска-работы.pdf" class="list-group-item link-icon">ОП09 Основы поиска работы.pdf</a>
-								<a href="./23.01.10(2014)-Слесарь-по-обслуживанию-и-ремонту-подвижного-состава/ПМ.01.pdf" class="list-group-item link-icon">ПМ.01.pdf</a>
-								<a href="./23.01.10(2014)-Слесарь-по-обслуживанию-и-ремонту-подвижного-состава/ПМ.02.pdf" class="list-group-item link-icon">ПМ.02.pdf</a>
-								<a href="./23.01.10(2014)-Слесарь-по-обслуживанию-и-ремонту-подвижного-состава/ПП-ПМ.02.pdf" class="list-group-item link-icon">ПП ПМ.02.pdf</a>
-								<a href="./23.01.10(2014)-Слесарь-по-обслуживанию-и-ремонту-подвижного-состава/Программа-производственной-практики-ПМ.01.pdf" class="list-group-item link-icon">Программа производственной практики ПМ.01.pdf</a>
-								<a href="./23.01.10(2014)-Слесарь-по-обслуживанию-и-ремонту-подвижного-состава/Программа-учебной-практики-ПМ.01.pdf" class="list-group-item link-icon">Программа учебной практики ПМ.01.pdf</a>
-								<a href="./23.01.10(2014)-Слесарь-по-обслуживанию-и-ремонту-подвижного-состава/Программа-учебной-практики-ПМ.02.pdf" class="list-group-item link-icon">Программа учебной практики ПМ.02.pdf</a>
-								<a href="./23.01.10(2014)-Слесарь-по-обслуживанию-и-ремонту-подвижного-состава/ФК.-Физическая-культура.pdf" class="list-group-item link-icon">ФК. Физическая культура.pdf</a>
-							</div>
-							<div class="list-group">
-								<a href="./23.01.12-(2014)-Слесарь-электрик-метрополитена" class="list-group-item link-icon">23.01.12 (2014) Слесарь электрик метрополитена</a>
-								<a href="./23.01.12-(2014)-Слесарь-электрик-метрополитена/ОП.01.Основы-технического-черчения-слесарь-электр..pdf" class="list-group-item link-icon">ОП.01.Основы технического черчения слесарь электр..pdf</a>
-								<a href="./23.01.12-(2014)-Слесарь-электрик-метрополитена/ОП.02Основы-слесарных,слесарно-сборочных-и-радиомонтажных-работ-114.pdf" class="list-group-item link-icon">ОП.02Основы слесарных,слесарно сборочных и радиомонтажных работ 114.pdf</a>
-								<a href="./23.01.12-(2014)-Слесарь-электрик-метрополитена/ОП.03-Электротехника-и-промышленная-электроника.pdf" class="list-group-item link-icon">ОП.03 Электротехника и промышленная электроника.pdf</a>
-								<a href="./23.01.12-(2014)-Слесарь-электрик-метрополитена/ОП.04-Материаловедение.pdf" class="list-group-item link-icon">ОП.04 Материаловедение.pdf</a>
-								<a href="./23.01.12-(2014)-Слесарь-электрик-метрополитена/ОП.05--Метрология,-стандартизация-и-сертификация-(1).pdf" class="list-group-item link-icon">ОП.05  Метрология, стандартизация и сертификация (1).pdf</a>
-								<a href="./23.01.12-(2014)-Слесарь-электрик-метрополитена/ОП.06-Охрана-труда.pdf" class="list-group-item link-icon">ОП.06 Охрана труда.pdf</a>
-								<a href="./23.01.12-(2014)-Слесарь-электрик-метрополитена/ОП.07--БЖД-верное.pdf" class="list-group-item link-icon">ОП.07  БЖД верное.pdf</a>
-								<a href="./23.01.12-(2014)-Слесарь-электрик-метрополитена/ОП08-Основы-поиска-работы.pdf" class="list-group-item link-icon">ОП08 Основы поиска работы.pdf</a>
-								<a href="./23.01.12-(2014)-Слесарь-электрик-метрополитена/ПМ.01.pdf" class="list-group-item link-icon">ПМ.01.pdf</a>
-								<a href="./23.01.12-(2014)-Слесарь-электрик-метрополитена/ПМ.02.pdf" class="list-group-item link-icon">ПМ.02.pdf</a>
-								<a href="./23.01.12-(2014)-Слесарь-электрик-метрополитена/Производственная-практика-ПМ.01.pdf" class="list-group-item link-icon">Производственная практика ПМ.01.pdf</a>
-								<a href="./23.01.12-(2014)-Слесарь-электрик-метрополитена/Производственная-практика-ПМ.02.pdf" class="list-group-item link-icon">Производственная практика ПМ.02.pdf</a>
-								<a href="./23.01.12-(2014)-Слесарь-электрик-метрополитена/Учебная-практика-ПМ.01.pdf" class="list-group-item link-icon">Учебная практика ПМ.01.pdf</a>
-								<a href="./23.01.12-(2014)-Слесарь-электрик-метрополитена/Учебная-практика-ПМ.02.pdf" class="list-group-item link-icon">Учебная практика ПМ.02.pdf</a>
-								<a href="./23.01.12-(2014)-Слесарь-электрик-метрополитена/ФК.-Физическая-культура.pdf" class="list-group-item link-icon">ФК. Физическая культура.pdf</a>
-							</div>
-							<div class="list-group">
-								<a href="./23.01.13-Электромонтер-тяговой-подстанции" class="list-group-item link-icon">23.01.13 Электромонтер тяговой подстанции</a>
-
-								<a href="./23.01.13-Электромонтер-тяговой-подстанции/ОП.01-Техническое-черчение.pdf" class="list-group-item link-icon">ОП.01 Техническое черчение.pdf</a>
-								<a href="./23.01.13-Электромонтер-тяговой-подстанции/ОП.01.-Технич-черчение" class="list-group-item link-icon">ОП.01. Технич черчение</a>
-								<a href="./23.01.13-Электромонтер-тяговой-подстанции/ОП.02-Электротехника" class="list-group-item link-icon">ОП.02 Электротехника</a>
-								<a href="./23.01.13-Электромонтер-тяговой-подстанции/ОП.02-Электротехника.pdf" class="list-group-item link-icon">ОП.02 Электротехника.pdf</a>
-								<a href="./23.01.13-Электромонтер-тяговой-подстанции/ОП.03-Материаловедение.pdf" class="list-group-item link-icon">ОП.03 Материаловедение.pdf</a>
-								<a href="./23.01.13-Электромонтер-тяговой-подстанции/ОП.04-Охрана-труда" class="list-group-item link-icon">ОП.04 Охрана труда</a>
-								<a href="./23.01.13-Электромонтер-тяговой-подстанции/ОП.04-Охрана-труда.pdf" class="list-group-item link-icon">ОП.04 Охрана труда.pdf</a>
-								<a href="./23.01.13-Электромонтер-тяговой-подстанции/ОП.05-Общий-курс-железных-дорог.pdf" class="list-group-item link-icon">ОП.05 Общий курс железных дорог.pdf</a>
-								<a href="./23.01.13-Электромонтер-тяговой-подстанции/ОП.05Общий-курс-железных-дорог" class="list-group-item link-icon">ОП.05Общий курс железных дорог</a>
-								<a href="./23.01.13-Электромонтер-тяговой-подстанции/ОП.06--БЖД.pdf" class="list-group-item link-icon">ОП.06  БЖД.pdf</a>
-								<a href="./23.01.13-Электромонтер-тяговой-подстанции/ОП.07-ПТЭ" class="list-group-item link-icon">ОП.07 ПТЭ</a>
-								<a href="./23.01.13-Электромонтер-тяговой-подстанции/ОП.07-ПТЭ(1).pdf" class="list-group-item link-icon">ОП.07 ПТЭ(1).pdf</a>
-								<a href="./23.01.13-Электромонтер-тяговой-подстанции/ОП.08-Основы-поиска-работы" class="list-group-item link-icon">ОП.08 Основы поиска работы</a>
-								<a href="./23.01.13-Электромонтер-тяговой-подстанции/ОП08--Основы-поиска-работы.pdf" class="list-group-item link-icon">ОП08  Основы поиска работы.pdf</a>
-								<a href="./23.01.13-Электромонтер-тяговой-подстанции/ПМ.01.pdf" class="list-group-item link-icon">ПМ.01.pdf</a>
-								<a href="./23.01.13-Электромонтер-тяговой-подстанции/ПМ.02.pdf" class="list-group-item link-icon">ПМ.02.pdf</a>
-								<a href="./23.01.13-Электромонтер-тяговой-подстанции/ПМ.03.pdf" class="list-group-item link-icon">ПМ.03.pdf</a>
-								<a href="./23.01.13-Электромонтер-тяговой-подстанции/ПП-ПМ.01.pdf" class="list-group-item link-icon">ПП ПМ.01.pdf</a>
-								<a href="./23.01.13-Электромонтер-тяговой-подстанции/ПП-ПМ.02.pdf" class="list-group-item link-icon">ПП ПМ.02.pdf</a>
-								<a href="./23.01.13-Электромонтер-тяговой-подстанции/ПП-ПМ.03.pdf" class="list-group-item link-icon">ПП ПМ.03.pdf</a>
-								<a href="./23.01.13-Электромонтер-тяговой-подстанции/УП-ПМ.01.pdf" class="list-group-item link-icon">УП ПМ.01.pdf</a>
-								<a href="./23.01.13-Электромонтер-тяговой-подстанции/УП-ПМ.02.pdf" class="list-group-item link-icon">УП ПМ.02.pdf</a>
-								<a href="./23.01.13-Электромонтер-тяговой-подстанции/УП-ПМ.03.pdf" class="list-group-item link-icon">УП ПМ.03.pdf</a>
-								<a href="./23.01.13-Электромонтер-тяговой-подстанции/ФК.-Физическая-культура.pdf" class="list-group-item link-icon">ФК. Физическая культура.pdf</a>
-							</div>
-							<div class="list-group">
-								<a href="./23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ" class="list-group-item link-icon">23.01.14  (2014) Электромонтер устройств сигнализации, централизации, блокировки СЦБ</a>
-
-								<a href="./23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ОП.01-Техническое-черчение" class="list-group-item link-icon">ОП.01 Техническое черчение</a>
-								<a href="./23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ОП.01Техническое-черчение-СЦБ.pdf" class="list-group-item link-icon">ОП.01Техническое черчение СЦБ.pdf</a>
-								<a href="./23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ОП.02-Электротехника.pdf" class="list-group-item link-icon">ОП.02 Электротехника.pdf</a>
-								<a href="./23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ОП.03-Материаловедение.pdf" class="list-group-item link-icon">ОП.03 Материаловедение.pdf</a>
-								<a href="./23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ОП.04-Охрана-труда" class="list-group-item link-icon">ОП.04 Охрана труда</a>
-								<a href="./23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ОП.04-Охрана-труда.pdf" class="list-group-item link-icon">ОП.04 Охрана труда.pdf</a>
-								<a href="./23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ОП.05-Общий-курс-железных-дорог.pdf" class="list-group-item link-icon">ОП.05 Общий курс железных дорог.pdf</a>
-								<a href="./23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ОП.06--БЖД.pdf" class="list-group-item link-icon">ОП.06  БЖД.pdf</a>
-								<a href="./23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ОП.07-ПТЭ" class="list-group-item link-icon">ОП.07 ПТЭ</a>
-								<a href="./23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ОП.07-ПТЭ(1).pdf" class="list-group-item link-icon">ОП.07 ПТЭ(1).pdf</a>
-								<a href="./23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ОП.08Основы-поиска-работы" class="list-group-item link-icon">ОП.08Основы поиска работы</a>
-								<a href="./23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ОП08-Основы-поиска-работы.pdf" class="list-group-item link-icon">ОП08 Основы поиска работы.pdf</a>
-								<a href="./23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ПМ.01.pdf" class="list-group-item link-icon">ПМ.01.pdf</a>
-								<a href="./23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ПМ.02.pdf" class="list-group-item link-icon">ПМ.02.pdf</a>
-								<a href="./23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ПМ.03.pdf" class="list-group-item link-icon">ПМ.03.pdf</a>
-								<a href="./23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ПП-ПМ.01.pdf" class="list-group-item link-icon">ПП ПМ.01.pdf</a>
-								<a href="./23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ПП-ПМ.02.pdf" class="list-group-item link-icon">ПП ПМ.02.pdf</a>
-								<a href="./23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ПП-ПМ.03.pdf" class="list-group-item link-icon">ПП ПМ.03.pdf</a>
-								<a href="./23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ПУ-ПМ.01.pdf" class="list-group-item link-icon">ПУ ПМ.01.pdf</a>
-								<a href="./23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ПУ-ПМ.02.pdf" class="list-group-item link-icon">ПУ ПМ.02.pdf</a>
-								<a href="./23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ПУ-ПМ.03.pdf" class="list-group-item link-icon">ПУ ПМ.03.pdf</a>
-								<a href="./23.01.14--(2014)-Электромонтер-устройств-сигнализации,-централизации,-блокировки-СЦБ/ФК.-Физическая-культура.pdf" class="list-group-item link-icon">ФК. Физическая культура.pdf</a>
-							</div>
-							<div class="list-group">
-								<a href="./Общеобразовательный-цикл-профессии-2014" class="list-group-item link-icon">Общеобразовательный цикл профессии 2014</a>
-								<a href="./Общеобразовательный-цикл-профессии-2014/ОДБ.01-Русский-язык.pdf" class="list-group-item link-icon">ОДБ.01 Русский язык.pdf</a>
-								<a href="./Общеобразовательный-цикл-профессии-2014/ОДБ.02-Литература.pdf" class="list-group-item link-icon">ОДБ.02 Литература.pdf</a>
-								<a href="./Общеобразовательный-цикл-профессии-2014/ОДБ.03-Иностранный-язык.pdf" class="list-group-item link-icon">ОДБ.03 Иностранный язык.pdf</a>
-								<a href="./Общеобразовательный-цикл-профессии-2014/ОДБ.04-История.pdf" class="list-group-item link-icon">ОДБ.04 История.pdf</a>
-								<a href="./Общеобразовательный-цикл-профессии-2014/ОДБ.05-Обществознание.pdf" class="list-group-item link-icon">ОДБ.05 Обществознание.pdf</a>
-								<a href="./Общеобразовательный-цикл-профессии-2014/ОДБ.06-Химия.pdf" class="list-group-item link-icon">ОДБ.06 Химия.pdf</a>
-								<a href="./Общеобразовательный-цикл-профессии-2014/ОДБ.07-Физика.pdf" class="list-group-item link-icon">ОДБ.07 Физика.pdf</a>
-								<a href="./Общеобразовательный-цикл-профессии-2014/ОДБ.08-Биология.pdf" class="list-group-item link-icon">ОДБ.08 Биология.pdf</a>
-								<a href="./Общеобразовательный-цикл-профессии-2014/ОДБ.09-География.pdf" class="list-group-item link-icon">ОДБ.09 География.pdf</a>
-								<a href="./Общеобразовательный-цикл-профессии-2014/ОДБ.10-Математика.pdf" class="list-group-item link-icon">ОДБ.10 Математика.pdf</a>
-								<a href="./Общеобразовательный-цикл-профессии-2014/ОДБ.11-Информатика-и-ИКТ.pdf" class="list-group-item link-icon">ОДБ.11 Информатика и ИКТ.pdf</a>
-								<a href="./Общеобразовательный-цикл-профессии-2014/ОДБ.12-Основы-безопасности-жизнедеятельности.pdf" class="list-group-item link-icon">ОДБ.12 Основы безопасности жизнедеятельности.pdf</a>
-								<a href="./Общеобразовательный-цикл-профессии-2014/ОДБ.13-Физическая-культура.pdf" class="list-group-item link-icon">ОДБ.13 Физическая культура.pdf</a>
-							</div>
-							<div class="list-group">
-								<a href="./Общеоразоват-цикл-спец--автомат-2014" class="list-group-item link-icon">Общеоразоват цикл спец  автомат 2014</a>
-								<a href="./Общеоразоват-цикл-спец--автомат-2014/ОДБ.01-Русский-язык.pdf" class="list-group-item link-icon">ОДБ.01 Русский язык.pdf</a>
-								<a href="./Общеоразоват-цикл-спец--автомат-2014/ОДБ.02-Литература.pdf" class="list-group-item link-icon">ОДБ.02 Литература.pdf</a>
-								<a href="./Общеоразоват-цикл-спец--автомат-2014/ОДБ.03-Иностранный-язык.pdf" class="list-group-item link-icon">ОДБ.03 Иностранный язык.pdf</a>
-								<a href="./Общеоразоват-цикл-спец--автомат-2014/ОДБ.04-История.pdf" class="list-group-item link-icon">ОДБ.04 История.pdf</a>
-								<a href="./Общеоразоват-цикл-спец--автомат-2014/ОДБ.05-Обществознание.pdf" class="list-group-item link-icon">ОДБ.05 Обществознание.pdf</a>
-								<a href="./Общеоразоват-цикл-спец--автомат-2014/ОДБ.08-Химия.pdf" class="list-group-item link-icon">ОДБ.08 Химия.pdf</a>
-								<a href="./Общеоразоват-цикл-спец--автомат-2014/ОДБ.09-Биология.pdf" class="list-group-item link-icon">ОДБ.09 Биология.pdf</a>
-								<a href="./Общеоразоват-цикл-спец--автомат-2014/ОДБ.13-Физическая-культура.pdf" class="list-group-item link-icon">ОДБ.13 Физическая культура.pdf</a>
-								<a href="./Общеоразоват-цикл-спец--автомат-2014/ОДБ.14-ОБЖ.pdf" class="list-group-item link-icon">ОДБ.14 ОБЖ.pdf</a>
-								<a href="./Общеоразоват-цикл-спец--автомат-2014/ОДП.15-Математика.pdf" class="list-group-item link-icon">ОДП.15 Математика.pdf</a>
-								<a href="./Общеоразоват-цикл-спец--автомат-2014/ОДП.16-Информатика-и-ИКТ.pdf" class="list-group-item link-icon">ОДП.16 Информатика и ИКТ.pdf</a>
-								<a href="./Общеоразоват-цикл-спец--автомат-2014/ОДП.17-Физика.pdf" class="list-group-item link-icon">ОДП.17 Физика.pdf</a>
-							</div>
+						</div>
 						</li>
 						<li><a href="#">Календарные графики</a>
 							<!-- <ul>
