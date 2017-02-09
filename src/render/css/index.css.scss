@@ -11,7 +11,8 @@ $footer: #292F3C;
 
 //@import url('https://fonts.googleapis.com/css?family=Lobster');
 //@import url('https://fonts.googleapis.com/css?family=Bad+Script');
-
+@import 'bootstrap';
+@import 'navbar-fixed-side';
 @import "tree"; //дерево
 @import "diamonds"; //коллектив
 //@import "diamonds-contacts"; //
@@ -20,6 +21,8 @@ $footer: #292F3C;
 @import "icons";
 @import "blocks";
 @import "listGroup";
+
+
 //@import "table";
 //@import "";
 //@import "";
