@@ -141,44 +141,8 @@ standalone: true
 
 
 		</div>
-		<div class="col-md-2 col-lg-3">
-			<div class="navbar navbar-default navbar-fixed-side navbar-fixed-side-left" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li><a class="navbar-brand" href="#">Project name</a></li>
-                </ul>
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li class="divider"></li>
-                            <li class="dropdown-header">Nav header</li>
-                            <li><a href="#">Separated link</a></li>
-                            <li><a href="#">One more separated link</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <!--/.nav-collapse -->
-        </div>
-    </div>
-		</div>
-		<div class="col-md-10 col-lg-9">
+
+		<div class="col-md-12">
 
 			<div class="form-group">
 				<input id="search" class="form-control" style="width: 100%;" name="search" placeholder="Поиск..." type="text" data-list=".tree"  data-nodata="No results found" autocomplete="off">
@@ -234,24 +198,24 @@ standalone: true
 							</div>
 							<div class="list-group">
 								<a href="/info/education/polojenia/кодекс-профессиональной-этики-педагогических-работников.pdf" class="list-group-item link-icon">кодекс профессиональной этики педагогических работников</a>
-								<a href="/info/education/polojenia/о-Комиссии-по-урегулированию-споров-между-участниками-образоват-отношений.pdf" class="list-group-item link-icon">о Комиссии по урегулированию споров между участниками образоват отношений</a>
-								<a href="/info/education/polojenia/о-материальном-стимулировании-работников.pdf" class="list-group-item link-icon">о материальном стимулировании работников</a>
-								<a href="/info/education/polojenia/о-мерах-стимулирования-и-иных-мерах-материальной-поддержки-студентов.pdf" class="list-group-item link-icon">о мерах стимулирования и иных мерах материальной поддержки студентов</a>
-								<a href="/info/education/polojenia/о-порядке-доступа-педагогических-раб--к-итс-и-базам-данных.pdf" class="list-group-item link-icon">о порядке доступа педагогических раб  к итс и базам данных</a>
-								<a href="/info/education/polojenia/о-порядке-оформления-возникновения-отношений.pdf" class="list-group-item link-icon">о порядке оформления возникновения отношений</a>
-								<a href="/info/education/polojenia/о-порядке-перевода,-отчисления-и-восстановления-обучающихся.pdf" class="list-group-item link-icon">о порядке перевода, отчисления и восстановления обучающихся</a>
-								<a href="/info/education/polojenia/о-порядке-посещения-обучающимися-по-своему-выбору-мероприятий.pdf" class="list-group-item link-icon">о порядке посещения обучающимися по своему выбору мероприятий</a>
-								<a href="/info/education/polojenia/о-порядке-реализации-прав-обучающихся.pdf" class="list-group-item link-icon">о порядке реализации прав обучающихся</a>
-								<a href="/info/education/polojenia/о-порядке-реализации-права-педагогических-работников-на-бесплатное-пользование.pdf" class="list-group-item link-icon">о порядке реализации права педагогических работников на бесплатное пользование</a>
-								<a href="/info/education/polojenia/о-правилах-оказания-платных-образовательных-услуг.pdf" class="list-group-item link-icon">о правилах оказания платных образовательных услуг</a>
-								<a href="/info/education/polojenia/о-проведении-аттестации-педагогических-работников.pdf" class="list-group-item link-icon">о проведении аттестации педагогических работников</a>
-								<a href="/info/education/polojenia/о-проведении-текущего,-рубежного-контроля.pdf" class="list-group-item link-icon">о проведении текущего, рубежного контроля</a>
-								<a href="/info/education/polojenia/о-соотношении-учебной-(преподавательской)-и-другой-педагогической-работы.pdf" class="list-group-item link-icon">о соотношении учебной (преподавательской) и другой педагогической работы</a>
-								<a href="/info/education/polojenia/о-центре-содействию-трудоустройству-выпускников.pdf" class="list-group-item link-icon">о центре содействию трудоустройству выпускников</a>
-								<a href="/info/education/polojenia/об-организации-и-осуществлении-образовательной-деятельности.pdf" class="list-group-item link-icon">об организации и осуществлении образовательной деятельности</a>
-								<a href="/info/education/polojenia/по-организации-и-проведению-лабораторных-работ.pdf" class="list-group-item link-icon">по организации и проведению лабораторных работ</a>
+								<a href="/info/education/polojenia/о-Комиссии-по-урегулированию-споров-между-участниками-образоват-отношений.pdf" class="list-group-item link-icon">Положение о Комиссии по урегулированию споров между участниками образоват отношений</a>
+								<a href="/info/education/polojenia/о-материальном-стимулировании-работников.pdf" class="list-group-item link-icon">Положение о материальном стимулировании работников</a>
+								<a href="/info/education/polojenia/о-мерах-стимулирования-и-иных-мерах-материальной-поддержки-студентов.pdf" class="list-group-item link-icon">Положение о мерах стимулирования и иных мерах материальной поддержки студентов</a>
+								<a href="/info/education/polojenia/о-порядке-доступа-педагогических-раб--к-итс-и-базам-данных.pdf" class="list-group-item link-icon">Положение о порядке доступа педагогических раб  к итс и базам данных</a>
+								<a href="/info/education/polojenia/о-порядке-оформления-возникновения-отношений.pdf" class="list-group-item link-icon">Положение о порядке оформления возникновения отношений</a>
+								<a href="/info/education/polojenia/о-порядке-перевода,-отчисления-и-восстановления-обучающихся.pdf" class="list-group-item link-icon">Положение о порядке перевода, отчисления и восстановления обучающихся</a>
+								<a href="/info/education/polojenia/о-порядке-посещения-обучающимися-по-своему-выбору-мероприятий.pdf" class="list-group-item link-icon">Положение о порядке посещения обучающимися по своему выбору мероприятий</a>
+								<a href="/info/education/polojenia/о-порядке-реализации-прав-обучающихся.pdf" class="list-group-item link-icon">Положение о порядке реализации прав обучающихся</a>
+								<a href="/info/education/polojenia/о-порядке-реализации-права-педагогических-работников-на-бесплатное-пользование.pdf" class="list-group-item link-icon">Положение о порядке реализации права педагогических работников на бесплатное пользование</a>
+								<a href="/info/education/polojenia/о-правилах-оказания-платных-образовательных-услуг.pdf" class="list-group-item link-icon">Положение о правилах оказания платных образовательных услуг</a>
+								<a href="/info/education/polojenia/о-проведении-аттестации-педагогических-работников.pdf" class="list-group-item link-icon">Положение о проведении аттестации педагогических работников</a>
+								<a href="/info/education/polojenia/о-проведении-текущего,-рубежного-контроля.pdf" class="list-group-item link-icon">Положение о проведении текущего, рубежного контроля</a>
+								<a href="/info/education/polojenia/о-соотношении-учебной-(преподавательской)-и-другой-педагогической-работы.pdf" class="list-group-item link-icon">Положение о соотношении учебной (преподавательской) и другой педагогической работы</a>
+								<a href="/info/education/polojenia/о-центре-содействию-трудоустройству-выпускников.pdf" class="list-group-item link-icon">Положение о центре содействию трудоустройству выпускников</a>
+								<a href="/info/education/polojenia/об-организации-и-осуществлении-образовательной-деятельности.pdf" class="list-group-item link-icon">Положение об организации и осуществлении образовательной деятельности</a>
+								<a href="/info/education/polojenia/по-организации-и-проведению-лабораторных-работ.pdf" class="list-group-item link-icon">Положение по организации и проведению лабораторных работ</a>
 								<a href="/info/education/polojenia/Положение-о-делопроизводстве.pdf" class="list-group-item link-icon">Положение о делопроизводстве</a>
-								<a href="/info/education/polojenia/правила-внутреннего-распорядка-для-обучающихся.pdf" class="list-group-item link-icon">правила внутреннего распорядка для обучающихся</a>
+								<a href="/info/education/polojenia/правила-внутреннего-распорядка-для-обучающихся.pdf" class="list-group-item link-icon">Правила внутреннего распорядка для обучающихся</a>
 							</div>
 						</div>
 						<div class="list-group-item list-group-item-danger">
@@ -259,10 +223,10 @@ standalone: true
 								<h6>Соглашения</h6>
 							</div>
 							<div class="list-group">
-									<a class="link-icon list-group-item" href="documents/agrements/Соглашение-№-220-О-порядке-и-условиях-предоставления-субсидии-на-иные-цели.pdf">Соглашение № 220 о порядке и условиях предоставления субсидий на иные цели</a>
-									<a class="link-icon list-group-item" href="documents/agrements/Соглашение-№-221-О-порядке-и-условиях-предоставления-субсидии-на-финансовое-обеспечение-выполнения-государственного-задания.pdf">Соглашение № 221 о порядке и условиях предоставления субсидий на финансовое обеспечение выполнения государственного задания на оказание государственных услуг</a>
-									<a class="link-icon list-group-item" href="documents/agrements/дополнительное-соглашение-№-27-3.pdf">Дополнительное соглашение № 27-3</a>
-									<a class="link-icon list-group-item" href="documents/agrements/дополнительное-соглашение-№-59-6.pdf">Дополнительное соглашение № 59-6</a>
+									<a class="link-icon list-group-item" href="/info/соглашениеИные2017.pdf">Соглашение о порядке и условиях предоставления субсидий на иные цели</a>
+									<a class="link-icon list-group-item" href="/info/соглашениеСубсидии2017.pdf">Соглашение о порядке и условиях предоставления субсидий на финансовое обеспечение выполнения государственного задания на оказание государственных услуг</a>
+									<!-- <a class="link-icon list-group-item" href="documents/agrements/дополнительное-соглашение-№-27-3.pdf">Дополнительное соглашение № 27-3</a>
+									<a class="link-icon list-group-item" href="documents/agrements/дополнительное-соглашение-№-59-6.pdf">Дополнительное соглашение № 59-6</a> -->
 							</div>
 						</div>
 						<a class="link-icon list-group-item" href="documents/govTask2017.pdf">Государственное задание</a>
@@ -271,7 +235,7 @@ standalone: true
 
 						<a class="link-icon list-group-item" href="/info/ПФХД2017.pdf">План финансово-хозяйственной деятельности 2018-2019</a>
 						<!-- <a class="link-icon list-group-item" href="documents/Повышение-квалификации-педагогического-коллектива.pdf">Повышение квалификации педагогического коллектива</a> -->
-						<a href="/info/education/polojenia/о-правилах-оказания-платных-образовательных-услуг.pdf" class="list-group-item link-icon">о правилах оказания платных образовательных услуг</a>
+						<a href="/info/education/polojenia/о-правилах-оказания-платных-образовательных-услуг.pdf" class="list-group-item link-icon">Положение о правилах оказания платных образовательных услуг</a>
 						<a class="link-icon list-group-item" href="/info/public-otchet2017.pdf">Публичный доклад о результатах деятельности в 2015-2016 учебном году</a>
 
 						<a class="link-icon list-group-item" href="documents/samoobsled-2016.pdf">Cамообследования 2015-2016 учебный год</a>
@@ -485,53 +449,50 @@ standalone: true
 				</div>
 
 
-						</li>
 						<div class="list-group-item">
-<div class="list-group-item-heading">
-<h6>Календарные графики</h6>
-</div>
-</div>
+							<div class="list-group-item-heading">
+								<h6>Календарные графики</h6>
+							</div>
 							<div class="list-group">
 								<a href="/info/education/plans/15.01.25-Станочник-(металлообработка).pdf" class="list-group-item link-icon">15.01.25 Станочник (металлообработка)</a>
 								<a href="/info/education/plans/23.01.10-Слесарь-по-обслуживанию-и-ремонту-подвижного-состава.pdf" class="list-group-item link-icon">23.01.10 Слесарь по обслуживанию и ремонту подвижного состава</a>
 								<a href="/info/education/plans/23.01.12-Слесарь-электрик-метрополитена.pdf" class="list-group-item link-icon">23.01.12 Слесарь-электрик метрополитена</a>
 								<a href="/info/education/plans/23.01.13-Электромонтер-тяговой-подстанции.pdf" class="list-group-item link-icon">23.01.13 Электромонтер тяговой подстанции</a>
 								<a href="/info/education/plans/23.01.14-Электромонтер-устройств-СЦБ.pdf" class="list-group-item link-icon">23.01.14 Электромонтер устройств СЦБ</a>
-
 							</div>
-						</li>
+						</div>
 						<div class="list-group-item">
-<div class="list-group-item-heading">
-<h6>О числености обучающихся по реализуемым образовательным программам</h6>
-</div>
-</div>
-									<ul class="list-group">
-										<li class="list-group-item"><span class="badge">42 человек </span>
-											15.01.25 Станочник (металлообработка)
-										</li>
-										<li class="list-group-item"><span class="badge">76 человек </span>
-											23.01.10 Слесарь по обслуживанию и ремонту подвижного состава
-										</li>
-										<li class="list-group-item"><span class="badge">70 человек </span>
-											23.01.12  Слесарь-электрик метрополитена
-										</li>
-										<li class="list-group-item"><span class="badge">76 человек </span>
-											23.01.13  Электромонтер тяговой подстанции
-										</li>
-										<li class="list-group-item"><span class="badge">76 человек </span>
-											23.01.14 Электромонтер устройств сигнализации, централизации, блокировки (СЦБ)
-										</li>
-										<li class="list-group-item"><span class="badge">79 человек </span>
-											27.02.03 Автоматика и телемеханика на транспорте (железнодорожном транспорте)
-										</li>
-										<li class="list-group-item"><span class="badge">53 человек </span>
-											13.02.07 Электроснабжение (по отраслям)
-										</li>
-										<li class="list-group-item"><span class="badge">27 человек </span>
-											09.02.04 Информационные системы (по отраслям)
-										</li>
-
+							<div class="list-group-item-heading">
+								<h6>О числености обучающихся по реализуемым образовательным программам</h6>
+							</div>
+							<ul class="list-group">
+								<li class="list-group-item"><span class="badge">42 человек </span>
+									15.01.25 Станочник (металлообработка)
 								</li>
+								<li class="list-group-item"><span class="badge">76 человек </span>
+									23.01.10 Слесарь по обслуживанию и ремонту подвижного состава
+								</li>
+								<li class="list-group-item"><span class="badge">70 человек </span>
+									23.01.12  Слесарь-электрик метрополитена
+								</li>
+								<li class="list-group-item"><span class="badge">76 человек </span>
+									23.01.13  Электромонтер тяговой подстанции
+								</li>
+								<li class="list-group-item"><span class="badge">76 человек </span>
+									23.01.14 Электромонтер устройств сигнализации, централизации, блокировки (СЦБ)
+								</li>
+								<li class="list-group-item"><span class="badge">79 человек </span>
+									27.02.03 Автоматика и телемеханика на транспорте (железнодорожном транспорте)
+								</li>
+								<li class="list-group-item"><span class="badge">53 человек </span>
+									13.02.07 Электроснабжение (по отраслям)
+								</li>
+								<li class="list-group-item"><span class="badge">27 человек </span>
+									09.02.04 Информационные системы (по отраслям)
+								</li>
+							</ul>
+						</div>
+
 						<div class="list-group-item">
 							<div class="list-group-item-heading">
 								<h6>Учебные планы</h6>
@@ -542,7 +503,6 @@ standalone: true
 								<a href="/info/education/plans/23.01.12-Слесарь-электрик-метрополитена-(2).pdf" class="list-group-item link-icon">23.01.12 Слесарь-электрик метрополитена</a>
 								<a href="/info/education/plans/23.01.13-Электромонтер-тяговой-подстанции-(2).pdf" class="list-group-item link-icon">23.01.13 Электромонтер тяговой подстанции</a>
 								<a href="/info/education/plans/23.01.14-Электромонтер-устройств-СЦБ-(2).pdf" class="list-group-item link-icon">23.01.14 Электромонтер устройств СЦБ</a>
-
 							</div>
 						</div>
 
@@ -611,14 +571,62 @@ standalone: true
 						<div class="list-group">
 							<div class="list-group-item">Санкт-Петербургское государственное бюджетное профессиональное образовательное учреждение Колледж метрополитена общежития и интерната не имеет</div>
 							<a href="/info/education/polojenia/о-мерах-стимулирования-и-иных-мерах-материальной-поддержки-студентов.pdf" class="list-group-item link-icon">о мерах стимулирования и иных мерах материальной поддержки студентов</a>
-							<!-- <div class="list-group-item">
-								<div class="list-group-item-heading">
+							<div class="panel">
+								<div class="panel-heading">
 									<h6>Распределение выпускников</h6>
 								</div>
-								<div class="list-group">
-									<div class="list-group-item"></div>
-								</div>
-							</div> -->
+								<table class="table">
+									<tr>
+										<th>Профессия</th>
+										<th>Всего выпускников</th>
+										<th>Трудоустроенны</th>
+										<th>Высшее образование</th>
+										<th>Призваны в РА</th>
+									</tr>
+									<tr>
+										<th>09.01.03 Мастер по обработке цифровой информации</th>
+										<td>25</td>
+										<td>19</td>
+										<td>1</td>
+										<td>5</td>
+									</tr>
+									<tr>
+										<th>15.01.25 Станочник (металлообработка)</th>
+										<td>18</td>
+										<td>14</td>
+										<td>0</td>
+										<td>4</td>
+									</tr>
+									<tr>
+										<th>23.01.10 Слесарь по обслуживанию и ремонту подвижного состава</th>
+										<td>21</td>
+										<td>11</td>
+										<td>0</td>
+										<td>10</td>
+									</tr>
+									<tr>
+										<th>23.01.12 Слесарь-электрик метрополитена</th>
+										<td>22</td>
+										<td>13</td>
+										<td>0</td>
+										<td>9</td>
+									</tr>
+									<tr>
+										<th>23.01.13 Электромонтер тяговой подстанции</th>
+										<td>19</td>
+										<td>14</td>
+										<td>0</td>
+										<td>5</td>
+									</tr>
+									<tr>
+										<th>23.01.14 Электромонтер устройств сигнализации, централизации, блокировки (СЦБ)</th>
+										<td>21</td>
+										<td>16</td>
+										<td>2</td>
+										<td>3</td>
+									</tr>
+								</table>
+							</div>
 						</div>
 					</div>
 
