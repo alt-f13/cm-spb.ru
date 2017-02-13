@@ -1,6 +1,7 @@
 ```
 date: 2015-12-18
-layout: post
+type: post
+
 title: 'Конференция «Металлообработка: настоящее и будущее»'
 tags: ['intro','post']
 ```

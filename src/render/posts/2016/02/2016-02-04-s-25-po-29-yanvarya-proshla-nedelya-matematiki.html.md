@@ -1,6 +1,7 @@
 ```
 date: 2016-02-04
-layout: post
+type: post
+
 title: неделя математики
 tags: ['post']
 img: /images/DSC_0277.jpg

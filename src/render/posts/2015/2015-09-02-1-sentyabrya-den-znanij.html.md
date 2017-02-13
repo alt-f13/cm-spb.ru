@@ -1,6 +1,7 @@
 ```
 date: 2015-09-02
-layout: post
+type: post
+
 title: 1 сентября - день знаний!
 tags: ['post']
 ```
