@@ -52,8 +52,17 @@ $footer: #292F3C;
   border-radius: 6px;
 }
 
-.jumbotron p {
-	font-size: 14px !important;
+.jumbotron {
+  padding: 30px;
+  margin-bottom: 30px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.1428571435;
+  color: inherit;
+  background-color: #eeeeee;
+  p {
+  	font-size: 14px !important;
+  }
 }
 
 .push {
