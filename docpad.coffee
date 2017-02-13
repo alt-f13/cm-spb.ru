@@ -225,7 +225,7 @@ docpadConfig = {
 		menu2: (database) ->
 			database.findAllLive({menu2title: $exists: true}, [pageOrder:1,menu2title:1])
 		posts: (database) ->
-			database.findAllLive({layout:$in:['post', 'vkpost']}, [date:-1])
+			database.findAllLive({type:$in:['post', 'vkpost']}, [date:-1])
 		faces: (database) ->
 			database.findAllLive({$and:[
 				layout:'faces',

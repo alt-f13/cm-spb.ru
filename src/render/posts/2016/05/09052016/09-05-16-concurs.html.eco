@@ -3,7 +3,8 @@ associatedFilesRelative:	 true
 associatedFilesPath:	 './09052016/'
 date: 2016-05-20
 title: Цветущий ясный май
-layout: post
+type: post
+
 img: /images/9maya.jpg
 description:
 tags: ['post']

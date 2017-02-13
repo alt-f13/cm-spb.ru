@@ -1,6 +1,7 @@
 ```
 date: 2016-02-23
-layout: post
+type: post
+
 title: День защитника Отечества
 img: /img/1598033087.png
 tags: ['post']

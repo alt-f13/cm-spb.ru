@@ -3,7 +3,8 @@ date: 2016-12-2
 associatedFilesRelative:	 true
 associatedFilesPath:	 './'
 title: ENGLISH LANGUAGE WEEK «I LEARN AND I ACHIEVE»
-layout: post
+type: post
+
 img: /posts/2016-11-28/lpt7cs87n0g.jpg
 description: С 28.11.2016 по 02.12.2016 в нашем колледже проходила Неделя Английского Языка «Я Учусь»
 ---

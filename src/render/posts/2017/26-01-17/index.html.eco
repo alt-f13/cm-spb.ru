@@ -3,7 +3,8 @@ associatedFilesRelative:	 true
 associatedFilesPath:	 './'
 date: 2017-01-26
 title: "Военно-историческая конференция «Ленинград. Блокада. Память»."
-layout: post
+type: post
+
 description: "26 января в актовом зале «Колледжа метрополитена» прошла военно-историческая конференция «Ленинград. Блокада. Память». "
 img: '/posts/2017/26-01-17/P1070027.JPG'
 tags: ['post']

@@ -9,14 +9,14 @@
 						</h4>
       </a>
 			<a href="/anketa.pdf" class="navbar-brand uppercase footer-small">
-					<i class="fa fa-flag fa-3x"></i>
+					<i class="fa fa-pie-chart fa-3x"></i>
 					<div>
 						анкетирование
 					</div>
 			</a>
 			<a class=" uppercase navbar-brand footer-small"  href="http://k-obr.spb.ru/page/632">
 					<div style="height: 100%; vertical-align: top;">
-						<i class="fa fa-child fa-3x fa-inverse"></i>
+						<i class="fa fa-ban fa-3x fa-inverse"></i>
 					</div>
 					<div>
 						Профилактика негативных<br>

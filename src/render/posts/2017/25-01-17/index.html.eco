@@ -3,7 +3,8 @@ associatedFilesRelative:	 true
 associatedFilesPath:	 './'
 date: 2017-01-25
 title: "ОТЧЕТ О ПРОВЕДЕНИИ ОЛИМПИАДЫ ПО ИНОСТРАННОМУ ЯЗЫКУ"
-layout: post
+type: post
+
 description: "16.01.2017 – 20.01.2017"
 img: /images/logo.png
 tags: ['post']

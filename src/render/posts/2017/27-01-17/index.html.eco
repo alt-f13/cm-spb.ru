@@ -3,7 +3,8 @@ associatedFilesRelative:	 true
 associatedFilesPath:	 './'
 date: 2017-01-27
 title: "Студент колледжа метрополитена-чемпион Санкт-Петербурга!"
-layout: post
+type: post
+
 img: /posts/2017/27-01-17/lupashko.jpg
 description: "В конце декабря 2016 года обучающийся 123 учебной группы Ярослав Л. принял участие в Открытом чемпионате Санкт-Петербурга по армрестлингу"
 tags: ['post']

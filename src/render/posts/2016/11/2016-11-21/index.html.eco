@@ -3,7 +3,8 @@ date: 2016-11-09
 associatedFilesRelative:	 true
 associatedFilesPath:	 './'
 title: Единый Урок безопасности в Интернете
-layout: post
+type: post
+
 img: /posts/2016-11-21/SW2rTYqPXb8.jpg
 description: Единый Урок безопасности в Интернете
 ---

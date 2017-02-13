@@ -3,7 +3,8 @@ associatedFilesRelative:	 true
 associatedFilesPath:	 './31052016/'
 date: 2016-05-31
 title: «Самая красивая страна»
-layout: post
+type: post
+
 img: /images/strana.jpg
 description: Уже второй год, в рамках Русского Географического Общества, проводится фотоконкурс «Самая красивая страна».
 tags: ['post']

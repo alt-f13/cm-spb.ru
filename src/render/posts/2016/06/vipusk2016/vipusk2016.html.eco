@@ -3,7 +3,8 @@ associatedFilesRelative:	 true
 associatedFilesPath:	 './vipusk2016/'
 date: 2016-06-31
 title: Выпуск 2016
-layout: post
+type: post
+
 img: /images/logo.png
 description: Торжественная церемония, посвященная выпуску обучающихся прошла 29 июня 2016 года в актовом зале «Колледжа метрополитена».
 tags: ['post']

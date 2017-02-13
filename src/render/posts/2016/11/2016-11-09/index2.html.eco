@@ -3,7 +3,8 @@ date: 2016-11-09
 associatedFilesRelative:	 true
 associatedFilesPath:	 './'
 title: химическая викторина
-layout: post
+type: post
+
 img: /posts/2016-11-09/IMG_20161109_155447.jpg
 description: Отчет о проведении химической викторины "Наследие М.Ю.Ломоносова"
 ---

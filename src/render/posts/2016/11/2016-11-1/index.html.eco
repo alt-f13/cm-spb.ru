@@ -3,7 +3,8 @@ date: 2016-11-1
 associatedFilesRelative:	 true
 associatedFilesPath:	 './'
 title: экскурсия в ГУП «Петербургский метрополитен»
-layout: post
+type: post
+
 description: С 09 сентября по 14 октября 2016 года были проведены экскурсии для всех обучающихся 1 курса в ГУП «Петербургский метрополитен».
 tags: ['post']
 ---

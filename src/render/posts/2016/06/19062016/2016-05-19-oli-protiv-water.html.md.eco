@@ -3,7 +3,8 @@ associatedFilesRelative:	 true
 associatedFilesPath:	 './19062016/'
 date: 2016-05-19
 title: "Нефть против воды"
-layout: post
+type: post
+
 img: /images/xim.jpg
 description: Обучающимися колледжа под руководством преподавателя по химии Зубковой Маргариты Михайловны была проведена интеллектуальная игра "Нефть против воды"
 tags: ['post']

@@ -1,6 +1,7 @@
 ```
 date: 2016-01-27
-layout: post
+type: post
+
 title: День снятия блокады Ленинграда
 img: /images/2873.jpg
 tags: ['intro','post']

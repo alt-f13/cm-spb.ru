@@ -1,6 +1,7 @@
 ```
 date: 2016-02-18
-layout: post
+type: post
+
 tags: ['intro','post']
 title: Неделя  Материаловедения
 description: Колледже прошла неделя Материаловедения

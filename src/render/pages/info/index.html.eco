@@ -62,17 +62,14 @@ standalone: true
 					<tr>
 						<th>режим работы</th>
 						<td>
-						<ul class="list-group">
-							<li class="list-group-item">
-								<h5 class="list-group-item-heading">
+								<h5 class="">
 									с 01.09.2016 г. по 30.06.2017г
 									<small>(2016-2017 учебный год)</small>
 								</h5>
 								<ul class="list-group">
 									<li class="list-group-item"><b>Зимние каникулы</b><br>с 29.12.2016 г. по 11.01.2017 г</li>
 									<li class="list-group-item"><b>Летние каникулы</b><br>с 01.07.2017 г. по 31.08.2017 г</li>
-
-							</li>
+								</ul>
 
 
 
@@ -95,7 +92,7 @@ standalone: true
 							<th>Стипендии и иные виды материальной поддержки</th>
 							<td>
 							<!-- <a class="link-icon" href="ПОЛОЖЕНИЕ-о-назначении-стипендии-и-иных-мерах-стимулирования-и-материальной-поддержки-студентов.pdf">О наличии и условиях предоставления обучающимся стипендий, мер социальной поддержки</a> -->
-							<a href="/info/education/polojenia/о-мерах-стимулирования-и-иных-мерах-материальной-поддержки-студентов.pdf" class="link-icon">о мерах стимулирования и иных мерах материальной поддержки студентов</a>
+							<a href="/info/education/polojenia/о-мерах-стимулирования-и-иных-мерах-материальной-поддержки-студентов.pdf" class="link-icon">Положение о мерах стимулирования и иных мерах материальной поддержки студентов</a>
 
 							</td>
 						</tr>
@@ -144,13 +141,13 @@ standalone: true
 
 		<div class="col-md-12">
 
-			<div class="form-group">
+			<!-- <div class="form-group">
 				<input id="search" class="form-control" style="width: 100%;" name="search" placeholder="Поиск..." type="text" data-list=".tree"  data-nodata="No results found" autocomplete="off">
-			</div>
+			</div> -->
 
 
 			<div class="list-group list-group-root well">
-				<a class="link-icon list-group-item list-group-item-info" href="/pages/social.html">Руководство. Педагогический состав</a>
+				<a class="list-group-item list-group-item-info" href="/pages/social.html"><i class="fa fa-user-circle-o" aria-hidden="true"></i>Руководство. Педагогический состав</a>
 				<div class="list-group-item">
 					<div class="panel panel-success">
 						<div class="panel-heading">
@@ -233,9 +230,9 @@ standalone: true
 			      <a class="link-icon list-group-item" href="accreditation2016.pdf">Свидетельство о государственной аккредитации</a>
 						<a class="link-icon list-group-item" href="documents/Лицензия.pdf">Лицензия</a>
 
-						<a class="link-icon list-group-item" href="/info/ПФХД2017.pdf">План финансово-хозяйственной деятельности 2018-2019</a>
+						<a class="list-group-item" href="/info/ПФХД2017.pdf"><i class="fa fa-balance-scale" aria-hidden="true"></i> План финансово-хозяйственной деятельности 2018-2019</a>
 						<!-- <a class="link-icon list-group-item" href="documents/Повышение-квалификации-педагогического-коллектива.pdf">Повышение квалификации педагогического коллектива</a> -->
-						<a href="/info/education/polojenia/о-правилах-оказания-платных-образовательных-услуг.pdf" class="list-group-item link-icon">Положение о правилах оказания платных образовательных услуг</a>
+						<a href="/info/education/polojenia/о-правилах-оказания-платных-образовательных-услуг.pdf" class="list-group-item"><i class="fa fa-money" aria-hidden="true"></i> Положение о правилах оказания платных образовательных услуг</a>
 						<a class="link-icon list-group-item" href="/info/public-otchet2017.pdf">Публичный доклад о результатах деятельности в 2015-2016 учебном году</a>
 
 						<a class="link-icon list-group-item" href="documents/samoobsled-2016.pdf">Cамообследования 2015-2016 учебный год</a>
@@ -263,7 +260,7 @@ standalone: true
 				</li>
 				<div class="list-group-item list-group-item-danger">
 					<div class="list-group-item-heading">
-						<h6>Дорожная безопасность детей</h6>
+						<h6><i class="fa fa-2x fa-road" aria-hidden="true"></i>Дорожная безопасность детей</h6>
 					</div>
 					<div class="list-group">
 						<a class="link-icon list-group-item" href="11.pdf">Информационное письмо Департамента государственной политики в сфере образования Министерства образования и науки Российской Федерации от 29 июля 2014 N08-988</a>
@@ -528,10 +525,10 @@ standalone: true
 
 						<a class="link-icon list-group-item" href="/info/education/education-programs.pdf">Перечень образовательных программ  с указанием учебных предметов, курсов, дисциплин, модулей, практик</a>
 
-				<a class="link-icon list-group-item"  href="http://78.mchs.gov.ru/dejatelnost/Napravlenija_dejatelnosti/Pozharnaja_bezopasnost_obrazovatelnih_uc" title="Главное управление МЧС России по г. Санкт-Петербургу, в целях повышения культуры пожаробезопасного поведения учащихся, а также обучения руководителей и преподавательского состава мерам пожарной безопасности и действиям в случае чрезвычайной ситуации,
+				<a class="list-group-item"  href="http://78.mchs.gov.ru/dejatelnost/Napravlenija_dejatelnosti/Pozharnaja_bezopasnost_obrazovatelnih_uc" title="Главное управление МЧС России по г. Санкт-Петербургу, в целях повышения культуры пожаробезопасного поведения учащихся, а также обучения руководителей и преподавательского состава мерам пожарной безопасности и действиям в случае чрезвычайной ситуации,
 			  				предлагает ознакомится с разделом “Пожарная безопасность образовательных учреждений” В указанном разделе размещенны типовые материалы, в которых в
 			  				простой и доступной форме отражены основные вопросы обеспечения безопасности детей и правила поведения при возникновении чрезвычайных ситуаций.">
-			    Пожарная безопасность образовательных учреждений</a>
+								<i class="fa fa-fire-extinguisher" aria-hidden="true"></i>Пожарная безопасность образовательных учреждений</a>
 
 				<div class="list-group-item">
 					<div class="list-group-item-heading">
@@ -552,15 +549,15 @@ standalone: true
 
 					<div class="list-group-item">
 						<div class="list-group-item-heading">
-							<h6>Ссылки на информационно-образовательные ресурсы</h6>
+							<h6><i class="fa fa-2x fa-globe" aria-hidden="true"></i>Ссылки на информационно-образовательные ресурсы</h6>
 						</div>
 						<div class="list-group">
-							<a class="list-group-item link-icon" href="http://www.mon.gov.ru">Официальный сайт Министерства образования и науки Российской Федерации</a>
-							<a class="list-group-item link-icon" href="http://k-obr.spb.ru/">Информационный портал Комитета по образованию Санкт-Петербурга</a>
-							<a class="list-group-item link-icon" href="http://www.edu.ru">Федеральный портал “Российское образование”</a>
-							<a class="list-group-item link-icon" href="http://window.edu.ru">Информационная система “Единое окно доступа к образовательным ресурсам”</a>
-							<a class="list-group-item link-icon" href="http://school-collection.edu.ru">Единая коллекция цифровых образовательных ресурсов</a>
-							<a class="list-group-item link-icon" href="http://fcior.edu.ru">Федеральный центр информационно-образовательных ресурсов</a>
+							<a class="list-group-item" href="http://www.mon.gov.ru"><i class="fa fa-2x fa-external-link" aria-hidden="true"></i>Официальный сайт Министерства образования и науки Российской Федерации</a>
+							<a class="list-group-item" href="http://k-obr.spb.ru/"><i class="fa fa-2x fa-external-link" aria-hidden="true">Информационный портал Комитета по образованию Санкт-Петербурга</a>
+							<a class="list-group-item" href="http://www.edu.ru"><i class="fa fa-2x fa-external-link" aria-hidden="true">Федеральный портал “Российское образование”</a>
+							<a class="list-group-item" href="http://window.edu.ru"><i class="fa fa-2x fa-external-link" aria-hidden="true">Информационная система “Единое окно доступа к образовательным ресурсам”</a>
+							<a class="list-group-item" href="http://school-collection.edu.ru"><i class="fa fa-2x fa-external-link" aria-hidden="true">Единая коллекция цифровых образовательных ресурсов</a>
+							<a class="list-group-item" href="http://fcior.edu.ru"><i class="fa fa-2x fa-external-link" aria-hidden="true">Федеральный центр информационно-образовательных ресурсов</a>
 						</div>
 					</div>
 
@@ -569,69 +566,86 @@ standalone: true
 							<h6>Стипендии и иные виды материальной поддержки</h6>
 						</div>
 						<div class="list-group">
-							<div class="list-group-item">Санкт-Петербургское государственное бюджетное профессиональное образовательное учреждение Колледж метрополитена общежития и интерната не имеет</div>
-							<a href="/info/education/polojenia/о-мерах-стимулирования-и-иных-мерах-материальной-поддержки-студентов.pdf" class="list-group-item link-icon">о мерах стимулирования и иных мерах материальной поддержки студентов</a>
-							<div class="panel">
-								<div class="panel-heading">
-									<h6>Распределение выпускников</h6>
+							<div class="list-group-item">
+								<div class="list-group-item-heading">
+									<h6>Интернат</h6>
 								</div>
-								<table class="table">
-									<tr>
-										<th>Профессия</th>
-										<th>Всего выпускников</th>
-										<th>Трудоустроенны</th>
-										<th>Высшее образование</th>
-										<th>Призваны в РА</th>
-									</tr>
-									<tr>
-										<th>09.01.03 Мастер по обработке цифровой информации</th>
-										<td>25</td>
-										<td>19</td>
-										<td>1</td>
-										<td>5</td>
-									</tr>
-									<tr>
-										<th>15.01.25 Станочник (металлообработка)</th>
-										<td>18</td>
-										<td>14</td>
-										<td>0</td>
-										<td>4</td>
-									</tr>
-									<tr>
-										<th>23.01.10 Слесарь по обслуживанию и ремонту подвижного состава</th>
-										<td>21</td>
-										<td>11</td>
-										<td>0</td>
-										<td>10</td>
-									</tr>
-									<tr>
-										<th>23.01.12 Слесарь-электрик метрополитена</th>
-										<td>22</td>
-										<td>13</td>
-										<td>0</td>
-										<td>9</td>
-									</tr>
-									<tr>
-										<th>23.01.13 Электромонтер тяговой подстанции</th>
-										<td>19</td>
-										<td>14</td>
-										<td>0</td>
-										<td>5</td>
-									</tr>
-									<tr>
-										<th>23.01.14 Электромонтер устройств сигнализации, централизации, блокировки (СЦБ)</th>
-										<td>21</td>
-										<td>16</td>
-										<td>2</td>
-										<td>3</td>
-									</tr>
-								</table>
+								<p class="list-group-item-text">
+									отсутствует
+								</p>
+							</div>
+							<div class="list-group-item">
+								<div class="list-group-item-heading">
+									<h6>Общежитие</h6>
+								</div>
+								<p class="list-group-item-text">
+									отсутствует
+								</p>
+							</div>
+							<a href="/info/education/polojenia/о-мерах-стимулирования-и-иных-мерах-материальной-поддержки-студентов.pdf" class="list-group-item link-icon">Положение о мерах стимулирования и иных мерах материальной поддержки студентов</a>
+							<div class="list-group-item">
+								<div class="panel panel-info">
+									<div class="panel-heading">
+										<h5>Распределение выпускников</h5>
+									</div>
+									<table class="table table-bordered table-responsive">
+										<tr>
+											<th>Профессия</th>
+											<th>Всего выпускников</th>
+											<th>Трудоустроенны</th>
+											<th>Высшее образование</th>
+											<th>Призваны в РА</th>
+										</tr>
+										<tr>
+											<th>09.01.03 Мастер по обработке цифровой информации</th>
+											<td>25</td>
+											<td>19</td>
+											<td>1</td>
+											<td>5</td>
+										</tr>
+										<tr>
+											<th>15.01.25 Станочник (металлообработка)</th>
+											<td>18</td>
+											<td>14</td>
+											<td>0</td>
+											<td>4</td>
+										</tr>
+										<tr>
+											<th>23.01.10 Слесарь по обслуживанию и ремонту подвижного состава</th>
+											<td>21</td>
+											<td>11</td>
+											<td>0</td>
+											<td>10</td>
+										</tr>
+										<tr>
+											<th>23.01.12 Слесарь-электрик метрополитена</th>
+											<td>22</td>
+											<td>13</td>
+											<td>0</td>
+											<td>9</td>
+										</tr>
+										<tr>
+											<th>23.01.13 Электромонтер тяговой подстанции</th>
+											<td>19</td>
+											<td>14</td>
+											<td>0</td>
+											<td>5</td>
+										</tr>
+										<tr>
+											<th>23.01.14 Электромонтер устройств сигнализации, централизации, блокировки (СЦБ)</th>
+											<td>21</td>
+											<td>16</td>
+											<td>2</td>
+											<td>3</td>
+										</tr>
+									</table>
+								</div>
 							</div>
 						</div>
 					</div>
 
 
-				<a class="link-icon list-group-item" href="structure2016.pdf">Cтруктура и органы управления колледжа</a>
+				<a class="link-icon list-group-item" href="structure2 016.pdf">Cтруктура и органы управления колледжа</a>
 				<a class="link-icon list-group-item" href="antiterror.html">Профилактика экстремизма, терроризма и межнациональной розни</a>
 				<a class="link-icon list-group-item" href="razvit.2016.pdf">Программа развития на 2016-2020</a>
 

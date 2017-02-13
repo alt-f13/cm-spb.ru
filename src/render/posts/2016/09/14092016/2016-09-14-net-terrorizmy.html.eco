@@ -3,7 +3,8 @@ associatedFilesRelative:	 true
 associatedFilesPath:	 './14092016/'
 date: 2016-09-14
 title: "Памяти жертвам терроризма"
-layout: post
+type: post
+
 img: /images/ter.jpg
 description: 14 сентября 2016 года администрацией колледжа совместно с МО «Балканский» было проведено памятное мероприятие, посвященное декаде противодействия экстремизму и терроризму.
 tags: ['post']
