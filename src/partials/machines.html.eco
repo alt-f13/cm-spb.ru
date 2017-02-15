@@ -3,7 +3,7 @@
 <h2 class="uppercase">Материально-техническое обеспечение</h2>
 <hr>
 
-<div class="panel panel-primary">
+<div id="machines" class="panel panel-primary">
 	<div class="panel-heading">
 		<h3 class="panel-title">
 			Кабинеты:
