@@ -1,5 +1,4 @@
 ---
-standalone: true
 ---
 $color1: #11497F; //blue
 $color2: #E00E00; //red
@@ -21,7 +20,17 @@ $footer: #292F3C;
 @import "icons";
 @import "blocks";
 @import "listGroup";
+@import "mediaMD";
+@import "_nav";
 
+/* hide inactive nested list */
+.bs-docs-sidebar .nav ul.nav {
+		display: none;
+}
+/* show active nested list */
+.bs-docs-sidebar .nav>.active>ul.nav {
+		display: block;
+}
 
 //@import "table";
 //@import "";
