@@ -1,0 +1,47 @@
+---
+layout: default
+title: Сведения об образовательной организации
+standalone: true
+
+---
+<script type="text/javascript" src="/js/jquery.hideseek.min.js"></script>
+
+
+<div class="container-fluid">
+	<div class="row">
+
+		<div class="col-md-4">
+			<%- @partial('info-menu') %>
+		</div>
+		<div class="col-md-8">
+			<%- @partial('info-main') %>
+			<%- @partial('info-list') %>
+			<!-- <div class="form-group">
+				<input id="search" class="form-control" style="width: 100%;" name="search" placeholder="Поиск..." type="text" data-list=".tree"  data-nodata="No results found" autocomplete="off">
+			</div> -->
+
+		</div>
+	</div>
+</div>
+<%- @partial('machines') %>
+
+
+<script type="text/javascript">
+	$('#search').hideseek();
+	$(function() {
+		// $('#sidebar').affix({
+    //   offset: {
+    //     top: 245
+    //   }
+		// });
+		//
+		// var $body   = $(document.body);
+		// var navHeight = $('.navbar').outerHeight(true) + 10;
+		//
+		// $body.scrollspy({
+		// 	target: '#leftCol',
+		// 	offset: navHeight
+		// });
+	});
+</script>
+ipt>
