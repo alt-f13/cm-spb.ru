@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Сведения об образовательной организации
-standalone: true
 
 ---
 <script type="text/javascript" src="/js/jquery.hideseek.min.js"></script>
@@ -14,8 +13,34 @@ standalone: true
 			<%- @partial('info-menu') %>
 		</div>
 		<div class="col-md-8">
+
 			<%- @partial('info-main') %>
-			<%- @partial('info-list') %>
+			<div class="list-group list-group-root well">
+				<a id="structure" class="list-group-item" href="/info/structure2016.pdf">
+					<div class="list-group-item-heading">
+						<h6>
+							<i class="fa-sitemap fa-2x fa fa-fw"></i>Cтруктура и органы управления колледжа
+						</h6>
+					</div>
+				</a>
+				<%- @partial('info-documents') %>
+
+				<%- @partial('info-education') %>
+				<%- @partial('educationFgos') %>
+
+				<a id="social" class="list-group-item list-group-item-info" href="/pages/social.html"><i class="fa fa-fw fa-2x fa-user-circle-o" aria-hidden="true"></i>Руководство. Педагогический(научно-педагогический) состав</a>
+
+				<%- @partial('info-machines') %>
+
+				<%- @partial('info-money') %>
+				<a id="paymentEdu" href="/info/education/polojenia/о-правилах-оказания-платных-образовательных-услуг.pdf" class="list-group-item"><i class="fa fa-fw fa-2x fa-money" aria-hidden="true"></i> Положение о правилах оказания платных образовательных услуг</a>
+				<%- @partial('info-reglaments') %>
+
+				<%- @partial('info-vacant') %>
+
+
+			</div>
+
 			<!-- <div class="form-group">
 				<input id="search" class="form-control" style="width: 100%;" name="search" placeholder="Поиск..." type="text" data-list=".tree"  data-nodata="No results found" autocomplete="off">
 			</div> -->
@@ -23,7 +48,6 @@ standalone: true
 		</div>
 	</div>
 </div>
-<%- @partial('machines') %>
 
 
 <script type="text/javascript">
