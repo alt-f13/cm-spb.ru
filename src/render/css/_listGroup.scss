@@ -5,6 +5,14 @@
 .list-group.list-group-root {
     padding: 0;
     overflow: hidden;
+		.list-group-item {
+			.fa {
+			    margin-right: 5px;
+					padding-right: 5px;
+					padding-left: 5px;
+
+			}
+		}
 }
 
 .list-group.list-group-root .list-group {
@@ -29,8 +37,5 @@
 }
 
 .list-group-item .glyphicon {
-    margin-right: 5px;
-}
-.list-group-item .fa {
     margin-right: 5px;
 }
