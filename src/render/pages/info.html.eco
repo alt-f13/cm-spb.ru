@@ -16,7 +16,7 @@ title: Сведения об образовательной организаци
 
 			<%- @partial('info-main') %>
 			<div class="list-group list-group-root well">
-				<a id="structure" class="list-group-item" href="/info/structure2016.pdf">
+				<a id="structure" class="list-group-item list-group-item-danger" href="/info/structure2016.pdf">
 					<div class="list-group-item-heading">
 						<h6>
 							<i class="fa-sitemap fa-2x fa fa-fw"></i>Cтруктура и органы управления колледжа
@@ -28,13 +28,21 @@ title: Сведения об образовательной организаци
 				<%- @partial('info-education') %>
 				<%- @partial('educationFgos') %>
 
-				<a id="social" class="list-group-item list-group-item-info" href="/pages/social.html"><i class="fa fa-fw fa-2x fa-user-circle-o" aria-hidden="true"></i>Руководство. Педагогический(научно-педагогический) состав</a>
+				<a id="social" class="list-group-item list-group-item-info" href="/pages/social.html"><i class="fa fa-fw fa-2x fa-users" aria-hidden="true"></i>Руководство. Педагогический(научно-педагогический) состав</a>
 
 				<%- @partial('info-machines') %>
 
-				<%- @partial('info-money') %>
-				<a id="paymentEdu" href="/info/education/polojenia/о-правилах-оказания-платных-образовательных-услуг.pdf" class="list-group-item"><i class="fa fa-fw fa-2x fa-money" aria-hidden="true"></i> Положение о правилах оказания платных образовательных услуг</a>
-				<%- @partial('info-reglaments') %>
+				<%- @partial('info-finance') %>
+				<a href="/info/education/polojenia/о-правилах-оказания-платных-образовательных-услуг.pdf" class="list-group-item list-group-item-warning">
+					<div id="paymentEdu" class="list-group-item-heading">
+						<h5>Платные образовательные услуги</h5>
+					</div>
+					<p class="list-group-item-text">
+							<i class="fa fa-fw fa-2x fa-money" aria-hidden="true"></i>
+								Положение о правилах оказания платных образовательных услуг
+					</p>
+
+				</a>
 
 				<%- @partial('info-vacant') %>
 
