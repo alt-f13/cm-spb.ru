@@ -15,24 +15,34 @@ pageOrder: 6
 						<ul class="list-group list-group-colored">
 
 
-							<% for document in @getCollection('posts').toJSON(): %>
+							<% for @doc in @getCollection('posts').toJSON(): %>
 						  <li class="list-group-item">
 						    <h6 class="list-group-item-heading">
-									<%= document.title %>
+									<%= @doc.title %>
 						    </h6>
 
 						        <span class="pull-right label label-primary">
 						  				<i class="fa fa-clock-o fa-2x"></i>
-						  				<%= @moment(document.date).lang("ru").format('DD MMMM YYYY') %>
+						  				<%= @moment(@doc.date).lang("ru").format('DD MMMM YYYY') %>
 						  			</span>
 
 								<p class="list-group-item-text">
-									<%- document.content %>
+									<%- @doc.content %>
 									<p>
-										<% for file in @getFilesAtPath(document.relativeDirPath).findAll({extension: $in: image_exts}).toJSON(): %>
-										<a data-lightbox="<%= document.relativeDirPath %>" href="<%= file.url %>" data-title="">
+										<% for file in @getFilesAtPath(@doc.relativeDirPath).findAll({extension: $in: image_exts}).toJSON(): %>
+										<a data-lightbox="<%= @doc.relativeDirPath %>" href="<%= file.url %>" data-title="">
 											<img src="<%= @getThumbnail(file.url, "zoomcrop", { w: 100, h: 100 }) %>"  class="img-thumbnail" alt="">
 										</a>
+										<% end %>
+										<% if @doc.attachments: %>
+										<%= JSON.stringify(@doc.attachments) %>
+
+											<%	for video in @doc.attachments: %>
+												<% if video.video: %>
+												<%= JSON.stringify(video.video) %>
+												<iframe src="//vk.com/video_ext.php?oid=<%= video.video.owner_id %>&id=<%= video.video.vid %>&hash=<%= video.video.access_key %>&hd=2" width="853" height="480" frameborder="0" allowfullscreen></iframe>
+												<% end %>
+											<% end %>
 										<% end %>
 
 									</p>
