@@ -1,0 +1,145 @@
+
+<hr>
+<h2 class="uppercase">Материально-техническое обеспечение</h2>
+<hr>
+
+<div id="machines" class="panel panel-primary">
+	<div id="cabinets" class="panel-heading">
+		<h3 class="panel-title">
+			Кабинеты:
+			<span class="badge pull-right">
+					19
+				</span>
+		</h3>
+
+	</div>
+	<div class="panel-body">
+		<small>Оснащены современным оборудованием и техническими средствами обучения для проведения практических и лабораторных работ</small>
+	</div>
+	<ul class="list-group">
+		<li class="list-group-item">
+			<h4 class="list-group-item-heading active">
+				Общепрофессиональный и профессиональных дисциплин 				<span class="badge pull-right">7</span>
+
+			</h4>
+			<p class="list-group-item-text">
+			</p>
+		</li>
+		<li class="list-group-item list-group-item-warning">
+			<h4 class="list-group-item-heading">
+				Мастерские 			<span class="badge pull-right">3</span>
+
+			</h4>
+			<p class="list-group-item-text">
+				<%- @partial('lightbox', {images:['/machines/GOPR0090.JPG'],title:['Электромонтажная мастерская']}) %>
+				<%- @partial('lightbox', {images:['/machines/GOPR0098.JPG'],title:['Слесарная мастерская']}) %>
+				<%- @partial('lightbox', {images:['/machines/GOPR0101.JPG'],title:['Мастерская Металлообработки']}) %>
+			</p>
+		</li>
+		<li class="list-group-item list-group-item-success">
+			<h4 class="list-group-item-heading">
+				Лаборатории
+				<span class="badge pull-right">
+						6
+				</span>
+			</h4>
+			<p class="list-group-item-text">
+				<%- @partial('lightbox', {images:['/machines/GOPR0102.JPG'],title:['Лаборатория материаловедения']}) %>
+				<%- @partial('lightbox', {images:['/machines/GOPR0104.JPG'],title:['Лаборатория  устройства и технического оборудования электропоезда']}) %>
+				<%- @partial('lightbox', {images:['/machines/GOPR0124.JPG'],title:['Лаборатория монтажа и технической эксплуатации оборудования тяговых подстанций и контактной сети']}) %>
+				<%- @partial('lightbox', {images:['/machines/GOPR0132.JPG'], title:['Лаборатория монтажа и технической эксплуатации устройств СЦБ']}) %>
+				<!-- <%- @partial('lightbox', {images:['/machines/GOPR0104.JPG'],title:['Лаборатория электротехники']}) %> -->
+				<%- @partial('lightbox', {images:['/machines/GOPR0116.JPG'],title:['Лаборатория общего курса железных дорог и ПТЭ']}) %>
+			</p>
+		</li>
+		<li class="list-group-item list-group-item-info">
+			<h4 class="list-group-item-heading">
+					Полигоны
+					<span class="badge pull-right">
+						2
+					</span>
+			</h4>
+			<p class="list-group-item-text">
+				<ul class="list-group">
+					<li class="list-group-item">
+						Участок железной дороги
+					</li>
+					<li class="list-group-item">
+						Стрелочный перевод
+					</li>
+				</ul>
+			</p>
+		</li>
+
+
+
+
+
+
+	</ul>
+
+</div>
+
+<div class="panel panel-success">
+	<div id="tech" class="panel-heading">
+		<h3 class="panel-title">
+			Техническое обеспечение
+		</h3>
+	</div>
+	<ul class="list-group">
+		<li class="list-group-item">
+			<h4 class="list-group-item-heading">
+				Библиотека, читальный зал с выходом в Internet
+			</h4>
+		</li>
+		<li class="list-group-item">
+			<h4 class="list-group-item-heading">
+				Спортивный зал
+			</h4>
+			<p class="list-group-item-text">
+				<%- @partial('lightbox', {images:['/machines/GOPR0162.JPG', '/machines/GOPR0163.JPG', '/machines/GOPR0165.JPG'], title:['Спортивный зал']}) %>
+
+			</p>
+
+		</li>
+		<li class="list-group-item">
+			<h4 class="list-group-item-heading">
+				Тренажерный зал
+			</h4>
+			<p class="list-group-item-text">
+				<%- @partial('lightbox', {images:['/machines/GOPR0140.JPG', '/machines/GOPR0141.JPG', '/machines/GOPR0143.JPG'], title:['Тренажерный зал']}) %>
+
+			</p>
+
+
+		</li>
+		<li class="list-group-item">
+			<h4 class="list-group-item-heading">
+				Открытый стадион широкого профиля
+
+			</h4>
+		</li>
+		<li class="list-group-item list-group-item-info">
+			<span class="badge">
+					46
+			</span>
+			рабочих мест с выходом в Internet
+
+		</li>
+		<li class="list-group-item list-group-item-info">
+			<span class="badge">
+					17
+			</span>мультимедийных проекторов
+		</li>
+		<li class="list-group-item list-group-item-info">
+			<span class="badge">
+					9
+			</span>интерактивных досок
+		</li>
+		<li class="list-group-item list-group-item-info">
+			<span class="badge">
+					2
+			</span>МФУ
+		</li>
+	</ul>
+</div>
