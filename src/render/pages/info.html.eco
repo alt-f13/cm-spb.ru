@@ -32,7 +32,6 @@ title: Сведения об образовательной организаци
 
 				<%- @partial('info-machines') %>
 
-				<%- @partial('info-finance') %>
 				<a href="/info/education/polojenia/о-правилах-оказания-платных-образовательных-услуг.pdf" class="list-group-item list-group-item-warning">
 					<div id="paymentEdu" class="list-group-item-heading">
 						<h5>Платные образовательные услуги</h5>
@@ -43,6 +42,7 @@ title: Сведения об образовательной организаци
 					</p>
 
 				</a>
+				<%- @partial('info-finance') %>
 
 				<%- @partial('info-vacant') %>
 

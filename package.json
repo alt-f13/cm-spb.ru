@@ -33,6 +33,7 @@
     "angular-resource": "^1.6.2",
     "angular-router": "0.0.2",
     "bootstrap-sass": "^3.3.7",
+    "cheerio": "^0.22.0",
     "datejs": "^1.0.0-rc3",
     "docpad": "~6.79.0",
     "docpad-plugin-associatedfiles": "~2.2.0",
@@ -61,6 +62,7 @@
     "nano": "^6.2.0",
     "node-sass-import-once": "^1.2.0",
     "superagent": "^3.4.1",
+    "vkapi": "^1.0.0",
     "vo": "^4.0.2",
     "yamljs": "^0.2.8"
   },
