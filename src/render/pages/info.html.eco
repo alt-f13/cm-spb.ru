@@ -31,6 +31,7 @@ title: Сведения об образовательной организаци
 				<a id="social" class="list-group-item list-group-item-info" href="/pages/social.html"><i class="fa fa-fw fa-2x fa-users" aria-hidden="true"></i>Руководство. Педагогический(научно-педагогический) состав</a>
 
 				<%- @partial('info-machines') %>
+				<%- @partial('info-money') %>
 
 				<a href="/info/education/polojenia/о-правилах-оказания-платных-образовательных-услуг.pdf" class="list-group-item list-group-item-warning">
 					<div id="paymentEdu" class="list-group-item-heading">
@@ -42,6 +43,7 @@ title: Сведения об образовательной организаци
 					</p>
 
 				</a>
+
 				<%- @partial('info-finance') %>
 
 				<%- @partial('info-vacant') %>
