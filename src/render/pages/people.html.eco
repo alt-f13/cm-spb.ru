@@ -1,0 +1,53 @@
+---
+title: Руководство. Педагогический(научно-педагогический) состав
+layout: default
+
+---
+
+<br>
+<br>
+<div class="container">
+	<div class="list-group">
+		<% for face in @getCollection('faces').toJSON(): %>
+		<a href="<%= face.url %>" class="list-group-item">
+			<div class="list-group-item-heading">
+				<h5><%= face.firstname %> <%= face.fathername %> <%= face.lastname %></h5>
+			</div>
+			<p class="list-group-item-text ">
+				<img class="img-responsive img-rounded pull-left" src="<%= @getThumbnail(face.img, { w: 250, h:300 }) %>" alt="<%= face.firstname %> <%= face.fathername %> <%= face.lastname %>">
+				<ul class="list-group">
+					<li class="list-group-item"><%= face.appointment %></li>
+					<li class="list-group-item"><%= face.category %></li>
+					<li class="list-group-item"></li>
+					<li class="list-group-item"></li>
+					<li class="list-group-item"></li>
+					<li class="list-group-item"></li>
+				</ul>
+			</p>
+
+		</a>
+		<% end %>
+	</div>
+
+
+
+</div>
+
+
+<ul id="faces" class="faces" style="display:none">
+	<% for face in @getCollection('faces').toJSON(): %>
+  <% if face.img: %>
+
+	<li><a href="<%= face.url %>" class="item"  style="background-image: url(<%= @getThumbnail(face.img, { w: 250, h:300 }) %>); background-position:top;" alt="<%= face.firstname %> <%= face.fathername %> <%= face.lastname %>">
+		<%= face.firstname %>
+    <%= face.fathername %>
+    <%= face.lastname %>
+		<small style="text-intend: 999px;">
+			<%= face.appointment %>
+			<%= face.category %>
+		</small>
+	</a>
+</li>
+	<% end %>
+  <% end %>
+</ul>

@@ -1,3 +1,5 @@
+#!/usr/local/bin/node
+
 var nano = require('nano')('http://admin:3brd4ZDG@10.11.1.8:5984');
 //var http = require('request');
 var fs = require('fs');
@@ -5,6 +7,14 @@ var mkdirp = require('mkdirp');
 var yaml = require('js-yaml');
 var YAML = require('yamljs');
 var moment = require('moment');
+var VK = require('vkapi');
+var vk = new VK({
+    'appID'     : 5385298,
+    'appSecret' : 'lyOFUeaFheVU4Yyhk0bT',
+    'mode'      : 'sig'
+});
+var cheerio = require('cheerio');
+
 
 var _url='https://api.vk.com/api.php?oauth=1&method=wall.get.json&domain=cmetro';
 
@@ -42,11 +52,23 @@ function _posts() {
 				if(post.attachments) {
 					post.attachments.map(function(i) {
 						var _photo = i.photo;
+						var _video = i.video;
 						if((typeof(_photo) != 'undefined')) {
-							console.log("photo:", _photo.src_big);
+							//console.log("photo:", _photo.src_big);
 							var _file = fs.createWriteStream(directory+"/"+_att+".jpg");
 							var req = http.get(_photo.src_big);
 							req.pipe(_file);
+						}else if (typeof(_video) != 'undefined'){
+							//_url = "https://api.vk.com/method/video.get?videos="+i.video.owner_id+"_"+i.video.vid //+"&access_key="+i.video.access_key
+							_url = "https://vk.com/video"+i.video.owner_id+"_"+i.video.vid //+"&access_key="+i.video.access_key
+							console.log("VIDEO:", _url);
+							var _file = fs.createWriteStream(directory+"/"+_att+".mp4");
+							var req = http.get(_url).then(function(er, data){
+							//	console.log(er.text);
+								$ = cheerio.load(er.text);
+							});
+
+							//req.pipe(_file);
 
 						}
 						_att++;
