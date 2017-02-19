@@ -37,7 +37,7 @@ function _posts() {
 				var directory=home+"/"+post.id;
 				post._id="vk"+post.id;
 
-				post.layout="vkpost";
+				post.type="post";
 				post.tags = ['post'];
 				delete post.comments;
 				delete post.likes;
@@ -61,12 +61,12 @@ function _posts() {
 						}else if (typeof(_video) != 'undefined'){
 							//_url = "https://api.vk.com/method/video.get?videos="+i.video.owner_id+"_"+i.video.vid //+"&access_key="+i.video.access_key
 							_url = "https://vk.com/video"+i.video.owner_id+"_"+i.video.vid //+"&access_key="+i.video.access_key
-							console.log("VIDEO:", _url);
-							var _file = fs.createWriteStream(directory+"/"+_att+".mp4");
-							var req = http.get(_url).then(function(er, data){
-							//	console.log(er.text);
-								$ = cheerio.load(er.text);
-							});
+							console.log("VIDEO:", _url, directory+"/");
+							// var _file = fs.createWriteStream(directory+"/"+_att+".mp4");
+							// var req = http.get(_url).then(function(er, data){
+							// //	console.log(er.text);
+							// 	$ = cheerio.load(er.text);
+							//});
 
 							//req.pipe(_file);
 
