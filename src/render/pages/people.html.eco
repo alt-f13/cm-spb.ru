@@ -13,8 +13,8 @@ layout: default
 			<div class="list-group-item-heading">
 				<h5><%= face.firstname %> <%= face.fathername %> <%= face.lastname %></h5>
 			</div>
-			<p class="list-group-item-text ">
-				<img class="img-responsive img-rounded pull-left" src="<%= @getThumbnail(face.img, { w: 250, h:300 }) %>" alt="<%= face.firstname %> <%= face.fathername %> <%= face.lastname %>">
+			<div class="row">
+				<img class="img-responsive img-circle pull-left" src="<%= @getThumbnail(face.img, { w: 250, h:300 }) %>" alt="<%= face.firstname %> <%= face.fathername %> <%= face.lastname %>">
 				<ul class="list-group">
 					<li class="list-group-item"><%= face.appointment %></li>
 					<li class="list-group-item"><%= face.category %></li>
@@ -23,7 +23,7 @@ layout: default
 					<li class="list-group-item"></li>
 					<li class="list-group-item"></li>
 				</ul>
-			</p>
+			</div>
 
 		</a>
 		<% end %>
