@@ -229,7 +229,7 @@ docpadConfig = {
 		faces: (database) ->
 			database.findAllLive({$and:[
 				layout:'faces',
-				img:$exists:true]}, [lastname:1])
+				img:$exists:true]}, [order:1,phone:1,appointment:1])
 		contacts: (database) ->
 			database.findAllLive({type:$has:'contacts'}, [order:1])
 		# gallery: (database) ->

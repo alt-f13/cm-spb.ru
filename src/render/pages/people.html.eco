@@ -7,25 +7,55 @@ layout: default
 <br>
 <br>
 <div class="container">
-	<div class="list-group">
+	<div class="row">
 		<% for face in @getCollection('faces').toJSON(): %>
-		<a href="<%= face.url %>" class="list-group-item">
-			<div class="list-group-item-heading">
-				<h5><%= face.firstname %> <%= face.fathername %> <%= face.lastname %></h5>
-			</div>
-			<p class="list-group-item-text ">
-				<img class="img-responsive img-rounded pull-left" src="<%= @getThumbnail(face.img, { w: 250, h:300 }) %>" alt="<%= face.firstname %> <%= face.fathername %> <%= face.lastname %>">
-				<ul class="list-group">
-					<li class="list-group-item"><%= face.appointment %></li>
-					<li class="list-group-item"><%= face.category %></li>
-					<li class="list-group-item"></li>
-					<li class="list-group-item"></li>
-					<li class="list-group-item"></li>
-					<li class="list-group-item"></li>
-				</ul>
-			</p>
+		<div class="col-md-6">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h4>
+						<%= face.appointment %>
+					</h4>
+				</div>
+				<div class="panel-body">
+					<div class="row">
+						<div class="col-md-4">
+							<img class="img-responsive img-circle" src="<%= @getThumbnail(face.img, { w: 250, h:300 }) %>" alt="<%= face.firstname %> <%= face.fathername %> <%= face.lastname %>">
+						</div>
+						<div class="col-md-8">
+							<ul class="list-group">
+								<li class="list-group-item">
+									<%= face.firstname %> <%= face.fathername %> <%= face.lastname %></li>
+								<% if face.category: %>
+								<li class="list-group-item"><%= face.category %></li>
+								<% end %>
+								<% if face.education: %>
+								<li class="list-group-item"><%= face.education %> образование</li>
+								<% end %>
+								<% if face.since: %>
+								<li class="list-group-item">Общий стаж<%= face.since %></li>
+								<% end %>
+								<% if face.edusince: %>
+								<li class="list-group-item">Педагогический стаж<%= face.edusince %></li>
+								<% end %>
+								<% if face.degree: %>
+								<li class="list-group-item">Ученая степень <%= face.degree %></li>
+								<% end %>
+								<% if face.phone: %>
+								<li class="list-group-item"><%= face.phone %></li>
+								<% end %>
+								<% if face.email: %>
+								<li class="list-group-item"><%= face.email %></li>
+								<% end %>
+								<% if face.day: %>
+								<li class="list-group-item"><%= face.day %> <%= face.time %></li>
+								<% end %>
+							</ul>
+						</div>
+					</div>
 
-		</a>
+				</div>
+			</div>
+		</div>
 		<% end %>
 	</div>
 

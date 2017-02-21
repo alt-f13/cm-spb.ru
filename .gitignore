@@ -3,3 +3,5 @@ out/
 !.gitignore
 **/.DS_Store
 output/
+nohup.out
+!.gitattributes
