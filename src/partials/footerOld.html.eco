@@ -40,6 +40,11 @@
 						</a>
 					</li>
 				<% end %>
+				<li about="/#contacts">
+						<a href="/pages/info-2016_en.pdf" class="pull-right link-icon">
+							ENG
+						</a>
+				</li>
 			</ul>
 
 	</div>

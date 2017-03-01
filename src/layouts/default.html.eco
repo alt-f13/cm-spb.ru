@@ -101,8 +101,11 @@ $(document).ready(function(){uhpv(has)});
 						ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ
 					</h6>
 					</div>
-					<div class="col-xs-1 col-md-1 col-lg-1 col-sm-1 logo">
-						<a href="/"><img src="/images/logo.png" alt=""></a>
+					<div class="col-xs-1 col-md-1 col-lg-1 col-sm-1">
+						<a href="/">
+							<img class="img-responsive" src="/images/logo.png" alt="КОЛЛЕДЖ
+						МЕТРОПОЛИТЕНА">
+						</a>
 					</div>
 				<div class="col-xs-4 col-md-4 col-sm-6 col-lg-4 ">
 					<h1 style="color: #fff;" class="logo-title header-text">
@@ -158,11 +161,7 @@ $(document).ready(function(){uhpv(has)});
 						</a>
 					</li>
 				<% end %>
-				<li typeof="sioc:Page" about="/#contacts">
-						<a href="/pages/info-2016_en.pdf" class="pull-right link-icon">
-							ENG
-						</a>
-					</li>
+
 
 			</ul>
 
