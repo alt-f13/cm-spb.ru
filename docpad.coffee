@@ -139,7 +139,7 @@ docpadConfig = {
 			          """
 
 			# The website author's name
-			author: "Galyamin.d.d"
+			author: "https://github.com/alt-f13/"
 
 			# The website author's email
 			email: "Galyamin.d.d@gmail.com"

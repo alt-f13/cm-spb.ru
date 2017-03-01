@@ -83,23 +83,23 @@ associatedFilesPath:	 './'
 </div>
 <div class="list-group">
 
-	<a class="link-icon list-group-item" href="%D0%9E%D1%82%D1%87%D0%B5%D1%82.pdf">Отчет о ЦСТВ</a>
+	<a class="link-icon list-group-item" href="/info/%D0%9E%D1%82%D1%87%D0%B5%D1%82.pdf">Отчет о ЦСТВ</a>
 
 
-	<a class="link-icon list-group-item" href="%D0%BF%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BE-%D0%A6%D0%A1%D0%A2%D0%92.pdf">Положения о ЦСТВ</a>
+	<a class="link-icon list-group-item" href="/info/%D0%BF%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BE-%D0%A6%D0%A1%D0%A2%D0%92.pdf">Положения о ЦСТВ</a>
 
 
-	<a class="link-icon list-group-item" href="%D0%BF%D0%BB%D0%B0%D0%BD-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B-%D0%A6%D0%A1%D0%A2%D0%92.pdf">План работы ЦСТВ</a>
+	<a class="link-icon list-group-item" href="/info/%D0%BF%D0%BB%D0%B0%D0%BD-%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B-%D0%A6%D0%A1%D0%A2%D0%92.pdf">План работы ЦСТВ</a>
 
-	<a class="link-icon list-group-item" href="%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5.docx">Как подготовить резюме</a>
+	<a class="link-icon list-group-item" href="/info/%D1%80%D0%B5%D0%B7%D1%8E%D0%BC%D0%B5.docx">Как подготовить резюме</a>
 
-	<a class="link-icon list-group-item" href="%D0%BF%D1%80%D0%B8%D0%BA%D0%B0%D0%B7.pdf">Приказ о создании ЦСТВ</a>
+	<a class="link-icon list-group-item" href="/info/%D0%BF%D1%80%D0%B8%D0%BA%D0%B0%D0%B7.pdf">Приказ о создании ЦСТВ</a>
 
 	<a class="link-icon list-group-item" href="http://gg.center">Проект «Биржа выпускников» (Great Graduate)</a>
 
 	<a class="link-icon list-group-item" href="http://школа-профориентация.рф/">Профориентация и карьера для молодежи</a>
 
-	<a class="link-icon list-group-item" href="action.pdf">Участие в акции «Неделя без турникетов»</a>
+	<a class="link-icon list-group-item" href="/info/action.pdf">Участие в акции «Неделя без турникетов»</a>
 	<a href="#" class="list-group-item">
 		<h4 class="list-group-item-heading">
 			Посещение Агентства занятости населения Фрунзенского района
@@ -124,6 +124,10 @@ associatedFilesPath:	 './'
 		</div>
 
 	</a>
+	<div class="list-group-item">
+		<%- @partial('gallery') %>
+
+	</div>
 </div>
 
-<%- @partial('gallery') %>
+<hr>

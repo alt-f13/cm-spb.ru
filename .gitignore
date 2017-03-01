@@ -1,7 +1,9 @@
 node_modules/
 out/
 !.gitignore
+!.gitattributes
 **/.DS_Store
 output/
 nohup.out
 !.gitattributes
+../~$*
