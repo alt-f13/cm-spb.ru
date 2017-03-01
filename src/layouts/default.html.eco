@@ -9,8 +9,7 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<title><%= @getPreparedTitle() %></title>
 	<meta name="description" content="<%= @getPreparedDescription() %>" />
 	<meta name="keywords" content="<%= @getPreparedKeywords() %>" />
@@ -83,7 +82,7 @@ $(document).ready(function(){uhpv(has)});
 
 </head>
 <body ng-app="schedulerApp"  data-spy="scroll" data-target="#nav-left" data-offset="50">
-	<!--[if lt IE 7]>
+	<!--[if lt IE 9]>
 		<p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
 	<![endif]-->
 	<div class="hidden-xs hidden-sm right-nav label label-primary" id="uhvb" onclick="uvcl()">
