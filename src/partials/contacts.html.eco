@@ -1,80 +1,46 @@
 <div class="container-fluid">
-<div class="row contacts">
+<div class="row">
 	<% for face in @getCollection('contacts').toJSON(): %>
-		<div class="col-md-4 col-sm-6 col-xs-12 col-lg-3 contacts-panel">
-			<div class="panel panel-default">
-			  <div class="panel-heading contacts-heading textfill uppercase ">
-						<!-- <i class="fa fa-address-card" aria-hidden="true"></i> -->
-
-			     <h5 class="contacts-title panel-title textfill">
-							<span><%= face.appointment %></span>
-					 </h5>
-			  </div>
-			  <div class="panel-body contacts-body">
-					<div class="media">
-						<div class="media-left media-middle photo">
-							<img class="media-object " src="<%= @getThumbnail(face.img, { w: 250, h:200 }) %>" alt="<%= face.firstname %> <%= face.fathername %> <%= face.lastname %>">
-						</div>
-						<div class="media-body">
-							<h6 class="media-heading contacts-heading">
-								<%= face.firstname %>
-								<%= face.fathername %>
-								<%= face.lastname %>
-							</h6>
-							<p class="contacts-info">
-								<% if face.time: %>
-										<i class="fa fa-2x fa-clock-o pull-left" aria-hidden="true"></i>
-											<small>Время приема:</small>
-										<br>
-										<%= face.day %>
-										<br>
-										<%= face.time %>
-								
-								<% end %>
-							</p>
-						</div>
-					</div>
-
-
-
-			  </div>
-				<div class="panel-footer">
-					<div class="contacts-links">
-						<a href="tel:<%= face.phone %>" class="contacts-links-link textfill">
-							<div class="contacts-links-btn textfill">
-								<i class="fa fa-2x fa-phone" aria-hidden="true"></i>&nbsp;
-								<%= face.phone %>
-							</div>
-						</a>
-						<a href="mailto:<%= face.email %>" class="textfill contacts-links-link">
-							<div class="contact-links-btn textfill">
-								<i class="fa fa-2x fa-envelope" aria-hidden="true"></i>&nbsp;
-								<%= face.email %>
-							</div>
-						</a>
-					</div>
-				</div>
+	<div class="col-md-6 col-lg-4">
+		<div class="media">
+			<div class="media-left media-middle photo">
+				<img class="media-object img-circle" src="<%= @getThumbnail(face.img, { w: 200, h:200 }) %>" alt="<%= face.firstname %> <%= face.fathername %> <%= face.lastname %>">
 			</div>
 
+			<div class="media-body">
+				<h4 class="media-heading contacts-heading">
+					<%= face.firstname %>
+					<%= face.fathername %>
+					<%= face.lastname %>
+				</h4>
+					<span class="label label-primary label-">
+						<%= face.appointment %>
+					</span>
+					<hr>
+				<% if face.time: %>
+								<span class="label label-warning">
+									<i class="fa fa-2x fa-clock-o" aria-hidden="true"></i>
+									 Время приема:
+								 </span>
+								<%= face.day %>	<%= face.time %>
 
+				<% end %>
+				<div class="btn-group btn-group-sm" role="group" aria-label="...">
+					<a href="tel:<%= face.phone %>" class="btn btn-primary btn-sm" role="button">
+							<i class="fa fa-phone" aria-hidden="true"></i>&nbsp;
+							<%= face.phone %>
+					</a>
+					<a href="mailto:<%= face.email %>" class="btn btn-success btn-sm" role="button">
+							<i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;
+							<%= face.email %>
+					</a>
+				</div>
 
-
+			</div>
 		</div>
+	</div>
 
 	<% end %>
 
 </div>
 </div>
-<script src="/bower_components/jquery-textfill/source/jquery.textfill.min.js" charset="utf-8"></script>
-<script type="text/javascript">
-	$(".panel-body>.info").textfill();
-	$(".textfill").textfill({
-				maxFontPixels: 17,
-				minFontPixels: 14,
-				changeLineHeight: true,
-        success: function() {
-            console.log("yay!")
-        }
-    });
-
-</script>
