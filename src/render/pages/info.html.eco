@@ -3,7 +3,6 @@ layout: default
 title: Сведения об образовательной организации
 
 ---
-<script type="text/javascript" src="/js/jquery.hideseek.min.js"></script>
 
 
 <div class="container-fluid">
@@ -28,7 +27,10 @@ title: Сведения об образовательной организаци
 				<%- @partial('info-education') %>
 				<%- @partial('educationFgos') %>
 
-				<a id="social" class="list-group-item list-group-item-info" href="/pages/social.html"><i class="fa fa-fw fa-2x fa-users" aria-hidden="true"></i>Руководство. Педагогический(научно-педагогический) состав</a>
+				<a id="social" class="list-group-item list-group-item-info" href="/pages/people.html">
+					<i class="fa fa-fw fa-2x fa-users" aria-hidden="true"></i>
+					Руководство. Педагогический(научно-педагогический) состав
+				</a>
 
 				<%- @partial('info-machines') %>
 				<%- @partial('info-money') %>
