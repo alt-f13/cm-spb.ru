@@ -60,7 +60,7 @@ standalone: true
                       Среднее профессиональное образование с присвоением квалификации техник</h5>
                   </div>
                   <div class="row">
-                    <div class="col-md-4 col-xs-4 col-sm-4 grayblock">
+                    <div class="col-md-4 grayblock">
                       <a href="/pages/programs/avit.html">
 
                         <div class="card card-blue">
@@ -74,7 +74,7 @@ standalone: true
                         </div>
                       </a>
                     </div>
-                    <div class="col-md-4 col-xs-4 col-sm-4  grayblock2">
+                    <div class="col-md-4  grayblock2">
                       <a href="/pages/programs/el2t.html">
                         <div class="card card-yellow">
                           <div class="icon">
@@ -85,7 +85,7 @@ standalone: true
                         </div>
                       </a>
                     </div>
-                    <div class="col-md-4 col-xs-4 col-sm-4  grayblock">
+                    <div class="col-md-4 grayblock">
                       <a href="/pages/programs/inst.html">
                           <div class="card card-black">
                           <div class="icon">
@@ -102,7 +102,7 @@ standalone: true
                     <h5 class="h5"> <i class="fa fa-university fa-5x"></i> Среднее профессиональное образование с присвоением рабочей квалификации</h5>
                   </div>
                   <div class="row">
-                    <div class="col-md-3  col-xs-3 col-sm-3 grayblock2">
+                    <div class="col-md-3 grayblock2">
                       <a href="/pages/programs/sem.html">
 
                         <div class="card card-orange">
@@ -116,7 +116,7 @@ standalone: true
                       </a>
 
                     </div>
-                    <div class="col-md-3 col-xs-3 col-sm-3 grayblock">
+                    <div class="col-md-3 grayblock">
 
                       <a href="/pages/programs/sps.html">
                         <div class="card card-red">
@@ -129,7 +129,7 @@ standalone: true
                       </a>
 
                     </div>
-                    <div class="col-md-3 col-xs-3 col-sm-3 grayblock2">
+                    <div class="col-md-3 grayblock2">
                       <a href="/pages/programs/etp.html">
                         <div class="card card-yellow">
                           <div class="icon">
@@ -142,7 +142,7 @@ standalone: true
                       </a>
 
                     </div>
-                    <div class="col-md-3 col-xs-3 col-sm-3  grayblock">
+                    <div class="col-md-3 grayblock">
                       <a href="/pages/programs/scb.html">
 
                         <div class="card card-orange">

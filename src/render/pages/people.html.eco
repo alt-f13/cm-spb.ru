@@ -11,18 +11,21 @@ layout: default
 		<% for face in @getCollection('faces').toJSON(): %>
 		<div class="col-md-6 col-lg-6">
 			<div class="media">
+				<div class="media-heading">
+					<h4>
+						<%= face.firstname %> <%= face.fathername %> <%= face.lastname %>
+					</h4>
+				</div>
 				<div class="media-left media-middle">
 					<a href="#">
-						<img src="<%= @getThumbnail(face.img, { w: 200, h:200 }) %>" alt="<%= face.firstname %> <%= face.fathername %> <%= face.lastname %>" class="media-object img-circle">
+						<img src="<%= @getThumbnail(face.img, "doitall", { w: 150, h:150 }) %>" alt="<%= face.firstname %> <%= face.fathername %> <%= face.lastname %>" class="media-object img-circle">
 					</a>
 				</div>
 				<div class="media-body">
-					<h4 class="media-heading">
-						<%= face.firstname %> <%= face.fathername %> <%= face.lastname %>
-					</h4>
-					<h6 class="media-heading">
+					<span class="label label-warning">
 						<%= face.appointment %>
-					</h6>
+					</span>
+
 					<dl class="dl-horizontal">
 						<% if face.category: %>
 							<dt>Категория</dt>
@@ -55,19 +58,16 @@ layout: default
 						<% end %>
 						<% if face.phone: %>
 						<dt>
-
+							<a href="tel:<%= face.phone %>" class="btn btn-primary btn-sm" role="button">
+									<i class="fa fa-phone" aria-hidden="true"></i>&nbsp;
+									<%= face.phone %>
+							</a>
 						</dt>
 						<dd>
-							<div class="btn-group btn-group-sm" role="group" aria-label="...">
-								<a href="tel:<%= face.phone %>" class="btn btn-primary btn-sm" role="button">
-										<i class="fa fa-phone" aria-hidden="true"></i>&nbsp;
-										<%= face.phone %>
-								</a>
-								<a href="mailto:<%= face.email %>" class="btn btn-success btn-sm" role="button">
+								<a href="mailto:<%= face.email %>" class="btn btn-success active btn-sm" role="button">
 										<i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;
 										<%= face.email %>
 								</a>
-							</div>
 						</dd>
 						<% end %>
 					</dt>

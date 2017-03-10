@@ -90,38 +90,7 @@ $(document).ready(function(){uhpv(has)});
 	</div>
 <div>
 	<div class="navbar navbar-inverse">
-		<div class="container-fluid hidden-xs">
-
-			<div class="row header">
-				<div class="col-xs-4 col-md-4 col-lg-4 hidden-sm">
-					<h6 style="color: #fff; text-align: right;">
-						САНКТ-ПЕТЕРБУРГСКОЕ ГОСУДАРСТВЕННОЕ<br>
-						БЮДЖЕТНОЕ ПРОФЕССИОНАЛЬНОЕ<br>
-						ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ
-					</h6>
-					</div>
-					<div class="col-xs-1 col-md-1 col-lg-1 col-sm-1">
-						<a href="/">
-							<img class="img-responsive" src="/images/logo.png" alt="КОЛЛЕДЖ
-						МЕТРОПОЛИТЕНА">
-						</a>
-					</div>
-				<div class="col-xs-4 col-md-4 col-sm-6 col-lg-4 ">
-					<h1 style="color: #fff;" class="logo-title header-text">
-
-							<small>КОЛЛЕДЖ</small><br>
-						МЕТРОПОЛИТЕНА
-					</h1>
-				</div>
-				<div class="col-xs-2 col-md-2 col-sm-3 col-lg-2 ">
-						<div class="address pull-right">
-							<h5><a href="tel:88127715909"></a>771-59-09</h5>
-							<a href="/#contacts">ул. Купчинская, д. 28</a>
-						</div>
-					</div>
-
-				</div>
-		</div>
+		<%- @partial('header') %>
 
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
