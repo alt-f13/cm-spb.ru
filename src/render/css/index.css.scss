@@ -5,8 +5,9 @@ $color2: #E00E00; //red
 $color3: #086ACC; //синий
 $color4: #8C9915; //green
 $color5: #747F0B; //green
-
 $footer: #292F3C;
+
+$blueDark: #445273;
 
 //@import url('https://fonts.googleapis.com/css?family=Lobster');
 //@import url('https://fonts.googleapis.com/css?family=Bad+Script');
@@ -31,10 +32,32 @@ $footer: #292F3C;
 	color: #FFF;
 	fill: #FFF;;
 }
-.logo-title {
-	padding: 5px;
-	width: 500px;
+.navbar-brand {
+	padding: 0px 0px 0px 0px !important;
+	div {
+		display: inline-block;
+		vertical-align: top;
+
+	}
+	.navbar-brand-logo {
+		img {
+			width: 90px;
+			height: 90px;
+		}
+		
+	}
+	.navbar-brand-logo-rounded {
+		border-radius: 50%;
+		border: 8px $blueDark solid;
+		padding: 10;
+		background-color: #fff;
+	}
+	.navbar-brand-image-title {
+		padding: 5px;
+		width: 500px;
+	}
 }
+
 
 body {
 	padding-top: 70px;
