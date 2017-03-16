@@ -2,14 +2,14 @@
 	<div class="container-fluid ">
 		<div class="navbar-header footer-header">
       <a class="navbar-brand uppercase "  href="/pages/info.html">
-				<i class="fa fa-3x fa-info-circle pull-left"></i>
+				<i class="fa fa-3x fa-info-circle fa-fw pull-left"></i>
 						<h4 class="footer-info">
 							Сведения об <br>
 							образовательной организации
 						</h4>
       </a>
 			<a href="/anketa.pdf" class="navbar-brand uppercase footer-small">
-					<i class="fa fa-pie-chart fa-3x"></i>
+					<i class="fa fa-pie-chart fa-3x fa-fw"></i>
 					<div>
 						анкетирование
 					</div>
@@ -28,24 +28,27 @@
 
 			</a>
 		</div>
-			<ul class="nav navbar-nav flex">
-
+		<p class="navbar-text">
+			<ul class="footer-menu">
 				<% for document in @getCollection('menu2').toJSON(): %>
 					<li>
 						<a class="uppercase footer-small white" href="<%= document.url %>">
-
-								<span>
-									<%= document.menu2title %>
-								</span>
+							<%= document.menu2title %>
 						</a>
 					</li>
 				<% end %>
-				<li about="/#contacts">
-						<a href="/pages/info-2016_en.pdf" class="pull-right link-icon">
-							ENG
-						</a>
+				<li>
+					<a href="/pages/info-2016_en.pdf" class="navbar-link navbar-right">
+						<i class="fa-globe fa fa-2x fa-fw"></i>
+						ENG
+					</a>
+				</li>
+				<li>
 				</li>
 			</ul>
+		</p>
+
+
 
 	</div>
 

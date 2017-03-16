@@ -29,11 +29,24 @@
 			<script type="text/javascript" src="/bower_components/respond/dest/respond.min.js"></script>
 		<![endif]-->
 	<!-- Icons -->
-		<link rel="shortcut icon" href="/images/icons/favicon.ico">
-		<link rel="apple-touch-icon" sizes="144x144" href="/images/icons/apple-touch-icon-144x144.png">
-		<link rel="apple-touch-icon" sizes="114x114" href="/images/icons/apple-touch-icon-114x114.png">
-		<link rel="apple-touch-icon" sizes="72x72" href="/images/icons/apple-touch-icon-72x72.png">
-		<link rel="apple-touch-icon" href="/images/icons/apple-touch-icon-57x57.png">
+	<link rel="shortcut icon" href="/ico/favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/ico/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/ico/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/ico/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/ico/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/ico/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/ico/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/ico/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/ico/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/ico/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="/ico/favicon-16x16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="/ico/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/ico/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="/ico/android-chrome-192x192.png" sizes="192x192">
+	<meta name="msapplication-square70x70logo" content="/ico/smalltile.png" />
+	<meta name="msapplication-square150x150logo" content="/ico/mediumtile.png" />
+	<meta name="msapplication-wide310x150logo" content="/ico/widetile.png" />
+	<meta name="msapplication-square310x310logo" content="/ico/largetile.png" />
 
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -89,84 +102,8 @@ $(document).ready(function(){uhpv(has)});
 		<i class="fa fa-low-vision fa-2x" ></i>версия для слабовидящих
 	</div>
 <div>
-	<div class="navbar navbar-inverse">
-		<div class="container-fluid hidden-xs">
+	<%- @partial('header') %>
 
-			<div class="row header">
-				<div class="col-xs-4 col-md-4 col-lg-4 hidden-sm">
-					<h6 style="color: #fff; text-align: right;">
-						САНКТ-ПЕТЕРБУРГСКОЕ ГОСУДАРСТВЕННОЕ<br>
-						БЮДЖЕТНОЕ ПРОФЕССИОНАЛЬНОЕ<br>
-						ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ
-					</h6>
-					</div>
-					<div class="col-xs-1 col-md-1 col-lg-1 col-sm-1">
-						<a href="/">
-							<img class="img-responsive" src="/images/logo.png" alt="КОЛЛЕДЖ
-						МЕТРОПОЛИТЕНА">
-						</a>
-					</div>
-				<div class="col-xs-4 col-md-4 col-sm-6 col-lg-4 ">
-					<h1 style="color: #fff;" class="logo-title header-text">
-
-							<small>КОЛЛЕДЖ</small><br>
-						МЕТРОПОЛИТЕНА
-					</h1>
-				</div>
-				<div class="col-xs-2 col-md-2 col-sm-3 col-lg-2 ">
-						<div class="address pull-right">
-							<h5><a href="tel:88127715909"></a>771-59-09</h5>
-							<a href="/#contacts">ул. Купчинская, д. 28</a>
-						</div>
-					</div>
-
-				</div>
-		</div>
-
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<h5 style="color: #fff;" class=" hidden-md  hidden-lg hidden-sm ">
-			<a href="/">
-				<small>КОЛЛЕДЖ</small>
-				МЕТРОПОЛИТЕНА
-			</a>
-			</h5>
-		</div>
-		<div class="navbar-collapse collapse">
-			<ul class="nav navbar-nav" id="nav">
-				<li typeof="sioc:Page" about="/#programs" class="">
-						<a href="/#programs" property="dc:title">
-							Специальности
-						</a>
-					</li>
-					<li typeof="sioc:Page" about="/#contacts" class="">
-							<a href="/#contacts" property="dc:title">
-								Контакты
-							</a>
-						</li>
-
-				<% for document in @getCollection('menu').toJSON(): %>
-					<li
-						typeof="sioc:Page"
-						about="<%= document.url %>"
-						class="<%= 'active'	if @document.url is document.url %>"
-					>
-						<a href="<%= document.url %>" property="dc:title">
-							<%= document.menutitle %>
-						</a>
-					</li>
-				<% end %>
-
-
-			</ul>
-
-
-		</div><!--/.navbar-collapse -->
-	</div>
 
 	<!-- Content -->
 

@@ -7,12 +7,12 @@ var mkdirp = require('mkdirp');
 var yaml = require('js-yaml');
 var YAML = require('yamljs');
 var moment = require('moment');
-var VK = require('vkapi');
-var vk = new VK({
-    'appID'     : 5385298,
-    'appSecret' : 'lyOFUeaFheVU4Yyhk0bT',
-    'mode'      : 'sig'
-});
+// var VK = require('vkapi');
+// var vk = new VK({
+//     'appID'     : 5385298,
+//     'appSecret' : 'lyOFUeaFheVU4Yyhk0bT',
+//     'mode'      : 'sig'
+// });
 var cheerio = require('cheerio');
 
 
@@ -82,16 +82,18 @@ function _posts() {
 				            console.log(err);
 				            // echo the result back
 				        }
-
 				    });
 				}
-				fs.writeFile(directory+"/index.html", "---\n"+YAML.stringify(post)+"\n---\n"+_text, function(err) {
-					if(err) {
-							return console.log(err);
-						}
 
-						console.log("The file was saved!");
-					});
+				if(!fs.existsSync(directory+"/index.html")) {
+					fs.writeFile(directory+"/index.html", "---\n"+YAML.stringify(post)+"\n---\n"+_text, function(err) {
+						if(err) {
+								return console.log(err);
+							}
+
+							console.log(directory, "The file was saved!");
+						});
+				}
 
 				// $db.insert(post, function(err, body) {
 				// 	console.log(body);

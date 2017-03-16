@@ -1,0 +1,108 @@
+
+<!--
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			САНКТ-ПЕТЕРБУРГСКОЕ ГОСУДАРСТВЕННОЕ
+			БЮДЖЕТНОЕ ПРОФЕССИОНАЛЬНОЕ
+			ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ
+		</div>
+		<div class="col-md-6">
+			<div class="header">
+				<div class="header-logo">
+					<img class="img-responsive" src="/images/logo.png" alt="КОЛЛЕДЖ МЕТРОПОЛИТЕНА">
+				</div>
+				<div class="header-title">
+						<small>КОЛЛЕДЖ</small>
+						МЕТРОПОЛИТЕНА
+				</div>
+			</div>
+		</div>
+		<div class="col-md-6">
+
+		</div>
+	</div>
+</div> -->
+<!-- <div class="navbar navbar-inverse">
+	<div class="container hidden-xs">
+	</div>
+	<div class="navbar-header">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<h5 style="color: #fff;" class=" hidden-md  hidden-lg hidden-sm ">
+		<a href="/">
+			<small>КОЛЛЕДЖ</small>
+			МЕТРОПОЛИТЕНА
+		</a>
+		</h5>
+	</div>
+	<div class="navbar-collapse collapse">
+
+
+
+	</div>
+</div> -->
+<nav class="navbar navbar-inverse navbar-fixed-top ">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+			<a href="#" class="navbar-brand">
+				<div class="navbar-brand-logo navbar-brand-logo-rounded">
+					<img class="img-responsive" src="/images/logo.png" alt="логотип колледжа метрополитена">
+				</div>
+				<div class="navbar-brand-title">
+					<img src="/logo-title-white.svg" class="img-responsive white navbar-brand-image-title" alt="Колледж метрополитена">
+				</div>
+			</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				<li class="dropdown">
+          <a href="/#programs" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Специальности <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/pages/programs/avit.html">Автоматика и телемеханика</a></li>
+            <li><a href="/pages/programs/el2t.html">Электроснабжение по отраслям</a></li>
+            <li><a href="/pages/programs/inst.html">Информационные системы</a></li>
+            <li role="separator" class="divider"></li>
+						<li><a href="/pages/programs/sem.html">Слесарь-электрик метрополитена</a></li>
+						<li><a href="/pages/programs/sps.html">Слесарь по обслуживанию и ремонту подвижного состава</a></li>
+						<li><a href="/pages/programs/etp.html">Электромонтер тяговой подстанции</a></li>
+						<li><a href="/pages/programs/scb.html">Электромонтер устройств сигнализации, централизации, блокировки</a></li>
+          </ul>
+        </li>
+				<li>
+					<a href="/#contacts">
+						Контакты
+					</a>
+				</li>
+
+				<% for document in @getCollection('menu').toJSON(): %>
+					<li class="<%= 'active'	if @document.url is document.url %>">
+						<a href="<%= document.url %>" property="dc:title">
+							<%= document.menutitle %>
+						</a>
+					</li>
+				<% end %>
+
+
+			</ul>
+      <!-- <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form> -->
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>

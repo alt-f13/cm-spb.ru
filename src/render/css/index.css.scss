@@ -5,14 +5,18 @@ $color2: #E00E00; //red
 $color3: #086ACC; //синий
 $color4: #8C9915; //green
 $color5: #747F0B; //green
- 
 $footer: #292F3C;
+
+$blueDark: #445273;
 
 //@import url('https://fonts.googleapis.com/css?family=Lobster');
 //@import url('https://fonts.googleapis.com/css?family=Bad+Script');
 @import 'bootstrap';
 //@import 'navbar-fixed-side';
 @import "tree"; //дерево
+// @import "_media/sm";
+// @import "_media/md";
+// @import "_media/lg";
 @import "diamonds"; //коллектив
 //@import "diamonds-contacts"; //
 @import "landing-page"; //
@@ -23,6 +27,44 @@ $footer: #292F3C;
 @import "mediaMD";
 @import "_nav";
 
+
+.white {
+	color: #FFF;
+	fill: #FFF;;
+}
+.navbar-brand {
+	padding: 0px 0px 0px 0px !important;
+	div {
+		display: inline-block;
+		vertical-align: top;
+
+	}
+	.navbar-brand-logo {
+		img {
+			width: 90px;
+			height: 90px;
+		}
+		
+	}
+	.navbar-brand-logo-rounded {
+		border-radius: 50%;
+		border: 8px $blueDark solid;
+		padding: 10;
+		background-color: #fff;
+	}
+	.navbar-brand-image-title {
+		padding: 5px;
+		width: 500px;
+	}
+}
+
+
+body {
+	padding-top: 70px;
+}
+
+
+
 /* hide inactive nested list */
 .bs-docs-sidebar .nav ul.nav {
 		display: none;
@@ -31,6 +73,22 @@ $footer: #292F3C;
 .bs-docs-sidebar .nav>.active>ul.nav {
 		display: block;
 }
+
+.header {
+	display: inline-flex;
+	box-sizing: border-box;
+	header-logo {
+		display: inline-block;
+		box-sizing: border-box;
+	}
+	header-title {
+		display: inline-block;
+		box-sizing: border-box;
+	}
+}
+
+
+
 
 //@import "table";
 //@import "";
@@ -158,52 +216,14 @@ $footer: #292F3C;
 	padding: 5 5 5 5;
 	font-size: 12px !important;
 	line-height: 12px;
-	//font-weight: 400;
 }
 
 
-// #push, .footer {
-// 	position: absolute;
-// 	//margin-top: 60px;
-// 	bottom: 0;
-// 	min-height: 60px;
-// 	max-height: 120px;
-//
-// }
-// .footer {
-// 	background-color: $footer;
-// 	width: 100%;
-// 	color: #fff;
-// }
-//
-// .footer {
-// 	.footer-logo {
-// 		position: absolute;
-// 		left:0;
-// 		bottom: 0;
-// 	}
-// }
+.footer-menu {
+	columns: 4;
+	-webkit-columns: 4;
 
-
-// .footer-menu {
-// 	//columns: 3 200px;
-// 	//column-fill: balance;
-// 	//column-rule-style: solid;
-// 	//column-rule-color: #000;
-// 	//column-rule-width: medium;
-// 	//column-gap: 20px;
-// 	//break-inside: avoid;
-// 	ul {
-// 		list-style: none;
-// 		li {
-// 			float: left;
-//
-// 		}
-// 	}
-//
-//
-//
-// }
+}
 
 .photoIndex {
 	text-align: left;
@@ -321,14 +341,7 @@ $footer: #292F3C;
 	// }
 }
 
-// .description {
-// 	border: 2px solid #FFF;
-// 	border-radius: 5px;
-// }
-
-// .jumbotron img {
-//   width: 120px;
-// }
+ 3
 .jumbotron {
   margin-top: 15px;
 	margin-bottom: 15px;

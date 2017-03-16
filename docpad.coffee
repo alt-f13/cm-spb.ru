@@ -273,6 +273,15 @@ docpadConfig = {
 			    "project/": "http://new-site.com/"
 			    "project/info.html": "http://new-site.com/new-info-page"
 
+		imagin:
+			targets:
+				'doitall': (img, args) ->
+					return img
+						.quality('80%')
+						.gravity('Top')
+						.resize(args.w, args.h, '^')
+						.crop(args.w, args.h)
+						# .resize("150", "150", '^')
 
 			# 	ghpages:
 			#   	deployBranch: 'master'
