@@ -26,6 +26,18 @@ $footer: #292F3C;
 @import "mediaMD";
 @import "_nav";
 
+
+.white {
+	color: #FFF;
+	fill: #FFF;;
+}
+.logo-title {
+	padding: 5px;
+	width: 300px;
+}
+
+
+
 /* hide inactive nested list */
 .bs-docs-sidebar .nav ul.nav {
 		display: none;
