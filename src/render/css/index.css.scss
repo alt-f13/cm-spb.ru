@@ -33,7 +33,7 @@ $blueDark: #445273;
 	fill: #FFF;;
 }
 .navbar-brand {
-	padding: 0px 0px 0px 0px !important;
+	padding: 0px !important;
 	div {
 		display: inline-block;
 		vertical-align: top;
@@ -44,16 +44,16 @@ $blueDark: #445273;
 			width: 90px;
 			height: 90px;
 		}
-		
+
 	}
 	.navbar-brand-logo-rounded {
 		border-radius: 50%;
 		border: 8px $blueDark solid;
-		padding: 10;
+		padding: 5px;
 		background-color: #fff;
 	}
 	.navbar-brand-image-title {
-		padding: 5px;
+		padding: 10px;
 		width: 500px;
 	}
 }
