@@ -35,6 +35,14 @@ layout: default
 							<dt>Образование</dt>
 							<dd><%= face.education %></dd>
 						<% end %>
+            <% if face.up: %>
+              <dt>Повышение<br> квалификации</dt>
+              <dd><%= face.up %></dd>
+            <% end %>
+            <% if face.professional: %>
+              <dt>Профессиональная<br> подготовка</dt>
+              <dd><%= face.professional %></dd>
+            <% end %>
 						<% if face.since: %>
 							<dt>Общий стаж</dt>
 							<dd><%= face.since %></dd>
