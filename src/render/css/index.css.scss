@@ -1,5 +1,4 @@
----
----
+
 $color1: #11497F; //blue
 $color2: #E00E00; //red
 $color3: #086ACC; //синий
@@ -11,9 +10,9 @@ $blueDark: #445273;
 
 //@import url('https://fonts.googleapis.com/css?family=Lobster');
 //@import url('https://fonts.googleapis.com/css?family=Bad+Script');
-@import 'bootstrap';
+//@import 'bootstrap';
 //@import 'navbar-fixed-side';
-@import "tree"; //дерево
+//@import "tree"; //дерево
 // @import "_media/sm";
 // @import "_media/md";
 // @import "_media/lg";
@@ -26,6 +25,10 @@ $blueDark: #445273;
 @import "listGroup";
 @import "mediaMD";
 @import "_nav";
+//@import "lightbox2";
+
+$fa-font-path: "~font-awesome/fonts";
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
 
 .white {
@@ -44,7 +47,7 @@ $blueDark: #445273;
 			width: 90px;
 			height: 90px;
 		}
-		
+
 	}
 	.navbar-brand-logo-rounded {
 		border-radius: 50%;

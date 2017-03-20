@@ -47,9 +47,15 @@
 	<meta name="msapplication-square150x150logo" content="/ico/mediumtile.png" />
 	<meta name="msapplication-wide310x150logo" content="/ico/widetile.png" />
 	<meta name="msapplication-square310x310logo" content="/ico/largetile.png" />
+	<% for url in @assets('js'): %><script src="<%= url %>"></script><% end %>
 
+	<!-- Scripts -->
+	<!-- <script
+  src="https://code.jquery.com/jquery-3.2.0.min.js"
+  integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I="
+  crossorigin="anonymous"></script> -->
+	<!-- <%- @getBlock('scripts').add(@site.scripts).toHTML() %> -->
 
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<style>
 		#hpvgd,.h-mdiv,.h-mdiv2,.h-ldiv,.h-rdiv {background:#EAEAEA; color:#6D6D6D;}
 			#hpvgd {width:100%; z-index:100; width:100%; border-bottom:2px solid rgb(230,230,230);}
@@ -70,13 +76,6 @@
 
 
 	<!-- Styles -->
-	<script src="/bower_components/angular/angular.min.js" charset="utf-8"></script>
-	<script src="/bower_components/angular-simplecouch/angular.simplecouch.js" charset="utf-8"></script>
-	<script src="/bower_components/angular-resource/angular-resource.min.js" charset="utf-8"></script>
-	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-
-	<!--[if IE]><script type="text/javascript" src="/js/excanvas.js"></script><![endif]-->
-	<script src="/js/jquery.knob.min.js"></script>
 	<%- @getBlock('styles').add(@site.styles).toHTML() %>
 
 
@@ -91,7 +90,6 @@ var uhe = 2,
 	fonts = ['22','25','28'];
 $(document).ready(function(){uhpv(has)});
 </script>
-<script type="text/javascript" src="/js/date.js"></script>
 
 </head>
 <body ng-app="schedulerApp"  data-spy="scroll" data-target="#nav-left" data-offset="50">
@@ -133,11 +131,8 @@ $(document).ready(function(){uhpv(has)});
 	</script>
 	<% end %>
 <%- @partial('footerOld') %>
+<script src="/app.bundle.js" onload="_bootstrap();" charset="utf-8"></script>
 
-	<% for url in @assets('js'): %><script src="<%= url %>"></script><% end %>
-
-	<!-- Scripts -->
-	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
 
 <script>
 function getDomain(url) {

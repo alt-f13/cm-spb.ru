@@ -28,7 +28,7 @@ layout: default
 
 					<dl class="dl-horizontal">
 						<% if face.category: %>
-							<dt>Категория</dt>
+							<dt>Квалификационная категория</dt>
 							<dd><%= face.category %></dd>
 						<% end %>
 						<% if face.education: %>

@@ -237,3 +237,16 @@ standalone: true
       </script>
   	<script src="/js/SmoothScroll.js"></script>
 </div>
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function(event) {
+    console.log("DOM fully loaded and parsed");
+    console.log($);
+  });
+  $(document).ready(function() {
+    console.log('jquery loaded');
+  });
+function _bootstrap() {
+  $('#programs').tubular({videoID: 't2my91byjR4'});
+  console.log('bootstrap function');
+}
+</script>
