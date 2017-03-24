@@ -146,25 +146,12 @@ docpadConfig = {
 
 			# Styles
 			styles: [
-				#"/styles/twitter-bootstrap.css"
 				"//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
-				"//blueimp.github.io/Gallery/css/blueimp-gallery.min.css"
-				#"/css/bootstrap-image-gallery.css"
-				#"/css/demo.css"
-				#"/css/kube.css"
-				#"/css/tree.css"
-				#	"/css/landing-page.css"
-				#	"/css/icons.css"
-				"http://fonts.googleapis.com/css?family=Buenard:700"
-					#"/css/diamonds.css"
-					"/css/blueimp-gallery.css"
-					"/css/blueimp-gallery-indicator.css"
-					"/css/blueimp-gallery-video.css"
 				"/bower_components/handsontable/dist/handsontable.full.css"
 				"/bower_components/handsontable/plugins/bootstrap/handsontable.bootstrap.css"
 				"/bower_components/lightbox2/dist/css/lightbox.css"
-					#"//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css"
-									"/css/index.css"
+				"/css/index.css"
+				"/css/feedback.css"
 
 
 			]
@@ -172,20 +159,21 @@ docpadConfig = {
 			# Scripts
 			scripts: [
 				"//netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
-				"//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"
-				"/js/tree.js"
 				"/js/uhpv-full.min.js"
 				"http://pupunzi.com/mb.components/mb.YTPlayer/demo/inc/jquery.mb.YTPlayer.js"
 				"/js/jquery.diamonds.js"
-				"/js/date.js"
+				"/js/vendor/date.min.js"
 				"https://rawgit.com/kimmobrunfeldt/progressbar.js/1.0.0/dist/progressbar.js"
-				"/js/jquery.vide.js"
-				"/bower_components/jquery-textfill/source/jquery.textfill.min.js"
+				#"/js/jquery.vide.js"
+				#{}"/bower_components/jquery-textfill/source/jquery.textfill.min.js"
 				"/bower_components/handsontable/dist/handsontable.full.js"
 				"/bower_components/ngHandsontable/dist/ngHandsontable.min.js"
 				"/bower_components/angular-resource/angular-resource.min.js"
 				"/bower_components/lightbox2/dist/js/lightbox.js"
-				"/bower_components/bootstrap-autohidingnavbar/dist/jquery.bootstrap-autohidingnavbar.min.js"
+				#"/bower_components/bootstrap-autohidingnavbar/dist/jquery.bootstrap-autohidingnavbar.min.js"
+				#{}"/js/vendor/html2canvas.svg.js"
+				"/js/vendor/feedback.js"
+
 			]
 
 
@@ -282,7 +270,14 @@ docpadConfig = {
 						.resize(args.w, args.h, '^')
 						.crop(args.w, args.h)
 						# .resize("150", "150", '^')
-
+		# associatedfiles:
+		# 		# The paths for the associated files.
+		# 		associatedFilesPath: 'associated-files'
+		#
+		# 		# Whether to use relative base paths for the document. This would
+		# 		# use associated-files/subfolder/myarticle/image.jpg instead of
+		# 		# associated-files/myarticle/image.jpg.
+		# 		useRelativeBase: true
 			# 	ghpages:
 			#   	deployBranch: 'master'
 			#   	deployRemote: 'pages'

@@ -1,0 +1,11 @@
+#!/bin/bash
+cNAME=feedback
+docker build -t $cNAME .
+
+docker rm -f $cNAME
+docker run -d \
+--restart=always \
+  --name=$cNAME \
+  -p 3050:8080 \
+  -e VIRTUAL_HOST=feedback.2d-it.ru \
+  $cNAME

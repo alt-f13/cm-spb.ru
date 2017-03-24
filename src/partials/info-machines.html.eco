@@ -91,6 +91,9 @@
 			<h4 class="list-group-item-heading">
 				Библиотека, читальный зал с выходом в Internet
 			</h4>
+			<p class="list-group-item-text">
+				<%- @partial('lightbox', {images:['/machines/GOPR0232.JPG'], title:['Библиотека']}) %>
+			</p>
 		</li>
 		<li class="list-group-item">
 			<h4 class="list-group-item-heading">

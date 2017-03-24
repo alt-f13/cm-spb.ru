@@ -45,7 +45,7 @@
 
 	</div>
 </div> -->
-<nav class="navbar navbar-default navbar-fixed-top ">
+<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -55,22 +55,26 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-			<a href="/" class="navbar-brand">
-				<div class="navbar-brand-logo navbar-brand-logo-rounded">
-					<img class="img-responsive" src="/images/logo.png" alt="логотип колледжа метрополитена">
-				</div>
-				<div class="navbar-brand-title">
-					<img src="/logo-title-white.svg" class="img-responsive white navbar-brand-image-title" alt="Колледж метрополитена">
-				</div>
+			<a href="#" class="navbar-brand">
+				<img class="img-responsive" src="/images/logo.png" alt="КОЛЛЕДЖ МЕТРОПОЛИТЕНА">
+
+			</a>
+      <a class="navbar-brand" href="#">
+				<img src="/logo-title-white.svg" class="img-responsive white logo-title" alt="Колледж метрополитена">
 			</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 			<ul class="nav navbar-nav">
-				<li>
-          <a href="/#programs">Специальности </a>
-          <!-- <ul class="dropdown-menu">
+				<!-- <li typeof="sioc:Page" about="/#programs" class="">
+						<a href="/#programs" property="dc:title">
+							Специальности
+						</a>
+				</li> -->
+				<li class="dropdown">
+          <a href="/#programs" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Специальности <span class="caret"></span></a>
+          <ul class="dropdown-menu">
             <li><a href="/pages/programs/avit.html">Автоматика и телемеханика</a></li>
             <li><a href="/pages/programs/el2t.html">Электроснабжение по отраслям</a></li>
             <li><a href="/pages/programs/inst.html">Информационные системы</a></li>
@@ -79,7 +83,7 @@
 						<li><a href="/pages/programs/sps.html">Слесарь по обслуживанию и ремонту подвижного состава</a></li>
 						<li><a href="/pages/programs/etp.html">Электромонтер тяговой подстанции</a></li>
 						<li><a href="/pages/programs/scb.html">Электромонтер устройств сигнализации, централизации, блокировки</a></li>
-          </ul> -->
+          </ul>
         </li>
 				<li>
 					<a href="/#contacts">
