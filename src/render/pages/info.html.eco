@@ -15,7 +15,7 @@ title: Сведения об образовательной организаци
 
 			<%- @partial('info-main') %>
 			<div class="list-group list-group-root well">
-				<a id="structure" class="list-group-item list-group-item-danger" href="/info/structure2016.pdf">
+				<a id="structure" class="list-group-item list-group-item-danger active" href="/info/structure2016.pdf">
 					<div class="list-group-item-heading">
 						<h6>
 							<i class="fa-sitemap fa-2x fa fa-fw"></i>Cтруктура и органы управления колледжа

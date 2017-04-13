@@ -8,9 +8,11 @@ $color5: #747F0B; //green
 
 $footer: #292F3C;
 
-//@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 //@import url('https://fonts.googleapis.com/css?family=Bad+Script');
 @import 'bootstrap';
+//@import "flexboxgrid/css/index.min";
+
 //@import 'navbar-fixed-side';
 @import "tree"; //дерево
 // @import "_media/sm";
@@ -25,6 +27,26 @@ $footer: #292F3C;
 @import "listGroup";
 @import "mediaMD";
 @import "_nav";
+@import "row-flex";
+
+.w100 {
+	min-width: 100%;
+}
+.w50 {
+	width: 50%;
+}
+
+
+.table-row-height {
+	tr {
+		td {
+			min-height: 50px;
+		}
+		th {
+			width: 250px;
+		}
+	}
+}
 
 /* hide inactive nested list */
 .bs-docs-sidebar {

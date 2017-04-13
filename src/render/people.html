@@ -1,0 +1,104 @@
+---
+title: Руководство. Педагогический(научно-педагогический) состав
+layout: default
+menutitle: Коллектив
+pageOrder: 5
+---
+<!-- <link rel="stylesheet" href="/bower_components/handsontable/dist/handsontable.full.css">
+
+<script src="/bower_components/handsontable/dist/handsontable.full.js" charset="utf-8"></script>
+<script src="/bower_components/ngHandsontable/dist/ngHandsontable.min.js" charset="utf-8"></script>
+<script src="/bower_components/angular-resource/angular-resource.min.js" charset="utf-8"></script>
+-->
+
+<style media="screen">
+	.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+ .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+</style>
+<div class="page-header">
+  <h1>Руководство, Педагогический <small> (научно-педагогический) состав</small></h1>
+</div>
+<div class="container-fluid" ng-controller="SchedulerCtrl">
+
+	<div class="row">
+		<div class="col-md-4" ng-repeat="man in docs">
+			<div class="card">
+				<div class="row">
+					<div class="col-xs-4">
+						<img ng-src="{{dbUrl + man.id + '/photo.thumb.jpg'}}" alt="Avatar" style="width:100%">
+					</div>
+					<div class="col-xs-8">
+						<div class="">
+					    <h4><b>{{man.value.firstname}} {{man.value.fathername}} {{man.value.lastname}}</b></h4>
+					    <p>{{man.value.appointment}}</p>
+					  </div>
+						<div class="btn-group btn-group-sm  btn-block w100 center-block" >
+							<a href="tel:{{man.value.phone}}" class="btn btn-primary w50" ng-show="man.value.phone" role="button">
+									<i class="fa fa-phone" aria-hidden="true"></i>&nbsp;
+									{{man.value.phone}}
+							</a>
+								<a href="mailto:{{man.value.email}}" class="btn w50 btn-primary btn-warning" ng-show="man.value.email" role="button">
+										<i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;
+										{{man.value.email}}
+								</a>
+						</div>
+
+						<div class="">
+							<button type="button"  class="btn btn-large btn-block btn-info" ng-click="showPanel=true"  ng-init="showPanel=false">Сведения <i class="fa-arrow-down fa fa-2x fa-fw"></i></button>
+						</div>
+					</div>
+				</div>
+
+				<div ng-show="showPanel" >
+					<dl class="dl-horizontal">
+						<dt ng-show="man.value.category">Категория</dt>
+							<dd>{{man.value.category}}</dd>
+
+						<dt ng-show="man.value.education">Образование</dt>
+							<dd>{{man.value.education|joinBy:'; '}}</dd>
+						<dt ng-show="man.value.degree">Ученая степень:</dt>
+							<dd>{{man.value.degree|joinBy:'; '}}</dd>
+            <dt ng-show="man.value.up">Повышение<br> квалификации</dt>
+              <dd>{{man.value.up|joinBy:'; '}}</dd>
+
+            <dt ng-show="man.value.professional">Профессиональная<br> подготовка</dt>
+              <dd>
+								<ul>
+									<li ng-repeat="prof in man.value.professional">{{prof}}</li>
+								</ul>
+							</dd>
+
+						<dt ng-show="man.value.since">Общий стаж</dt>
+							<dd>{{man.value.since}}</dd>
+
+						<dt ng-show="man.value.edusince">Педагогический стаж</dt>
+							<dd>{{man.value.edusince}}</dd>
+
+
+
+						<dt ng-show="man.value.day">
+								<i class="fa fa-2x fa-clock-o" aria-hidden="true"></i>
+								 Время приема:
+							</dt>
+							<dd>
+								{{man.value.day}} {{man.value.time}}
+						 	</dd>
+
+
+					</dl>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<script src="/js/people.js" charset="utf-8"></script>
