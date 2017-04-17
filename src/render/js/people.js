@@ -17,8 +17,12 @@ var $app = angular
     'ngHandsontable'
   ])
   .config(function ($httpProvider,couchConfigProvider) {
-		//couchConfigProvider.setServer("https://couch.2d-it.ru");
-		couchConfigProvider.setServer("http://localhost:5984");
+		//couchConfigProvider.setServer("http://localhost:5984");
+		if(location.hostname === 'localhost') {
+			couchConfigProvider.setServer("http://localhost:5984");
+		}else {
+			couchConfigProvider.setServer("https://couch.2d-it.ru");
+		}
     couchConfigProvider.setDB('cm-spb');
   });
 

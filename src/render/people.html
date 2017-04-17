@@ -4,12 +4,6 @@ layout: default
 menutitle: Коллектив
 pageOrder: 5
 ---
-<!-- <link rel="stylesheet" href="/bower_components/handsontable/dist/handsontable.full.css">
-
-<script src="/bower_components/handsontable/dist/handsontable.full.js" charset="utf-8"></script>
-<script src="/bower_components/ngHandsontable/dist/ngHandsontable.min.js" charset="utf-8"></script>
-<script src="/bower_components/angular-resource/angular-resource.min.js" charset="utf-8"></script>
--->
 
 <style media="screen">
 	.card {
@@ -23,6 +17,9 @@ pageOrder: 5
 .container {
     padding: 2px 16px;
 }
+.card-info {
+	padding-left: 5px;
+}
 </style>
 <div class="page-header">
   <h1>Руководство, Педагогический <small> (научно-педагогический) состав</small></h1>
@@ -30,33 +27,45 @@ pageOrder: 5
 <div class="container-fluid" ng-controller="SchedulerCtrl">
 
 	<div class="row">
-		<div class="col-md-4" ng-repeat="man in docs">
-			<div class="card">
-				<div class="row">
-					<div class="col-xs-4">
-						<img ng-src="{{dbUrl + man.id + '/photo.thumb.jpg'}}" alt="Avatar" style="width:100%">
-					</div>
-					<div class="col-xs-8">
+		<div class="col-md-4 card" ng-repeat="man in docs">
 						<div class="">
-					    <h4><b>{{man.value.firstname}} {{man.value.fathername}} {{man.value.lastname}}</b></h4>
-					    <p>{{man.value.appointment}}</p>
-					  </div>
-						<div class="btn-group btn-group-sm  btn-block w100 center-block" >
-							<a href="tel:{{man.value.phone}}" class="btn btn-primary w50" ng-show="man.value.phone" role="button">
-									<i class="fa fa-phone" aria-hidden="true"></i>&nbsp;
-									{{man.value.phone}}
-							</a>
-								<a href="mailto:{{man.value.email}}" class="btn w50 btn-primary btn-warning" ng-show="man.value.email" role="button">
-										<i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;
-										{{man.value.email}}
-								</a>
-						</div>
+							<img ng-src="{{dbUrl + man.id + '/photo.thumb.jpg'}}" alt="" class="img-responsive pull-left">
 
-						<div class="">
-							<button type="button"  class="btn btn-large btn-block btn-info" ng-click="showPanel=true"  ng-init="showPanel=false">Сведения <i class="fa-arrow-down fa fa-2x fa-fw"></i></button>
+					    <h4><b>
+								{{man.value.firstname}}
+								{{man.value.fathername}}
+								{{man.value.lastname}}
+							</b>
+							<br>
+							<small>
+								{{man.value.appointment}}
+							</small>
+							</h4>
+					    <p>
+								<div ng-show="man.value.day" class="label label-primary">
+										<i class="fa fa-2x fa-clock-o" aria-hidden="true"></i>
+										Время приема:
+										{{man.value.day}} {{man.value.time}}
+								</div>
+								<div class="btn-group btn-group-justified btn-group-sm" >
+									<a href="tel:{{man.value.phone}}" class="btn btn-primary btn-link" ng-show="man.value.phone" role="button">
+											<i class="fa fa-phone fa-2x fa-fw" aria-hidden="true"></i>&nbsp;
+											{{man.value.phone}}
+									</a>
+										<a href="mailto:{{man.value.email}}" class="btn btn-warning" ng-show="man.value.email" role="button">
+												<i class="fa fa-envelope fa-2x fa-fw" aria-hidden="true"></i>&nbsp;
+												{{man.value.email}}
+										</a>
+										<a role="button" class="btn btn-info" ng-click="showPanel=!showPanel"  ng-init="showPanel=false">
+											Сведения
+											<i class="fa-arrow-up fa fa-2x fa-fw" ng-show='showPanel'></i>
+											<i class="fa-arrow-down fa fa-2x fa-fw" ng-show='!showPanel'></i>
+										</a>
+								</div>
+						</p>
+
+
 						</div>
-					</div>
-				</div>
 
 				<div ng-show="showPanel" >
 					<dl class="dl-horizontal">
@@ -85,19 +94,11 @@ pageOrder: 5
 
 
 
-						<dt ng-show="man.value.day">
-								<i class="fa fa-2x fa-clock-o" aria-hidden="true"></i>
-								 Время приема:
-							</dt>
-							<dd>
-								{{man.value.day}} {{man.value.time}}
-						 	</dd>
 
 
 					</dl>
 				</div>
 			</div>
-		</div>
 	</div>
 </div>
 

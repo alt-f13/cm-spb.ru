@@ -11,7 +11,7 @@ $footer: #292F3C;
 @import url('https://fonts.googleapis.com/css?family=Lobster');
 //@import url('https://fonts.googleapis.com/css?family=Bad+Script');
 @import 'bootstrap';
-//@import "flexboxgrid/css/index.min";
+@import "./bootstrap-grid-flexbox.min.css";
 
 //@import 'navbar-fixed-side';
 @import "tree"; //дерево
@@ -27,7 +27,12 @@ $footer: #292F3C;
 @import "listGroup";
 @import "mediaMD";
 @import "_nav";
-@import "row-flex";
+//@import "row-flex";
+.flex-column {
+	flex-direction: column;
+	height: 200vh;
+}
+
 
 .w100 {
 	min-width: 100%;
