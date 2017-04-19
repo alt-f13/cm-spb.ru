@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<% image_exts = ['jpg', 'JPG', 'jpeg', 'JPEG', 'png', 'PNG'] %>
 
 <div class="container">
   <div class="jumbotron">
@@ -10,5 +11,12 @@ layout: default
 	<div class="page-content">
 		<%- @content %>
 	</div>
-</div>
+	<% if @getDocument().getAssociatedFiles(): %>
+		<% for file in @getDocument().getAssociatedFiles().findAll({extension: $in: image_exts}).toJSON(): %>
+			<a data-lightbox="<%= @document.relativeDirPath %>" href="<%= file.url %>" data-title="">
+				<img src="<%= @getThumbnail(file.url, "zoomcrop", { w: 100, h: 100 }) %>"  class="img-thumbnail" alt="">
+			</a>
+		<% end %>
+	<% end %>
+	</div>
 </div>

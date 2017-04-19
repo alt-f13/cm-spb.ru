@@ -8,7 +8,7 @@
 							образовательной организации
 						</h4>
       </a>
-			<a href="/anketa.pdf" class="navbar-brand uppercase footer-small">
+			<a href="/pages/info/anketa.html" class="navbar-brand uppercase footer-small">
 					<i class="fa fa-pie-chart fa-3x fa-fw"></i>
 					<div>
 						анкетирование

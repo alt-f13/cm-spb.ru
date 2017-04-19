@@ -5,13 +5,14 @@ $color2: #E00E00; //red
 $color3: #086ACC; //синий
 $color4: #8C9915; //green
 $color5: #747F0B; //green
+
 $footer: #292F3C;
 
-$blueDark: #445273;
-
-//@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 //@import url('https://fonts.googleapis.com/css?family=Bad+Script');
 @import 'bootstrap';
+@import "./bootstrap-grid-flexbox.min.css";
+
 //@import 'navbar-fixed-side';
 @import "tree"; //дерево
 // @import "_media/sm";
@@ -26,66 +27,70 @@ $blueDark: #445273;
 @import "listGroup";
 @import "mediaMD";
 @import "_nav";
-
-
-.white {
-	color: #FFF;
-	fill: #FFF;;
+//@import "row-flex";
+.flex-column {
+	flex-direction: column;
+	height: 200vh;
 }
-.navbar-brand {
-	padding: 0px 0px 0px 0px !important;
-	div {
-		display: inline-block;
-		vertical-align: top;
 
-	}
-	.navbar-brand-logo {
-		img {
-			width: 90px;
-			height: 90px;
+
+.w100 {
+	min-width: 100%;
+}
+.w50 {
+	width: 50%;
+}
+
+
+.table-row-height {
+	tr {
+		td {
+			min-height: 50px;
 		}
-		
-	}
-	.navbar-brand-logo-rounded {
-		border-radius: 50%;
-		border: 8px $blueDark solid;
-		padding: 10;
-		background-color: #fff;
-	}
-	.navbar-brand-image-title {
-		padding: 5px;
-		width: 500px;
+		th {
+			width: 250px;
+		}
 	}
 }
-
-
-body {
-	padding-top: 70px;
-}
-
-
 
 /* hide inactive nested list */
-.bs-docs-sidebar .nav ul.nav {
-		display: none;
-}
-/* show active nested list */
-.bs-docs-sidebar .nav>.active>ul.nav {
-		display: block;
+.bs-docs-sidebar {
+	background: #fff !important;
+	.nav {
+		ul.nav {
+				display: none;
+		}
+		.active>ul.nav {
+				display: block;
+		}
+	}
 }
 
-.header {
-	display: inline-flex;
-	box-sizing: border-box;
-	header-logo {
-		display: inline-block;
-		box-sizing: border-box;
-	}
-	header-title {
-		display: inline-block;
-		box-sizing: border-box;
-	}
+.flex {
+	display: flex;
 }
+.feedback-bottom-right {
+	z-index: 1000;
+	position: fixed !important;
+	bottom: 80px !important;
+	right: 10px !important;
+}
+
+
+
+
+// .header {
+// 	display: inline-flex;
+// 	box-sizing: border-box;
+// 	header-logo {
+// 		display: inline-block;
+// 		box-sizing: border-box;
+// 	}
+// 	header-title {
+// 		display: inline-block;
+// 		box-sizing: border-box;
+// 	}
+// }
 
 
 

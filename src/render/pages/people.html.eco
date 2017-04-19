@@ -4,7 +4,7 @@ layout: default
 
 ---
 <div class="page-header">
-  <h1>Руководство, Педагогический <small>(научно-педагогический) состав</small></h1>
+  <h1>Руководство, Педагогический <small> (научно-педагогический) состав</small></h1>
 </div>
 <div class="container">
 	<div class="row">
@@ -35,6 +35,14 @@ layout: default
 							<dt>Образование</dt>
 							<dd><%= face.education %></dd>
 						<% end %>
+            <% if face.up: %>
+              <dt>Повышение<br> квалификации</dt>
+              <dd><%= face.up %></dd>
+            <% end %>
+            <% if face.professional: %>
+              <dt>Профессиональная<br> подготовка</dt>
+              <dd><%= face.professional %></dd>
+            <% end %>
 						<% if face.since: %>
 							<dt>Общий стаж</dt>
 							<dd><%= face.since %></dd>
