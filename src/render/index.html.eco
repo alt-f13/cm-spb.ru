@@ -13,7 +13,7 @@ standalone: true
                   <div class="col-sm-4 col-md-4 col-lg-4 hidden-xs photoIndex">
                       <div class="parallax-image">
                         <figure>
-  											    <img class="img-responsive"  src="/img/avg.jpg">
+  											    <img class="img-responsive"  src="/img/_avg1.jpg">
                           </figure>
                       </div>
                   </div>

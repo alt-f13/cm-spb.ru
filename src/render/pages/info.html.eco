@@ -27,11 +27,12 @@ title: Сведения об образовательной организаци
 				<%- @partial('info-education') %>
 				<%- @partial('educationFgos') %>
 
-				<a id="social" class="list-group-item list-group-item-info active" href="/pages/people.html">
+				<a id="social" class="list-group-item list-group-item-info list-group-item-warning active" href="/people.html">
 					<h1>
+
 						<i class="fa fa-fw fa-2x fa-users" aria-hidden="true"></i>
+						Руководство. Педагогический(научно-педагогический) состав
 					</h1>
-					Руководство. Педагогический(научно-педагогический) состав
 				</a>
 
 				<%- @partial('info-machines') %>
