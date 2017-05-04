@@ -7,20 +7,23 @@ $color4: #8C9915; //green
 $color5: #747F0B; //green
 
 $footer: #292F3C;
-
-@import url('https://fonts.googleapis.com/css?family=Lobster');
+$blue: #1e5d94;
+$darkBlue: #445273;
+//@import url('https://fonts.googleapis.com/css?family=Lobster');
 //@import url('https://fonts.googleapis.com/css?family=Bad+Script');
-@import 'bootstrap';
+// @import 'bootstrap-sass';
+// @import "bootstrap/dist/css/bootstrap-theme";
 //@import "./bootstrap-grid-flexbox.min.css";
-
+@import "./_bootstrap.min.scss";
+@import "./_bootstrap-theme.min.scss";
 //@import 'navbar-fixed-side';
-@import "tree"; //дерево
+//@import "tree"; //дерево
 // @import "_media/sm";
 // @import "_media/md";
 // @import "_media/lg";
-@import "diamonds"; //коллектив
+//@import "diamonds"; //коллектив
 //@import "diamonds-contacts"; //
-@import "landing-page"; //
+// @import "landing-page"; //
 @import "style"; //
 @import "icons";
 @import "blocks";
@@ -28,6 +31,123 @@ $footer: #292F3C;
 @import "mediaMD";
 @import "_nav";
 //@import "row-flex";
+
+body {
+	font-size: 1.2em;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+p {
+	font-size: 1.3em;
+}
+h1 {
+	font-size: 1.6em;
+}
+h2 {
+	font-size: 1.45em;
+}
+h3 {
+	font-size: 1.35em;
+}
+h4 {
+	font-size: 1.5em;
+}
+h5 {
+	font-size: 1.4em;
+}
+h6 {
+	font-size: 1.3em;
+}
+h1,h2,h3,h4,h5,h6 {
+	line-height: 1;
+	font-weight: 800;
+}
+.white {
+	color: #fff;
+}
+.grey {
+	color: #4d4d4d;
+}
+
+.bg-blue {
+	background-color: $blue;
+}
+.bg-darkBlue {
+	background-color: $darkBlue !important;
+}
+.navbar-brand-logo {
+	width: 90px;
+	height: 90px;
+	overflow: visible;
+	z-index: 999999999999;
+	display: inline-flex;
+	padding: 10px;
+
+}
+.navbar-brand-title {
+	// background: url(/logo-title-white.svg) 100% 100%;
+	// background-size: cover;
+	// background-position: center center;
+	max-width: 500px;
+	min-width: 200px;
+	height: auto;
+	width: 100%;
+	//width: 100px;
+	//height: 50px;
+	//min-width: 100px;
+	min-height: 25px;
+	display: inline-flex;
+}
+.navbar-top {
+	max-height: 50px;
+	.navbar-header {
+		height: 50px;
+	}
+	.navbar-collapse {
+		ul {
+			height: 100%;
+			li {
+				a {
+					padding: 16px 10px !important;
+				}
+			}
+		}
+	}
+	ul>li {
+		height: 100%;
+		* {
+			height: 100%;
+
+		}
+		a {
+			padding-top: 0;
+			padding-bottom: 0;
+			padding-left: 5px;
+		}
+	}
+}
+
+
+//flex navbar-brand
+
+
+.schedule {
+	* {
+		text-align: center;
+		vertical-align: middle;
+	}
+	th {
+		font-size: 1.4rem;
+		font-weight: 900;
+	}
+	td {
+		height: 60px;
+		min-height: 50px;
+		min-width: 50px;
+	}
+}
+
+
 .flex-column {
 	flex-direction: column;
 	height: 200vh;
@@ -46,6 +166,7 @@ $footer: #292F3C;
 	tr {
 		td {
 			min-height: 50px;
+			min-width: 50px;
 		}
 		th {
 			width: 250px;
@@ -55,7 +176,7 @@ $footer: #292F3C;
 
 /* hide inactive nested list */
 .bs-docs-sidebar {
-	background: #fff !important;
+	//background: #fff !important;
 	.nav {
 		ul.nav {
 				display: none;
@@ -66,9 +187,6 @@ $footer: #292F3C;
 	}
 }
 
-.flex {
-	display: flex;
-}
 .feedback-bottom-right {
 	z-index: 1000;
 	position: fixed !important;

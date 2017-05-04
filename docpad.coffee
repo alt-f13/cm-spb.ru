@@ -146,12 +146,12 @@ docpadConfig = {
 
 			# Styles
 			styles: [
-				"//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+				# "//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
 				"/bower_components/handsontable/dist/handsontable.full.css"
 				"/bower_components/handsontable/plugins/bootstrap/handsontable.bootstrap.css"
 				"/bower_components/lightbox2/dist/css/lightbox.css"
 				"/css/index.css"
-				"/css/feedback.css"
+				# "/css/feedback.css"
 
 
 			]
@@ -161,7 +161,7 @@ docpadConfig = {
 				"//netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
 				"/js/uhpv-full.min.js"
 				"http://pupunzi.com/mb.components/mb.YTPlayer/demo/inc/jquery.mb.YTPlayer.js"
-				"/js/jquery.diamonds.js"
+				# "/js/jquery.diamonds.js"
 				"/js/vendor/date.min.js"
 				"https://rawgit.com/kimmobrunfeldt/progressbar.js/1.0.0/dist/progressbar.js"
 				#"/js/jquery.vide.js"
@@ -172,7 +172,7 @@ docpadConfig = {
 				"/bower_components/lightbox2/dist/js/lightbox.js"
 				#"/bower_components/bootstrap-autohidingnavbar/dist/jquery.bootstrap-autohidingnavbar.min.js"
 				#{}"/js/vendor/html2canvas.svg.js"
-				"/js/vendor/feedback.js"
+				# "/js/vendor/feedback.js"
 
 			]
 

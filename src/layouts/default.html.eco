@@ -9,12 +9,21 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
 	<meta name="HandheldFriendly" content="true">
 	<title><%= @getPreparedTitle() %></title>
 	<meta name="description" content="<%= @getPreparedDescription() %>" />
 	<meta name="keywords" content="<%= @getPreparedKeywords() %>" />
 	<meta name="author" content="<%= @site.author or '' %>" />
+
+	<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="apple-mobile-web-app-title" content="Колледж метрополитена">
+	<meta name="application-name" content="Колледж метрополитена">
+	<meta name="theme-color" content="#ffffff">
 	<script type="text/javascript">
 	if (window.location == "plm-spb.ru") {
 	   window.location.href = 'http://cm-spb.ru';
@@ -22,7 +31,7 @@
 	</script>
 	<%- @getBlock('meta').toHTML() %>
 
-		<!-- Shims: IE6-8 support of HTML5 elements -->
+	<!-- Shims: IE6-8 support of HTML5 elements -->
 		<!--[if lt IE 9]>
 			<script type="text/javascript"  src="/bower_components/es5-shim/es5-shim.min.js"></script>
 
@@ -30,12 +39,8 @@
 			<script type="text/javascript" src="/bower_components/respond/dest/respond.min.js"></script>
 		<![endif]-->
 	<!-- Icons -->
-		<link rel="shortcut icon" href="/images/icons/favicon.ico">
-		<link rel="apple-touch-icon" sizes="144x144" href="/images/icons/apple-touch-icon-144x144.png">
-		<link rel="apple-touch-icon" sizes="114x114" href="/images/icons/apple-touch-icon-114x114.png">
-		<link rel="apple-touch-icon" sizes="72x72" href="/images/icons/apple-touch-icon-72x72.png">
-		<link rel="apple-touch-icon" href="/images/icons/apple-touch-icon-57x57.png">
 
+	<link href="https://unpkg.com/basscss@8.0.2/css/basscss.min.css" rel="stylesheet"  inline="true">
 
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<style>
@@ -89,85 +94,64 @@ $(document).ready(function(){uhpv(has)});
 	<div class="hidden-xs hidden-sm right-nav label label-primary" id="uhvb" onclick="uvcl()">
 		<i class="fa fa-low-vision fa-2x" ></i>версия для слабовидящих
 	</div>
-<div>
-	<div class="navbar navbar-inverse">
-		<div class="container-fluid hidden-xs">
 
-			<div class="row header">
-				<div class="col-xs-4 col-md-4 col-lg-4 hidden-sm">
-					<h6 style="color: #fff; text-align: right;">
-						САНКТ-ПЕТЕРБУРГСКОЕ ГОСУДАРСТВЕННОЕ<br>
-						БЮДЖЕТНОЕ ПРОФЕССИОНАЛЬНОЕ<br>
-						ОБРАЗОВАТЕЛЬНОЕ УЧРЕЖДЕНИЕ
-					</h6>
-					</div>
-					<div class="col-xs-1 col-md-1 col-lg-1 col-sm-1">
-						<a href="/">
-							<img class="img-responsive" src="/images/logo.png" alt="КОЛЛЕДЖ
-						МЕТРОПОЛИТЕНА">
-						</a>
-					</div>
-				<div class="col-xs-4 col-md-4 col-sm-6 col-lg-4 ">
-					<h1 style="color: #fff;" class="logo-title header-text">
+<nav class="navbar navbar-inverse navbar-fixed-top bg-darkBlue navbar-top" role="navigation">
+  <div class="container-fluid bg-darkBlue md-flex justify-center items-center">
+    <div class="navbar-header bg-darkBlue flex ">
+      <button type="button" class="navbar-toggle order-last flex-none" data-toggle="collapse" data-target="#navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+			<a class="navbar-brand flex flex-auto order-0 justify-center items-center " href="/">
 
-							<small>КОЛЛЕДЖ</small><br>
-						МЕТРОПОЛИТЕНА
-					</h1>
+
+				<div class="navbar-brand-logo flex-none">
+					<img src="/images/logo.png" class="img-responsive" alt="Колледж метрополитена">
 				</div>
-				<div class="col-xs-2 col-md-2 col-sm-3 col-lg-2 ">
-						<div class="address pull-right">
-							<h5><a href="tel:88127715909"></a>771-59-09</h5>
-							<a href="/#contacts">ул. Купчинская, д. 28</a>
-						</div>
-					</div>
+				<div class="navbar-brand-title flex-auto p2">
+					<img src="/logo-title-white.svg" class="img-responsive" alt="Колледж метрополитена">
 
 				</div>
-		</div>
-
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-			<h5 style="color: #fff;" class=" hidden-md  hidden-lg hidden-sm ">
-			<a href="/">
-				<small>КОЛЛЕДЖ</small>
-				МЕТРОПОЛИТЕНА
 			</a>
-			</h5>
-		</div>
-		<div class="navbar-collapse collapse">
-			<ul class="nav navbar-nav" id="nav">
-				<li typeof="sioc:Page" about="/#programs" class="">
-						<a href="/#programs" property="dc:title">
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse bg-darkBlue flex-auto" id="navbar">
+			<ul class="nav navbar-nav ">
+				<li>
+						<a href="/#programs" class="text-uppercase">
 							Специальности
 						</a>
 					</li>
-					<li typeof="sioc:Page" about="/#contacts" class="">
-							<a href="/#contacts" property="dc:title">
+					<li>
+							<a href="/#contacts" class="text-uppercase">
 								Контакты
 							</a>
 						</li>
 
 				<% for document in @getCollection('menu').toJSON(): %>
-					<li
-						typeof="sioc:Page"
-						about="<%= document.url %>"
-						class="<%= 'active'	if @document.url is document.url %>"
-					>
-						<a href="<%= document.url %>" property="dc:title">
+					<li class="<%= 'active'	if @document.url is document.url %>">
+						<a href="<%= document.url %>"  class="text-uppercase">
 							<%= document.menutitle %>
 						</a>
 					</li>
 				<% end %>
-
-
 			</ul>
+      <!-- <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form> -->
 
 
-		</div><!--/.navbar-collapse -->
-	</div>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div>
+
 
 	<!-- Content -->
 
