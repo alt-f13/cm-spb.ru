@@ -1,35 +1,34 @@
-<nav class="navbar navbar-inverse navbar-fixed-bottom hidden-xs">
+<nav class="navbar navbar-inverse navbar-fixed-bottom gb-blue hidden-xs">
 	<div class="container-fluid ">
 		<div class="navbar-header footer-header">
-      <a class="navbar-brand uppercase "  href="/pages/info.html">
-				<i class="fa fa-3x fa-info-circle fa-fw pull-left"></i>
-						<h4 class="footer-info">
-							Сведения об <br>
-							образовательной организации
-						</h4>
+      <a class="btn btn-sm btn-secondary navbar-btn navbar-nav navbar-left uppercase btn-footer p0 "  href="/pages/info.html">
+				<i class="fa fa-3x fa-info-circle fa-fw inline-block"></i>
+				<div class="inline-block text-left ">
+					Сведения об <br>
+					образовательной <br>
+					организации
+				</div>
       </a>
-			<a href="/pages/info/anketa.html" class="navbar-brand uppercase footer-small">
-					<i class="fa fa-pie-chart fa-3x fa-fw"></i>
-					<div>
-						анкетирование
-					</div>
-			</a>
-			<a class=" uppercase navbar-brand footer-small"  href="http://k-obr.spb.ru/page/632">
-					<div style="height: 100%; vertical-align: top;">
-						<i class="fa fa-ban fa-3x fa-inverse"></i>
-					</div>
-					<div>
-						Профилактика негативных<br>
-						явлений среди <br>
-						несовершеннолетних
-					</div>
-
-
-
-			</a>
 		</div>
 		<p class="navbar-text">
 			<ul class="footer-menu">
+				<li>
+					<a class="uppercase footer-small white" href="/pages/info/anketa.html">
+						<i class="fa fa-pie-chart fa-fw inline-block"></i>
+						<div class="inline-block text-left align-middle">
+							анкетирование
+						</div>
+					</a>
+				</li>
+				<li>
+					<a class="uppercase footer-small white" href="http://k-obr.spb.ru/page/632">
+						<i class="fa fa-ban fa-fw inline-block"></i>
+						<div class="inline-block text-left align-middle">
+							Профилактика негативных явлений<br>
+							среди несовершеннолетних
+						</div>
+					</a>
+				</li>
 				<% for document in @getCollection('menu2').toJSON(): %>
 					<li>
 						<a class="uppercase footer-small white" href="<%= document.url %>">

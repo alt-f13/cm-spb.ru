@@ -1,0 +1,112 @@
+<section class="content-section section-features video-section" id="programs">
+	<!-- <div class="pattern-overlay" data-vide-bg="/video/Metro_obshii.mp4" data-vide-options="loop: false, muted: false, position: 0% 0%"> -->
+	<a id="bgndVideo" class="player" data-property="{videoURL:'https://youtu.be/t2my91byjR4',containment:'.video-section', quality:'720p', autoPlay:true, mute:true, opacity:1}">bg</a>
+		<div class="container">
+			<div class="row">
+				<div class="container">
+				<div class="programs-ico">
+						<h5 class="h5"><i class="fa fa-graduation-cap fa-5x big_image"></i>
+						Среднее профессиональное образование с присвоением квалификации техник</h5>
+				</div>
+				<div class="row">
+					<div class="col-md-4 grayblock">
+						<a href="/pages/programs/avit.html">
+
+							<div class="card card-blue">
+								<div class="icon">
+									<i class="fa fa-subway fa-5x"></i>
+								</div>
+								<div class="text">
+									<h6>Автоматика и телемеханика<br>
+										<!-- <small>на железнодорожном транспорте</small></h6> -->
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4  grayblock2">
+						<a href="/pages/programs/el2t.html">
+							<div class="card card-yellow">
+								<div class="icon">
+									<i class="fa  fa-bolt fa-5x"></i>
+								</div>
+								<h6>Электроснабжение<br>
+									<small>по отраслям</small></h6>
+							</div>
+						</a>
+					</div>
+					<div class="col-md-4 grayblock">
+						<a href="/pages/programs/inst.html">
+								<div class="card card-black">
+								<div class="icon">
+									<i class="fa fa-laptop fa-5x"></i>
+								</div>
+								<h6>Информационные системы<br>
+									<small>по отраслям</small></h6>
+							</div>
+						</a>
+					</div>
+
+				</div>
+				<div>
+					<h5 class="h5"> <i class="fa fa-university fa-5x"></i> Среднее профессиональное образование с присвоением рабочей квалификации</h5>
+				</div>
+				<div class="row">
+					<div class="col-md-3 grayblock2">
+						<a href="/pages/programs/sem.html">
+
+							<div class="card card-orange">
+								<div class="icon">
+									<i class="fa fa-wrench fa-5x"></i>
+								</div>
+								<h6>Слесарь-электрик<br>
+									<small>метрополитена</small></h6>
+
+							</div>
+						</a>
+
+					</div>
+					<div class="col-md-3 grayblock">
+
+						<a href="/pages/programs/sps.html">
+							<div class="card card-red">
+								<div class="icon">
+									<i class="fa fa-cogs fa-5x"></i>
+								</div>
+								<h6>Слесарь<br>
+									<small>по обслуживанию и ремонту подвижного состава</small></h6>
+							</div>
+						</a>
+
+					</div>
+					<div class="col-md-3 grayblock2">
+						<a href="/pages/programs/etp.html">
+							<div class="card card-yellow">
+								<div class="icon">
+									<i class="fa fa-bolt fa-5x"></i>
+								</div>
+								<h6>Электромонтер<br>
+									<small>тяговой подстанции</small></h6>
+
+							</div>
+						</a>
+
+					</div>
+					<div class="col-md-3 grayblock">
+						<a href="/pages/programs/scb.html">
+
+							<div class="card card-orange">
+								<div class="icon">
+									<i class="fa fa-chain-broken fa-5x"></i>
+								</div>
+								<h6>Электромонтер устройств сигнализации, централизации, блокировки<small>(СЦБ)</small></h6>
+
+							</div>
+						</a>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</section>

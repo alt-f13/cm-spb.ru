@@ -33,3 +33,37 @@
 }
 
 //gradient
+.filter-gradient{
+  position: relative;
+}
+.filter-gradient:after{
+    background-size: 2000px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 1;
+    content: "";
+}
+.filter-gradient.gray:after{
+  background: rgba(0, 0, 0, 0.1) ;
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);
+}
+.filter-gradient.blue:after{
+  background: rgba(8, 93, 118, 0.6);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99085D76,endColorstr=#99085D76);
+}
+.filter-gradient.green:after{
+  background: rgba(32, 84, 21, 0.6);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99205415,endColorstr=#99205415);
+}
+.filter-gradient.orange:after{
+  background: rgba(116, 43, 17, 0.6);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99742B11,endColorstr=#99742B11);
+}
+.filter-gradient.red:after{
+  background: rgba(169, 10, 10, 0.6);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99A90A0A,endColorstr=#99A90A0A);
+}
