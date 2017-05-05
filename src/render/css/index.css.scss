@@ -1,5 +1,4 @@
----
----
+
 $color1: #11497F; //blue
 $color2: #E00E00; //red
 $color3: #086ACC; //синий
@@ -31,7 +30,8 @@ $darkBlue: #445273;
 @import "mediaMD";
 @import "_nav";
 //@import "row-flex";
-
+@import "paralax";
+@import "gradients"
 body {
 	font-size: 1.2em;
 	padding-top: 50px;
@@ -62,6 +62,45 @@ h1,h2,h3,h4,h5,h6 {
 	line-height: 1;
 	font-weight: 800;
 }
+//gradients
+.gb-blue {
+    background-color: #203f65;
+    /* IE9, iOS 3.2+ */
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHZpZXdCb3g9IjAgMCAxIDEiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0idnNnZyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIxMDAlIiB5MT0iMTAwJSIgeDI9IjAlIiB5Mj0iMCUiPjxzdG9wIHN0b3AtY29sb3I9IiMzYTY2OWEiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwIi8+PHN0b3Agc3RvcC1jb2xvcj0iIzA2MTgyZiIgc3RvcC1vcGFjaXR5PSIxIiBvZmZzZXQ9IjAuOTU5MDAwMDAwMDAwMDAwMSIvPjxzdG9wIHN0b3AtY29sb3I9IiMzYTY2OWEiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIwLjk4ODg1NTA5ODM4OTk4MiIvPjxzdG9wIHN0b3AtY29sb3I9IiMwNzE5MzAiIHN0b3Atb3BhY2l0eT0iMSIgb2Zmc2V0PSIxIi8+PC9saW5lYXJHcmFkaWVudD48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI3ZzZ2cpIiAvPjwvc3ZnPg==);
+    background-image: -webkit-gradient(linear, 100% 100%, 0% 0%,color-stop(0, rgb(58, 102, 154)),color-stop(0.959, rgb(6, 24, 47)),color-stop(0.989, rgb(58, 102, 154)),color-stop(1, rgb(7, 25, 48)));
+    /* Android 2.3 */
+    background-image: -webkit-repeating-linear-gradient(bottom right,rgb(58, 102, 154) -3px,rgb(6, 24, 47) 95.9%);
+    /* IE10+ */
+    background-image: repeating-linear-gradient(to top left,rgb(58, 102, 154) -3px,rgb(6, 24, 47) 95.9%);
+    background-image: -ms-repeating-linear-gradient(bottom right,rgb(58, 102, 154) -3px,rgb(6, 24, 47) 95.9%);
+}
+
+/* IE8- CSS hack */
+@media \0screen\,screen\9 {
+    .gb-blue {
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff06182f",endColorstr="#ff3a669a",GradientType=0);
+    }
+}
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#606c88+0,3f4c6b+100;grey3d */
+
+.gb-blue2 {
+	background: rgb(96,108,136); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(96,108,136,1) 0%, rgba(63,76,107,1) 100%); /* FF3.6-15 */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(96,108,136,1)), color-stop(100%,rgba(63,76,107,1))); /* Chrome4-9,Safari4-5 */
+	background: -webkit-linear-gradient(top,  rgba(96,108,136,1) 0%,rgba(63,76,107,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: -o-linear-gradient(top,  rgba(96,108,136,1) 0%,rgba(63,76,107,1) 100%); /* Opera 11.10-11.50 */
+	background: -ms-linear-gradient(top,  rgba(96,108,136,1) 0%,rgba(63,76,107,1) 100%); /* IE10 preview */
+	background: linear-gradient(to bottom,  rgba(96,108,136,1) 0%,rgba(63,76,107,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606c88', endColorstr='#3f4c6b',GradientType=0 ); /* IE6-9 */
+
+}
+
+//gradient
+
+
+
+
 .white {
 	color: #fff;
 }
@@ -106,11 +145,11 @@ h1,h2,h3,h4,h5,h6 {
 	.navbar-collapse {
 		ul {
 			height: 100%;
-			li {
-				a {
-					padding: 16px 10px !important;
-				}
-			}
+			// li {
+			// 	a {
+			// 		padding: 16px 10px !important;
+			// 	}
+			// }
 		}
 	}
 	ul>li {
@@ -126,7 +165,72 @@ h1,h2,h3,h4,h5,h6 {
 		}
 	}
 }
+.navbar {
+  -webkit-transition: all 300ms linear;
+  -moz-transition: all 300ms linear;
+  -o-transition: all 300ms linear;
+  -ms-transition: all 300ms linear;
+  transition: all 300ms linear;
+}
+.navbar-collapse:not(.in) {
+	    background-color: transparent !important;
+}
+.landing-page .section-features {
+		 padding: 0;
+		 text-align: center;
+}
+.grayblock {
+	background:rgba(204, 204, 204, 0.5);
+ //  padding:30px;
+	min-height: 200px !important;
 
+}
+ .grayblock2 {
+	 background:rgba(170, 170, 170, 0.7);
+ //  padding:30px;
+	 min-height: 200px !important;
+
+}
+
+.landing-page .section-features .card .icon i{
+		 font-size: 63px;
+		 color: #9a9a9a;
+		 width: 85px;
+		 height: 85px;
+		 line-height: 80px;
+		 text-align: center;
+		 border-radius: 50%;
+		 margin: 0 auto;
+		 margin-top: 20px;
+}
+.landing-page .section-features .card .icon i:hover{
+	 color: red;
+}
+
+ .landing-page .section-features .card.card-blue{
+	 border-color: #CCE7F5;
+ }
+ .landing-page .section-features .card.card-blue .icon i{
+	 color:#00bbff;
+ }
+ .landing-page .section-features .card.card-green{
+	 border-color: #BDF8C0;
+ }
+ .landing-page .section-features .card.card-green .icon i{
+	 color:#3ABE41;
+ }
+ .landing-page .section-features .card.card-orange{
+	 border-color: #FAD9CD;
+ }
+ .landing-page .section-features .card.card-orange .icon i{
+	 color:#ff967f;
+ }
+ .landing-page .section-features .card.card-yellow{
+	 border-color: #faf2ae;
+ }
+ .landing-page .section-features .card.card-yellow .icon i{
+	 color:#e0ca00;
+ }
 
 //flex navbar-brand
 

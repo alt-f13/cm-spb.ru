@@ -95,9 +95,9 @@ $(document).ready(function(){uhpv(has)});
 		<i class="fa fa-low-vision fa-2x" ></i>версия для слабовидящих
 	</div>
 
-<nav class="navbar navbar-inverse navbar-fixed-top bg-darkBlue navbar-top" role="navigation">
-  <div class="container-fluid bg-darkBlue md-flex justify-center items-center">
-    <div class="navbar-header bg-darkBlue flex ">
+<nav class="navbar navbar-inverse navbar-fixed-top navbar-top gb-blue" role="navigation">
+  <div class="container-fluid  md-flex justify-center items-center">
+    <div class="navbar-header flex ">
       <button type="button" class="navbar-toggle order-last flex-none" data-toggle="collapse" data-target="#navbar">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
@@ -118,7 +118,7 @@ $(document).ready(function(){uhpv(has)});
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse bg-darkBlue flex-auto" id="navbar">
+    <div class="collapse navbar-collapse flex-auto " id="navbar">
 			<ul class="nav navbar-nav ">
 				<li>
 						<a href="/#programs" class="text-uppercase">
