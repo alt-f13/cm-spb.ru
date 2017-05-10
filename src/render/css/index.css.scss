@@ -37,7 +37,7 @@ $darkBlue: #445273;
 @import "gradients";
 
 body {
-	font-size: 1.2em;
+	font-size: 14px;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -45,19 +45,19 @@ p {
 	font-size: 1.3em;
 }
 h1 {
-	font-size: 1.75em;
+	font-size: 2em;
 }
 h2 {
-	font-size: 1.55em;
+	font-size: 1.8em;
 }
 h3 {
-	font-size: 1.45em;
+	font-size: 1.65em;
 }
 h4 {
-	font-size: 1.3em;
+	font-size: 1.9em;
 }
 h5 {
-	font-size: 1.6em;
+	font-size: 1.7em;
 }
 h6 {
 	font-size: 1.5em;
@@ -66,6 +66,11 @@ h1,h2,h3,h4,h5,h6 {
 	line-height: 1;
 	font-weight: 800;
 }
+
+.text-shadow {
+	text-shadow: 1px 2px 0 rgba(0, 0, 0, 0.4) !important;
+}
+
 
 .btn-footer {
 	line-height: 1;
@@ -95,13 +100,20 @@ h1,h2,h3,h4,h5,h6 {
 	background-color: $darkBlue !important;
 }
 .navbar-brand-logo {
-	width: 90px;
-	height: 90px;
+	width: 80px;
+	//height: 80px;
 	overflow: visible;
 	z-index: 999999999999;
 	display: inline-flex;
-	padding: 10px;
-
+	padding: 0 5px 0 0;
+	img {
+		position: absolute;
+		top:-15px;
+		left: 5px;
+		border-radius: 50%;
+		 height: 80px;
+		 width: 78px;
+	}
 }
 .navbar-brand-title {
 	// background: url(/logo-title-white.svg) 100% 100%;
@@ -125,11 +137,6 @@ h1,h2,h3,h4,h5,h6 {
 	.navbar-collapse {
 		ul {
 			height: 100%;
-			// li {
-			// 	a {
-			// 		padding: 16px 10px !important;
-			// 	}
-			// }
 		}
 	}
 	ul>li {
@@ -141,7 +148,7 @@ h1,h2,h3,h4,h5,h6 {
 		a {
 			padding-top: 0;
 			padding-bottom: 0;
-			padding-left: 5px;
+		//	padding-left: 5px;
 		}
 	}
 }
@@ -155,62 +162,6 @@ h1,h2,h3,h4,h5,h6 {
 .navbar-collapse:not(.in) {
 	    background-color: transparent !important;
 }
-.landing-page .section-features {
-		 padding: 0;
-		 text-align: center;
-}
-.grayblock {
-	background:rgba(204, 204, 204, 0.5);
- //  padding:30px;
-	min-height: 200px !important;
-
-}
- .grayblock2 {
-	 background:rgba(170, 170, 170, 0.7);
- //  padding:30px;
-	 min-height: 200px !important;
-
-}
-
-.landing-page .section-features .card .icon i{
-		 font-size: 63px;
-		 color: #9a9a9a;
-		 width: 85px;
-		 height: 85px;
-		 line-height: 80px;
-		 text-align: center;
-		 border-radius: 50%;
-		 margin: 0 auto;
-		 margin-top: 20px;
-}
-.landing-page .section-features .card .icon i:hover{
-	 color: red;
-}
-
- .landing-page .section-features .card.card-blue{
-	 border-color: #CCE7F5;
- }
- .landing-page .section-features .card.card-blue .icon i{
-	 color:#00bbff;
- }
- .landing-page .section-features .card.card-green{
-	 border-color: #BDF8C0;
- }
- .landing-page .section-features .card.card-green .icon i{
-	 color:#3ABE41;
- }
- .landing-page .section-features .card.card-orange{
-	 border-color: #FAD9CD;
- }
- .landing-page .section-features .card.card-orange .icon i{
-	 color:#ff967f;
- }
- .landing-page .section-features .card.card-yellow{
-	 border-color: #faf2ae;
- }
- .landing-page .section-features .card.card-yellow .icon i{
-	 color:#e0ca00;
- }
 
 //flex navbar-brand
 
@@ -221,13 +172,15 @@ h1,h2,h3,h4,h5,h6 {
 		vertical-align: middle;
 	}
 	th {
-		font-size: 1.4rem;
-		font-weight: 900;
+		font-size: 1.4em;
+		//ont-weight: 700;
+		height: 40px;
 	}
 	td {
-		height: 60px;
-		min-height: 50px;
-		min-width: 50px;
+		font-size: 1.2em;
+		min-height: 40px;
+		//font-weight: bold;
+		width: 40px;
 	}
 }
 

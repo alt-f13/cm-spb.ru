@@ -1,24 +1,31 @@
-plm-spb.ru
-==========
+[![колледж метрополитена](http://cm-spb.ru/logo-title.svg)](http://cm-spb.ru/)
 
-Site for plm-spb.ru, built with [DocPad](http://docpad.org).
+[TOC]
 
-Dependencies
-------------
+Установка:
+----------
 
--	[npm](https://npmjs.org)
-
-Development
------------
-
-```bash
-$ npm install
-$ npm start
+```
+git clone https://github.com/alt-f13/cm-spb.ru.git
+cd cm-spb.ru
+npm install
+bower install
+npm i -g docpad
 ```
 
-License
--------
+Запуск
+------
 
-Licensed under the [MIT License](LICENSE.md).
+```
+npm start
 
-Copyright &copy; 2017 alt-f13
+```
+
+dev сервер будет доступен на [http://localhost:3000](http://localhost:3000)
+
+Публикация
+----------
+
+```
+npm gh-deploy
+```

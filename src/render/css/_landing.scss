@@ -121,3 +121,60 @@
     margin-top: 40px;
     padding: 14px 80px;
    }
+
+   .landing-page .section-features {
+   		 padding: 0;
+   		 text-align: center;
+   }
+   .grayblock {
+   	background:rgba(204, 204, 204, 0.5);
+    //  padding:30px;
+   	min-height: 200px !important;
+
+   }
+    .grayblock2 {
+   	 background:rgba(170, 170, 170, 0.7);
+    //  padding:30px;
+   	 min-height: 200px !important;
+
+   }
+
+   .landing-page .section-features .card .icon i{
+   		 font-size: 63px;
+   		 color: #9a9a9a;
+   		 width: 85px;
+   		 height: 85px;
+   		 line-height: 80px;
+   		 text-align: center;
+   		 border-radius: 50%;
+   		 margin: 0 auto;
+   		 margin-top: 20px;
+   }
+   .landing-page .section-features .card .icon i:hover{
+   	 color: red;
+   }
+
+    .landing-page .section-features .card.card-blue{
+   	 border-color: #CCE7F5;
+    }
+    .landing-page .section-features .card.card-blue .icon i{
+   	 color:#00bbff;
+    }
+    .landing-page .section-features .card.card-green{
+   	 border-color: #BDF8C0;
+    }
+    .landing-page .section-features .card.card-green .icon i{
+   	 color:#3ABE41;
+    }
+    .landing-page .section-features .card.card-orange{
+   	 border-color: #FAD9CD;
+    }
+    .landing-page .section-features .card.card-orange .icon i{
+   	 color:#ff967f;
+    }
+    .landing-page .section-features .card.card-yellow{
+   	 border-color: #faf2ae;
+    }
+    .landing-page .section-features .card.card-yellow .icon i{
+   	 color:#e0ca00;
+    }

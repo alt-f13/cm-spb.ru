@@ -110,7 +110,7 @@ $(document).ready(function(){uhpv(has)});
 				<div class="navbar-brand-logo flex-none">
 					<img src="/images/logo.png" class="img-responsive" alt="Колледж метрополитена">
 				</div>
-				<div class="navbar-brand-title flex-auto p2">
+				<div class="navbar-brand-title flex-auto p1">
 					<img src="/logo-title-white.svg" class="img-responsive" alt="Колледж метрополитена">
 
 				</div>
@@ -121,19 +121,19 @@ $(document).ready(function(){uhpv(has)});
     <div class="collapse navbar-collapse flex-auto " id="navbar">
 			<ul class="nav navbar-nav ">
 				<li>
-						<a href="/#programs" class="text-uppercase">
+						<a href="/#programs" class="text-uppercase text-shadow p2">
 							Специальности
 						</a>
 					</li>
 					<li>
-							<a href="/#contacts" class="text-uppercase">
+							<a href="/#contacts" class="text-uppercase text-shadow p2">
 								Контакты
 							</a>
 						</li>
 
 				<% for document in @getCollection('menu').toJSON(): %>
 					<li class="<%= 'active'	if @document.url is document.url %>">
-						<a href="<%= document.url %>"  class="text-uppercase">
+						<a href="<%= document.url %>"  class="text-uppercase text-shadow p2">
 							<%= document.menutitle %>
 						</a>
 					</li>

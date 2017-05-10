@@ -89,6 +89,9 @@
   "main": "node_modules/docpad/bin/docpad-server",
   "scripts": {
     "start": "node_modules/docpad/bin/docpad-server",
-    "postinstall": "node_modules/bower/bin/bower install"
+    "postinstall": "node_modules/bower/bin/bower install",
+    "gh-deploy": "docpad deploy-ghpages --env static",
+    "gh-deploy-clean": "docpad clean;docpad deploy-ghpages --env static"
+    
   }
 }
