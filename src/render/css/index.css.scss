@@ -16,6 +16,7 @@ $darkBlue: #445273;
 //@import "./bootstrap-grid-flexbox.min.css";
 @import "./_bootstrap.min.scss";
 @import "./_bootstrap-theme.min.scss";
+
 //@import 'navbar-fixed-side';
 //@import "tree"; //дерево
 // @import "_media/sm";
@@ -100,19 +101,15 @@ h1,h2,h3,h4,h5,h6 {
 	background-color: $darkBlue !important;
 }
 .navbar-brand-logo {
-	width: 80px;
-	//height: 80px;
+	max-width: 80px;
+	height: auto;
 	overflow: visible;
 	z-index: 999999999999;
 	display: inline-flex;
 	padding: 0 5px 0 0;
 	img {
-		position: absolute;
-		top:-15px;
-		left: 5px;
-		border-radius: 50%;
-		 height: 80px;
-		 width: 78px;
+		width: auto;
+		max-height: 70px;
 	}
 }
 .navbar-brand-title {
@@ -128,6 +125,8 @@ h1,h2,h3,h4,h5,h6 {
 	//min-width: 100px;
 	min-height: 25px;
 	display: inline-flex;
+	padding-left: 5px;
+	padding-right: 10px;
 }
 .navbar-top {
 	max-height: 50px;
@@ -162,6 +161,20 @@ h1,h2,h3,h4,h5,h6 {
 .navbar-collapse:not(.in) {
 	    background-color: transparent !important;
 }
+///card
+.card {
+	* {
+		color: #000;
+		font-weight: bold;
+	}
+	.icon {
+		display: block;
+	}
+}
+
+
+
+///card
 
 //flex navbar-brand
 
@@ -179,7 +192,10 @@ h1,h2,h3,h4,h5,h6 {
 	td {
 		font-size: 1.2em;
 		min-height: 40px;
+
+	 	word-break:keep-all;
 		//font-weight: bold;
+		white-space: pre-wrap !important;
 		width: 40px;
 	}
 }
