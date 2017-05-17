@@ -49,63 +49,31 @@ function _posts() {
 				//console.log(post.attachments);
 				var _att=0;
 
-				if(post.attachments) {
-					post.attachments.map(function(i) {
-						var _photo = i.photo;
-						var _video = i.video;
-						if((typeof(_photo) != 'undefined')) {
-							//console.log("photo:", _photo.src_big);
-							var _file = fs.createWriteStream(directory+"/"+_att+".jpg");
-							var req = http.get(_photo.src_big);
-							req.pipe(_file);
-						}else if (typeof(_video) != 'undefined'){
-							//_url = "https://api.vk.com/method/video.get?videos="+i.video.owner_id+"_"+i.video.vid //+"&access_key="+i.video.access_key
-							_url = "https://vk.com/video"+i.video.owner_id+"_"+i.video.vid //+"&access_key="+i.video.access_key
-							console.log("VIDEO:", _url, directory+"/");
-							// var _file = fs.createWriteStream(directory+"/"+_att+".mp4");
-							// var req = http.get(_url).then(function(er, data){
-							// //	console.log(er.text);
-							// 	$ = cheerio.load(er.text);
-							//});
-
-							//req.pipe(_file);
-
-						}
-						_att++;
-					});
-				};
-
-
-				if(!fs.existsSync(directory)){
-				    fs.mkdirSync(directory, 0777, function(err){
-				        if(err){
-				            console.log(err);
-				            // echo the result back
-				        }
-				    });
-				}
-
 				if(!fs.existsSync(directory+"/index.html")) {
+					if(!fs.existsSync(directory))	fs.mkdirSync(directory, 0777);
 					fs.writeFile(directory+"/index.html", "---\n"+YAML.stringify(post)+"\n---\n"+_text, function(err) {
 						if(err) {
 								return console.log(err);
 							}
-
 							console.log(directory, "The file was saved!");
+							if(post.attachments) {
+								post.attachments.map(function(i) {
+									var _photo = i.photo;
+									var _video = i.video;
+									if((typeof(_photo) != 'undefined')) {
+										var _file = fs.createWriteStream(directory+"/"+_att+".jpg");
+										var req = http.get(_photo.src_big);
+										req.pipe(_file);
+									}else if (typeof(_video) != 'undefined'){
+										_url = "https://vk.com/video"+i.video.owner_id+"_"+i.video.vid //+"&access_key="+i.video.access_key
+										console.log("VIDEO:", _url, directory+"/");
+									}
+									_att++;
+								});
+							};
 						});
 				}
-
-				// $db.insert(post, function(err, body) {
-				// 	console.log(body);
-				// })
-
-
 			})
-
-			// $db.attachment.insert(_rows[i].id, "image0.jpg", res.body, res.get('Content-Type'), {"rev": _rows[i].value._rev}, function(resp) {
-			// 	console.log(resp);
-			// })
-			//console.log(_posts.response);
 		})
 		.catch(function(err) {
 			console.log(err);
@@ -113,18 +81,14 @@ function _posts() {
 }
 _posts();
 
-
  function _rows() {
-
    $db.view('db', 'parts-images', function(err, body) {
        if (!err) {
          _rows=body.rows;
          console.log(_rows);
-         //return body.rows
          vo(run)(function(err, result) {
              if (err) throw err;
          });
-
        }else{
          console.log(err);
        }
