@@ -1,13 +1,11 @@
-<nav class="navbar navbar-inverse navbar-fixed-bottom gb-blue hidden-xs">
+<nav class="navbar navbar-inverse navbar-fixed-bottom gb-blue hidden-xs clearfix">
 	<div class="container-fluid ">
 		<div class="navbar-header footer-header">
       <a class="btn btn-sm btn-secondary navbar-btn navbar-nav navbar-left uppercase btn-footer p0 "  href="/pages/info.html">
-				<i class="fa fa-3x fa-info-circle fa-fw inline-block"></i>
-				<div class="inline-block text-left ">
-					Сведения об <br>
-					образовательной <br>
+				<i class="fa fa-3x fa-info-circle fa-pull-left"></i>
+					Сведения об<br>
+					образовательной<br>
 					организации
-				</div>
       </a>
 		</div>
 		<p class="navbar-text">
