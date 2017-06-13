@@ -163,16 +163,11 @@ docpadConfig = {
 				# "http://pupunzi.com/mb.components/mb.YTPlayer/demo/inc/jquery.mb.YTPlayer.js"
 				# "/js/jquery.diamonds.js"
 				"/js/vendor/date.min.js"
+				"/bower_components/moment/moment.js"
 				"https://rawgit.com/kimmobrunfeldt/progressbar.js/1.0.0/dist/progressbar.js"
-				#"/js/jquery.vide.js"
-				#{}"/bower_components/jquery-textfill/source/jquery.textfill.min.js"
-				# "/bower_components/handsontable/dist/handsontable.full.js"
-				# "/bower_components/ngHandsontable/dist/ngHandsontable.min.js"
 				"/bower_components/angular-resource/angular-resource.min.js"
 				"/bower_components/lightbox2/dist/js/lightbox.js"
-				#"/bower_components/bootstrap-autohidingnavbar/dist/jquery.bootstrap-autohidingnavbar.min.js"
-				#{}"/js/vendor/html2canvas.svg.js"
-				# "/js/vendor/feedback.js"
+				"/js/jquery.mb.YTPlayer.min.js"
 
 			]
 

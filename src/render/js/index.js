@@ -14,7 +14,6 @@ var $app = angular
   .module('schedulerApp', [
     'ngResource',
     'SimpleCouch',
-    'ngHandsontable'
   ])
   .config(function ($httpProvider,couchConfigProvider) {
 		couchConfigProvider.setServer("https://couch.2d-it.ru");

@@ -34,17 +34,21 @@ pageOrder: 5
 
 					    <h1>
 								{{man.value.firstname}}
+								<br>
 								{{man.value.fathername}}
+								<br>
 								{{man.value.lastname}}
 							</h1>
-							<h2 class="grey">
+							<h4 class="grey">
 								{{man.value.appointment}}
-							</h2>
+							</h4>
 					    <p>
-								<div ng-show="man.value.day" class="label label-primary">
+								<div ng-show="man.value.day" class="">
 										<i class="fa fa-2x fa-clock-o" aria-hidden="true"></i>
 										Время приема:
-										{{man.value.day}} {{man.value.time}}
+										<span class="label label-default">
+											{{man.value.day}} {{man.value.time}}
+										</span>
 								</div>
 								<div class="btn-group btn-group-justified btn-group-sm" >
 									<a  role="button" href="tel:{{man.value.phone}}" class="btn btn-primary" ng-show="man.value.phone" role="button">

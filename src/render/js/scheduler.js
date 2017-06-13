@@ -14,7 +14,6 @@ var $app = angular
   .module('schedulerApp', [
     'ngResource',
     'SimpleCouch',
-    'ngHandsontable'
   ])
   .config(function ($httpProvider,couchConfigProvider) {
 		couchConfigProvider.setServer("https://couch.2d-it.ru");
@@ -77,7 +76,7 @@ var $app = angular
 					if(foo < 14) {
 						$scope._get(day.add(1).day())
 					}else{
-					
+
 						$db.doc.get(moment(Date.today()).unix().toString(), function(data) {
 				        $scope._doc=data;
 				        console.log(data);

@@ -31,7 +31,9 @@
     "lightbox2": "^2.9.0",
     "v-accordion": "^1.6.0",
     "angular-animate": "^1.6.1",
-    "bootstrap-side-navbar": "^1.0.1"
+    "bootstrap-side-navbar": "^1.0.1",
+    "moment": "^2.18.1",
+    "ngMoment": "ng-moment#*"
   },
   "devDependencies": {
     "html5shiv": "^3.7.3"
