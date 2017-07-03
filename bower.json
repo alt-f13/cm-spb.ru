@@ -36,7 +36,8 @@
     "ngMoment": "ng-moment#*"
   },
   "devDependencies": {
-    "html5shiv": "^3.7.3"
+    "html5shiv": "^3.7.3",
+    "angular-chart.js": "^1.1.1"
   },
   "resolutions": {
     "angular": "~1.5.0"

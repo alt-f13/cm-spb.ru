@@ -14,9 +14,7 @@ var moment = require('moment');
 //     'mode'      : 'sig'
 // });
 var cheerio = require('cheerio');
-
-
-var _url='https://api.vk.com/api.php?oauth=1&method=wall.get.json&domain=cmetro';
+var _url='https://api.vk.com/api.php?oauth=1&method=wall.get.json&domain=cmetro&count=25&access_token=81387c5c81387c5c8165180ecd816a500e8813881387c5cd99f690f0f833a5440858dea';
 
 // var tmpobj = tmp.fileSync();
 // console.log('File: ', tmpobj.name);
@@ -32,6 +30,7 @@ mkdirp(home, function(err) {
 function _posts() {
 	http.get(_url)
 		.then(function(res) {
+			//console.log(res);
 			var _posts=JSON.parse(res.text);
 			_posts.response.map(function(post) {
 				var directory=home+"/"+post.id;

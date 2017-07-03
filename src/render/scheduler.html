@@ -1,55 +1,33 @@
 ---
-title: Расписание на:
+title: Расписание
 description: Изменения в расписании
 layout: default
-menutitle: Расписание
-pageOrder: 8
 standalone: true
 ---
-<!-- <link rel="stylesheet" href="/bower_components/handsontable/dist/handsontable.full.css">
-
-<script src="/bower_components/handsontable/dist/handsontable.full.js" charset="utf-8"></script>
-<script src="/bower_components/ngHandsontable/dist/ngHandsontable.min.js" charset="utf-8"></script>
-<script src="/bower_components/angular-resource/angular-resource.min.js" charset="utf-8"></script>
--->
 
 <div class="container-fluid" ng-controller="SchedulerCtrl">
 	<div class="page-header ">
-
 		<h1>
 			{{_doc.date}}
 		</h1>
 	</div>
 	<div class="row schedule">
-		<!-- <hot-table
-		         hot-id="my-handsontable"
-
-		           datarows="_doc.grid.data"
-		           settings="settings"
-		           col-headers="_doc.grid.columns"
-		           row-headers="true"
-		           mergeCells="_doc.grid.mergeCells"
-
-		         >
-		</hot-table>
- -->
- <div class="table-responsive">
-	 <table class='table table-bordered table-condensed schedule'>
-     <thead>
-       <tr>
-  			 <th width="25"></th>
-         <th ng-repeat="cols in _doc.grid.columns track by $index" width="60">{{cols}}</th>
-       </tr>
-     </thead>
-     <tbody>
-       <tr ng-repeat="row in _doc.grid.data track by $index">
-  			 <th>{{$index+1}}</th>
-         <td ng-repeat="col in _doc.grid.data[$index] track by $index" ng-class="_doc.cellStyle[$parent.$index][$index]=='grey' ? 'info':'' ">{{col}}</td>
-       </tr>
-     </tbody>
-   </table>
- </div>
-
+		<div class="table-responsive">
+			<table class='table table-bordered table-condensed table-striped schedule'>
+				<thead>
+					<tr>
+						<th width="25"></th>
+						<th ng-repeat="cols in _doc.grid.columns track by $index" width="60">{{cols}}</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr ng-repeat="row in _doc.grid.data track by $index">
+						<th>{{$index+1}}</th>
+						<td ng-repeat="col in _doc.grid.data[$index] track by $index" ng-class="_doc.cellStyle[$parent.$index][$index]=='grey' ? 'info':'' ">{{col}}</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 	</div>
 </div>
 
