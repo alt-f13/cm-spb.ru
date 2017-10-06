@@ -12,7 +12,6 @@ standalone: true
 <script src="/js/in.js" charset="utf-8"></script>
 <div class="landing-page">
 	<%- @partial('docSection') %>
-
 	<div class="section section-contact" >
 	    <div class="container text-center">
 	        <div class="row">
@@ -25,14 +24,7 @@ standalone: true
 	<div class="section section-map">
 		<%- @partial('map')%>
 	</div>
-	<div class="section" ng-controller="SchedulerCtrl">
-		<h3 class="page-header">Количество поданных заявлений по специальностям</h3>
-		<div class="container">
-			<canvas id="doughnut" class="chart chart-doughnut"
-				chart-data="data.data" chart-labels="data.labels">
-			</canvas>
-		</div>
-	</div>
+
 
 </div>
 
@@ -42,13 +34,14 @@ standalone: true
   <div class="panel panel-default">
     <div class="panel-heading" role="tab" id="headingThree">
       <h4 class="panel-title">
-        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+        <a class="" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
           Дополнительные сведения
         </a>
       </h4>
     </div>
     <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
       <ul class="list-group">
+
         <li class="list-group-item">
           <h6 class="list-group-item-heading">Прием документов от поступающих</h6>
           <p class="list-group-item-text">
