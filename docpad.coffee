@@ -130,7 +130,7 @@ docpadConfig = {
 
 			# The website description (for SEO)
 			description: """
-			             Cанкт-петербургское государственное бюджетное профессиональное образовательное учреждение колледж метрополитена
+			             ГБПОУ Колледж метрополитена
 			             				"""
 
 			# The website keywords (for SEO) separated by commas
@@ -146,7 +146,7 @@ docpadConfig = {
 
 			# Styles
 			styles: [
-				# "//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+				"//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
 				# "/bower_components/handsontable/dist/handsontable.full.css"
 				# "/bower_components/handsontable/plugins/bootstrap/handsontable.bootstrap.css"
 				"/bower_components/lightbox2/dist/css/lightbox.css"
@@ -209,6 +209,8 @@ docpadConfig = {
 			database.findAllLive({menu2title: $exists: true}, [pageOrder:1,menu2title:1])
 		posts: (database) ->
 			database.findAllLive({type:$in:['post', 'vkpost']}, [date:-1])
+		trud: (database) ->
+			database.findAllLive({type:$in:['trud']}, [date:-1])
 		faces: (database) ->
 			database.findAllLive({$and:[
 				layout:'faces',
