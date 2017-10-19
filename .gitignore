@@ -7,3 +7,4 @@ output/
 nohup.out
 !.gitattributes
 ../~$*
+.publish/**

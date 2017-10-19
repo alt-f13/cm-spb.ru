@@ -76,8 +76,11 @@
     "yamljs": "^0.2.8"
   },
   "devDependencies": {
+    "babel": "^6.23.0",
     "bower-webpack-plugin": "^0.1.9",
     "css-loader": "^0.26.1",
+    "gulp": "^3.9.1",
+    "gulp-gh-pages": "^0.5.4",
     "handlebars-loader": "^1.4.0",
     "json-loader": "^0.5.4",
     "node-sass": "^4.5.3",
@@ -90,7 +93,7 @@
   "scripts": {
     "start": "node_modules/docpad/bin/docpad-server",
     "postinstall": "node_modules/bower/bin/bower install",
-    "gh-deploy": "docpad deploy-ghpages --env static",
+    "deploy": "docpad generate --env production; gulp deploy",
     "gh-deploy-clean": "docpad clean;docpad deploy-ghpages --env static"
   }
 }

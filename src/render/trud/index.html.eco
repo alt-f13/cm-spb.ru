@@ -6,6 +6,11 @@ pageOrder: 5
 ---
 <% image_exts = ['jpg', 'JPG', 'jpeg', 'JPEG', 'png', 'PNG'] %>
 
+<!-- <link rel="stylesheet" href="/bower_components/angular-chart.js/dist/angular-chart.min.js"> -->
+<script src="/bower_components/chart.js/dist/Chart.min.js" charset="utf-8"></script>
+<script src="/bower_components/angular-chart.js/dist/angular-chart.min.js" charset="utf-8"></script>
+<script src="/js/trud.js" charset="utf-8"></script>
+
 <div class="panel panel-warning">
 	<div class="panel-heading">
 		<h4>
@@ -87,10 +92,22 @@ pageOrder: 5
 			<i class="fa-users fa fa-2x fa-fw"></i>
 			Распределение выпускников
 			<small class="white pull-right">
-				июнь 2016г.
+				июнь 2017г.
 			</small>
 		</h3>
 	</div>
+	<!-- <div ng-controller="SchedulerCtrl">
+		 <div>
+			 <h3>Количество поданных заявлений по специальностям</h3>
+			 <canvas id="doughnut" class="chart chart-doughnut"
+				 chart-data="data.data" chart-labels="data.labels">
+			 </canvas>
+			 <canvas id="bar" class="chart chart-bar"
+			   chart-data="data" chart-labels="labels"> chart-series="series"
+			 </canvas
+		 </div>
+	 </div> -->
+
 		<table class="table table-bordered table-striped table-reflow table-responsive">
 			<thead>
 				<tr>
@@ -103,60 +120,118 @@ pageOrder: 5
 			</thead>
 			<tbody>
 				<tr>
-					<th>09.01.03 Мастер по обработке цифровой информации</th>
-					<td>25</td>
-					<td>19</td>
-					<td>1</td>
-					<td>5</td>
-				</tr>
-				<tr>
 					<th>15.01.25 Станочник (металлообработка)</th>
-					<td>18</td>
-					<td>14</td>
+					<td>16</td>
+					<td>8</td>
 					<td>0</td>
-					<td>4</td>
+					<td>8</td>
 				</tr>
 				<tr>
 					<th>23.01.10 Слесарь по обслуживанию и ремонту подвижного состава</th>
-					<td>21</td>
-					<td>11</td>
+					<td>26</td>
+					<td>9</td>
 					<td>0</td>
-					<td>10</td>
+					<td>17</td>
 				</tr>
 				<tr>
 					<th>23.01.12 Слесарь-электрик метрополитена</th>
-					<td>22</td>
-					<td>13</td>
-					<td>0</td>
-					<td>9</td>
+					<td>19</td>
+					<td>7</td>
+					<td>1</td>
+					<td>11</td>
 				</tr>
 				<tr>
 					<th>23.01.13 Электромонтер тяговой подстанции</th>
-					<td>19</td>
-					<td>14</td>
+					<td>21</td>
+					<td>16</td>
 					<td>0</td>
 					<td>5</td>
 				</tr>
 				<tr>
 					<th>23.01.14 Электромонтер устройств сигнализации, централизации, блокировки (СЦБ)</th>
-					<td>21</td>
-					<td>16</td>
-					<td>2</td>
-					<td>3</td>
+					<td>23</td>
+					<td>14</td>
+					<td>1</td>
+					<td>8</td>
 				</tr>
 			</tbody>
 			<tfoot>
 				<tr>
 					<th>Итого:</th>
-					<td>126</td>
-					<td>87</td>
-					<td>3</td>
-					<td>36</td>
+					<td>105</td>
+					<td>54</td>
+					<td>2</td>
+					<td>49</td>
 				</tr>
 			</tfoot>
 		</table>
 	</div>
+	<div class="panel panel-primary">
+		<div class="panel-heading">
+			<h3>
+				<i class="fa-users fa fa-2x fa-fw"></i>
+				Распределение выпускников  из числа сирот  2017 г.
+				<small class="white pull-right">
+					июнь 2017г.
+				</small>
+			</h3>
+		</div>
+		<!-- <div ng-controller="SchedulerCtrl">
+			 <div>
+				 <h3>Количество поданных заявлений по специальностям</h3>
+				 <canvas id="doughnut" class="chart chart-doughnut"
+					 chart-data="data.data" chart-labels="data.labels">
+				 </canvas>
+				 <canvas id="bar" class="chart chart-bar"
+				   chart-data="data" chart-labels="labels"> chart-series="series"
+				 </canvas
+			 </div>
+		 </div> -->
 
+			<table class="table table-bordered table-striped table-reflow table-responsive">
+				<thead>
+					<tr>
+						<th class="active">Профессия</th>
+						<th class="success">Всего выпускников</th>
+						<th class="warning">Трудоустроенны</th>
+						<th class="info">Высшее образование</th>
+						<th class="danger">Призваны в РА</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<th>15.01.25 Станочник (металлообработка)</th>
+						<td>2</td>
+						<td>0</td>
+						<td>0</td>
+						<td>2</td>
+					</tr>
+					<tr>
+						<th>23.01.12 Слесарь-электрик метрополитена</th>
+						<td>2</td>
+						<td>0</td>
+						<td>1</td>
+						<td>1</td>
+					</tr>
+					<tr>
+						<th>23.01.14 Электромонтер устройств сигнализации, централизации, блокировки (СЦБ)</th>
+						<td>2</td>
+						<td>1</td>
+						<td>0</td>
+						<td>1</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<th>Итого:</th>
+						<td>6</td>
+						<td>1</td>
+						<td>1</td>
+						<td>4</td>
+					</tr>
+				</tfoot>
+			</table>
+		</div>
 <div class="list-group">
 	<a class="link-icon list-group-item" href="./plan2017.pdf">План работы ЦСТВ</a>
 	<a class="link-icon list-group-item" href="./report2017.pdf">Отчет о ЦСТВ</a>
@@ -215,3 +290,5 @@ pageOrder: 5
 	</li>
 	<% end %>
 </ul>
+
+<img src="http://kcst.bmstu.ru/counter.php?invisible" />
