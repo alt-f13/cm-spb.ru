@@ -8,3 +8,5 @@ nohup.out
 !.gitattributes
 ../~$*
 .publish/**
+src/raw/bower_components
+.publish

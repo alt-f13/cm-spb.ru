@@ -6,17 +6,18 @@ pageOrder: 1
 standalone: true
 
 ---
-<link rel="stylesheet" href="/bower_components/angular-chart.js/dist/angular-chart.min.js">
 <script src="/bower_components/chart.js/dist/Chart.min.js" charset="utf-8"></script>
 <script src="/bower_components/angular-chart.js/dist/angular-chart.min.js" charset="utf-8"></script>
 <script src="/js/in.js" charset="utf-8"></script>
 <div class="landing-page">
+	<%- @partial('educationPrograms') %>
 	<%- @partial('docSection') %>
 	<div class="section section-contact" >
 	    <div class="container text-center">
 	        <div class="row">
 	            <div class="col-lg-10 col-lg-offset-2">
-								<h4>Купчинская ул., д 28<small> Санкт-Петербург</small> 771-5909 <a href="mailto:info@cm-spb.ru">info@cm-spb.ru</a></h4>
+								<h3>Купчинская ул., д 28<small> Санкт-Петербург</small> <a href="tel://+88127715909">771-59-09</a></h3>
+								<h4><a href="mailto:info@cm-spb.ru"><i class="fa fa-mail fa-2x"></i>info@cm-spb.ru</a></h4>
 	            </div>
 	        </div>
 	    </div>

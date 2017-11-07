@@ -11,7 +11,7 @@
 		<p class="navbar-text">
 			<ul class="footer-menu">
 				<li>
-					<a class="uppercase footer-small white" href="/pages/info/anketa.html">
+					<a class="uppercase footer-small white" href="/info/anketa.html">
 						<i class="fa fa-pie-chart fa-fw inline-block"></i>
 						<div class="inline-block text-left align-middle">
 							анкетирование

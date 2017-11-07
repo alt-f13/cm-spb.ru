@@ -9,42 +9,23 @@ pageOrder: 6
 
 <div class="container">
 	<div class="jumbotron">
-	  <h2 class="display-3">Лента новостей</h2>
-	  <p class="lead">
-
-						<ul class="list-group list-group-colored">
-
-
-							<% for @doc in @getCollection('posts').toJSON(): %>
-						  <li class="list-group-item">
-						    <h6 class="list-group-item-heading">
-									<%= @doc.title %>
-						    </h6>
-
-						        <span class="pull-right label label-primary">
-						  				<i class="fa fa-clock-o fa-2x"></i>
-						  				<%= @moment(@doc.date).lang("ru").format('DD MMMM YYYY') %>
-						  			</span>
-
-								<p class="list-group-item-text">
-									<%- @doc.content %>
-									<p>
-										<% for file in @getFilesAtPath(@doc.relativeDirPath).findAll({extension: $in: image_exts}).toJSON(): %>
-										<a data-lightbox="<%= @doc.relativeDirPath %>" href="<%= file.url %>" data-title="">
-											<img src="<%= @getThumbnail(file.url, "zoomcrop", { w: 100, h: 100 }) %>"  class="img-thumbnail" alt="">
-										</a>
-										<% end %>
-									</p>
-								</p>
-
-
-						  </li>
-
+	  <h2>Лента новостей</h2>
+		<ul class="list-group">
+			<% for @doc in @getCollection('posts').toJSON(): %>
+			  <li class="list-group-item">
+			    <h4 class="list-group-item-heading"><%= @doc.title %><span class="pull-right label label-primary"><i class="fa fa-clock-o fa-2x"></i><%= @moment(@doc.date).lang("ru").format('DD MMMM YYYY') %></span></h4>
+					<p class="list-group-item-text">
+						<%- @doc.content %>
+						<p>
+							<% for file in @getFilesAtPath(@doc.relativeDirPath).findAll({extension: $in: image_exts}).toJSON(): %>
+							<a data-lightbox="<%= @doc.relativeDirPath %>" href="<%= file.url %>" data-title="">
+								<img src="<%= @getThumbnail(file.url, "zoomcrop", { w: 100, h: 100 }) %>"  class="img-thumbnail" alt="">
+							</a>
 							<% end %>
-						</ul>
-	  </p>
+						</p>
+					</p>
+			  </li>
+			<% end %>
+		</ul>
 	</div>
-
-
-
-	</div>
+</div>
