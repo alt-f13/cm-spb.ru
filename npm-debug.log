@@ -15,7 +15,7 @@
 4 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:78:16
 4 verbose stack     at tryToString (fs.js:425:3)
 4 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:412:12)
-5 verbose cwd /cm-spb.ru
+5 verbose cwd /Users/sd/cm-spb.ru
 6 error Darwin 13.4.0
 7 error argv "/usr/local/Cellar/node/7.0.0/bin/node" "/usr/local/bin/npm" "stop"
 8 error node v7.0.0
