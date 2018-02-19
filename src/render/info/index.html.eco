@@ -51,6 +51,8 @@ title: Сведения об образовательной организаци
 
 				<%- @partial('info-finance') %>
 
+				<%- @partial('info-cooperation') %>
+
 				<%- @partial('info-vacant') %>
 
 
