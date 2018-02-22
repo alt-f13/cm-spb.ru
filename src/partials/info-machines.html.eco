@@ -19,7 +19,7 @@
 	<ul class="list-group">
 		<li class="list-group-item">
 			<h4 class="list-group-item-heading active">
-				Общепрофессиональный и профессиональных дисциплин 				<span class="badge pull-right">7</span>
+				Общепрофессиональных и профессиональных дисциплин 				<span class="badge pull-right">7</span>
 
 			</h4>
 			<p class="list-group-item-text">
@@ -119,6 +119,27 @@
 		<li class="list-group-item">
 			<h4 class="list-group-item-heading">
 				Открытый стадион широкого профиля
+
+			</h4>
+		</li>
+		</li>
+		<li class="list-group-item">
+			<h4 class="list-group-item-heading">
+				В целях безопасности обучающихся установлена система видеонаблюдения
+
+			</h4>
+		</li>
+		</li>
+		<li class="list-group-item">
+			<h4 class="list-group-item-heading">
+				Медицинское обслуживание осуществляет медпункт
+
+			</h4>
+		</li>
+		</li>
+		<li class="list-group-item">
+			<h4 class="list-group-item-heading">
+				Обучающимся предоставляется дополнительная мера социальной поддержки в части предоставления на льготной основе питания в столовой колледжа
 
 			</h4>
 		</li>
