@@ -7,11 +7,12 @@
 	</div>
 	<div class="list-group">
 		<a class="link-icon list-group-item" href="/info/Устав.pdf">Устав</a>
-		<a class="link-icon list-group-item" href="/info/Лицензия.pdf">Лицензия на осуществление образовательной деятельности <sup>cерия 78Л01 № 0001052 Рег.№ 1030 от 16 июня 2014г</sup></a>
-		<a class="link-icon list-group-item" href="/info/accreditation2016.pdf">Свидетельство о государственной аккредитации серия 78A01 № 0000640 Рег. № 1318 от 31 мая 2016г</a>
+		<a class="link-icon list-group-item" href="/info/Лицензия.pdf">Лицензия на осуществление образовательной деятельности cерия 78Л01 № 0001052 Рег.№ 1030 от 16 июня 2014 г.</a>
+		<a class="link-icon list-group-item" href="/info/accreditation2016.pdf">Свидетельство о государственной аккредитации серия 78A01 № 0000640 Рег. № 1318 от 31 мая 2016 г.</a>
 		<a class="list-group-item" href="/info/ПФХД2017.pdf"><i class="fa fa-fw fa-balance-scale" aria-hidden="true"></i> План финансово-хозяйственной деятельности 2018-2019</a>
+		<a class="link-icon list-group-item" href="/info/priem/правила-приема-2018.pdf">Правила приёма в Санкт-Петербургское государственное бюджетное профессиональное образовательное учреждение «Колледж метрополитена»</a>
+    <a class="link-icon list-group-item" href="/info/education/polojenia/правила-внутреннего-распорядка-для-обучающихся.pdf">Правила внутреннего распорядка для обучающихся</a>
 		<a class="link-icon list-group-item" href="/info/samoobsled-2017.pdf">Cамообследования 2016-2017 учебный год</a>
-
 		<a href="/info/education/polojenia/о-правилах-оказания-платных-образовательных-услуг.pdf" class="list-group-item"><i class="fa fa-fw fa-money" aria-hidden="true"></i> Положение о правилах оказания платных образовательных услуг</a>
 		<a class="link-icon list-group-item" href="/info/govTask2018.pdf">Государственное задание</a>
 		<a class="link-icon list-group-item" href="/info/public-otchet2017.pdf">Публичный доклад о результатах деятельности в 2016-2017 учебном году</a>
@@ -24,6 +25,11 @@
 				</h6>
 			</div>
 		</a>
+		<div id="doc3" class="list-group-item">
+			<div class="list-group-item-heading">
+				<h6>Платные образовательные услуги не оказываются</h6>
+			</div>
+		</div>
 		<!-- <a class="link-icon list-group-item" href="/info//Повышение-квалификации-педагогического-коллектива.pdf">Повышение квалификации педагогического коллектива</a> -->
 
 		<!-- <a class="link-icon list-group-item" href="/info//Отчет-о-финансовых-результатах-деятельности.pdf">Отчет о финансовых результатах деятельности</a> -->
@@ -43,19 +49,18 @@
 				<a href="/info/education/polojenia/правила-внутреннего-распорядка-сотрудников.pdf" class="list-group-item link-icon">Положение о правилах внутреннего трудового распорядка работников</a>
 				<a href="/info/education/polojenia/о-порядке-доступа-педагогических-раб--к-итс-и-базам-данных.pdf" class="list-group-item link-icon">Положение о порядке доступа педагогических раб  к итс и базам данных</a>
 				<a href="/info/education/polojenia/о-порядке-оформления-возникновения-отношений.pdf" class="list-group-item link-icon">Положение о порядке оформления возникновения отношений</a>
-				<a href="/info/education/polojenia/о-порядке-перевода,-отчисления-и-восстановления-обучающихся.pdf" class="list-group-item link-icon">Положение о порядке перевода, отчисления и восстановления обучающихся</a>
+				<a href="/info/education/polojenia/о-порядке-перевода,-отчисления-и-восстановления-обучающихся.pdf" class="list-group-item link-icon">Положение о порядке оформления возникновения, приостановления и прекращения отношений между образовательной организацией и обучающимися</a>
 				<a href="/info/education/polojenia/о-порядке-посещения-обучающимися-по-своему-выбору-мероприятий.pdf" class="list-group-item link-icon">Положение о порядке посещения обучающимися по своему выбору мероприятий</a>
 				<a href="/info/education/polojenia/о-порядке-реализации-прав-обучающихся.pdf" class="list-group-item link-icon">Положение о порядке реализации прав обучающихся</a>
 				<a href="/info/education/polojenia/о-порядке-реализации-права-педагогических-работников-на-бесплатное-пользование.pdf" class="list-group-item link-icon">Положение о порядке реализации права педагогических работников на бесплатное пользование</a>
 				<a href="/info/education/polojenia/о-правилах-оказания-платных-образовательных-услуг.pdf" class="list-group-item link-icon">Положение о правилах оказания платных образовательных услуг</a>
 				<a href="/info/education/polojenia/о-проведении-аттестации-педагогических-работников.pdf" class="list-group-item link-icon">Положение о проведении аттестации педагогических работников</a>
-				<a href="/info/education/polojenia/о-проведении-текущего,-рубежного-контроля.pdf" class="list-group-item link-icon">Положение о проведении текущего, рубежного контроля</a>
+				<a href="/info/education/polojenia/о-проведении-текущего,-рубежного-контроля.pdf" class="list-group-item link-icon">Положение о проведении текущего, рубежного контроля и промежуточной аттестации</a>
 				<a href="/info/education/polojenia/о-соотношении-учебной-(преподавательской)-и-другой-педагогической-работы.pdf" class="list-group-item link-icon">Положение о соотношении учебной (преподавательской) и другой педагогической работы</a>
 				<a href="/info/education/polojenia/о-центре-содействию-трудоустройству-выпускников.pdf" class="list-group-item link-icon">Положение о центре содействию трудоустройству выпускников</a>
 				<a href="/info/education/polojenia/об-организации-и-осуществлении-образовательной-деятельности.pdf" class="list-group-item link-icon">Положение об организации и осуществлении образовательной деятельности</a>
 				<a href="/info/education/polojenia/по-организации-и-проведению-лабораторных-работ.pdf" class="list-group-item link-icon">Положение по организации и проведению лабораторных работ</a>
 				<a href="/info/education/polojenia/Положение-о-делопроизводстве.pdf" class="list-group-item link-icon">Положение о делопроизводстве</a>
-				<a href="/info/education/polojenia/правила-внутреннего-распорядка-для-обучающихся.pdf" class="list-group-item link-icon">Правила внутреннего распорядка для обучающихся</a>
 			</div>
 		</div>
 		<div id="doc2" class="list-group-item list-group-item-danger">
