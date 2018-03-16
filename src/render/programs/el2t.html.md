@@ -17,14 +17,27 @@ title: Электроснабжение(по отраслям)
 
 Выпускники этой специальности могут работать техниками на метрополитене, техниками в проектных институтах, а также техниками-электриками на предприятиях города.
 
-**«13.02.07 Электроснабжение на транспорте»**
 
-Выпускники получают среднее профессиональное образование с присвоением квалификации: **техник.**
+<div class="just-padding">
 
-Срок обучения составляет 3 года 10 месяцев.
 
-**Условия ****для поступления:**
 
--	Прохождение медицинской комиссии 
+<div class="list-group list-group-root well">
+  <a href="#" class="list-group-item">
+    <h4 class="list-group-item-heading">
+      13.02.07 Электроснабжение <small>(по отраслям)</small>
+    </h4>
+    <div class="list-group">
+      <a href="#" class="list-group-item">Выпускники получают <strong>среднее профессиональное образование</strong> с присвоением квалификации: <span class="badge info">техник</span></a>
+      <a href="#" class="list-group-item list-group-item-info">Срок обучения на базе основного общего образования составляет: <span class="badge">3 года 10 месяцев</span></a>
+      <a href="#" class="list-group-item list-group-item-success">Условия для поступления:			</a>
 
--	Собеседование
+				<div class="list-group">
+					<a href="#" class="list-group-item list-group-item-success">Прохождение медицинской комиссии</a>
+					<a href="#" class="list-group-item list-group-item-success">Собеседование</a>
+				</div>
+
+    </div>
+  </a>
+</div>
+</div>

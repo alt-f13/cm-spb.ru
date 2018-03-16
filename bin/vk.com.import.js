@@ -32,6 +32,7 @@ function _posts() {
 		.then(function(res) {
 			//console.log(res);
 			var _posts=JSON.parse(res.text);
+			//console.log(posts);
 			_posts.response.map(function(post) {
 				var directory=home+"/"+post.id;
 				post._id="vk"+post.id;
