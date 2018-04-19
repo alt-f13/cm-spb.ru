@@ -12,9 +12,11 @@ standalone: true
               <div class="row">
 
                   <p align="center">
-                  	<iframe width="1350" height="768" src="https://www.youtube.com/embed/-lgtmZuC4A4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                  	<iframe width="1024" height="600" src="https://www.youtube.com/embed/-lgtmZuC4A4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                     </p>
   									<div class="description">
+                    <hr>
+                    <hr>
   									<b>Санкт-Петербург</b> –  мегаполис и представить город без
   									<i>метрополитена</i> сегодня невозможно. <br>
   									Поэтому вопрос подготовки кадров для метрополитена очень актуален.
