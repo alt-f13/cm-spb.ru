@@ -10,13 +10,15 @@ standalone: true
           </div>
           <div class= "container-fluid">
               <div class="row">
-
-                  <p align="center">
-                  	<iframe width="1024" height="600" src="https://www.youtube.com/embed/-lgtmZuC4A4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                    </p>
+                  <div class="col-sm-4 col-md-4 col-lg-4 hidden-xs photoIndex">
+                      <div class="parallax-image">
+                        <figure>
+  											    <img class="img-responsive"  src="/img/_avg1.jpg">
+                          </figure>
+                      </div>
+                  </div>
+                  <div class="col-sm-7 col-md-7 col-lg-7 col-md-offset-1 col-lg-offset-1">
   									<div class="description">
-                    <hr>
-                    <hr>
   									<b>Санкт-Петербург</b> –  мегаполис и представить город без
   									<i>метрополитена</i> сегодня невозможно. <br>
   									Поэтому вопрос подготовки кадров для метрополитена очень актуален.
@@ -41,7 +43,7 @@ standalone: true
 
                   	</div>
   							</div>
-
+              </div>
           </div>
       </div>
 

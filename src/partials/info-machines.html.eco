@@ -1,7 +1,15 @@
 
 <hr>
-<h2 class="uppercase">Материально-техническое обеспечение</h2>
+<h2 class="uppercase">Материально-техническое обеспечение и оснащенность образовательного процесса</h2>
 <hr>
+
+<div class="panel panel-success">
+	<div id="tech" class="panel-heading">
+		<h3 class="panel-title">
+			<i class="fa fa-wheelchair"></i><a href="http://cm-spb.ru/info/env.html">Организация образовательного процесса для обучения инвалидов и лиц с ограниченными возможностями здоровья</a>
+		</h3>
+	</div>
+</div>
 
 <div id="machines" class="panel panel-primary">
 	<div id="cabinets" class="panel-heading">
