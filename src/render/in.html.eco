@@ -17,6 +17,7 @@ standalone: true
 	        <div class="row">
 	            <div class="col-lg-10 col-lg-offset-2">
 								<h3>Купчинская ул., д 28<small> Санкт-Петербург</small> <a href="tel://+88127715909">771-59-09</a></h3>
+                <h3>График работы приемной комиссии: пн-пт, 10:00 - 16:00</h3>
 								<h4><a href="mailto:info@cm-spb.ru"><i class="fa fa-mail fa-2x"></i>info@cm-spb.ru</a></h4>
 	            </div>
 	        </div>
