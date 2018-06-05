@@ -61,7 +61,8 @@ standalone: true
   						<div class="row">
   								<div class="col-lg-8 col-lg-offset-2">
   										<h2>Контакты:</h2>
-  										<h4>Купчинская ул., д 28<small> Санкт-Петербург</small> 771-59-09 <a href="mailto:info@cm-spb.ru">info@cm-spb.ru</a></h4>
+  										<h4>Купчинская ул., д 28<small> Санкт-Петербург</small> <a href="mailto:info@cm-spb.ru">info@cm-spb.ru</a></h4>
+                      <h4>Телефон приемной комиссии: 771-59-09</h4>
 
 
   								</div>
