@@ -16,10 +16,133 @@ standalone: true
 	    <div class="container text-center">
 	        <div class="row">
 	            <div class="col-lg-10 col-lg-offset-2">
-
+              <br>
+                <a href="/info/raspor-priem-18.pdf">Распоряжение Комитета по образованию Правительства Санкт-Петербурга № 3827-р от 13.12.2017  "О контрольных цифрах приема на обучение по профессиям, специальностям и образовательным программам основного общего образования в государственных профессиональных образовательных учреждениях, находящихся в ведении Комитета по образованию, за счет средств бюджета Санкт-Петербурга на 2018 год"</a>
+              <br>
+                    <center>
+                    <br>
+                       <table class="table table-bordered">
+                        <thead>
+                         <tr>
+                            <td widht=10%>Код</td>
+                            <td widht=60%>Наименование специальности</td>
+                            <td widht=15%>На базе 9 классов</td>
+                            <td widht=15%>На базе 11 классов</td>
+                         </tr>
+                         </thead>
+                         <tr>
+                            <td>09.02.04</td>
+                            <td>Информационные системы (по отраслям) <a href="http://cm-spb.ru/info/education/fgosSpo/09.02.04-%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B-(%D0%BF%D0%BE-%D0%BE%D1%82%D1%80%D0%B0%D1%81%D0%BB%D1%8F%D0%BC).pdf" style="color:#0000ff">ФГОС</a></td>
+                            <td>25</td>
+                            <td>0</td>
+                         </tr>
+                         <tr>
+                            <td>27.02.03</td>
+                            <td>Автоматика и телемеханика на транспорте (железнодорожном транспорте) <a href="http://cm-spb.ru/info/education/fgosSpo/27.02.03-%D0%90%D0%B2%D1%82%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%BA%D0%B0-%D0%B8-%D1%82%D0%B5%D0%BB%D0%B5%D0%BC%D0%B5%D1%85%D0%B0%D0%BD%D0%B8%D0%BA%D0%B0-%D0%BD%D0%B0-%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B5.pdf" style="color:#0000ff">ФГОС</a></td>
+                            <td>25</td>
+                            <td>0</td>
+                         </tr>
+                         <tr>
+                            <td>13.02.07</td>
+                            <td>Электроснабжение (по отраслям) <a href="http://cm-spb.ru/info/education/fgosSpo/13.02.03-%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%81%D0%BD%D0%B0%D0%B1%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-(%D0%BF%D0%BE-%D0%BE%D1%82%D1%80%D0%B0%D1%81%D0%BB%D1%8F%D0%BC).pdf" style="color:#0000ff">ФГОС</a></td>
+                            <td>25</td>
+                            <td>0</td>
+                         </tr>
+                       </table>
+               <br>
+                       <table class="table table-bordered">
+                        <thead>
+                         <tr>
+                            <td widht=10%>Код</td>
+                            <td widht=60%>Наименование профессии</td>
+                            <td widht=15%>На базе 9 классов</td>
+                            <td widht=15%>На базе 11 классов</td>
+                         </tr>
+                         </thead>
+                         <tr>
+                            <td>23.01.10</td>
+                            <td>Слесарь по обслуживанию и ремонту подвижного состава <a href="http://cm-spb.ru/info/education/fgosSpo/23.01.10-%D0%A1%D0%BB%D0%B5%D1%81%D0%B0%D1%80%D1%8C-%D0%BF%D0%BE-%D0%BE%D0%B1%D1%81%D0%BB%D1%83%D0%B6%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D1%8E-%D0%B8-%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%D1%83-%D0%BF%D0%BE%D0%B4%D0%B2%D0%B8%D0%B6%D0%BD%D0%BE%D0%B3%D0%BE-%D1%81%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%B0.pdf" style="color:#0000ff">ФГОС</a></td>
+                            <td>25</td>
+                            <td>0</td>
+                         </tr>
+                         <tr>
+                            <td>23.01.12</td>
+                            <td>Слесарь-электрик метрополитена <a href="http://cm-spb.ru/info/education/fgosSpo/23.01.12-%D0%A1%D0%BB%D0%B5%D1%81%D0%B0%D1%80%D1%8C-%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%B8%D0%BA-%D0%BC%D0%B5%D1%82%D1%80%D0%BE%D0%BF%D0%BE%D0%BB%D0%B8%D1%82%D0%B5%D0%BD%D0%B0.pdf" style="color:#0000ff">ФГОС</a></td>
+                            <td>25</td>
+                            <td>0</td>
+                         </tr>
+                         <tr>
+                            <td>23.01.13</td>
+                            <td>Электромонтер тяговой подстанции <a href="http://cm-spb.ru/info/education/fgosSpo/23.01.13-%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BC%D0%BE%D0%BD%D1%82%D0%B5%D1%80-%D1%82%D1%8F%D0%B3%D0%BE%D0%B2%D0%BE%D0%B9-%D0%BF%D0%BE%D0%B4%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%B8.pdf" style="color:#0000ff">ФГОС</a></td>
+                            <td>25</td>
+                            <td>0</td>
+                         </tr>
+                       </table>
+                    </center>
+              <br>
                 <h3>График работы приемной комиссии: пн-пт, 10:00 - 16:00</h3>
                 <h4>Телефон приемной комиссии: <a href="tel://+88127715909">771-59-09</a></h4>
 								<h4><a href="mailto:info@cm-spb.ru"><i class="fa fa-mail fa-2x"></i>info@cm-spb.ru</a></h4>
+             <br>
+              <center>
+                <table class="table table-bordered">
+                 <thead>
+                  <tr>
+                     <td widht=60%>Специальность</td>
+                     <td widht=10%>Класс</td>
+                     <td widht=10%>Количество мест</td>
+                     <td widht=20%>Рейтинг абитуриентов</td>
+                  </tr>
+                  </thead>
+                  <tr>
+                     <td>09.02.04 Информационные системы (по отраслям)</td>
+                     <td>9</td>
+                     <td>25</td>
+                     <td><a href="https://docs.google.com/spreadsheets/d/1RjEK4WTMZuZF0NjdwI2cdyd7VFCpzzHTKxafdHiF_eo/edit?usp=sharing" style="color:#000080">Открыть</a></td>
+                  </tr>
+                  <tr>
+                     <td>27.02.03 Автоматика и телемеханика на транспорте (железнодорожном транспорте)</td>
+                     <td>9</td>
+                     <td>25</td>
+                     <td><a href="https://docs.google.com/spreadsheets/d/1ThGURb4ulpwAgkUEYGzRnxdKoNA0Jfa4i2p6hmWKcoo/edit?usp=sharing" style="color:#000080">Открыть</a></td>
+                  </tr>
+                  <tr>
+                     <td>13.02.07 Электроснабжение (по отраслям)</td>
+                     <td>9</td>
+                     <td>25</td>
+                     <td><a href="https://docs.google.com/spreadsheets/d/13saYSZMGGyep2-_UnUkPf202WkoNxH82sYitkKtpPxY/edit?usp=sharing" style="color:#000080">Открыть</a></td>
+                  </tr>
+                </table>
+              <br>
+                <table class="table table-bordered">
+                 <thead>
+                  <tr>
+                     <td widht=60%>Профессия</td>
+                     <td widht=10%>Класс</td>
+                     <td widht=10%>Количество мест</td>
+                     <td widht=20%>Рейтинг абитуриентов</td>
+                  </tr>
+                  </thead>
+                  <tr>
+                     <td>23.01.10 Слесарь по обслуживанию и ремонту подвижного состава</td>
+                     <td>9</td>
+                     <td>25</td>
+                     <td><a href="https://docs.google.com/spreadsheets/d/1nS7lWVI0tpFvlXX8_g2VHgDYL63S9R-G4FBo-ns3chw/edit?usp=sharing" style="color:#000080">Открыть</a></td>
+                  </tr>
+                  <tr>
+                     <td>23.01.12 Слесарь-электрик метрополитена</td>
+                     <td>9</td>
+                     <td>25</td>
+                     <td><a href="https://docs.google.com/spreadsheets/d/1DgaA_GUwpcud8Gi_vu2gTpRuHVfOE6GUm1BpYpQg6fA/edit?usp=sharing" style="color:#000080">Открыть</a></td>
+                  </tr>
+                  <tr>
+                     <td>23.01.13 Электромонтер тяговой подстанции</td>
+                     <td>9</td>
+                     <td>25</td>
+                     <td><a href="https://docs.google.com/spreadsheets/d/1mZpAmM4Tsf5-jqMz3slYjyF-KGWf15kTDqTkOSFrITc/edit?usp=sharing" style="color:#000080">Открыть</a></td>
+                  </tr>
+                </table>
+              </center>
 	            </div>
 	        </div>
 	    </div>
