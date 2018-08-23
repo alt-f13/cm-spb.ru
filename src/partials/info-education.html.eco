@@ -97,29 +97,7 @@
 						<a href="/info/education/programs/13.02.07 Электроснабжение (по отраслям)/программа-УП-ПМ-04.pdf" class="list-group-item link-icon">программа УП ПМ 04</a>
 				 </div>
 			 </div>
-			<div id="eduAnot1" class="list-group-item list-group-item-">
-			 <div class="list-group-item-heading">
-				 <h6>15.01.25 Станочник</h6>
-			 </div>
-			 <div class="list-group">
-				 <a href="/info/education/programs/15.01.25-(2014)-Станочник/ОП.01-технические-измерения.pdf" class="list-group-item link-icon">ОП.01 Технические измерения</a>
-				 <a href="/info/education/programs/15.01.25-(2014)-Станочник/ОП.02-Техническая-графика.pdf" class="list-group-item link-icon">ОП.02 Техническая графика</a>
-				 <a href="/info/education/programs/15.01.25-(2014)-Станочник/ОП.03-Основы-электротехники.pdf" class="list-group-item link-icon">ОП.03 Основы электротехники</a>
-				 <a href="/info/education/programs/15.01.25-(2014)-Станочник/ОП.04.-Основы-материаловедения.pdf" class="list-group-item link-icon">ОП.04 Основы материаловедения</a>
-				 <a href="/info/education/programs/15.01.25-(2014)-Станочник/ОП.05Общие-основы-технологии-металлообработки.pdf" class="list-group-item link-icon">ОП.05 Общие основы технологии металлообработки</a>
-				 <a href="/info/education/programs/15.01.25-(2014)-Станочник/ОП.06--БЖД.pdf" class="list-group-item link-icon">ОП.06 БЖД</a>
-				 <a href="/info/education/programs/15.01.25-(2014)-Станочник/ОП.07-Основы-информационных-технологий-в-проф-деят-ти-(станочники)(2014-2015.pdf" class="list-group-item link-icon">ОП.07 Основы информационных технологий в профессиональной деятельности</a>
-				 <a href="/info/education/programs/15.01.25-(2014)-Станочник/ОП08-Основы-поиска-работы.pdf" class="list-group-item link-icon">ОП.08 Основы поиска работы, трудоустройство</a>
-				 <a href="/info/education/programs/15.01.25-(2014)-Станочник/ПМ.01.pdf" class="list-group-item link-icon">ПМ.01</a>
-				 <a href="/info/education/programs/15.01.25-(2014)-Станочник/ПМ.02.pdf" class="list-group-item link-icon">ПМ.02</a>
-				 <a href="/info/education/programs/15.01.25-(2014)-Станочник/ПП-ПМ.01.pdf" class="list-group-item link-icon">ПП ПМ.01</a>
-				 <a href="/info/education/programs/15.01.25-(2014)-Станочник/ПП.-ПМ.02.pdf" class="list-group-item link-icon">ПП ПМ.02</a>
-				 <a href="/info/education/programs/15.01.25-(2014)-Станочник/УП-ПМ.01.pdf" class="list-group-item link-icon">УП ПМ.01</a>
-				 <a href="/info/education/programs/15.01.25-(2014)-Станочник/УП-ПМ.02.pdf" class="list-group-item link-icon">УП ПМ.02</a>
-				 <a href="/info/education/programs/15.01.25-(2014)-Станочник/ФК.-Физическая-культура.pdf" class="list-group-item link-icon">ФК.00 Физическая культура</a>
-			 </div>
-			</div>
-		 <div id="eduAnot2"  class="list-group-item">
+		<div id="eduAnot2"  class="list-group-item">
 			 <div class="list-group-item-heading">
 				 <h6>
 					 23.01.10 Слесарь по обслуживанию и ремонту подвижного состава

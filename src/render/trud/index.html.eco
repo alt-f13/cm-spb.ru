@@ -94,9 +94,9 @@ pageOrder: 5
 	<div class="panel-heading">
 		<h3>
 			<i class="fa-users fa fa-2x fa-fw"></i>
-			Распределение выпускников
+			Распределение выпускников: 143
 			<small class="white pull-right label label-default">
-				июнь 2017г.
+				июнь 2018 г.
 			</small>
 		</h3>
 	</div>
@@ -125,29 +125,29 @@ pageOrder: 5
 			<tbody>
 				<tr>
 					<th>15.01.25 Станочник (металлообработка)</th>
-					<td>16</td>
-					<td>8</td>
+					<td>23</td>
+					<td>14</td>
 					<td>0</td>
-					<td>8</td>
+					<td>9</td>
 				</tr>
 				<tr>
 					<th>23.01.10 Слесарь по обслуживанию и ремонту подвижного состава</th>
-					<td>26</td>
-					<td>9</td>
+					<td>21</td>
+					<td>14</td>
 					<td>0</td>
-					<td>17</td>
+					<td>7</td>
 				</tr>
 				<tr>
 					<th>23.01.12 Слесарь-электрик метрополитена</th>
-					<td>19</td>
-					<td>7</td>
-					<td>1</td>
+					<td>24</td>
 					<td>11</td>
+					<td>0</td>
+					<td>13</td>
 				</tr>
 				<tr>
 					<th>23.01.13 Электромонтер тяговой подстанции</th>
-					<td>21</td>
-					<td>16</td>
+					<td>27</td>
+					<td>22</td>
 					<td>0</td>
 					<td>5</td>
 				</tr>
@@ -155,17 +155,24 @@ pageOrder: 5
 					<th>23.01.14 Электромонтер устройств сигнализации, централизации, блокировки (СЦБ)</th>
 					<td>23</td>
 					<td>14</td>
-					<td>1</td>
-					<td>8</td>
+					<td>0</td>
+					<td>9</td>
+				</tr>
+        <tr>
+					<th>27.02.03 Автоматика и телемеханика на транспорте (железнодорожном транспорте)</th>
+					<td>25</td>
+					<td>13</td>
+					<td>0</td>
+					<td>12</td>
 				</tr>
 			</tbody>
 			<tfoot>
 				<tr class="active">
 					<th>Итого:</th>
-					<td>105</td>
-					<td>54</td>
-					<td>2</td>
-					<td>49</td>
+					<td>143</td>
+					<td>88</td>
+					<td>0</td>
+					<td>55</td>
 				</tr>
 			</tfoot>
 		</table>
@@ -174,9 +181,9 @@ pageOrder: 5
 		<div class="panel-heading">
 			<h3>
 				<i class="fa-user fa fa-2x"></i>
-				Распределение выпускников  из числа сирот  2017 г.
+				Распределение выпускников  из числа сирот  2018 г.
 				<small class="white pull-right label label-info">
-					июнь 2017г.
+					июнь 2018 г.
 				</small>
 			</h3>
 		</div>
@@ -192,18 +199,18 @@ pageOrder: 5
 				</thead>
 				<tbody>
 					<tr>
-						<th>15.01.25 Станочник (металлообработка)</th>
+						<th>23.01.10 Слесарь по обслуживанию и ремонту подвижного состава</th>
+						<td>2</td>
 						<td>2</td>
 						<td>0</td>
 						<td>0</td>
-						<td>2</td>
 					</tr>
 					<tr>
 						<th>23.01.12 Слесарь-электрик метрополитена</th>
-						<td>2</td>
+						<td>3</td>
+						<td>1</td>
 						<td>0</td>
-						<td>1</td>
-						<td>1</td>
+						<td>2</td>
 					</tr>
 					<tr>
 						<th>23.01.14 Электромонтер устройств сигнализации, централизации, блокировки (СЦБ)</th>
@@ -216,10 +223,10 @@ pageOrder: 5
 				<tfoot>
 					<tr>
 						<th>Итого:</th>
-						<td>6</td>
-						<td>1</td>
-						<td>1</td>
+						<td>7</td>
 						<td>4</td>
+						<td>0</td>
+						<td>3</td>
 					</tr>
 				</tfoot>
 			</table>
@@ -232,7 +239,7 @@ pageOrder: 5
   </div>
 	<div class="list-group">
 		<a class="link-icon list-group-item" href="./plan2017.pdf">План работы ЦСТВ</a>
-		<a class="link-icon list-group-item" href="./report2017.pdf">Отчет о ЦСТВ</a>
+		<a class="link-icon list-group-item" href="./report2018.pdf">Отчет о ЦСТВ</a>
 		<a class="link-icon list-group-item" href="./vakansies.pdf">Вакансии для выпускников</a>
 		<a class="link-icon list-group-item" href="/info/%D0%BF%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BE-%D0%A6%D0%A1%D0%A2%D0%92.pdf">Положения о ЦСТВ</a>
 		<a class="link-icon list-group-item" href="/info/%D0%BF%D1%80%D0%B8%D0%BA%D0%B0%D0%B7.pdf">Приказ о создании ЦСТВ</a>
