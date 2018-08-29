@@ -40,11 +40,9 @@
 		</h5>
 	</div>
 	<div class="navbar-collapse collapse">
-
-
-
 	</div>
 </div> -->
+
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -72,7 +70,7 @@
 							Специальности
 						</a>
 				</li> -->
-				<li class="dropdown">
+			<li class="dropdown">
           <a href="/#programs" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Специальности <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="/pages/programs/avit.html">Автоматика и телемеханика</a></li>

@@ -2,7 +2,7 @@
 title: Новости
 menutitle: Новости
 layout: default
-pageOrder: 6
+pageOrder: 7
 ---
 <% image_exts = ['jpg', 'JPG', 'jpeg', 'JPEG', 'png', 'PNG'] %>
 
