@@ -46,7 +46,7 @@ standalone: true
                                <ul>
                                    <li>о структуре и об органах управления образовательной организации <a href="http://cm-spb.ru/info/structure2016.pdf" style="color:#0000ff">Ссылка</a></li>
                                    <li>наименование структурных подразделений <a href="http://cm-spb.ru" style="color:#0000ff">Структурные подразделения отсутствуют</a></li>
-                                   <li>наименование органов управления<a href="http://cm-spb.ru/info/samoobsled-2018.pdf#page=20" style="color:#0000ff">Ссылка</a></li>
+                                   <li>наименование органов управления <a href="http://cm-spb.ru/info/samoobsled-2018.pdf#page=20" style="color:#0000ff">Ссылка</a></li>
                                </ul>
                            </td>
                        </tr>
@@ -55,14 +55,14 @@ standalone: true
                           <td>
                           <a href="http://cm-spb.ru/info/index.html#doc" style="color:#0000ff">копии</a>:
                               <ul>
-                                  <li>устава <a href="http://cm-spb.ru/info/Устав.pdf" style="color:#0000ff">Ссылка</a></li>
-                                  <li>лицензии на осуществление образовательной деятельности<a href="http://cm-spb.ru/info/Лицензия.pdf" style="color:#0000ff">Ссылка</a></li>
-                                  <li>свидетельство о государственной аккредитации<a href="http://cm-spb.ru/info/accreditation2018.pdf" style="color:#0000ff">Ссылка</a></li>
-                                  <li>план финансово-хозяйственной деятельности<a href="http://cm-spb.ru/info/ПФХД2018.pdf" style="color:#0000ff">Ссылка</a></li>
-                                  <li>локальных нормативных актов<a href="http://cm-spb.ru/info/index.html#doc1" style="color:#0000ff">Ссылка</a></li>
-                                  <li>правила внутреннего распорядка обучающихся<a href="http://cm-spb.ru/info/education/polojenia/правила-внутреннего-распорядка-для-обучающихся.pdf" style="color:#0000ff">Ссылка</a></li>
-                                  <li>правила внутреннего трудового распорядка<a href="http://cm-spb.ru/info/education/polojenia/правила-внутреннего-распорядка-работников.pdf" style="color:#0000ff">Ссылка</a></li>
-                                  <li>отчет о результатах самообследования<a href="http://cm-spb.ru/info/samoobsled-2018.pdf" style="color:#0000ff">Ссылка</a></li>
+                                  <li>Устава <a href="http://cm-spb.ru/info/Устав.pdf" style="color:#0000ff">Ссылка</a></li>
+                                  <li>лицензии на осуществление образовательной деятельности <a href="http://cm-spb.ru/info/Лицензия.pdf" style="color:#0000ff">Ссылка</a></li>
+                                  <li>свидетельство о государственной аккредитации <a href="http://cm-spb.ru/info/accreditation2018.pdf" style="color:#0000ff">Ссылка</a></li>
+                                  <li>план финансово-хозяйственной деятельности <a href="http://cm-spb.ru/info/ПФХД2018.pdf" style="color:#0000ff">Ссылка</a></li>
+                                  <li>локальных нормативных актов <a href="http://cm-spb.ru/info/index.html#doc1" style="color:#0000ff">Ссылка</a></li>
+                                  <li>правила внутреннего распорядка обучающихся <a href="http://cm-spb.ru/info/education/polojenia/правила-внутреннего-распорядка-для-обучающихся.pdf" style="color:#0000ff">Ссылка</a></li>
+                                  <li>правила внутреннего трудового распорядка <a href="http://cm-spb.ru/info/education/polojenia/правила-внутреннего-распорядка-работников.pdf" style="color:#0000ff">Ссылка</a></li>
+                                  <li>отчет о результатах самообследования <a href="http://cm-spb.ru/info/samoobsled-2018.pdf" style="color:#0000ff">Ссылка</a></li>
                               </ul>
                           </td>
                       </tr>
@@ -70,9 +70,9 @@ standalone: true
                          <td> 4 </td>
                          <td>
                               <ul>
-                                 <li>форма договора об оказании платных услуг<a href="http://cm-spb.ru/info/dogovor2018.pdf" style="color:#0000ff">Ссылка</a></li>
-                                 <li>предписания органов, осуществляющих государственный контроль (надзор) в сфере образования<a href="http://cm-spb.ru/info/index.html#reglaments" style="color:#0000ff">Отсутствуют</a></li>
-                                 <li>иная информация<a href="http://cm-spb.ru/info/index.html#finance" style="color:#0000ff">Ссылка</a></li>
+                                 <li>форма договора об оказании платных услуг <a href="http://cm-spb.ru/info/dogovor2018.pdf" style="color:#0000ff">Ссылка</a></li>
+                                 <li>предписания органов, осуществляющих государственный контроль (надзор) в сфере образования <a href="http://cm-spb.ru/info/index.html#reglaments" style="color:#0000ff">Отсутствуют</a></li>
+                                 <li>иная информация <a href="http://cm-spb.ru/info/index.html#finance" style="color:#0000ff">Ссылка</a></li>
 
                              </ul>
                          </td>
@@ -84,13 +84,11 @@ standalone: true
                                 <li>об уровне образования <a href="http://cm-spb.ru/info/index.html#main-info" style="color:#0000ff">Ссылка</a></li>
                                 <li>о формах обучения, о нормативном сроке обучения <a href="http://cm-spb.ru/info/index.html#main-info" style="color:#0000ff">Ссылка</a></li>
                                 <li>о сроке действия государственной аккредитации образовательной программы <a href="http://cm-spb.ru/info/index.html#main-info" style="color:#0000ff">Ссылка</a></li>
-                                <li>об учебных планах<a href="http://cm-spb.ru/info/index.html#edu-plans" style="color:#0000ff">Ссылка</a></li>
-                                <li>об аннотации к рабочим программам дисциплин<a href="http://cm-spb.ru/info/index.html#edu1" style="color:#0000ff">Ссылка</a></li>
-                                <li>о календарном учебном графике<a href="http://cm-spb.ru/info/index.html#calGraph" style="color:#0000ff">Ссылка</a></li>
-                                <li>о методических и об иных документах, разработанных образовательной организацией для обеспечения образовательного процесса <a href="http://cm-spb.ru/info/education/polojenia/Положение-о-МЦК.pdf" style="color:#0000ff">Ссылка1</a>, <a href="http://cm-spb.ru/info/education/polojenia/Положение-о-Методическом-совете.pdf" style="color:#0000ff">Ссылка2</a></li>
-                                <li>о реализуемых образовательных программах<a href="http://cm-spb.ru/info/education/education-programs.pdf" style="color:#0000ff">Ссылка</a></li>
-                                <li>об аннотации к рабочим программам дисциплин<a href="http://cm-spb.ru/info/index.html#edu1" style="color:#0000ff">Ссылка</a></li>
-                                <li>об аннотации к рабочим программам дисциплин<a href="http://cm-spb.ru/info/index.html#edu1" style="color:#0000ff">Ссылка</a></li>
+                                <li>об учебных планах <a href="http://cm-spb.ru/info/index.html#edu-plans" style="color:#0000ff">Ссылка</a></li>
+                                <li>об аннотации к рабочим программам дисциплин <a href="http://cm-spb.ru/info/index.html#edu1" style="color:#0000ff">Ссылка</a></li>
+                                <li>о календарном учебном графике <a href="http://cm-spb.ru/info/index.html#calGraph" style="color:#0000ff">Ссылка</a></li>
+                                <li>о методических и об иных документах, разработанных образовательной организацией для обеспечения образовательного процесса <a href="http://cm-spb.ru/info/education/polojenia/Положение-о-МЦК.pdf" style="color:#0000ff">Ссылка 1</a>, <a href="http://cm-spb.ru/info/education/polojenia/Положение-о-Методическом-совете.pdf" style="color:#0000ff">Ссылка 2</a></li>
+                                <li>о реализуемых образовательных программах <a href="http://cm-spb.ru/info/education/education-programs.pdf" style="color:#0000ff">Ссылка</a></li>
                             </ul>
                         </td>
                     </tr>
@@ -98,7 +96,7 @@ standalone: true
                        <td> 6 </td>
                        <td>
                             <ul>
-                               <li>о федеральных государственных образовательных стандартах<a href="http://cm-spb.ru/info/index.html#fgos" style="color:#0000ff">Ссылка</a></li>
+                               <li>о Федеральных государственных образовательных стандартах <a href="http://cm-spb.ru/info/index.html#fgos" style="color:#0000ff">Ссылка</a></li>
 
                            </ul>
                        </td>
@@ -107,7 +105,6 @@ standalone: true
                       <td> 7 </td>
                       <td>
                            <ul>
-                              <li>об уровне образования <a href="http://cm-spb.ru/info/index.html#main-info" style="color:#0000ff">Ссылка</a></li>
                               <li>о поступлении финансовых и материальных средств и об их расходовании по итогам финансового года <a href="http://cm-spb.ru/info/finance-results2017.pdf" style="color:#0000ff">Ссылка</a></li>
                           </ul>
                       </td>
@@ -132,7 +129,7 @@ standalone: true
      </table>
 
 <br>
-Наличие на официальном сайте организации в сети Интернет сведений о пдагогических работниках организации
+Наличие на официальном сайте организации в сети Интернет сведений о педагогических работниках организации
 <br>
 
                <br>
@@ -155,7 +152,7 @@ standalone: true
                           <td> 2 </td>
                           <td>
                              <ul>
-                                  <li>сведения о персональном составе педагогических работников<a href="http://cm-spb.ru/people.html" style="color:#0000ff">Ссылка</a></li>
+                                  <li>сведения о персональном составе педагогических работников <a href="http://cm-spb.ru/people.html" style="color:#0000ff">Ссылка</a></li>
                              </ul>
                           </td>
                       </tr>
@@ -185,6 +182,31 @@ standalone: true
                    </table>
               <br>
 <br>
+Условия для индивидуальной работы с обучающимися
+<br>
+
+               <br>
+                      <table class="table table-bordered">
+                       <thead>
+                        <tr>
+                           <td>№ п/п</td>
+                           <td>Позиция оценивая</td>
+                        </tr>
+                        </thead>
+                        <tr>
+                           <td> 1 </td>
+                           <td>
+                              <ul>
+                                   <li>наличие кружков, спортивных секций, творческих коллективов <a href="http://cm-spb.ru/info/samoobsled-2018.pdf#page=15" style="color:#0000ff">Ссылка</a></li>
+                                   <li>проведение психологических и социологических исследований, опросов <a href="http://cm-spb.ru/info/samoobsled-2018.pdf#page=17" style="color:#0000ff">Ссылка</a></li>
+                                   <li>учет результатов анкетирования <a href="http://cm-spb.ru/info/anketa.html" style="color:#0000ff">Ссылка</a></li>
+                              </ul>
+                           </td>
+                       </tr>
+
+                   </table>
+              <br>
+<br>
 Материально-техническое и информационное обеспечение организации
 <br>
 
@@ -200,11 +222,11 @@ standalone: true
                            <td> 1 </td>
                            <td>
                               <ul>
-                                   <li>наличие оборудованных учебных кабинетов <a href="http://cm-spb.ru/info/samoobsled-2018.pdf#page=33" style="color:#0000ff">Ссылка1</a> , <a href="http://cm-spb.ru/info/index.html#machines" style="color:#0000ff">Ссылка2</a></li>
-                                   <li>наличие объектов для проведения практических занятий (лабораторий) <a href="http://cm-spb.ru/info/samoobsled-2018.pdf#page=33" style="color:#0000ff">Ссылка1</a> , <a href="http://cm-spb.ru/info/index.html#machines" style="color:#0000ff">Ссылка2</a></li>
-                                   <li>наличие библиотек <a href="http://cm-spb.ru/info/samoobsled-2018.pdf#page=32" style="color:#0000ff">Ссылка1</a> , <a href="http://cm-spb.ru/info/index.html#machines" style="color:#0000ff">Ссылка2</a></li>
-                                   <li>объектов спорта <a href="http://cm-spb.ru/info/samoobsled-2018.pdf#page=34" style="color:#0000ff">Ссылка1</a> , <a href="http://cm-spb.ru/info/index.html#machines" style="color:#0000ff">Ссылка2</a></li>
-                                   <li>средств обучения и воспитания, приспособленных для использования инвалидами и лицами с ограниченными возможностями здоровья<a href="http://cm-spb.ru/info/env.html" style="color:#0000ff">Ссылка</a></li>
+                                   <li>наличие оборудованных учебных кабинетов <a href="http://cm-spb.ru/info/samoobsled-2018.pdf#page=33" style="color:#0000ff">Ссылка 1</a> , <a href="http://cm-spb.ru/info/index.html#machines" style="color:#0000ff">Ссылка 2</a></li>
+                                   <li>наличие объектов для проведения практических занятий (лабораторий) <a href="http://cm-spb.ru/info/samoobsled-2018.pdf#page=33" style="color:#0000ff">Ссылка 1</a> , <a href="http://cm-spb.ru/info/index.html#machines" style="color:#0000ff">Ссылка 2</a></li>
+                                   <li>наличие библиотек <a href="http://cm-spb.ru/info/samoobsled-2018.pdf#page=32" style="color:#0000ff">Ссылка 1</a> , <a href="http://cm-spb.ru/info/index.html#machines" style="color:#0000ff">Ссылка 2</a></li>
+                                   <li>объектов спорта <a href="http://cm-spb.ru/info/samoobsled-2018.pdf#page=34" style="color:#0000ff">Ссылка 1</a> , <a href="http://cm-spb.ru/info/index.html#machines" style="color:#0000ff">Ссылка 2</a></li>
+                                   <li>средств обучения и воспитания, приспособленных для использования инвалидами и лицами с ограниченными возможностями здоровья <a href="http://cm-spb.ru/info/env.html" style="color:#0000ff">Ссылка</a></li>
                               </ul>
                            </td>
                        </tr>
@@ -226,39 +248,17 @@ standalone: true
                            <td> 1 </td>
                            <td>
                               <ul>
-                                   <li>обеспечение условий питания обучающихся, в том числе инвалидов и лиц с ограниченными возможностями здоровья <a href="http://cm-spb.ru/info/samoobsled-2018.pdf#page=34" style="color:#0000ff">Ссылка1</a> , <a href="http://cm-spb.ru/info/index.html#machines" style="color:#0000ff">Ссылка2</a></li>
-                                   <li>наличие медицинского кабинета <a href="http://cm-spb.ru/info/samoobsled-2018.pdf#page=34" style="color:#0000ff">Ссылка1</a> , <a href="http://cm-spb.ru/info/index.html#machines" style="color:#0000ff">Ссылка2</a></li>
-                                   <li>режим работы медицинского кабинета <a href="http://cm-spb.ru/info/samoobsled-2018.pdf#page=34" style="color:#0000ff">Ссылка</a> , <a href="http://cm-spb.ru/info/index.html#machines" style="color:#0000ff">Ссылка2</a></li>
-                                   <li>проведение дней здоровья<a href="http://cm-spb.ru/info/samoobsled-2018.pdf#page=34" style="color:#0000ff">Ссылка</a></li>
+                                   <li>обеспечение условий питания обучающихся, в том числе инвалидов и лиц с ограниченными возможностями здоровья <a href="http://cm-spb.ru/info/samoobsled-2018.pdf#page=34" style="color:#0000ff">Ссылка 1</a> , <a href="http://cm-spb.ru/info/index.html#machines" style="color:#0000ff">Ссылка 2</a></li>
+                                   <li>наличие медицинского кабинета <a href="http://cm-spb.ru/info/samoobsled-2018.pdf#page=34" style="color:#0000ff">Ссылка 1</a> , <a href="http://cm-spb.ru/info/index.html#machines" style="color:#0000ff">Ссылка 2</a></li>
+                                   <li>режим работы медицинского кабинета <a href="http://cm-spb.ru/info/samoobsled-2018.pdf#page=34" style="color:#0000ff">Ссылка 1</a> , <a href="http://cm-spb.ru/info/index.html#machines" style="color:#0000ff">Ссылка 2</a></li>
+                                   <li>проведение дней здоровья <a href="http://cm-spb.ru/info/samoobsled-2018.pdf#page=34" style="color:#0000ff">Ссылка</a></li>
                               </ul>
                            </td>
                        </tr>
                    </table>
               <br>
 <br>
-Условия для индивидуальной работы с обучающимися
-<br>
 
-               <br>
-                      <table class="table table-bordered">
-                       <thead>
-                        <tr>
-                           <td>№ п/п</td>
-                           <td>Позиция оценивая</td>
-                        </tr>
-                        </thead>
-                        <tr>
-                           <td> 1 </td>
-                           <td>
-                              <ul>
-                                   <li>наличие кружков, спортивных секций, творческих коллективов <a href="http://cm-spb.ru/info/samoobsled-2018.pdf#page=15" style="color:#0000ff">Ссылка</a></li>
-                                   <li>проведение психологических и социологических исследований, опросов <a href="http://cm-spb.ru/info/samoobsled-2018.pdf#page=17" style="color:#0000ff">Ссылка</a></li>
-                                   <li>учет результатов анкетирования <a href="http://cm-spb.ru/info/anketa.html" style="color:#0000ff">Ссылка</a></li>
-
-                              </ul>
-                           </td>
-                       </tr>
-                   </table>
               <br>
 <br>
 Наличие возможности развития творческих способностей и интересов обучающихся, включая их участие в конкурсах и олимпиадах, выставках, смотрах и других массовых мероприятиях
@@ -277,7 +277,7 @@ standalone: true
                            <td>
                               <ul>
                                    <li>наличие и полнота информации о конкурсах и олимпиадах (в том числе во всероссийских и международных) <a href="http://cm-spb.ru/info/samoobsled-2018.pdf#page=30" style="color:#0000ff">Ссылка</a></li>
-                                   <li>удельный вес численности учащихся, принявших участие в различных олимпиадах, смотрах, конкурсах в общей численности учащихся (кроме спортивных)<a href="http://cm-spb.ru/info/samoobsled-2018.pdf#page=40" style="color:#0000ff">Ссылка</a></li>
+                                   <li>удельный вес численности учащихся, принявших участие в различных олимпиадах, смотрах, конкурсах в общей численности учащихся (кроме спортивных) <a href="http://cm-spb.ru/info/samoobsled-2018.pdf#page=40" style="color:#0000ff">Ссылка</a></li>
                                    <li>наличие информации о победителях конкурсов, смотров (кроме спортивных) <a href="http://cm-spb.ru/info/konkyrs-prof.html" style="color:#0000ff">Ссылка</a></li>
                                    <li>удельный вес численности учащихся, принявших участие в спортивных олимпиадах, смотрах, конкурсах в общей численности учащихся <a href="http://cm-spb.ru/info/samoobsled-2018.pdf#page=40" style="color:#0000ff">Ссылка</a></li>
                                    <li>наличие информации о победителях спортивных соревнований и олимпиад <a href="http://cm-spb.ru/info/samoobsled-2018.pdf#page=40" style="color:#0000ff">Ссылка</a></li>
@@ -305,7 +305,7 @@ standalone: true
                            <td>
                               <ul>
                                    <li>наличие психолого-педагогического консультирования обучающихся, их родителей (законных представителей), педагогических работников <a href="http://cm-spb.ru/info/samoobsled-2018.pdf#page=17" style="color:#0000ff">Ссылка</a></li>
-                                   <li>помощь обучающимся в профориентации, получении профессии и социальной адаптации<a href="http://cm-spb.ru/trud/index.html" style="color:#0000ff">Ссылка</a></li>
+                                   <li>помощь обучающимся в профориентации, получении профессии и социальной адаптации <a href="http://cm-spb.ru/trud/index.html" style="color:#0000ff">Ссылка 1</a> , <a href="http://cm-spb.ru/trud/plan2018prof.pdf" style="color:#0000ff">Ссылка 2</a></li>
                               </ul>
                            </td>
                        </tr>
@@ -327,7 +327,7 @@ standalone: true
                            <td>
                               <ul>
                                    <li>оборудование территории, ее помещений, обеспечение условий доступности <a href="http://cm-spb.ru/info/env.html" style="color:#0000ff">Ссылка</a></li>
-                                   <li>наличие альтернативной версии официального сайта организации в сети Интернет для инвалидов по зрению<a href="http://cm-spb.ru" style="color:#0000ff">Кнопка переключения доступна из любой страницы сайта справой стороны</a></li>
+                                   <li>наличие альтернативной версии официального сайта организации в сети Интернет для инвалидов по зрению <a href="http://cm-spb.ru" style="color:#0000ff">Кнопка переключения доступна из любой страницы сайта справой стороны</a></li>
                               </ul>
                            </td>
                        </tr>
