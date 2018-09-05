@@ -8,7 +8,7 @@ standalone: true
 ---
 
 <div class="list-group">
-  <a class="link-icon list-group-item"  href="/info/anticoruption/дисциплины.pdf">Информация о введении в образовательный процесс учебных курсов, предметов, дисциплин (модулей), направленных на решение задач формирования антикоррупционного мировоззрения, повышения уровня правосознания и правовой культуры обучающихся в СПб ГБПОУ “Колледж метрополитена”</a>
+  <a class="link-icon list-group-item"  href="/anticoruption/дисциплины.pdf">Информация о введении в образовательный процесс учебных курсов, предметов, дисциплин (модулей), направленных на решение задач формирования антикоррупционного мировоззрения, повышения уровня правосознания и правовой культуры обучающихся в СПб ГБПОУ “Колледж метрополитена”</a>
 
   <div class="link-icon list-group-item">
 		<h6 class="list-group-item-heading">
@@ -21,9 +21,9 @@ standalone: true
 	</div>
 
 	<a class="link-icon list-group-item" href="/info/anticoruption/1.pdf">Перечень должностей,связанных с коррупцией</a>
-	<a class="link-icon list-group-item" href="/info/anticoruption/monitoring.pdf">Мониторинг</a>
-	<a class="link-icon list-group-item" href="/info/anticoruption/урегулирование-споров.pdf">Комиссия по урегулированию споров</a>
-	<a class="link-icon list-group-item" href="/info/anticoruption/anticorruption.pdf">Комиссия по противодействию коррупции</a>
-	<a class="link-icon list-group-item" href="/info/anticoruption/plan2018.pdf">План мероприятий</a>
+	<a class="link-icon list-group-item" href="/anticoruption/monitoring.pdf">Мониторинг</a>
+	<a class="link-icon list-group-item" href="/anticoruption/урегулирование-споров.pdf">Комиссия по урегулированию споров</a>
+	<a class="link-icon list-group-item" href="/anticoruption/anticorruption.pdf">Комиссия по противодействию коррупции</a>
+	<a class="link-icon list-group-item" href="/anticoruption/plan2018.pdf">План мероприятий</a>
 
 </div>
