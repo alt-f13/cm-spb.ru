@@ -238,7 +238,7 @@ pageOrder: 5
     <h3 class="panel-title">Документы</h3>
   </div>
 	<div class="list-group">
-		<a class="link-icon list-group-item" href="./plan2017.pdf">План работы ЦСТВ</a>
+		<a class="link-icon list-group-item" href="./plan2018.pdf">План работы ЦСТВ</a>
 		<a class="link-icon list-group-item" href="./report2018.pdf">Отчет о ЦСТВ</a>
 		<a class="link-icon list-group-item" href="./vakansies.pdf">Вакансии для выпускников</a>
 		<a class="link-icon list-group-item" href="/info/%D0%BF%D0%BE%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BE-%D0%A6%D0%A1%D0%A2%D0%92.pdf">Положения о ЦСТВ</a>
