@@ -93,8 +93,9 @@ $(document).ready(function(){uhpv(has)});
 		<i class="fa fa-low-vision fa-2x" ></i>версия для слабовидящих
 	</div>
 
+
 <nav class="navbar navbar-inverse navbar-fixed-top navbar-top gb-blue" role="navigation">
-  <div class="container-fluid  md-flex justify-center items-center">
+	 <div class="container-fluid  md-flex justify-center items-center">
     <div class="navbar-header flex ">
       <button type="button" class="navbar-toggle order-last flex-none" data-toggle="collapse" data-target="#navbar">
         <span class="sr-only">Toggle navigation</span>
@@ -177,6 +178,10 @@ $(document).ready(function(){uhpv(has)});
 			ga('send', 'pageview');
 
 	</script>
+
+	<script type="text/javascript" src="//esir.gov.spb.ru/static/widget/js/widget.js" charset="utf-8"></script>
+	<script>var eSi = {theme: "default", searchIsDisabled: true};</script>
+
 	<% end %>
 <%- @partial('footerOld') %>
 

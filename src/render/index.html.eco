@@ -3,7 +3,6 @@ layout: default
 standalone: true
 ---
 <div class="landing-page">
-
       <div class="parallax filter-gradient blue" data-color="blue">
           <div class="parallax-background">
               <img class="pull-right" src="/img/bg.building.png">
