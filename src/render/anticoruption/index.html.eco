@@ -20,7 +20,9 @@ standalone: true
 		</p>
 	</div>
 
-	<a class="link-icon list-group-item" href="/info/anticoruption/1.pdf">Перечень должностей,связанных с коррупцией</a>
+  <a href="https://rosmintrud.ru/ministry/anticorruption/legislation" class="link-icon list-group-item">"Федеральное законодательство"</a>
+	<a href="https://www.gov.spb.ru/gov/protivodejstvie-korrupcii/zakonodatelstvo/zakonodatelstvo-sankt-peterburga/" class="link-icon list-group-item">"Законодательство Санкт-Петербурга"</a>
+  <a href="http://k-obr.spb.ru/page/345" class="link-icon list-group-item">"Правовые акты Комитета по образованию, направленные на реализацию антикоррупционной политики"</a>
 	<a class="link-icon list-group-item" href="/anticoruption/monitoring.pdf">Мониторинг</a>
 	<a class="link-icon list-group-item" href="/anticoruption/урегулирование-споров.pdf">Комиссия по урегулированию споров</a>
 	<a class="link-icon list-group-item" href="/anticoruption/anticorruption.pdf">Комиссия по противодействию коррупции</a>
