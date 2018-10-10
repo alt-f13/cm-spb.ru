@@ -1,31 +1,48 @@
 ---
 layout: page
 title: Информация о реализации антикоррупционной политики
-menu2title: Антикоррупция
+menu2title: Противодействие коррупции
 pageOrder: 2
 standalone: true
 
 ---
+<div class="just-padding">
+<div class="list-group list-group-root well">
 
-<div class="list-group">
-  <a class="link-icon list-group-item"  href="/anticoruption/дисциплины.pdf">Информация о введении в образовательный процесс учебных курсов, предметов, дисциплин (модулей), направленных на решение задач формирования антикоррупционного мировоззрения, повышения уровня правосознания и правовой культуры обучающихся в СПб ГБПОУ “Колледж метрополитена”</a>
+      <div class="list-group">
+      <a href="#" class="list-group-item list-group-item-info">Нормативные правовые акты и иные акты в сфере противодействия коррупции</a>
+			<a href="http://rosmintrud.ru/ministry/anticorruption/legislation/" class="link-icon list-group-item">«Федеральное законодательство»</a>
+			<a href="http://www.gov.spb.ru/gov/protivodejstvie-korrupcii/zakonodatelstvo/zakonodatelstvo-sankt-peterburga/" class="link-icon list-group-item">«Законодательство Санкт-Петербурга»</a>
+			<a href="http://k-obr.spb.ru/page/345/" class="link-icon list-group-item">«Правовые акты Комитета по образованию, направленные на реализацию антикоррупционной политики»</a>
+			<a class="link-icon list-group-item" href="/anticoruption/plan.pdf">План работы СПБ ГБПОУ «Колледж метрополитена» по противодействию коррупции</a>
+			<a class="link-icon list-group-item" href="/anticoruption/kodeks.pdf">Кодекс профессиональной этики педагогических работников СПБ ГБПОУ «Колледж метрополитена»</a>
+			<a class="link-icon list-group-item" href="/anticoruption/prikaz-f.pdf">Приказ СПБ ГБПОУ «Колледж метрополитена» об утверждении перечня коррупционно опасных функций</a>
+			<a class="link-icon list-group-item" href="/anticoruption/prikaz-d.pdf">Приказ СПБ ГБПОУ «Колледж метрополитена» об утверждении перечня должностей, замещение которых связано с коррупционными рисками</a>
+      <a class="link-icon list-group-item" href="/anticoruption/prikaz-l.pdf">Приказ о назначении лица, ответственного за работу по профилактике коррупционных и иных правонарушений в СПБ ГБПОУ «Колледж метрополитена»</a>
+			<a class="link-icon list-group-item" href="/anticoruption/prikaz-m.pdf">Приказ о недопущении сбора денежных средств</a>
 
-  <div class="link-icon list-group-item">
-		<h6 class="list-group-item-heading">
-			<a href="http://www.zakon.gov.spb.ru/hot_line">Специальная линия «Нет коррупции»</a>
-		</h6>
-		<a class="btn  btn-primary pull-right btn-sm active" role="button" href="tel://88125767765"><i class="fa fa-phone fa-2x"></i>576-77-65</a>
-		<p class="list-group-item-text">
-			<%- @partial('lightbox', {images:['/images/KORRUPTION_avgust-A4.jpg','/images/KORRUPTION_VLTS-A4.jpg', '/images/KORRUPTION-A4.jpg'],title:['Антикоррупция']}) %>
-		</p>
-	</div>
+			<a href="#" class="list-group-item list-group-item-info">Комиссия по урегулированию споров между участниками образовательных отношений</a>
+			<a class="link-icon list-group-item" href="/anticoruption/prikaz-kom.pdf">Приказ СПБ ГБПОУ «Колледж метрополитена» о Комисии по урегулированию споров</a>
+			<a class="link-icon list-group-item" href="/anticoruption/poloz-kom.pdf">Положение СПБ ГБПОУ «Колледж метрополитена» о Комисии по урегулированию споров</a>
+			<a class="link-icon list-group-item" href="/anticoruption/poloz-kom.pdf">Порядок подачи заявлений для рассмотрения комиссией</a>
+			<a href="#" class="list-group-item list-group-item-danger">Заседания комиссии не проводились в связи с отсутствием оснований</a>
 
-  <a href="https://rosmintrud.ru/ministry/anticorruption/legislation" class="link-icon list-group-item">"Федеральное законодательство"</a>
-	<a href="https://www.gov.spb.ru/gov/protivodejstvie-korrupcii/zakonodatelstvo/zakonodatelstvo-sankt-peterburga/" class="link-icon list-group-item">"Законодательство Санкт-Петербурга"</a>
-  <a href="http://k-obr.spb.ru/page/345" class="link-icon list-group-item">"Правовые акты Комитета по образованию, направленные на реализацию антикоррупционной политики"</a>
-	<a class="link-icon list-group-item" href="/anticoruption/monitoring.pdf">Мониторинг</a>
-	<a class="link-icon list-group-item" href="/anticoruption/урегулирование-споров.pdf">Комиссия по урегулированию споров</a>
-	<a class="link-icon list-group-item" href="/anticoruption/anticorruption.pdf">Комиссия по противодействию коррупции</a>
-	<a class="link-icon list-group-item" href="/anticoruption/plan2018.pdf">План мероприятий</a>
+			<a href="#" class="list-group-item list-group-item-info">Комиссия по противодействию коррупции</a>
+			<a class="link-icon list-group-item" href="/anticoruption/prikaz-kor.pdf">Приказ СПБ ГБПОУ «Колледж метрополитена» о Комисии по противодействию коррупции</a>
+			<a class="link-icon list-group-item" href="/anticoruption/poloz-kor.pdf">Положение СПБ ГБПОУ «Колледж метрополитена» о Комисии по противодействию коррупции</a>
+      <a href="#" class="list-group-item list-group-item-danger">Заседания комиссии не проводились в связи с отсутствием оснований</a>
 
+			<a href="#" class="list-group-item list-group-item-info">Обратная связь для сообщений о фактах коррупции</a>
+			     <div class="link-icon list-group-item">
+				<h6 class="list-group-item-heading">
+					<a href="http://www.zakon.gov.spb.ru/hot_line">Специальная линия «Нет коррупции»</a>
+				</h6>
+				<a class="btn  btn-primary pull-right btn-sm active" role="button" href="tel://88125767765"><i class="fa fa-phone fa-2x"></i>576-77-65</a>
+				<p class="list-group-item-text">
+					<%- @partial('lightbox', {images:['/images/KORRUPTION_avgust-A4.jpg','/images/KORRUPTION_VLTS-A4.jpg', '/images/KORRUPTION-A4.jpg'],title:['Антикоррупция']}) %>
+				</p>
+			    </div>
+		  </div>
+			
+</div>
 </div>
