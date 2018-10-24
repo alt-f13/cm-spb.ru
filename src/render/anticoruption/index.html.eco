@@ -42,7 +42,12 @@ standalone: true
 					<%- @partial('lightbox', {images:['/images/KORRUPTION_avgust-A4.jpg','/images/KORRUPTION_VLTS-A4.jpg', '/images/KORRUPTION-A4.jpg'],title:['Антикоррупция']}) %>
 				</p>
 			    </div>
-		  </div>
-			
+
+					<a href="#" class="list-group-item list-group-item-info">Информационные материалы</a>
+					<a class="link-icon list-group-item" href="/anticoruption/1.pdf">Итоги тестирования обучающихся "Что я знаю о коррупции"</a>
+					<a class="link-icon list-group-item" href="/anticoruption/2.pdf">Результаты анкетирования участников образовательных отношений с целью выявления их уровня удовлетворенности организацией образовательного процесса</a>
+
+			</div>
+
 </div>
 </div>
