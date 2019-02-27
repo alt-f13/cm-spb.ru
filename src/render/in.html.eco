@@ -17,7 +17,7 @@ standalone: true
 	        <div class="row">
 	            <div class="col-lg-10 col-lg-offset-2">
 
-          <br>
+        <!--  <br>
                <h3><a href="/info/prikaz20181kyrs.pdf">Приказ о зачислении обучающихся на 1 курс СПб ГБПОУ "Колледж метрополитена"</a></h3>
            <br>
               <br>
@@ -83,11 +83,11 @@ standalone: true
                          </tr>
                        </table>
                     </center>
-              <br>
+              <br> -->
                 <h3>График работы приемной комиссии: пн-пт, 10:00 - 16:00</h3>
                 <h4>Телефон приемной комиссии: <a href="tel://+88127715909">771-59-09</a></h4>
 								<h4><a href="mailto:info@cm-spb.ru"><i class="fa fa-mail fa-2x"></i>info@cm-spb.ru</a></h4>
-             <br>
+          <!--   <br>
               <center>
                 <table class="table table-bordered">
                  <thead>
@@ -146,7 +146,7 @@ standalone: true
                      <td><a href="https://docs.google.com/spreadsheets/d/1mZpAmM4Tsf5-jqMz3slYjyF-KGWf15kTDqTkOSFrITc/edit?usp=sharing" style="color:#000080">Открыть</a></td>
                   </tr>
                 </table>
-              </center>
+              </center> -->
 	            </div>
 	        </div>
 	    </div>
