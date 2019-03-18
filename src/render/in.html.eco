@@ -22,10 +22,15 @@ standalone: true
            <br>
               <br>
                 <a href="/info/raspor-priem-18.pdf">Распоряжение Комитета по образованию Правительства Санкт-Петербурга № 3827-р от 13.12.2017  "О контрольных цифрах приема на обучение по профессиям, специальностям и образовательным программам основного общего образования в государственных профессиональных образовательных учреждениях, находящихся в ведении Комитета по образованию, за счет средств бюджета Санкт-Петербурга на 2018 год"</a>
-              <br>
-                    <center>
-                    <br>
-                       <table class="table table-bordered">
+              <br> -->
+							<h3>График работы приемной комиссии: пн-пт, 10:00 - 16:00</h3>
+							<h4>Телефон приемной комиссии: <a href="tel://+88127715909">771-59-09</a></h4>
+							<h4><a href="mailto:info@cm-spb.ru"><i class="fa fa-mail fa-2x"></i>info@cm-spb.ru</a></h4>
+							<h3>Информация о наличии общежития, интерната: общежитие, интернат отсутствует</h3>
+
+							<br>
+										<center>
+                     <table class="table table-bordered">
                         <thead>
                          <tr>
                             <td widht=10%>Код</td>
@@ -35,8 +40,8 @@ standalone: true
                          </tr>
                          </thead>
                          <tr>
-                            <td>09.02.04</td>
-                            <td>Информационные системы (по отраслям) <a href="http://cm-spb.ru/info/education/fgosSpo/09.02.04-%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B-(%D0%BF%D0%BE-%D0%BE%D1%82%D1%80%D0%B0%D1%81%D0%BB%D1%8F%D0%BC).pdf" style="color:#0000ff">ФГОС</a></td>
+                            <td>09.02.07</td>
+                            <td>Информационные системы и программирование <a href="http://cm-spb.ru/info/education/fgosSpo/09.02.04-%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B5-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B-(%D0%BF%D0%BE-%D0%BE%D1%82%D1%80%D0%B0%D1%81%D0%BB%D1%8F%D0%BC).pdf" style="color:#0000ff">ФГОС</a></td>
                             <td>25</td>
                             <td>0</td>
                          </tr>
@@ -53,7 +58,9 @@ standalone: true
                             <td>0</td>
                          </tr>
                        </table>
-               <br>
+
+							 <br>
+
                        <table class="table table-bordered">
                         <thead>
                          <tr>
@@ -77,16 +84,14 @@ standalone: true
                          </tr>
                          <tr>
                             <td>23.01.13</td>
-                            <td>Электромонтер тяговой подстанции <a href="http://cm-spb.ru/info/education/fgosSpo/23.01.13-%D0%AD%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BC%D0%BE%D0%BD%D1%82%D0%B5%D1%80-%D1%82%D1%8F%D0%B3%D0%BE%D0%B2%D0%BE%D0%B9-%D0%BF%D0%BE%D0%B4%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%B8.pdf" style="color:#0000ff">ФГОС</a></td>
+                            <td>Электромонтер устройств сигнализации, централизации, блокировки (СЦБ) <a href="http://www.cm-spb.ru/info/education/fgosSpo/23.01.14-Электромонтер-устройств-сигнализации,-централизации,-блокировки-(СЦБ).pdf" style="color:#0000ff">ФГОС</a></td>
                             <td>25</td>
                             <td>0</td>
                          </tr>
                        </table>
                     </center>
-              <br> -->
-                <h3>График работы приемной комиссии: пн-пт, 10:00 - 16:00</h3>
-                <h4>Телефон приемной комиссии: <a href="tel://+88127715909">771-59-09</a></h4>
-								<h4><a href="mailto:info@cm-spb.ru"><i class="fa fa-mail fa-2x"></i>info@cm-spb.ru</a></h4>
+              <br>
+
           <!--   <br>
               <center>
                 <table class="table table-bordered">
