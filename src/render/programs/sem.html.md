@@ -24,8 +24,9 @@ title: Слесарь-электрик метрополитена
     <h4 class="list-group-item-heading">
       23.01.12  Слесарь-электрик метрополитена</h4>
     <div class="list-group">
-      <a href="#" class="list-group-item">Выпускники получают <strong>среднее профессиональное образование</strong> с присвоением квалификации: <span class="badge info">слесарь-электрик по обслуживанию и ремонту эскалаторов</span></a>
-      <a href="#" class="list-group-item list-group-item-info">Срок обучения на базе основного общего образования составляет: <span class="badge">2 года 10 месяцев</span></a>
+      <a href="#" class="list-group-item">Выпускники получают <strong>среднее профессиональное образование</strong></a>
+      <a href="#" class="list-group-item">с присвоением квалификации: <span class="badge info">слесарь-электрик по обслуживанию и ремонту эскалаторов</span></a>
+			<a href="#" class="list-group-item list-group-item-info">Срок обучения на базе основного общего образования составляет: <span class="badge">2 года 10 месяцев</span></a>
       <a href="#" class="list-group-item list-group-item-success">Условия для поступления:			</a>
 
 				<div class="list-group">

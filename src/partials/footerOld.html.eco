@@ -19,11 +19,10 @@
 					</a>
 				</li>
 				<li>
-					<a class="uppercase footer-small white" href="http://k-obr.spb.ru/page/632">
-						<i class="fa fa-ban fa-fw inline-block"></i>
+					<a class="uppercase footer-small white" href="/info/inf-bez.html">
+						<i class="fa fa-laptop" aria-hidden="true"></i>
 						<div class="inline-block text-left align-middle">
-							Профилактика негативных явлений<br>
-							среди несовершеннолетних
+							информационная безопасность
 						</div>
 					</a>
 				</li>
