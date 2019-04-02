@@ -21,7 +21,7 @@ title: Информационные системы и программирова
 <div class="list-group list-group-root well">
   <a href="#" class="list-group-item">
     <h4 class="list-group-item-heading">
-      09.02.07 «Информационные системы и программирование</h4>
+      09.02.07 Информационные системы и программирование</h4>
     <div class="list-group">
       <a href="#" class="list-group-item">Выпускники получают <strong>среднее профессиональное образование</strong> с присвоением квалификации: <span class="badge info">техник</span></a>
       <a href="#" class="list-group-item list-group-item-info">Срок обучения на базе основного общего образования составляет: <span class="badge">3 года 10 месяцев</span></a>
