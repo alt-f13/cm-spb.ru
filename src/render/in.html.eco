@@ -91,8 +91,11 @@ standalone: true
                        </table>
                     </center>
               <br>
-
-          <!--   <br>
+          <hr>
+        	<a href="https://docs.google.com/spreadsheets/d/1BXqaUp39eZ718gmY3VUieBUxYJ6FzvC3okRpC6CTlHw/edit?usp=sharing" style="color:#000080">Количество поданных заявлений в СПБ ГБПОУ "Колледж метрополитена"</a>
+          <hr>
+						<br>
+						<br>
               <center>
                 <table class="table table-bordered">
                  <thead>
@@ -104,7 +107,7 @@ standalone: true
                   </tr>
                   </thead>
                   <tr>
-                     <td>09.02.04 Информационные системы (по отраслям)</td>
+                     <td>09.02.07 Информационные системы и программирование</td>
                      <td>9</td>
                      <td>25</td>
                      <td><a href="https://docs.google.com/spreadsheets/d/1RjEK4WTMZuZF0NjdwI2cdyd7VFCpzzHTKxafdHiF_eo/edit?usp=sharing" style="color:#000080">Открыть</a></td>
@@ -145,13 +148,13 @@ standalone: true
                      <td><a href="https://docs.google.com/spreadsheets/d/1DgaA_GUwpcud8Gi_vu2gTpRuHVfOE6GUm1BpYpQg6fA/edit?usp=sharing" style="color:#000080">Открыть</a></td>
                   </tr>
                   <tr>
-                     <td>23.01.13 Электромонтер тяговой подстанции</td>
+                     <td>23.01.14 Электромонтер устройств сигнализации, централизации, блокировки(СЦБ)</td>
                      <td>9</td>
                      <td>25</td>
                      <td><a href="https://docs.google.com/spreadsheets/d/1mZpAmM4Tsf5-jqMz3slYjyF-KGWf15kTDqTkOSFrITc/edit?usp=sharing" style="color:#000080">Открыть</a></td>
                   </tr>
                 </table>
-              </center> -->
+              </center>
 	            </div>
 	        </div>
 	    </div>
