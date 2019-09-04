@@ -17,7 +17,10 @@ standalone: true
 	        <div class="row">
 	            <div class="col-lg-10 col-lg-offset-2">
 
-        <!--  <br>
+        <!--
+        <hr>
+				   <strong><h2><font color="red">текст красным цветом </font></h2></strong>
+				<br>
                <h3><a href="/info/prikaz20181kyrs.pdf">Приказ о зачислении обучающихся на 1 курс СПб ГБПОУ "Колледж метрополитена"</a></h3>
            <br>
               <br>
@@ -90,7 +93,7 @@ standalone: true
                          </tr>
                        </table>
                     </center>
-              <br>
+            <!--  <br>
           <hr>
         	<a href="https://docs.google.com/spreadsheets/d/1BXqaUp39eZ718gmY3VUieBUxYJ6FzvC3okRpC6CTlHw/edit?usp=sharing" style="color:#000080">Количество поданных заявлений в СПБ ГБПОУ "Колледж метрополитена"</a>
           <hr>
@@ -154,7 +157,7 @@ standalone: true
                      <td><a href="https://docs.google.com/spreadsheets/d/1mZpAmM4Tsf5-jqMz3slYjyF-KGWf15kTDqTkOSFrITc/edit?usp=sharing" style="color:#000080">Открыть</a></td>
                   </tr>
                 </table>
-              </center>
+              </center> -->
 	            </div>
 	        </div>
 	    </div>
