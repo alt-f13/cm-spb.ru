@@ -26,6 +26,14 @@
 						</div>
 					</a>
 				</li>
+				<li>
+					<a class="uppercase footer-small white" href="/info/energy.html">
+						<i class="fa fa-bolt" aria-hidden="true"></i>
+						<div class="inline-block text-left align-middle">
+							Энергосбережение
+						</div>
+					</a>
+				</li>
 				<% for document in @getCollection('menu2').toJSON(): %>
 					<li>
 						<a class="uppercase footer-small white" href="<%= document.url %>">
