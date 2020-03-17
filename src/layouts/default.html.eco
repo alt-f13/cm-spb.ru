@@ -94,7 +94,7 @@ $(document).ready(function(){uhpv(has)});
 
 	</div>
 
-
+<!-- ВЕРСИЯ ДЛЯ СЛАБОВИДЯЩИХ платная-->
 <div id="finevision_banner" onclick="finevision.activate_navbar()" style="cursor: pointer; z-index: 9999; background-color: rgb(255, 255, 255); float: right; position: fixed; top: 0px; left: auto; right: 0px; background-position: initial initial; background-repeat: initial initial;"><img width="107" src="http://finevision.ru/static/banner2.jpg"><script src="http://finevision.ru/static/js/finevision_banner.js"></script></div>
 
 
