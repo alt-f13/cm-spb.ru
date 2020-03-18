@@ -44,9 +44,15 @@ standalone: true
 			    </div>
 
 					<a href="#" class="list-group-item list-group-item-info">Информационные материалы</a>
-					<a class="link-icon list-group-item" href="/anticoruption/1.pdf">Итоги тестирования обучающихся "Что я знаю о коррупции"</a>
-					<a class="link-icon list-group-item" href="/anticoruption/2.pdf">Результаты анкетирования участников образовательных отношений с целью выявления их уровня удовлетворенности организацией образовательного процесса</a>
-          <a class="link-icon list-group-item" href="/anticoruption/3.pdf">Мероприятия посвященные противодействию коррупции</a>
+					<a class="link-icon list-group-item" href="/anticoruption/1.pdf">Результаты анонимного анкетирования о коррупционных действиях</a>
+          <a href="#" class="list-group-item list-group-item-info">Мероприятия, посвященные противодействию коррупции</a>
+					<a class="link-icon list-group-item" href="/anticoruption/3.pdf">Классные часы в группах колледжа</a>
+					<a class="link-icon list-group-item" href="/anticoruption/5.pdf">Бинарный урок «Коррупция: история и современность»</a>
+					<a class="link-icon list-group-item" href="/anticoruption/6.pdf">Классный час «Коррупция - ее вред для меня, тебя и общества»</a>
+					<a class="link-icon list-group-item" href="/anticoruption/7.pdf">Классный час «Мы против коррупции»</a>
+					<a class="link-icon list-group-item" href="/anticoruption/8.pdf">Классный час «Правовые средства профилактики коррупции»</a>
+					<a class="link-icon list-group-item" href="/anticoruption/9.pdf">Классный час «Борьба с коррупцией на примере русских народных сказок «Колобок» и «Кот и лиса»</a>
+					<a class="link-icon list-group-item" href="/anticoruption/10.pdf">Классный час «Коррупция - эпидемия ХХI века»</a>
 					<a class="link-icon list-group-item" href="/anticoruption/4.pdf">Участие в городской научно-практической конференции "Актуальные вопросы реализации антикоррупционной политики в образовательных учреждениях Санкт-Петербурга"</a>
 
 			</div>
