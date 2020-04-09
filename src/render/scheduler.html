@@ -6,37 +6,10 @@ standalone: true
 menutitle: Расписание
 ---
 
-<div class="container-fluid" ng-controller="SchedulerCtrl">
-	<div class="page-header ">
-		<h1>
-			{{_doc.date}}
-		</h1>
-	</div>
-	<div class="row schedule">
-		<div class="table-responsive">
-			<table class='table table-bordered table-condensed table-striped schedule'>
-				<thead>
-					<tr>
-						<th width="25"></th>
-						<th ng-repeat="cols in _doc.grid.columns track by $index" width="60">{{cols}}</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr ng-repeat="row in _doc.grid.data track by $index">
-						<th>{{$index+1}}</th>
-						<td ng-repeat="col in _doc.grid.data[$index] track by $index" ng-class="_doc.cellStyle[$parent.$index][$index]=='grey' ? 'info':'' ">{{col}}</td>
-					</tr>
-				</tbody>
-			</table>
-		</div>
-	</div>
-</div>
-
-
-
-
-
-<script src="/js/scheduler.js" charset="utf-8"></script>
+<h3><a href="https://docs.google.com/spreadsheets/d/e/2PACX-1vQYB9CQv1jZWup6_slG8IlCTvoKQL8DoloVHrrwz693EI0ZhPwzDGJYBhe0cOFj-z_QLUSwsVofuj1z/pubhtml?widget=true&amp;headers=false">Расписание СПб ГБПОУ "Колледж метрополитена" для мобильных устройств</a></h3>
+<br>
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQYB9CQv1jZWup6_slG8IlCTvoKQL8DoloVHrrwz693EI0ZhPwzDGJYBhe0cOFj-z_QLUSwsVofuj1z/pubhtml?widget=true&amp;headers=false"width="1100" height="750"></iframe>
+<br>
 <br>
  * - изменения в расписании отслеживаются родителями (законными представителями) несовершеннолетнего самостоятельно
 <br>
