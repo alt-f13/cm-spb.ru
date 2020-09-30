@@ -39,8 +39,8 @@ standalone: true
 				</h6>
 				<a class="btn  btn-primary pull-right btn-sm active" role="button" href="tel://88125767765"><i class="fa fa-phone fa-2x"></i>576-77-65</a>
 				<p class="list-group-item-text">
-					<%- @partial('lightbox', {images:['/images/KORRUPTION_avgust-A4.jpg','/images/KORRUPTION_VLTS-A4.jpg', '/images/KORRUPTION-A4.jpg'],title:['Антикоррупция']}) %>
-				</p>
+					<%- @partial('lightbox', {images:['/images/KORRUPTION_avgust-A4.jpg','/images/KORRUPTION_VLTS-A4.jpg', '/images/KORRUPTION-A4.jpg'],title:['Противодействие коррупции']}) %>
+				</p> 
 			    </div>
 
 					<a href="#" class="list-group-item list-group-item-info">Информационные материалы</a>

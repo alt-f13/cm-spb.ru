@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Дорожная безопасность
-menu2title: Дорожная безопасность
+title: Дорожная безопасность, профилактика дорожной безопасности
+menu2title: Дорожная безопасность, профилактика дорожной безопасности
 pageOrder: 7
 standalone: true
 
@@ -21,5 +21,22 @@ standalone: true
 				<a class="link-icon list-group-item" href="/info/roads/8.pdf">Сценарий урока для 9-11 классов общеобразовательной школы в рамках кампании “Притормози”</a>
 			</div>
 		</div>
+
+		<div class="list-group-item list-group-item-danger">
+			<div id="roads2" class="list-group-item-heading">
+				<h6><i class="fa fa-fw fa-2x fa-road" aria-hidden="true"></i>Профилактика дорожной безопасности</h6>
+			</div>
+			<div class="link-icon list-group-item">
+			<div class="list-group">
+				 <p class="list-group-item-text">
+<%- @partial('lightbox', {images:['/info/roads/ygolok/1.jpg','/info/roads/ygolok/2.jpg', '/info/roads/ygolok/3.jpg', '/info/roads/ygolok/4.jpg'],title:['Уголок дорожной безопасности']}) %>
+			   </p>
+				 <p class="list-group-item-text">
+<%- @partial('lightbox', {images:['/info/roads/ygolok/5.jpg','/info/roads/ygolok/6.jpg', '/info/roads/ygolok/7.jpg', '/info/roads/ygolok/8.jpg'],title:['Уголок дорожной безопасности']}) %>
+			   </p>
+			</div>
+			</div>
+		</div>
+
 
 </div>
