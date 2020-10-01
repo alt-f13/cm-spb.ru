@@ -37,11 +37,11 @@ pageOrder: 5
 			<br>
 		</li>
 		<li class="list-group-item list-group-item-success">
-			В 2019-2020 учебном году:<br>
-				258 обучающихся колледжа (II, III, IV курс) проходят учебную и производственную практику в метрополитене (заключено 10 договоров)
+			В 2020-2021 учебном году:<br>
+				216 обучающихся колледжа (II, III, IV курс) проходят учебную и производственную практику в метрополитене (заключено 13 договоров)
 		</li>
 		<li class="list-group-item list-group-item-warning">
-			40 обучающихся направлены на практику на предприятия города
+			151 обучающийся проходят практику на предприятия города
 		</li>
 		<li class="list-group-item list-group-item-success">
 			<h4 class="list-group-item-heading">
@@ -94,9 +94,9 @@ pageOrder: 5
 	<div class="panel-heading">
 		<h3>
 			<i class="fa-users fa fa-2x fa-fw"></i>
-			Распределение выпускников: 134
+			Распределение выпускников: 152
 			<small class="white pull-right label label-default">
-				июнь 2019 г.
+				июнь 2020 г.
 			</small>
 		</h3>
 	</div>
@@ -125,54 +125,54 @@ pageOrder: 5
 			<tbody>
 								<tr>
 					<th>23.01.10 Слесарь по обслуживанию и ремонту подвижного состава</th>
-					<td>24</td>
-					<td>12</td>
-					<td>0</td>
-					<td>12</td>
-				</tr>
-				<tr>
-					<th>23.01.13 Электромонтер тяговой подстанции</th>
-					<td>25</td>
-					<td>19</td>
-					<td>0</td>
-					<td>5</td>
-				</tr>
-				<tr>
-					<th>23.01.14 Электромонтер устройств сигнализации, централизации, блокировки (СЦБ)</th>
-					<td>19</td>
-					<td>10</td>
-					<td>0</td>
-					<td>9</td>
-				</tr>
-				<tr>
-					<th>23.01.12 Слесарь-электрик метрополитена</th>
-					<td>20</td>
-					<td>11</td>
+					<td>26</td>
+					<td>17</td>
 					<td>1</td>
 					<td>8</td>
 				</tr>
+				<tr>
+					<th>23.01.13 Электромонтер тяговой подстанции</th>
+					<td>24</td>
+					<td>10</td>
+					<td>0</td>
+					<td>14</td>
+				</tr>
+				<tr>
+					<th>23.01.14 Электромонтер устройств сигнализации, централизации, блокировки (СЦБ)</th>
+					<td>28</td>
+					<td>11</td>
+					<td>3</td>
+					<td>14</td>
+				</tr>
+				<tr>
+					<th>09.02.04 Информационные системы (по отраслям)</th>
+					<td>23</td>
+					<td>16</td>
+					<td>0</td>
+					<td>7</td>
+				</tr>
         <tr>
 					<th>27.02.03 Автоматика и телемеханика на транспорте (железнодорожном транспорте)</th>
-					<td>24</td>
-					<td>18</td>
-					<td>0</td>
-					<td>6</td>
+					<td>25</td>
+					<td>11</td>
+					<td>1</td>
+					<td>13</td>
 				</tr>
 				<tr>
 					<th>13.02.07 Электроснабжение по отраслям</th>
-					<td>23</td>
-					<td>16</td>
-					<td>1</td>
-					<td>6</td>
+					<td>26</td>
+					<td>19</td>
+					<td>0</td>
+					<td>7</td>
 				</tr>
 			</tbody>
 			<tfoot>
 				<tr class="active">
 					<th>Итого:</th>
-					<td>134</td>
-					<td>86</td>
-					<td>2</td>
-					<td>46</td>
+					<td>152</td>
+					<td>84</td>
+					<td>5</td>
+					<td>63</td>
 				</tr>
 			</tfoot>
 		</table>
@@ -183,7 +183,7 @@ pageOrder: 5
 				<i class="fa-user fa fa-2x"></i>
 				Распределение выпускников  из числа сирот
 				<small class="white pull-right label label-info">
-					июнь 2019 г.
+					июнь 2020 г.
 				</small>
 			</h3>
 		</div>
@@ -199,23 +199,16 @@ pageOrder: 5
 				</thead>
 				<tbody>
 					<tr>
-						<th>23.01.10 Слесарь по обслуживанию и ремонту подвижного состава</th>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-						<td>0</td>
-					</tr>
-					<tr>
-						<th>23.01.12 Слесарь-электрик метрополитена</th>
+						<th>09.02.04 Информационные системы (по отраслям)</th>
+						<td>2</td>
 						<td>1</td>
-						<td>0</td>
 						<td>0</td>
 						<td>1</td>
 					</tr>
 					<tr>
 						<th>23.01.14 Электромонтер устройств сигнализации, централизации, блокировки (СЦБ)</th>
-						<td>0</td>
-						<td>0</td>
+						<td>1</td>
+						<td>1</td>
 						<td>0</td>
 						<td>0</td>
 					</tr>
@@ -223,8 +216,8 @@ pageOrder: 5
 				<tfoot>
 					<tr>
 						<th>Итого:</th>
-						<td>1</td>
-						<td>0</td>
+						<td>3</td>
+						<td>2</td>
 						<td>0</td>
 						<td>1</td>
 					</tr>
@@ -238,7 +231,7 @@ pageOrder: 5
     <h3 class="panel-title">Документы</h3>
   </div>
 	<div class="list-group">
-		<a class="link-icon list-group-item" href="./plan2019.pdf">План работы ЦСТВ</a>
+		<a class="link-icon list-group-item" href="./plan2020.pdf">План работы ЦСТВ</a>
 		<a class="link-icon list-group-item" href="./report2020.pdf">Отчет о ЦСТВ</a>
 		<a class="link-icon list-group-item" href="./vakansies.pdf">Вакансии для выпускников</a>
 		<a class="link-icon list-group-item" href="/info/education/polojenia/о-центре-содействию-трудоустройству-выпускников.pdf">Положения о ЦСТВ</a>
