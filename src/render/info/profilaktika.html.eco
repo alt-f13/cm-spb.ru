@@ -1,0 +1,48 @@
+---
+layout: page
+title: Меры профилактики коронавирусной инфекции и гриппа.
+menu2title: Меры профилактики коронавирусной инфекции и гриппа
+pageOrder: 9
+standalone: true
+
+---
+<div class="list-group">
+
+		<div class="list-group-item list-group-item-danger">
+				<div class="list-group">
+				  <a href="https://стопкоронавирус.рф" class="link-icon list-group-item">СТОПКОРОНАВИРУС.РФ Официальная информация о коронавирусе в России</a>
+					<a href="https://www.gov.spb.ru/covid-19/" class="link-icon list-group-item">Петербург против коронавируса. Официальная информация</a>
+					<a href="https://covid19.rosminzdrav.ru" class="link-icon list-group-item">Профилактика коронавируса: МИНИСТЕРСТВО ЗДРАВООХРАНЕНИЯ РОССИЙСКОЙ ФЕДЕРАЦИИ</a>
+					<a href="https://www.rospotrebnadzor.ru/activities/recommendations/details.php?ELEMENT_ID=2520" class="link-icon list-group-item">ГРИПП: симптомы и профилактика</a>
+					<a href="https://www.rospotrebnadzor.ru/activities/recommendations/details.php?ELEMENT_ID=11540" class="link-icon list-group-item">РЕКОМЕНДАЦИИ ГРАЖДАНАМ ПО ПРОФИЛАКТИКЕ ГРИППА И ОРВИ</a>
+					<a href="https://www.gov.spb.ru/vakcinaciya-2020/" class="link-icon list-group-item">Вакцинация от гриппа 2020</a>
+					<a href="https://minzdrav.gov.ru/news/2020/09/11/14894-rekomendatsii-minzdrava-rossii-po-profilaktike-grippa-i-orvi-v-osenniy-period" class="link-icon list-group-item">Рекомендации Минздрава России по профилактике гриппа и ОРВИ в осенний период</a>
+					<a href="http://cgon.rospotrebnadzor.ru/content/16/3982/?sphrase_id=831476" class="link-icon list-group-item">Грипп, коронавирус, другие ОРВИ – поможет маска!</a>
+					<a href="http://cgon.rospotrebnadzor.ru/content/63/4457/?sphrase_id=831476" class="link-icon list-group-item">Грипп: часто задаваемые вопросы</a>
+					<a href="https://стопкоронавирус.рф/ai/doc/508/attach/izobraxhenie_sdelano_01.09.2020_v_10.24.jpeg" class="link-icon list-group-item">Памятка Роспотребнадзора по профилактике заболеваний</a>
+					<a href="https://стопкоронавирус.рф/ai/doc/551/attach/1980h1000_ZachemMaski_1_.jpg" class="link-icon list-group-item">Памятка Роспотребнадзора об эффективности ношения медицинских масок</a>
+					<a href="https://стопкоронавирус.рф/ai/doc/97/attach/moshenniki_2_.pdf" class="link-icon list-group-item">Памятка Роспотребнадзора как не попасться на уловки мошенников в условиях пандемии коронавируса</a>
+					<a href="https://стопкоронавирус.рф/ai/doc/10/attach/10.jpg" class="link-icon list-group-item">Памятка Роспотребнадзора основные различия между симптомами коронавируса, простудных заболеваний и гриппа</a>
+					<a href="https://стопкоронавирус.рф/what-to-do/students/" class="link-icon list-group-item">Памятка что предпринять обучающимся?</a>
+
+			</div>
+		</div>
+
+	<!--	<div class="list-group-item list-group-item-danger">
+			<div id="roads2" class="list-group-item-heading">
+				<h6><i class="fa fa-fw fa-2x fa-road" aria-hidden="true"></i>Профилактика дорожной безопасности</h6>
+			</div>
+			<div class="link-icon list-group-item">
+			<div class="list-group">
+				 <p class="list-group-item-text">
+<%- @partial('lightbox', {images:['/info/roads/ygolok/1.jpg','/info/roads/ygolok/2.jpg', '/info/roads/ygolok/3.jpg', '/info/roads/ygolok/4.jpg'],title:['Уголок дорожной безопасности']}) %>
+			   </p>
+				 <p class="list-group-item-text">
+<%- @partial('lightbox', {images:['/info/roads/ygolok/5.jpg','/info/roads/ygolok/6.jpg', '/info/roads/ygolok/7.jpg', '/info/roads/ygolok/8.jpg'],title:['Уголок дорожной безопасности']}) %>
+			   </p>
+			</div>
+		</div>
+		</div> -->
+
+
+</div>
