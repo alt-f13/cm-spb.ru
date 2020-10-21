@@ -15,7 +15,7 @@ standalone: true
 			<a href="http://www.gov.spb.ru/gov/protivodejstvie-korrupcii/zakonodatelstvo/zakonodatelstvo-sankt-peterburga/" class="link-icon list-group-item">«Законодательство Санкт-Петербурга»</a>
 			<a href="http://k-obr.spb.ru/page/345/" class="link-icon list-group-item">«Правовые акты Комитета по образованию, направленные на реализацию антикоррупционной политики»</a>
 			<a class="link-icon list-group-item" href="/anticoruption/plan.pdf">План работы СПБ ГБПОУ «Колледж метрополитена» по противодействию коррупции</a>
-			<a class="link-icon list-group-item" href="/anticoruption/kodeks.pdf">Кодекс профессиональной этики педагогических работников СПБ ГБПОУ «Колледж метрополитена»</a>
+			<a class="link-icon list-group-item" href="/info/education/polojenia/kodeks-proff-etiki-ped-rab.pdf">Кодекс профессиональной этики педагогических работников СПБ ГБПОУ «Колледж метрополитена»</a>
 			<a class="link-icon list-group-item" href="/anticoruption/prikaz-f.pdf">Приказ СПБ ГБПОУ «Колледж метрополитена» об утверждении перечня коррупционно опасных функций</a>
 			<a class="link-icon list-group-item" href="/anticoruption/prikaz-d.pdf">Приказ СПБ ГБПОУ «Колледж метрополитена» об утверждении перечня должностей, замещение которых связано с коррупционными рисками</a>
       <a class="link-icon list-group-item" href="/anticoruption/prikaz-l.pdf">Приказ о назначении лица, ответственного за работу по профилактике коррупционных и иных правонарушений в СПБ ГБПОУ «Колледж метрополитена»</a>
@@ -23,8 +23,8 @@ standalone: true
 
 			<a href="#" class="list-group-item list-group-item-info">Комиссия по урегулированию споров между участниками образовательных отношений</a>
 			<a class="link-icon list-group-item" href="/anticoruption/prikaz-kom.pdf">Приказ СПБ ГБПОУ «Колледж метрополитена» о Комисии по урегулированию споров</a>
-			<a class="link-icon list-group-item" href="/anticoruption/poloz-kom.pdf">Положение СПБ ГБПОУ «Колледж метрополитена» о Комисии по урегулированию споров</a>
-			<a class="link-icon list-group-item" href="/anticoruption/poloz-kom.pdf">Порядок подачи заявлений для рассмотрения комиссией</a>
+			<a class="link-icon list-group-item" href="/info/education/polojenia/yregylirovanie-sporov-mej-ychastnikami-komissiya.pdf">Положение СПБ ГБПОУ «Колледж метрополитена» о Комисии по урегулированию споров</a>
+			<a class="link-icon list-group-item" href="/info/education/polojenia/yregylirovanie-sporov-mej-ychastnikami-komissiya.pdf">Порядок подачи заявлений для рассмотрения комиссией</a>
 			<a href="#" class="list-group-item list-group-item-danger">Заседания комиссии не проводились в связи с отсутствием оснований</a>
 
 			<a href="#" class="list-group-item list-group-item-info">Комиссия по противодействию коррупции</a>
@@ -40,7 +40,7 @@ standalone: true
 				<a class="btn  btn-primary pull-right btn-sm active" role="button" href="tel://88125767765"><i class="fa fa-phone fa-2x"></i>576-77-65</a>
 				<p class="list-group-item-text">
 					<%- @partial('lightbox', {images:['/images/KORRUPTION_avgust-A4.jpg','/images/KORRUPTION_VLTS-A4.jpg', '/images/KORRUPTION-A4.jpg'],title:['Противодействие коррупции']}) %>
-				</p> 
+				</p>
 			    </div>
 
 					<a href="#" class="list-group-item list-group-item-info">Информационные материалы</a>

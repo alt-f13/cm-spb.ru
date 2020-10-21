@@ -13,10 +13,10 @@
     <a class="link-icon list-group-item" href="/info/programma-mod.pdf">Программа модернизации Санкт-Петербургского государственного бюджетного профессионального образовательного учреждения «Колледж метрополитена»</a>
 		<a class="list-group-item" href="/info/ПФХД.pdf"><i class="fa fa-fw fa-balance-scale" aria-hidden="true"></i> План финансово-хозяйственной деятельности 2019-2021</a>
 		<a class="link-icon list-group-item" href="/info/priem/pravila-priema-2020.pdf">Правила приёма в Санкт-Петербургское государственное бюджетное профессиональное образовательное учреждение «Колледж метрополитена»</a>
-    <a class="link-icon list-group-item" href="/info/education/polojenia/правила-внутреннего-распорядка-для-обучающихся.pdf">Правила внутреннего распорядка для обучающихся</a>
-		<a class="link-icon list-group-item" href="/info/education/polojenia/правила-внутреннего-распорядка-работников.pdf">Правила внутреннего трудового распорядка для работников</a>
+    <a class="link-icon list-group-item" href="/info/education/polojenia/pravila-vnutr-rasporyadka-students.pdf">Правила внутреннего распорядка для обучающихся</a>
+		<a class="link-icon list-group-item" href="/info/education/polojenia/pravila-vnutr-trud-rasporyadka-rabotnikov.pdf">Правила внутреннего трудового распорядка для работников</a>
 		<a class="link-icon list-group-item" href="/info/samoobsled-2020.pdf">Cамообследование 2019-2020 учебный год</a>
-		<a href="/info/education/polojenia/о-правилах-оказания-платных-образовательных-услуг.pdf" class="list-group-item"><i class="fa fa-fw fa-money" aria-hidden="true"></i> Положение о правилах оказания платных образовательных услуг</a>
+		<a href="/info/education/polojenia/pravila-okazaniya-platnx-obrazovatelx-uslug.pdf" class="list-group-item"><i class="fa fa-fw fa-money" aria-hidden="true"></i> Положение о правилах оказания платных образовательных услуг</a>
 		<a class="link-icon list-group-item" href="/info/govTask2020.pdf">Государственное задание</a>
 		<a class="link-icon list-group-item" href="/info/public-otchet2020.pdf">Публичный доклад о результатах деятельности в 2019-2020 учебном году</a>
 		<a class="link-icon list-group-item" href="/info/konkyrs-prof.html">КОНКУРС ПРОФЕССИОНАЛЬНОГО МАСТЕРСТВА "Шаг в профессию"</a>
@@ -45,39 +45,42 @@
 				</h6>
 			</div>
 			<div class="list-group">
-				<a href="/info/education/polojenia/кодекс-профессиональной-этики-педагогических-работников.pdf" class="list-group-item link-icon">Кодекс профессиональной этики педагогических работников</a>
-				<a href="/info/education/polojenia/о-Комиссии-по-урегулированию-споров-между-участниками-образоват-отношений.pdf" class="list-group-item link-icon">Положение о Комиссии по урегулированию споров между участниками образовательных отношений</a>
-				<a href="/info/education/polojenia/о-материальном-стимулировании-работников.pdf" class="list-group-item link-icon">Положение о материальном стимулировании работников</a>
-				<a href="/info/education/polojenia/о-системе-оплаты-труда.pdf" class="list-group-item link-icon">Положение о системе оплаты труда</a>
-				<a href="/info/education/polojenia/о-привлечении-и-расходовании-внебюджетных-средств.pdf" class="list-group-item link-icon">Положение о порядке привлечения и расходования внебюджетных средств</a>
-				<a href="/info/education/polojenia/о-мерах-стимулирования-и-иных-мерах-материальной-поддержки-студентов.pdf" class="list-group-item link-icon">Положение о мерах стимулирования и иных мерах материальной поддержки студентов</a>
-				<a href="/info/education/polojenia/о-порядке-доступа-педагогических-раб--к-итс-и-базам-данных.pdf" class="list-group-item link-icon">Положение о порядке доступа педагогических работников к итс и базам данных</a>
-				<a href="/info/education/polojenia/о-порядке-оформления-возникновения-отношений.pdf" class="list-group-item link-icon">Положение о порядке оформления возникновения отношений</a>
-				<a href="/info/education/polojenia/о-порядке-посещения-обучающимися-по-своему-выбору-мероприятий.pdf" class="list-group-item link-icon">Положение о порядке посещения обучающимися по своему выбору мероприятий</a>
-				<a href="/info/education/polojenia/о-порядке-реализации-прав-обучающихся.pdf" class="list-group-item link-icon">Положение о порядке реализации прав обучающихся</a>
-				<a href="/info/education/polojenia/о-порядке-реализации-права-педагогических-работников-на-бесплатное-пользование.pdf" class="list-group-item link-icon">Положение о порядке реализации права педагогических работников на бесплатное пользование</a>
-				<a href="/info/education/polojenia/о-правилах-оказания-платных-образовательных-услуг.pdf" class="list-group-item link-icon">Положение о правилах оказания платных образовательных услуг</a>
-				<a href="/info/education/polojenia/о-проведении-аттестации-педагогических-работников.pdf" class="list-group-item link-icon">Положение о проведении аттестации педагогических работников</a>
-				<a href="/info/education/polojenia/о-проведении-текущего,-рубежного-контроля.pdf" class="list-group-item link-icon">Положение о проведении текущего, рубежного контроля и промежуточной аттестации</a>
-				<a href="/info/education/polojenia/о-соотношении-учебной-(преподавательской)-и-другой-педагогической-работы.pdf" class="list-group-item link-icon">Положение о соотношении учебной (преподавательской) и другой педагогической работы</a>
-				<a href="/info/education/polojenia/о-центре-содействию-трудоустройству-выпускников.pdf" class="list-group-item link-icon">Положение о центре содействию трудоустройству выпускников</a>
-				<a href="/info/education/polojenia/об-организации-и-осуществлении-образовательной-деятельности.pdf" class="list-group-item link-icon">Положение об организации и осуществлении образовательной деятельности</a>
-				<a href="/info/education/polojenia/по-организации-и-проведению-лабораторных-работ.pdf" class="list-group-item link-icon">Положение по организации и проведению лабораторных работ</a>
-				<a href="/info/education/polojenia/Положение-о-делопроизводстве.pdf" class="list-group-item link-icon">Положение о делопроизводстве</a>
-				<a href="/info/education/polojenia/Положение-о-учет.pdf" class="list-group-item link-icon">Положение о внутриколледжном учете обучающихся, нуждающихся в индивидуальной профилактической работе</a>
-				<a href="/info/education/polojenia/Положение-о-порядке-применения-мер.pdf" class="list-group-item link-icon">Положение о порядке применения к обучающимся мер дисциплинарного воздействия</a>
-				<a href="/info/education/polojenia/Положение-об-организационной-структуре.pdf" class="list-group-item link-icon">Положение об организационной структуре</a>
-				<a href="/info/education/polojenia/Положение-о-Совете-обучающихся.pdf" class="list-group-item link-icon">Положение о совете обучающихся</a>
-				<a href="/info/education/polojenia/Положение-о-Совете-профилактики.pdf" class="list-group-item link-icon">Положение о совете профилактики</a>
-				<a href="/info/education/polojenia/Положение-о-Попечительском-совете.pdf" class="list-group-item link-icon">Положение о попечительском совете</a>
-				<a href="/info/education/polojenia/Положение-о-Педагогическом-совете.pdf" class="list-group-item link-icon">Положение о педагогическом совете</a>
-				<a href="/info/education/polojenia/Положение-о-Методическом-совете.pdf" class="list-group-item link-icon">Положение о методическом совете</a>
-        <a href="/info/education/polojenia/Положение-о-МЦК.pdf" class="list-group-item link-icon">Положение о методической комиссии</a>
-				<a href="/info/education/polojenia/gorachie-pitanie.pdf" class="list-group-item link-icon">Положение об организации обслуживания горячим питанием обучающихся</a>
-				<a href="/info/education/polojenia/Положение-о-библиотеке.pdf" class="list-group-item link-icon">Положение о библиотеке</a>
-				<a href="/info/education/polojenia/Приказ-о-запрете-курения.pdf" class="list-group-item link-icon">Приказ о запрете курения</a>
-				<a href="/info/education/polojenia/Положение-о-защите-персональных-данных.pdf" class="list-group-item link-icon">Положение о защите персональных данных</a>
-				<a href="/info/education/polojenia/Положение-о-контент-фильтрации.pdf" class="list-group-item link-icon">Положение о функционировании средств контентной фильтрации доступа к сети Интернет</a>
+				<a href="/info/education/polojenia/kodeks-proff-etiki-ped-rab.pdf" class="list-group-item link-icon">Кодекс профессиональной этики педагогических работников</a>
+				<a href="/info/education/polojenia/yregylirovanie-sporov-mej-ychastnikami-komissiya.pdf" class="list-group-item link-icon">Положение о Комиссии по урегулированию споров между участниками образовательных отношений</a>
+				<a href="/info/education/polojenia/materialnoe-stimulirovanie-rabotnikov.pdf" class="list-group-item link-icon">Положение о материальном стимулировании работников</a>
+				<a href="/info/education/polojenia/oplata-truda.pdf" class="list-group-item link-icon">Положение о системе оплаты труда</a>
+				<a href="/info/education/polojenia/poryadok-privlecheniya-i-rasxodovania-vnebudjetnx-sredstv.pdf" class="list-group-item link-icon">Положение о порядке привлечения и расходования внебюджетных средств</a>
+				<a href="/info/education/polojenia/stipendialnom-obespechenii-i-inx-merax-stimulirovaniya-i-mat-podderjki.pdf" class="list-group-item link-icon">Положение о мерах стимулирования и иных мерах материальной поддержки студентов</a>
+				<a href="/info/education/polojenia/poryadok-dostupa-ped-rab-k-it-setyam-bd-uch-metod-materialam.pdf" class="list-group-item link-icon">Положение о порядке доступа педагогических работников к итс и базам данных</a>
+				<a href="/info/education/polojenia/poryadok-oformleniya-vozniknoveniya-priostonovleniya-i-prekrasheniya-otnoshenii.pdf" class="list-group-item link-icon">Положение о порядке оформления возникновения отношений</a>
+				<a href="/info/education/polojenia/poryadok-posesheniya-obuchaushimicya-po-svoemu-vboru-meropriyatii.pdf" class="list-group-item link-icon">Положение о порядке посещения обучающимися по своему выбору мероприятий</a>
+				<a href="/info/education/polojenia/poryadok-realizacii-prav-obuchaushixsya.pdf" class="list-group-item link-icon">Положение о порядке реализации прав обучающихся</a>
+				<a href="/info/education/polojenia/poryadok-realizacii-prava-ped-rab-na-besplatnoe-pilzovanie-obr-metod-nay-yslygami.pdf" class="list-group-item link-icon">Положение о порядке реализации права педагогических работников на бесплатное пользование</a>
+				<a href="/info/education/polojenia/pravila-okazaniya-platnx-obrazovatelx-uslug.pdf" class="list-group-item link-icon">Положение о правилах оказания платных образовательных услуг</a>
+				<a href="/info/education/polojenia/provedenie-attestacii-pedagog-rabotnikov.pdf" class="list-group-item link-icon">Положение о проведении аттестации педагогических работников</a>
+				<a href="/info/education/polojenia/provedenie-tekushego-rybejnogo-prom-attestat-FGOS-3.pdf" class="list-group-item link-icon">Положение о проведении текущего, рубежного контроля и промежуточной аттестации</a>
+				<a href="/info/education/polojenia/sootnoshenie-uchebnoi-i-drugoi-ped-rab-v-predelax-cm-spb.pdf" class="list-group-item link-icon">Положение о соотношении учебной (преподавательской) и другой педагогической работы</a>
+				<a href="/info/education/polojenia/poryadok-perezacheta-ychebnx-predmetov-kyrsov-disciplin-praktiki.pdf" class="list-group-item link-icon">Положение о порядке перезачета учебных предметов, курсов, дисциплин, (модулей), практики по дополнительным профессиональным программам</a>
+				<a href="/info/education/polojenia/tekusheii-kontrol-yspevaimosti-i-promejytochnoi-attestacii.pdf" class="list-group-item link-icon">Положение о текущем контроле успеваемости и промежуточной аттестации обучающихся по дополнительным общеобразовательным программам</a>
+				<a href="/info/education/polojenia/cstv.pdf" class="list-group-item link-icon">Положение о центре содействию трудоустройству выпускников</a>
+				<a href="/info/education/polojenia/organizaciya-i-osushestvlenie-obr-deyatelnosti-po-obr-prog-spo.pdf" class="list-group-item link-icon">Положение об организации и осуществлении образовательной деятельности</a>
+				<a href="/info/education/polojenia/organizaciya-i-provedenie-lab-i-prakt-zanyatii.pdf" class="list-group-item link-icon">Положение по организации и проведению лабораторных и практических занятий</a>
+				<a href="/info/education/polojenia/deloproizvodstvo.pdf" class="list-group-item link-icon">Положение о делопроизводстве</a>
+				<a href="/info/education/polojenia/vnutrinii-uchet-obuchaushixsya-individ-prof-rabota.pdf" class="list-group-item link-icon">Положение о внутриколледжном учете обучающихся, нуждающихся в индивидуальной профилактической работе</a>
+				<a href="/info/education/polojenia/poryadok-primeneniya-k-obychashimsya-mer-disciplinarnogo-vozdeistviya.pdf" class="list-group-item link-icon">Положение о порядке применения к обучающимся мер дисциплинарного воздействия</a>
+				<a href="/info/education/polojenia/organizacionnaya-struktura.pdf" class="list-group-item link-icon">Положение об организационной структуре</a>
+				<a href="/info/education/polojenia/obshee-sobranie-rabotnikov-i-obuchaushixsya.pdf" class="list-group-item link-icon">Положение об общем собрании работников и обучающихся</a>
+				<a href="/info/education/polojenia/studentcheskii-sovet-sovet-obuchauxsya.pdf" class="list-group-item link-icon">Положение о совете обучающихся</a>
+				<a href="/info/education/polojenia/sovet-profilaktiki.pdf" class="list-group-item link-icon">Положение о совете профилактики</a>
+				<a href="/info/education/polojenia/popechitelskii-sovet.pdf" class="list-group-item link-icon">Положение о попечительском совете</a>
+				<a href="/info/education/polojenia/pedagogicheskii-sovet.pdf" class="list-group-item link-icon">Положение о педагогическом совете</a>
+				<a href="/info/education/polojenia/metodicheskii-sovet.pdf" class="list-group-item link-icon">Положение о методическом совете</a>
+        <a href="/info/education/polojenia/metodicheskaya-cikl-komissiya.pdf" class="list-group-item link-icon">Положение о методической цикловой комиссии</a>
+				<a href="/info/education/polojenia/gorachie-pitanie-cm.pdf" class="list-group-item link-icon">Положение об организации обслуживания горячим питанием обучающихся</a>
+				<a href="/info/education/polojenia/biblioteka.pdf" class="list-group-item link-icon">Положение о библиотеке</a>
+				<a href="/info/education/polojenia/prikaz-o-zaprete-kureniya.pdf" class="list-group-item link-icon">Приказ о запрете курения</a>
+				<a href="/info/education/polojenia/zashita-personal-dannx-rabotnikov.pdf" class="list-group-item link-icon">Положение о защите персональных данных</a>
+				<a href="/info/education/polojenia/kontent-filtr.pdf" class="list-group-item link-icon">Положение о функционировании средств контентной фильтрации доступа к сети Интернет</a>
 			</div>
 		</div>
 		<div id="doc2" class="list-group-item list-group-item-danger">

@@ -16,6 +16,7 @@
 				</h6>
 			</div>
 		</a>
+		<%- @partial('educationObrProg') %>
 		<%- @partial('educationPlans') %>
 		<%- @partial('educationCalendar') %>
 		<%- @partial('educationAdaptProg') %>

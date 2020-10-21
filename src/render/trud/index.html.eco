@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 'Центр содействия трудоустройству выпускников'
-menu2title: 'Трудоустройство'
+menu2title: 'ЦСТВ - Трудоустройство'
 pageOrder: 5
 ---
 <% image_exts = ['jpg', 'JPG', 'jpeg', 'JPEG', 'png', 'PNG'] %>
@@ -234,7 +234,7 @@ pageOrder: 5
 		<a class="link-icon list-group-item" href="./plan2020.pdf">План работы ЦСТВ</a>
 		<a class="link-icon list-group-item" href="./report2020.pdf">Отчет о ЦСТВ</a>
 		<a class="link-icon list-group-item" href="./vakansies.pdf">Вакансии для выпускников</a>
-		<a class="link-icon list-group-item" href="/info/education/polojenia/о-центре-содействию-трудоустройству-выпускников.pdf">Положения о ЦСТВ</a>
+		<a class="link-icon list-group-item" href="/info/education/polojenia/cstv.pdf">Положения о ЦСТВ</a>
 		<a class="link-icon list-group-item" href="./prikaz.pdf">Приказ о создании ЦСТВ</a>
 		<a class="link-icon list-group-item" href="./plan2019prof.pdf">План мероприятий по профориентации школьников и обучающихся в СПб ГБПОУ «Колледж метрополитена» на 2019 - 2020 учебный год</a>
 		<a class="link-icon list-group-item" href="https://myrosmol.ru/vacancies">Информация о вакансиях и стажировках АИС «Молодежь России»</a>
