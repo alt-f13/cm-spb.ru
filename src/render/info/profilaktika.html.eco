@@ -28,21 +28,18 @@ standalone: true
 			</div>
 		</div>
 
-	<!--	<div class="list-group-item list-group-item-danger">
-			<div id="roads2" class="list-group-item-heading">
-				<h6><i class="fa fa-fw fa-2x fa-road" aria-hidden="true"></i>Профилактика дорожной безопасности</h6>
-			</div>
+	<div class="list-group-item list-group-item-danger">
 			<div class="link-icon list-group-item">
 			<div class="list-group">
 				 <p class="list-group-item-text">
-<%- @partial('lightbox', {images:['/info/roads/ygolok/1.jpg','/info/roads/ygolok/2.jpg', '/info/roads/ygolok/3.jpg', '/info/roads/ygolok/4.jpg'],title:['Уголок дорожной безопасности']}) %>
+<%- @partial('lightbox', {images:['/info/profilaktika/1.jpg','/info/profilaktika/2.jpg', '/info/profilaktika/3.jpg', '/info/profilaktika/4.jpg'],title:['Меры профилактики коронавирусной инфекции и гриппа']}) %>
 			   </p>
 				 <p class="list-group-item-text">
-<%- @partial('lightbox', {images:['/info/roads/ygolok/5.jpg','/info/roads/ygolok/6.jpg', '/info/roads/ygolok/7.jpg', '/info/roads/ygolok/8.jpg'],title:['Уголок дорожной безопасности']}) %>
+<%- @partial('lightbox', {images:['/info/profilaktika/5.jpg','/info/profilaktika/6.jpg', '/info/profilaktika/7.jpg', '/info/profilaktika/8.jpg'],title:['Меры профилактики коронавирусной инфекции и гриппа']}) %>
 			   </p>
 			</div>
 		</div>
-		</div> -->
+		</div>
 
 
 </div>
