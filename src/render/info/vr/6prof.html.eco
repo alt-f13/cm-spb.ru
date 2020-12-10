@@ -1,0 +1,58 @@
+---
+layout: page
+title: Профилактика правонарушений
+standalone: true
+---
+<div class="list-group">
+
+		<div class="list-group-item list-group-item-danger">
+			<div class="list-group">
+				<a class="link-icon list-group-item" href="#">Административная ответственность за нарушение режима самоизоляции</a>
+				<a class="link-icon list-group-item" href="#">Уважаемые студенты и родители/законные представители несовершеннолетних обучающихся колледжа!</a>
+				<a class="link-icon list-group-item" href="#">Напоминаем вам, что нахождение несовершеннолетних на улице и в иных общественных местах (без сопровождения родителей), нарушающих установленные запреты на передвижение, может повлечь привлечение родителей к административной ответственности по ст. 5.35 КоАП РФ (неисполнение родителями или иными законными представителями несовершеннолетних обязанностей по содержанию и воспитанию несовершеннолетних).</a>
+				<a class="link-icon list-group-item" href="#">В целях нераспространения коронавирусной инфекции необходимо соблюдать режим самоизоляции, нарушение которого квалифицируется как нарушение законодательства в области обеспечения санитарно- эпидемиологического благополучия населения и влечет административное наказание в виде предупреждения или наложения административного штрафа на граждан.</a>
+				<a class="link-icon list-group-item" href="#">Не нарушайте требований законодательства по режиму самоизоляции! Берегите себя и своих близких!</a>
+        <a class="link-icon list-group-item" href="/info/vr/adm-otv.pdf">Уголовная и административная ответственность за правонарушения, связанные с незаконным оборотом наркотических средств, психотропных веществ и их прекурсоров</a>
+
+			</div>
+		</div>
+
+		<div class="list-group-item list-group-item-danger">
+			<div id="roads2" class="list-group-item-heading">
+				<h6><i class="fa fa-fw fa-2x fa-road" aria-hidden="true"></i>Профилактика правонарушений</h6>
+			</div>
+			<div class="link-icon list-group-item">
+			<div class="list-group">
+				 <p class="list-group-item-text">
+<%- @partial('lightbox', {images:['/info/vr/pr/1.jpg','/info/vr/pr/2.jpg'],title:['Профилактика правонарушений']}) %>
+			   </p>
+				 <p class="list-group-item-text">
+<%- @partial('lightbox', {images:['/info/vr/pr/3.jpg','/info/vr/pr/4.jpg'],title:['Профилактика правонарушений1']}) %>
+			   </p>
+				 <p class="list-group-item-text">
+<%- @partial('lightbox', {images:['/info/vr/pr/5.jpg','/info/vr/pr/6.jpg'],title:['Профилактика правонарушений2']}) %>
+			   </p>
+				 <p class="list-group-item-text">
+<%- @partial('lightbox', {images:['/info/vr/pr/7.jpg','/info/vr/pr/8.jpg'],title:['Профилактика правонарушений3']}) %>
+			   </p>
+				 <p class="list-group-item-text">
+<%- @partial('lightbox', {images:['/info/vr/pr/9.jpg','/info/vr/pr/10.jpg'],title:['Профилактика правонарушений4']}) %>
+			   </p>
+				 <p class="list-group-item-text">
+<%- @partial('lightbox', {images:['/info/vr/pr/11.jpg','/info/vr/pr/12.jpg'],title:['Профилактика правонарушений5']}) %>
+			   </p>
+				 <p class="list-group-item-text">
+<%- @partial('lightbox', {images:['/info/vr/pr/13.jpg','/info/vr/pr/14.jpg'],title:['Профилактика правонарушений6']}) %>
+			   </p>
+				 <p class="list-group-item-text">
+<%- @partial('lightbox', {images:['/info/vr/pr/15.jpg','/info/vr/pr/16.jpg'],title:['Профилактика правонарушений7']}) %>
+			   </p>
+				 <p class="list-group-item-text">
+<%- @partial('lightbox', {images:['/info/vr/pr/17.jpg','/info/vr/pr/18.jpg'],title:['Профилактика правонарушений8']}) %>
+			   </p>
+			</div>
+			</div>
+		</div>
+
+
+</div>
