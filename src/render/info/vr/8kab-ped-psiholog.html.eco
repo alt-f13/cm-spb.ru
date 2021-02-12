@@ -17,3 +17,13 @@ standalone: true
   <a href="/info/education/polojenia/soc-psi-sopr-org-obr-processa-do.pdf" class="list-group-item link-icon">Положение социально-психологическоеспоровождение организации образовательного процесса в условиях дистанционного обучения</a>
   <a class="link-icon list-group-item" href="/info/vr/profilaktika.pdf">Профилактика суицидального поведения в подростковой среде</a>
 </div>
+
+<div class="list-group-item list-group-item-danger">
+		  <div class="link-icon list-group-item">
+		   <div class="list-group">
+			    <p class="list-group-item-text">
+<%- @partial('lightbox', {images:['/info/vr/pedpsi/1.jpg','/info/vr/pedpsi/2.jpg', '/info/vr/pedpsi/3.jpg', '/info/vr/pedpsi/4.jpg'],title:['Кабинет педагога-психолога']}) %>
+			   </p>
+			 </div>
+	   </div>
+	</div>
