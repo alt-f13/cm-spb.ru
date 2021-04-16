@@ -1,0 +1,31 @@
+{
+  "name": "angular-simplecouch",
+  "homepage": "https://github.com/kleingy/angular-simplecouch",
+  "authors": [
+    "gregory_klein <gregory.m.r.klein@gmail.com>"
+  ],
+  "description": "simple couchdb client for angular",
+  "main": "angular.simplecouch.js",
+  "keywords": [
+    "angular",
+    "couchdb",
+    "nosql"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "e820812a69",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "e820812a69a7d1b6180c7bb5010bde50f3856c57"
+  },
+  "_source": "https://github.com/kleingy/angular-simplecouch.git",
+  "_target": "*",
+  "_originalSource": "angular-simplecouch"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "ngMoment",
+  "version": "1.0.6",
+  "description": "A module to help you to integrate Moment.js and AngularJS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start --single-run"
+  },
+  "author": {
+    "name": "Victor Queiroz",
+    "email": "victorcqueirozg@gmail.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "del": "^0.1.2",
+    "gulp": "^3.8.7",
+    "gulp-concat": "^2.3.4",
+    "gulp-sourcemaps": "^1.1.1",
+    "gulp-uglify": "^0.3.2",
+    "karma": "^0.12.22",
+    "karma-jasmine": "^0.1.5",
+    "karma-phantomjs-launcher": "^0.1.4"
+  }
+}

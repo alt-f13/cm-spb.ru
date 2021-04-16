@@ -1,0 +1,48 @@
+.schedule {
+	//min-width: 900px;
+	//min-height: 500px;
+	overflow: scroll;
+	//box-sizing: border-box;
+	padding: 15px;
+	.handsontable {
+		//width: 900px;
+		//height: 550px;
+
+		td {
+
+	    border-right: 1px solid #CCC;
+	    border-bottom: 1px solid #CCC;
+	    min-height: 22px; /*change to the desired height value*/
+	    empty-cells: show;
+	    line-height: 21px;
+	    padding: 0 4px 0 4px;
+	    /* top, bottom padding different than 0 is handled poorly by FF with HTML5 doctype */
+	    //background-color: #FFF;
+	    vertical-align: top;
+	    overflow: hidden;
+	    outline-width: 0;
+	    white-space: pre-line;
+	    word-wrap: break-word;
+	    vertical-align: middle;
+	    text-align: center;
+
+	    /* preserve new line character in cell */
+	  }
+
+	}
+}
+
+@media screen and (max-device-width: 700px) {
+	.handsontable {
+		// .rowHeader {
+		// 		max-width: 10px !important;
+		// 		//vertical-align: middle;
+		// 		//min-height: 100%;
+		//
+		// }
+		// table.htCore {
+		// 	//width: 900px !important;
+		// 	//overflow: scroll;
+		// }
+	}
+}

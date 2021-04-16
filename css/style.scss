@@ -1,0 +1,526 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+      /*html,
+      body {
+        min-height: 100%;
+        position: relative;
+
+      }
+      */
+
+      /* Wrapper for page content to push down footer */
+      #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+        padding-bottom: 60px;
+      }
+
+      /* Set the fixed height of the footer here */
+
+      // /* Lastly, apply responsive CSS fixes as necessary */
+      // @media (max-width: 767px) {
+      //   #footer {
+      //     margin-left: -20px;
+      //     margin-right: -20px;
+      //     padding-left: 20px;
+      //     padding-right: 20px;
+      //   }
+      // }
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+    /*padding: 60px 15px 0;*/
+  }
+  .container .text-muted {
+    margin: 20px 0;
+  }
+
+  .footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    color: #fff;
+  }
+
+  code {
+    font-size: 80%;
+  }
+
+  html {
+    height: 100%;
+    overflow: auto;
+  }
+  body {
+    height: auto;
+    min-height: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  a {
+    color: #445273;
+  }
+  a:hover {
+    /*color: #F9E353;*/
+    text-decoration: underline;
+  }
+  h6 {
+    text-decoration: none;
+  }
+  h6 a:hover {
+    text-decoration: none;
+  }
+  h5 {
+    text-decoration: none;
+    color: #777777;
+    text-transform: none;
+  }
+  h4 {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #777777;
+  }
+  h3 {
+    text-decoration: none;
+  }
+  h3 a:hover {
+    text-decoration: none;
+  }
+  h2 {
+    text-decoration: none;
+  }
+  h2 a:hover {
+    text-decoration: none;
+  }
+  h1 a:hover {
+    text-decoration: none;
+  }
+.address > a{
+  color: #FFF;
+  size: 6pt;
+}
+.address > h5 {
+  color: #F9E353;
+}
+
+
+a.block { display: block; }
+
+a:hover .card .icon i{
+  color:red;
+}
+
+
+.icon i{
+    font-size: 140px;
+    font-size: 8vw;
+     /*color: #9a9a9a;*/
+
+}
+
+#page h1 {
+  font-size: 25px;
+  text-indent: 30px;
+}
+
+.navbar {
+  background-color: #2F3950;
+}
+.navbar-collapse{
+  background-color: #445273;
+  text-align: center;
+}
+.navbar #nav > .active > a {
+    background-color: #2F3950;
+}
+
+#navbar #nav{
+  width: 100%;
+  text-align: center;
+}
+#nav > li > a {
+  color: #fff;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+
+#mainTable {
+		background-color:lightgrey !important;
+		padding: 0 0 0 0;
+		margin: 0 0 0 0;
+		border: 1px solid black;
+    table-layout: fixed;
+
+}
+
+#mainTable thead td, #mainTable th {
+	background-color: #fff;
+	border: 1px solid black;
+
+}
+
+#mainTable th, #mainTable td {
+  vertical-align: middle;
+	text-align: center;
+  min-width: 40px;
+  white-space: pre-line;
+
+}
+#mainTable td::after{
+
+  white-space: pre-line;
+
+}
+
+#mainTable div {
+  vertical-align: middle;
+
+  display:block;
+	min-width:100%;
+	min-height: 40px !important;
+	background-color:#fff;
+  white-space: pre-line;
+  overflow: visible;
+}
+.head {
+	background-color:#fff;
+}
+.header, header > h1 {
+  color: #fff;
+}
+.address {
+  color: #fff;
+}
+
+h2{color:#2F3950;}
+ .margin10{margin-bottom:10px; margin-right:10px;}
+ .blogShort{ border-bottom:1px solid #ddd;}
+.add{background: #333; padding: 10%; height: 300px;}
+
+h1{
+    line-height: 0.8em;
+    font-size: 2.2em;
+}
+
+h2
+    {
+    font-size: 2.0em;
+}
+
+h3
+    {
+    font-size: 1.8em;
+}
+
+h4
+    {
+    font-size: 1.6em;
+}
+
+h5
+    {
+    font-size: 1.4em;
+}
+
+p
+    {
+    font-size: 1.2em;
+}
+
+.center-block {float: none !important}
+.posts_list, .posts_list:hover {
+  color: navy;
+    text-decoration: none;
+  font-size: 10pt;
+}
+.glass {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+.btn-circle {
+  height: 50px;
+  color: #000;
+  text-align: center;
+  border-radius: 7px;
+}
+.nav-bottom {
+  margin: 0;
+  list-style-type: none;
+}
+.nav-bottom li{
+  display: inline;
+}
+.nav-bottom li a{
+  color: #fff;
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+img.no-resize {
+  min-height: 40px;
+  min-width: 50px;
+}
+.card ul {
+  padding-right: 10px;
+  list-style-type: none;
+  text-align: left;
+}
+.fa {
+  vertical-align: middle;
+}
+
+/*.bluep {
+  background-color: #445273;
+  color: #fff;
+}
+.yellowp {
+  background-color: #777777;
+}
+.redp {
+  background-color: #8a1314;
+}*/
+#map {
+    width: 100%;
+    height: 50vh;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+figure{
+    width:250px;
+    height:250px;
+    border-radius:30%;
+    overflow:hidden;
+}
+.doc-list {
+  padding-left: 50px;
+}
+
+
+.landing-page .section-programs img{
+ height: 460px;
+}
+
+.landing-page .section-programs {
+ margin: 100px 0 60px;
+
+}
+.programs-ico {
+  font-size: 50px;
+}
+.landing-page .parallax2 {
+  /*width: 100%;*/
+  height: 800px;
+  overflow: hidden;
+  display: block;
+  background-size: 100%;
+  text-align: center;
+}
+
+.landing-page .parallax2 .container{
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+.landing-page .parallax2 .bg2{
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+.landing-page .parallax2 .bg2 img{
+  height: auto;
+  width: 70%;
+  position: relative;
+  top: -50px;
+}
+.landing-page .parallax2 .parallax-image{
+  width: 300px;
+  margin: 0 auto;
+  padding-top: 110px;
+}
+
+.landing-page .parallax2 .parallax-image img {
+  width: 100%;
+  height: auto;
+}
+
+.landing-page .parallax2 .parallax-image .screen {
+  position: absolute;
+  z-index: 3;
+}
+
+.landing-page .parallax2 h6,.landing-page .parallax2 h3,.landing-page .parallax2 h2, .landing-page .parallax2 h5{
+  color: white;
+  font-weight: bold;
+
+}
+
+.landing-page .parallax2 .description h5 {
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.landing-page .parallax2 .buttons{
+  width: 100%;
+  display: inline-block;
+  margin-top: 40px;
+  }
+
+  .landing-page .parallax2 .buttons .btn-simple{
+    font-size: 30px;
+  }
+
+
+  .landing-page .parallax2 {
+    background: #000;
+  }
+
+  .landing-page .parallax2 .parallax-background2 img {
+    display: none;
+  }
+  .landing-page .parallax2 .description{
+    padding-top: 100px;
+  }
+  .landing-page .parallax2 .buttons{
+    margin: 20px 0;
+  }
+  .parallax2 .parallax-image  {
+    width: 100%;
+    position: relative;
+    height: 100%;
+
+  }
+  .video-section .pattern-overlay {
+background-color: rgba(71, 71, 71, 0.59);
+padding: 50px 0 50px;
+min-height: 496px;
+/* Incase of overlay problems just increase the min-height*/
+}
+.video-section h1, .video-section h3{
+text-align:center;
+color:#fff;
+}
+.video-section h1{
+font-size:110px;
+font-family: 'Buenard', serif;
+font-weight:bold;
+text-transform: uppercase;
+margin: 40px auto 0px;
+text-shadow: 1px 1px 1px #000;
+-webkit-text-shadow: 1px 1px 1px #000;
+-moz-text-shadow: 1px 1px 1px #000;
+}
+.video-section h3{
+font-size: 25px;
+font-weight:lighter;
+margin: 0px auto 15px;
+}
+.video-section .buttonBar{display:none;}
+.player {font-size: 1px;}
+
+.right-nav {
+  font-size: 10pt;
+  position: absolute;
+  right: 0px;
+  top: 50vh;
+  z-index: 20;
+  max-height: 45px;
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+  text-align: center;
+  transform-origin: bottom right;
+  -ms-transform: rotate(-90deg); /* IE 9 */
+  -webkit-transform: rotate(-90deg); /* Safari */
+  transform: rotate(-90deg);
+  /*background-color: rgb(143, 3, 3);
+  border-radius: 4px;
+*/
+
+}
+.item {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	padding: 40% 0;
+
+	background-color: #666;
+    color: white;
+    background-position: center center;
+    background-size: cover;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.item:hover:after {
+		content: "";
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+    background-color: rgba(255,255,255,0.5);
+    color: #FFF !important;
+
+}
+.item a{
+
+
+}
+.diamondswrap {
+	text-align: center;
+	padding: 50px 20px 100px 20px;
+}
+
+.controls {
+	background-color: #272822;
+	padding: 20px;
+}
+
+
+
+.qsearch {
+  cursor: pointer;
+}
+
+.navbar {
+  margin-bottom: 0px;
+
+}
+.logo
+  {
+    width: 150px !important;
+    height: 105px;
+    overflow: visible;
+    z-index: 9999;
+}
+.new {
+  background-color: rgba(1, 87, 124, 0.57) !important;
+}
+#mainTable td {
+  background-color: #fff ;
+}
